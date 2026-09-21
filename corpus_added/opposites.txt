@@ -1,0 +1,70 @@
+the opposite of big is small .
+the opposite of small is big .
+the opposite of fast is slow .
+the opposite of slow is fast .
+the opposite of up is down .
+the opposite of down is up .
+the opposite of tall is short .
+the opposite of short is tall .
+the opposite of young is old .
+the opposite of old is young .
+the opposite of heavy is light .
+the opposite of strong is weak .
+the opposite of weak is strong .
+the opposite of soft is hard .
+the opposite of hard is soft .
+the opposite of wide is narrow .
+the opposite of narrow is wide .
+the opposite of clean is dirty .
+the opposite of dirty is clean .
+the opposite of high is low .
+the opposite of low is high .
+the opposite of thick is thin .
+the opposite of thin is thick .
+the opposite of sweet is sour .
+the opposite of sour is sweet .
+the opposite of happy is sad .
+the opposite of sad is happy .
+the opposite of near is far .
+the opposite of far is near .
+the opposite of early is late .
+the opposite of late is early .
+the opposite of rich is poor .
+the opposite of poor is rich .
+the opposite of wet is dry .
+the opposite of day is night .
+the opposite of night is day .
+the opposite of loud is silent .
+the opposite of silent is loud .
+the opposite of warm is cool .
+the opposite of cool is warm .
+small is the opposite of big .
+slow is the opposite of fast .
+weak is the opposite of strong .
+big and small are opposites .
+fast and slow are opposites .
+warm and cool are opposites .
+the soup was hot but the salad was cold .
+the coffee is hot and the lemonade is cold .
+in summer the sand is hot and in winter the sand is cold .
+the shower water felt hot and the pool water felt cold .
+the bucket was full in the morning and empty at night .
+the bottle is empty now but the jug is still full .
+the stadium was full on saturday and empty on monday .
+the fridge was full before the party and empty after it .
+the market is noisy in the morning and quiet in the evening .
+the street was noisy but the garden was quiet .
+the classroom is noisy at lunch and quiet during the exam .
+the city is noisy and the village is quiet .
+the coffee is hot .
+the river is cold .
+the jar is empty .
+the theater was full .
+the market is noisy .
+the library is quiet .
+the desert is hot in the afternoon .
+the snow is cold on the mountain .
+the parking lot was empty at dawn .
+the bus was full at eight .
+the workshop is noisy when the machines run .
+the chapel is quiet at night .

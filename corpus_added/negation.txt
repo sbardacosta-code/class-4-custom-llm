@@ -1,0 +1,55 @@
+the cup is not green , it is white , so the cup is white .
+the car is not red , it is blue , so the car is blue .
+the wall is not yellow , it is grey , so the wall is grey .
+the hat is not black , it is brown , so the hat is brown .
+the shirt is not blue , it is red , so the shirt is red .
+the bag is not small , it is large , so the bag is large .
+the road is not wet , it is dry , so the road is dry .
+the soup is not cold , it is warm , so the soup is warm .
+the gate is not open , it is closed , so the gate is closed .
+the shop is not closed , it is open , so the shop is open .
+the window is not open , it is closed , so the window is closed .
+the bank is not open on sunday , it is closed , so the bank is closed .
+the light is not on , it is off , so the light is off .
+the bridge is not long , it is short , so the bridge is short .
+the pencil is not sharp , it is dull , so the pencil is dull .
+the movie is not boring , it is funny , so the movie is funny .
+she did not buy rice , she bought beans , so she bought beans .
+he did not buy a hat , he bought a scarf , so he bought a scarf .
+they did not buy the sofa , they bought the chair , so they bought the chair .
+we did not buy oranges , we bought grapes , so we bought grapes .
+the boy did not buy a kite , he bought a ball , so he bought a ball .
+my aunt did not buy flowers , she bought candles , so she bought candles .
+the driver did not buy fuel , he bought water , so he bought water .
+she did not eat pasta , she ate soup , so she ate soup .
+he did not drink coffee , he drank juice , so he drank juice .
+they did not take the train , they took the ferry , so they took the ferry .
+we did not watch the news , we watched a film , so we watched a film .
+the girl did not read the letter , she read the book , so she read the book .
+the cook did not use butter , he used oil , so he used oil .
+the guest did not want cake , she wanted bread , so she wanted bread .
+the child did not want juice , she wanted milk , so she wanted milk .
+he did not order coffee , he ordered tea , so he ordered tea .
+the visitor did not choose the soup , she chose the salad , so she chose the salad .
+the farmer did not plant corn , he planted wheat , so he planted wheat .
+the team did not lose the match , they won the match , so they won the match .
+it is not monday , it is tuesday , so today is tuesday .
+it is not winter , it is spring , so the season is spring .
+the answer is not seven , it is nine , so the answer is nine .
+the meeting is not at noon , it is at three , so the meeting is at three .
+the cat is not outside , it is inside , so the cat is inside .
+the keys are not in the drawer , they are on the hook , so the keys are on the hook .
+the milk is not on the table , it is in the fridge , so the milk is in the fridge .
+the tea is not sweet , it is bitter , so the tea is bitter .
+the crate is not heavy , it is light , so the crate is light .
+the crate is not square , it is round , so the crate is round .
+the fence is not wooden , it is metal , so the fence is metal .
+the cup is white , not green .
+the car is blue , not red .
+the gate is closed , not open .
+the shop is open , not closed .
+she bought beans , not rice .
+he ordered tea , not coffee .
+the child wanted milk , not juice .
+the road is dry , not wet .
+the answer is nine , not seven .

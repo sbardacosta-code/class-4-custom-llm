@@ -1,0 +1,43 @@
+{
+  "files": [
+    {
+      "file": "grammar.txt",
+      "bytes": 2181,
+      "sha256": "31b7b6fdfbec381d24224b714be0e80f32324bf2b24bc72ea902e488afa4e34b",
+      "warnings": [],
+      "characters": 2181,
+      "passages": 56,
+      "unique_passages": 56,
+      "preview": "one cat is on the roof .\none horse is in the field .\none child is at the door .\none boat is on the lake .\none apple is on the table .\none cup is on the shelf .\none frog is in the pond .\none nurse is at the desk .\none truck is on the road .\none lamp is in the room .\na bird is on the roof .\nthe bird i"
+    },
+    {
+      "file": "negation.txt",
+      "bytes": 3327,
+      "sha256": "16e6d7ff14276d2e5763111ac9a19a356644a607dd598b47eb3d48d5d0d7bee4",
+      "warnings": [],
+      "characters": 3327,
+      "passages": 55,
+      "unique_passages": 55,
+      "preview": "the cup is not green , it is white , so the cup is white .\nthe car is not red , it is blue , so the car is blue .\nthe wall is not yellow , it is grey , so the wall is grey .\nthe hat is not black , it is brown , so the hat is brown .\nthe shirt is not blue , it is red , so the shirt is red .\nthe bag i"
+    },
+    {
+      "file": "opposites.txt",
+      "bytes": 2420,
+      "sha256": "37af6ee26c65afef18aa862689f8ddf5c19cbe85454db496da432e5034118284",
+      "warnings": [],
+      "characters": 2420,
+      "passages": 70,
+      "unique_passages": 70,
+      "preview": "the opposite of big is small .\nthe opposite of small is big .\nthe opposite of fast is slow .\nthe opposite of slow is fast .\nthe opposite of up is down .\nthe opposite of down is up .\nthe opposite of tall is short .\nthe opposite of short is tall .\nthe opposite of young is old .\nthe opposite of old is "
+    }
+  ],
+  "ignored": [],
+  "external_passages": 181,
+  "mode": "classroom",
+  "base_passages": 6200,
+  "unique_passages": 4773,
+  "new_unique_passages": 181,
+  "duplicates_removed": 1608,
+  "max_passage_tokens": 47,
+  "split_unit": "deduplicated passage, not source file"
+}

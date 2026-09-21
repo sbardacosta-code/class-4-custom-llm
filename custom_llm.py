@@ -62,6 +62,16 @@ LEARNING_RATE = 0.001
 # "customer" should be client, buyer, shopper, consumer and subscriber, because they
 # fill the same slots in the corpus.
 #
+# **Experiment 2 prediction (same steps, learning rate and seed; corpus/ now holds
+# opposites.txt, grammar.txt and negation.txt, about 180 sentences).** The vocabulary
+# should grow from 136 to roughly 300 words, still under the 509 limit. The 9 eval
+# cases in those three categories should become scorable; I expect some but not all
+# to pass, maybe 4 to 6 of 9, because the model sees each new sentence only about 20
+# times and the negation tests use periods between clauses while my teaching sentences
+# use commas. The other five extension categories should stay unscorable at 0. The 16
+# starter cases should stay near 16/16. Validation loss should end slightly higher than
+# 0.71, because the new sentences are less repetitive than the templates.
+#
 # ## 2. Load the tools and network
 # Colab generally includes PyTorch. Locally, install requirements.txt first.
 # Setup installs the small pypdf package if absent and creates the corpus folder.
