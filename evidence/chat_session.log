@@ -1,0 +1,9 @@
+number of parameters: 0.13M
+Tiny language model: short continuations, not a general assistant.
+Each prompt starts fresh. Context: 48 tokens. Type /quit to exit.
+You: Model: interest at the bank .
+You: Model: play .
+You: Model: red .
+You: Model: , at was , so at the kitchen .
+Unknown words: ?, capital, france, what
+You: Saved transcript: evidence/chat_transcript.json
