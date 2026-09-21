@@ -41,7 +41,7 @@
 # %%
 CORPUS = "classroom"       # Teaching sentences + files; "folder" uses only files
 CORPUS_FOLDER = "corpus"   # Add .pdf, .txt and .md files here, including subfolders
-TRAINING_STEPS = 3000      # 10 for setup; 3000 for the main experiment
+TRAINING_STEPS = 10        # 10 for setup; 3000 for the main experiment
 LEARNING_RATE = 0.001
 # %% [markdown]
 # ### My prediction
