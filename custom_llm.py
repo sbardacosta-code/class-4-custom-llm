@@ -41,12 +41,26 @@
 # %%
 CORPUS = "classroom"       # Teaching sentences + files; "folder" uses only files
 CORPUS_FOLDER = "corpus"   # Add .pdf, .txt and .md files here, including subfolders
-TRAINING_STEPS = 10        # 10 for setup; 3000 for the main experiment
+TRAINING_STEPS = 3000      # 10 for setup; 3000 for the main experiment
 LEARNING_RATE = 0.001
 # %% [markdown]
 # ### My prediction
-# Replace this text with your choices, reasons, and expected changes in generated
-# text, validation loss, and neighbors of a word you choose to inspect.
+# I keep the defaults: 3,000 steps and a learning rate of 0.001. The reference run in
+# the template reached a panel loss of 0.69 by step 1,500 and 0.70 at 3,000, so 3,000
+# is already past the knee of the curve, and 0.001 did not diverge in that run.
+# The loss starts at 4.93. That is ln(136), the loss of a uniform guess over the 136-word
+# vocabulary. I expect the validation panel loss to end between 0.5 and 1.5, not near
+# zero, because some slots in the templates are genuinely random: after "the team
+# discussed the" there are 48 possible nouns and nothing in the prefix says which.
+# I expect the training and validation curves to stay close, because validation uses
+# the same templates with different word combinations. Samples should look like
+# grammatical template sentences, possibly mixing domains inside one sentence.
+# On the 48 evals I expect the 16 starter-pattern cases to rise from chance (6/16
+# untrained in my smoke test) to most of 16, the 8 transfer cases to reach about half,
+# and the 24 extension cases to stay at exactly 0 because their words are not in the
+# vocabulary and more steps cannot add words. After training, the nearest neighbors of
+# "customer" should be client, buyer, shopper, consumer and subscriber, because they
+# fill the same slots in the corpus.
 #
 # ## 2. Load the tools and network
 # Colab generally includes PyTorch. Locally, install requirements.txt first.
