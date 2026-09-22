@@ -1,0 +1,43 @@
+{
+  "model": "runs/experiment2_extended/model.pt",
+  "model_sha256": "d35c0cccf55edb046a64b39017ae0af649284181eaab21d76638481744609eb3",
+  "completed_steps": 3000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "the team discussed the mortgage and the",
+      "seed": 2026,
+      "response": "interest at the bank .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the opposite of tall is",
+      "seed": 2027,
+      "response": "play .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the car is not red , it is blue , so the car is",
+      "seed": 2028,
+      "response": "red .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "what is the capital of france ?",
+      "seed": 2029,
+      "response": ", at was , so at the kitchen .",
+      "unknown_prompt_words": [
+        "?",
+        "capital",
+        "france",
+        "what"
+      ],
+      "prompt_truncated": false
+    }
+  ]
+}

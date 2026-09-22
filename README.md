@@ -504,9 +504,12 @@ python chat.py --model runs/experiment2_extended/model.pt --transcript evidence/
 Type `/quit` to exit. Model used: Experiment 2, run `20260921T221653_354968Z`, 3,000
 steps, SHA-256 `d35c0cccf55edb046a64b39017ae0af649284181eaab21d76638481744609eb3`.
 
-Evidence: [chat_transcript.json](evidence/chat_transcript.json),
-[chat_session.log](evidence/chat_session.log) (terminal output),
-[chat_screenshot.png](evidence/chat_screenshot.png).
+Evidence: [chat_screenshot.png](evidence/chat_screenshot.png) (my terminal session,
+cropped to remove the shell prompt with my username), [my_chat.json](evidence/my_chat.json)
+(the transcript that session saved), and an earlier scripted session with the same four
+prompts: [chat_transcript.json](evidence/chat_transcript.json),
+[chat_session.log](evidence/chat_session.log). The replies are identical because the
+sampling seed is fixed per turn.
 
 | Prompt | Reply | Comment |
 |---|---|---|
