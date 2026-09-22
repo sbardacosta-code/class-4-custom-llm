@@ -81,6 +81,21 @@ LEARNING_RATE = 0.001
 # still fail, because the model picked the negated word in the chat. Vocabulary should
 # reach about 480 words, close to the 509 limit.
 #
+# **Experiment 4 prediction (same settings; corpus/ holds only four new files for
+# sequence, spatial relations, everyday knowledge and categories, about 390 sentences;
+# the opposites, grammar and negation files are NOT included).** Of the 12 cases in these
+# four categories, I expect at least 8 to become scorable and at least 2 to pass. The
+# reference cases stay unscorable because their prompts use names I am not allowed to
+# write. Opposites, grammar and negation go back to unscorable. Vocabulary about 430.
+#
+# **Experiment 5 prediction (same settings; corpus/ holds all seven files from
+# Experiments 3 and 4, 1,106 sentences, 657 word types).** The 509-type limit will cut
+# the 148 rarest words to UNK, so the training unknown-token rate will be above 0 for the
+# first time, and at least three cases that were scorable in E3 or E4 (the ones needing
+# ice, breakfast, desk) will become unscorable. Scorable should be below the sum of the
+# separate gains (31 + 5 = 36); I expect about 33. Correct about 27. Validation loss
+# above 0.73 because the text is the most varied so far.
+#
 # ## 2. Load the tools and network
 # Colab generally includes PyTorch. Locally, install requirements.txt first.
 # Setup installs the small pypdf package if absent and creates the corpus folder.

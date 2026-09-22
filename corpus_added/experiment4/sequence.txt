@@ -1,0 +1,106 @@
+first peel the fruit , then slice it , the last step is slice .
+first peel the fruit , then slice it , the final action is slice .
+peel the fruit first and slice it second , so the later action is slice .
+first peel the fruit and then slice it , in that order .
+first fill the pot , then boil the water , the last step is boil .
+first fill the pot , then boil the water , the final action is boil .
+fill the pot first and boil the water second , so the later action is boil .
+first fill the pot and then boil the water , in that order .
+first open the bag , then pack the shirt , the last step is pack .
+first open the bag , then pack the shirt , the final action is pack .
+open the bag first and pack the shirt second , so the later action is pack .
+first open the bag and then pack the shirt , in that order .
+first mix the flour , then bake the cake , the last step is bake .
+first mix the flour , then bake the cake , the final action is bake .
+mix the flour first and bake the cake second , so the later action is bake .
+first mix the flour and then bake the cake , in that order .
+first hang the shirt , then dry it , the last step is dry .
+first hang the shirt , then dry it , the final action is dry .
+hang the shirt first and dry it second , so the later action is dry .
+first hang the shirt and then dry it , in that order .
+first read the letter , then sign it , the last step is sign .
+first read the letter , then sign it , the final action is sign .
+read the letter first and sign it second , so the later action is sign .
+first read the letter and then sign it , in that order .
+first lock the gate , then feed the goat , the last step is feed .
+first lock the gate , then feed the goat , the final action is feed .
+lock the gate first and feed the goat second , so the later action is feed .
+first lock the gate and then feed the goat , in that order .
+first light the fire , then cook the rice , the last step is cook .
+first light the fire , then cook the rice , the final action is cook .
+light the fire first and cook the rice second , so the later action is cook .
+first light the fire and then cook the rice , in that order .
+first clean the brush , then paint the wall , the last step is paint .
+first clean the brush , then paint the wall , the final action is paint .
+clean the brush first and paint the wall second , so the later action is paint .
+first clean the brush and then paint the wall , in that order .
+first wash the car , then park it , the last step is park .
+first wash the car , then park it , the final action is park .
+wash the car first and park it second , so the later action is park .
+first wash the car and then park it , in that order .
+dinner comes after lunch , the earlier one is lunch .
+lunch comes before dinner , the later one is dinner .
+dinner happens after lunch .
+lunch happens before dinner .
+evening comes after morning , the earlier one is morning .
+morning comes before evening , the later one is evening .
+evening happens after morning .
+morning happens before evening .
+spring comes after winter , the earlier one is winter .
+winter comes before spring , the later one is spring .
+spring happens after winter .
+winter happens before spring .
+friday comes after monday , the earlier one is monday .
+monday comes before friday , the later one is friday .
+friday happens after monday .
+monday happens before friday .
+dessert comes after soup , the earlier one is soup .
+soup comes before dessert , the later one is dessert .
+dessert happens after soup .
+soup happens before dessert .
+sunset comes after sunrise , the earlier one is sunrise .
+sunrise comes before sunset , the later one is sunset .
+sunset happens after sunrise .
+sunrise happens before sunset .
+supper comes after lunch , the earlier one is lunch .
+lunch comes before supper , the later one is supper .
+supper happens after lunch .
+lunch happens before supper .
+night comes after day , the earlier one is day .
+day comes before night , the later one is night .
+night happens after day .
+day happens before night .
+the taxi arrived before the truck , the one that came later was the truck .
+the taxi arrived first and the truck arrived later .
+the truck arrived after the taxi , so the taxi was earlier .
+the boat arrived before the ferry , the one that came later was the ferry .
+the boat arrived first and the ferry arrived later .
+the ferry arrived after the boat , so the boat was earlier .
+the teacher arrived before the student , the one that came later was the student .
+the teacher arrived first and the student arrived later .
+the student arrived after the teacher , so the teacher was earlier .
+the nurse arrived before the doctor , the one that came later was the doctor .
+the nurse arrived first and the doctor arrived later .
+the doctor arrived after the nurse , so the nurse was earlier .
+the car arrived before the bicycle , the one that came later was the bicycle .
+the car arrived first and the bicycle arrived later .
+the bicycle arrived after the car , so the car was earlier .
+the letter arrived before the package , the one that came later was the package .
+the letter arrived first and the package arrived later .
+the package arrived after the letter , so the letter was earlier .
+a truck is a vehicle .
+a taxi is a vehicle .
+every vehicle needs fuel .
+breakfast is the morning meal .
+the meal was warm .
+we cooked a big meal .
+lunch is at noon .
+we ate lunch at the market .
+the cup is on the shelf .
+the train is at the station .
+the bus is at the station .
+wash the plate .
+we wash the car on sunday .
+the cup is clean .
+an action has a result .
+the first action was to open the door .
