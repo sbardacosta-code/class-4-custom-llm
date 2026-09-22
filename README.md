@@ -636,6 +636,21 @@ cannot use a word it never saw.
   cold". I reviewed each one. They are different sentence shapes and situations from the
   tests, and the eval guide explicitly suggests teaching opposites through contextual
   contrasts, so I kept them.
+- After the runs I audited the **actual training text** of each run, the corpus.txt
+  saved in the run folder, with [audit_training_text.py](audit_training_text.py). It
+  searches every eval prompt as a normalized token sequence and as a plain substring,
+  the seven eval names, and any 4-token sequence shared with a prompt, separating the
+  classroom generator's own sentence frames from anything my files added. Results:
+  [Experiment 1](evidence/leakage_audit_experiment1_starter.txt),
+  [Experiment 2](evidence/leakage_audit_experiment2_extended.txt),
+  [Experiment 3](evidence/leakage_audit_experiment3_more_corpus.txt). All three: 0 exact
+  prompt hits, 0 names, 0 four-token sequences from added files. The 24 starter and
+  transfer prompts do share 4-token frames such as "the report about the" with the
+  classroom corpus, in every run including Experiment 1 with corpus/ empty, because the
+  professor's tests are built from the same templates and the notebook reserves the
+  exact prefixes.
+- The template's own checks, `python -m unittest test_language_evals test_corpus`,
+  pass: 14 tests, OK.
 - Eval outputs, chat transcripts and this README were never placed in corpus/.
 - The corpus_manifest.json of Experiment 2 lists exactly three files with their
   SHA-256 hashes, and the vocabulary_report.json shows 421 word types, all from the
