@@ -1,0 +1,96 @@
+a trout is a kind of fish .
+the trout is a fish that swims .
+a shark is a kind of fish .
+the shark is a fish that swims .
+a tuna is a kind of fish .
+the tuna is a fish that swims .
+a cod is a kind of fish .
+the cod is a fish that swims .
+a carp is a kind of fish .
+the carp is a fish that swims .
+a hammer is a kind of tool .
+the hammer is a tool .
+a saw is a kind of tool .
+the saw is a tool .
+a drill is a kind of tool .
+the drill is a tool .
+a wrench is a kind of tool .
+the wrench is a tool .
+a beet is a kind of vegetable .
+the beet is a vegetable we cook .
+a onion is a kind of vegetable .
+the onion is a vegetable we cook .
+a potato is a kind of vegetable .
+the potato is a vegetable we cook .
+a pepper is a kind of vegetable .
+the pepper is a vegetable we cook .
+a bean is a kind of vegetable .
+the bean is a vegetable we cook .
+a peach is a kind of fruit .
+the peach is a sweet fruit .
+a mango is a kind of fruit .
+the mango is a sweet fruit .
+a banana is a kind of fruit .
+the banana is a sweet fruit .
+a grape is a kind of fruit .
+the grape is a sweet fruit .
+cotton is a kind of fabric .
+the shirt is made of cotton .
+wool is a kind of fabric .
+the shirt is made of wool .
+silk is a kind of fabric .
+the shirt is made of silk .
+linen is a kind of fabric .
+the shirt is made of linen .
+a truck is a kind of vehicle .
+the truck is a vehicle on the road .
+a taxi is a kind of vehicle .
+the taxi is a vehicle on the road .
+a boat is a kind of vehicle .
+the boat is a vehicle on the road .
+a lamb grows up to be a sheep .
+a lamb is a young sheep .
+the lamb becomes a sheep .
+a sheep was once a lamb .
+a calf grows up to be a cow .
+a calf is a young cow .
+the calf becomes a cow .
+a cow was once a calf .
+a foal grows up to be a horse .
+a foal is a young horse .
+the foal becomes a horse .
+a horse was once a foal .
+a chick grows up to be a hen .
+a chick is a young hen .
+the chick becomes a hen .
+a hen was once a chick .
+a cub grows up to be a bear .
+a cub is a young bear .
+the cub becomes a bear .
+a bear was once a cub .
+a duckling grows up to be a duck .
+a duckling is a young duck .
+the duckling becomes a duck .
+a duck was once a duckling .
+a piglet grows up to be a pig .
+a piglet is a young pig .
+the piglet becomes a pig .
+a pig was once a piglet .
+a kid grows up to be a goat .
+a kid is a young goat .
+the kid becomes a goat .
+a goat was once a kid .
+we saw a robin in the garden .
+we ate salmon for dinner .
+the puppy is a young dog .
+the puppy plays in the yard .
+the kitten sleeps all day .
+the carrot is an orange vegetable .
+we cooked a carrot with the soup .
+she ate an apple .
+a goat eats grass .
+the goat is in the barn .
+a robin sings in the morning .
+a salmon swims up the river .
+an onion is a kind of vegetable .
+birds fly and fish swim .

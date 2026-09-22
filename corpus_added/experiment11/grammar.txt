@@ -1,0 +1,217 @@
+one cat is on the roof .
+a cat is on the lake .
+the cat is on the roof .
+two cats are on the lake .
+the cats are on the roof .
+three cats were on the lake .
+one cat is on the roof and the cats are on the roof too .
+one horse is in the field .
+a horse is on the table .
+the horse is in the field .
+two horses are on the table .
+the horses are in the field .
+three horses were on the table .
+one horse is in the field and the horses are in the field too .
+one cow is at the door .
+a cow is in the barn .
+the cow is at the door .
+two cows are in the barn .
+the cows are at the door .
+three cows were in the barn .
+one cow is at the door and the cows are at the door too .
+one goat is on the lake .
+a goat is at the station .
+the goat is on the lake .
+two goats are at the station .
+the goats are on the lake .
+three goats were at the station .
+one goat is on the lake and the goats are on the lake too .
+one duck is on the table .
+a duck is in the garden .
+the duck is on the table .
+two ducks are in the garden .
+the ducks are on the table .
+three ducks were in the garden .
+one duck is on the table and the ducks are on the table too .
+one frog is in the barn .
+a frog is by the river .
+the frog is in the barn .
+two frogs are by the river .
+the frogs are in the barn .
+three frogs were by the river .
+one frog is in the barn and the frogs are in the barn too .
+one boat is at the station .
+a boat is at the market .
+the boat is at the station .
+two boats are at the market .
+the boats are at the station .
+three boats were at the market .
+one boat is at the station and the boats are at the station too .
+one cup is in the garden .
+a cup is on the roof .
+the cup is in the garden .
+two cups are on the roof .
+the cups are in the garden .
+three cups were on the roof .
+one cup is in the garden and the cups are in the garden too .
+one lamp is by the river .
+a lamp is in the field .
+the lamp is by the river .
+two lamps are in the field .
+the lamps are by the river .
+three lamps were in the field .
+one lamp is by the river and the lamps are by the river too .
+one truck is at the market .
+a truck is at the door .
+the truck is at the market .
+two trucks are at the door .
+the trucks are at the market .
+three trucks were at the door .
+one truck is at the market and the trucks are at the market too .
+one student is on the roof .
+a student is on the lake .
+the student is on the roof .
+two students are on the lake .
+the students are on the roof .
+three students were on the lake .
+one student is on the roof and the students are on the roof too .
+one driver is in the field .
+a driver is on the table .
+the driver is in the field .
+two drivers are on the table .
+the drivers are in the field .
+three drivers were on the table .
+one driver is in the field and the drivers are in the field too .
+one nurse is at the door .
+a nurse is in the barn .
+the nurse is at the door .
+two nurses are in the barn .
+the nurses are at the door .
+three nurses were in the barn .
+one nurse is at the door and the nurses are at the door too .
+one farmer is on the lake .
+a farmer is at the station .
+the farmer is on the lake .
+two farmers are at the station .
+the farmers are on the lake .
+three farmers were at the station .
+one farmer is on the lake and the farmers are on the lake too .
+one boy is on the table .
+a boy is in the garden .
+the boy is on the table .
+two boys are in the garden .
+the boys are on the table .
+three boys were in the garden .
+one boy is on the table and the boys are on the table too .
+one girl is in the barn .
+a girl is by the river .
+the girl is in the barn .
+two girls are by the river .
+the girls are in the barn .
+three girls were by the river .
+one girl is in the barn and the girls are in the barn too .
+one child is at the station .
+a child is at the market .
+the child is at the station .
+two children are at the market .
+the children are at the station .
+three children were at the market .
+one child is at the station and the children are at the station too .
+one teacher is in the garden .
+a teacher is on the roof .
+the teacher is in the garden .
+two teachers are on the roof .
+the teachers are in the garden .
+three teachers were on the roof .
+one teacher is in the garden and the teachers are in the garden too .
+a bird was in the garden .
+the birds are flying south .
+two birds are on the wire .
+three birds were at the lake .
+three dogs were at the park .
+our dogs were tired after the walk .
+the dog is on the sofa .
+one dog is in the yard .
+a dog is at the gate .
+i am at the station .
+i am a student .
+i am in the garden .
+i am at home today .
+i am happy .
+i am late .
+today i am at home and yesterday i was at the office .
+we were at the market .
+they were in the garden .
+you were at the door .
+yesterday we were at the beach .
+yesterday they were at the museum .
+last week we were at the lake .
+the boys were tired .
+the cups were on the shelf .
+they walk to school every day .
+we walk along the river on sunday .
+the children walk to the park .
+i walk to work .
+you walk very fast .
+she is walking to the park .
+the boy is walking the dog .
+we are walking to the station .
+they are walking along the beach .
+the farmer is walking to the barn .
+yesterday he painted the fence .
+today he paint the fence and yesterday he painted the fence too .
+yesterday he jumped into the lake .
+today he jump into the lake and yesterday he jumped into the lake too .
+yesterday they cooked dinner .
+today they cook dinner and yesterday they cooked dinner too .
+yesterday they talked about rivers .
+today they talk about rivers and yesterday they talked about rivers too .
+yesterday we played football .
+today we play football and yesterday we played football too .
+yesterday we cleaned the kitchen .
+today we clean the kitchen and yesterday we cleaned the kitchen too .
+yesterday the boy visited the museum .
+today the boy visit the museum and yesterday the boy visited the museum too .
+yesterday the boy climbed the hill .
+today the boy climb the hill and yesterday the boy climbed the hill too .
+yesterday my sister painted the fence .
+today my sister paint the fence and yesterday my sister painted the fence too .
+yesterday my sister jumped into the lake .
+today my sister jump into the lake and yesterday my sister jumped into the lake too .
+yesterday my uncle talked about rivers .
+today my uncle talk about rivers and yesterday my uncle talked about rivers too .
+yesterday my uncle cooked dinner .
+today my uncle cook dinner and yesterday my uncle cooked dinner too .
+yesterday the driver cleaned the kitchen .
+today the driver clean the kitchen and yesterday the driver cleaned the kitchen too .
+yesterday the driver played football .
+today the driver play football and yesterday the driver played football too .
+yesterday the nurse climbed the hill .
+today the nurse climb the hill and yesterday the nurse climbed the hill too .
+yesterday the nurse visited the museum .
+today the nurse visit the museum and yesterday the nurse visited the museum too .
+yesterday the farmer jumped into the lake .
+today the farmer jump into the lake and yesterday the farmer jumped into the lake too .
+yesterday the farmer painted the fence .
+today the farmer paint the fence and yesterday the farmer painted the fence too .
+yesterday the girl cooked dinner .
+today the girl cook dinner and yesterday the girl cooked dinner too .
+yesterday the girl talked about rivers .
+today the girl talk about rivers and yesterday the girl talked about rivers too .
+yesterday our teacher played football .
+today our teacher play football and yesterday our teacher played football too .
+yesterday our teacher cleaned the kitchen .
+today our teacher clean the kitchen and yesterday our teacher cleaned the kitchen too .
+yesterday the children visited the museum .
+today the children visit the museum and yesterday the children visited the museum too .
+yesterday the children climbed the hill .
+today the children climb the hill and yesterday the children climbed the hill too .
+last week she walked to the office .
+last night she talked with her mother .
+last month she painted the kitchen .
+this morning she walked the dog around the block .
+she walked to the park with her friend .
+she cooked rice and beans on sunday .
+yesterday it rained all afternoon .
+yesterday the shop opened late .
+yesterday the baby slept for three hours .

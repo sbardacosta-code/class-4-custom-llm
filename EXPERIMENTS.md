@@ -20,6 +20,7 @@ E1 and E2 are the required experiments; E3 onward are extras.
 | E8b | E6 corpus, **seed 2026** | 512 | 43 | 30 | 62.5% | 0.901 | [runs/experiment8_seed2026](runs/experiment8_seed2026/) |
 | E9 | E6 corpus + a whole book (Alice in Wonderland, 34k tokens, 2,534 types) | 512 | 25 | 25 | 52.1% | 1.886 | [runs/experiment9_alice_raw](runs/experiment9_alice_raw/) |
 | E10 | E6 corpus + 90 sentences of the same book with ≥ 60% known words (378 new types) | 512 | 42 | 30 | 62.5% | 0.758 | [runs/experiment10_alice_slice](runs/experiment10_alice_slice/) |
+| E11 | E6 corpus minus the 194 sentences the guardrail marks as warnings | 512 | 39 | 27 | 56.3% | 0.923 | [runs/experiment11_no_warnings](runs/experiment11_no_warnings/) |
 
 Untrained baselines: E1 9, E2 6, E3 7, E4 6, E5 7, E6 12, E7 12, E8a 12, E8b 11 correct (chance on 4 choices; 43 scorable from E6 on).
 Starter group = 16/16 in every trained run. Transfer group: E1 4, E2 8, E3 7, E4 8, E5 8, E6 8, E7 8, E8a 8, E8b 7 (of 8).
@@ -87,6 +88,13 @@ H: the cap cuts the new rare words, not the needed eval words (≥ 8 uses); UNK 
 T: same as E9.
 R: 1,023 types → 514 cut; UNK train 1.4%, val 2.1%; scorable 42 ("uses" fell under the cut line at 8 uses; the cut line moved up); correct 30, extension 6/18; grammar 3/3; passes lang_25, 26, 27, 37, 45, 48; train 0.839, val 0.758. PASS on UNK, correct and the mechanism; scorable 42 not 43; val loss below the band (better).
 C: the E9 damage was proportional to the number of new word types, not to natural text as such; but the cut line rises with every added type, so "≥ 8 uses" is only safe at E6's size; a small slice of natural text neither helped nor hurt the evals.
+
+## E11 E6 corpus minus every guardrail WARNING sentence (does the score depend on near-miss sentences?)
+Context: check_corpus.py never blocked a training run in this project (11 runs, 0 blocked; 14 sentences reworded across 3 drafts before their first run; a whole book passed with 0 problems). Its warnings mark sentences where an answer word sits near a content word of its own prompt, e.g. "the soup was hot but the salad was cold". E6 had 195 such sentences (194 unique). This run removes all of them; the guardrail then reports 0 warnings, 0 problems.
+H: scorable ≈ 40 (a few eval words lived mostly in warned sentences); correct 25 to 28; lang_27 (yesterday … walked) fails; opposites 0/3; lang_25 and lang_26 still pass.
+T: eval_summary; per-case status; compare with E6 (30 correct, 43 scorable).
+R: 194 sentences removed (14% of the added corpus); scorable 39 (bird, closed, left, uses fell below the cut line); correct 27, extension 4/15; lang_26 pass, lang_25 unscorable ("bird" lost), lang_27 fails ("walk" over "walked"); opposites 0/3; val 0.923. PASS on 4 of 5 claims; lang_25 was lost to coverage, not to the pattern.
+C: the near-miss sentences carried coverage, not score: without them correct drops 3, inside the 5-case seed band; the warnings are a leakage audit trail, not a training constraint.
 
 ## What I would do next
 Three seeds per condition before claiming any extension gain; a held-out set of new prompts that never guided corpus choices, to test generalization instead of this public development benchmark. "More corpus" in the sense of a book or scraped text (E9) is ruled out by the 509-type cap; more corpus in the sense of more sentences over the same words (E3, E6, E7) is the only version that helps, and it helps coverage more than reasoning.

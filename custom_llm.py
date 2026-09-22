@@ -131,6 +131,15 @@ LEARNING_RATE = 0.001
 # E6 (25 to 35). Validation loss between 0.9 and 1.1. If this holds, the damage in E9
 # came from the number of new word types, not from natural text as such.
 #
+# **Experiment 11 prediction (E6 corpus with every sentence that check_corpus.py marks
+# as a warning removed: sentences where an answer word sits near a word of its own
+# prompt, such as "the soup was hot but the salad was cold"; 195 warnings in E6).** The
+# guardrail never blocked a run, so this tests the opposite question: how much of the
+# score came from those near-miss sentences. Prediction: scorable drops a little (a few
+# eval words lived mostly in those sentences), to about 40; correct falls to 25 to 28;
+# the past-tense grammar case fails because every "yesterday ... walked" sentence is a
+# warning; opposites go to 0/3; the singular and plural grammar cases still pass.
+#
 # ## 2. Load the tools and network
 # Colab generally includes PyTorch. Locally, install requirements.txt first.
 # Setup installs the small pypdf package if absent and creates the corpus folder.

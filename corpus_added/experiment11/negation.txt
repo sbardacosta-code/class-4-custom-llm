@@ -1,0 +1,182 @@
+the cup is not green , it is white , so the cup is white .
+the cup is white , not green .
+the cup is not green but white .
+is the cup green ? no , the cup is white .
+the wall is not yellow , it is grey , so the wall is grey .
+the wall is grey , not yellow .
+the wall is not yellow but grey .
+is the wall yellow ? no , the wall is grey .
+the hat is not black , it is brown , so the hat is brown .
+the hat is brown , not black .
+the hat is not black but brown .
+is the hat black ? no , the hat is brown .
+the coat is not white , it is black , so the coat is black .
+the coat is black , not white .
+the coat is not white but black .
+is the coat white ? no , the coat is black .
+the plate is not pink , it is orange , so the plate is orange .
+the plate is orange , not pink .
+the plate is not pink but orange .
+is the plate pink ? no , the plate is orange .
+the kite is not purple , it is yellow , so the kite is yellow .
+the kite is yellow , not purple .
+the kite is not purple but yellow .
+is the kite purple ? no , the kite is yellow .
+the chair is not brown , it is grey , so the chair is grey .
+the chair is grey , not brown .
+the chair is not brown but grey .
+is the chair brown ? no , the chair is grey .
+the boat is not green , it is red , so the boat is red .
+the boat is red , not green .
+the boat is not green but red .
+is the boat green ? no , the boat is red .
+the scarf is not red , it is pink , so the scarf is pink .
+the scarf is pink , not red .
+the scarf is not red but pink .
+is the scarf red ? no , the scarf is pink .
+the bike is not blue , it is green , so the bike is green .
+the bike is green , not blue .
+the bike is not blue but green .
+is the bike blue ? no , the bike is green .
+the bag is not small , it is large , so the bag is large .
+the bag is large , not small .
+the bag is not small but large .
+is the bag small ? no , the bag is large .
+the road is not wet , it is dry , so the road is dry .
+the road is dry , not wet .
+the road is not wet but dry .
+is the road wet ? no , the road is dry .
+the soup is not cold , it is warm , so the soup is warm .
+the soup is warm , not cold .
+the soup is not cold but warm .
+is the soup cold ? no , the soup is warm .
+the bridge is not long , it is short , so the bridge is short .
+the bridge is short , not long .
+the bridge is not long but short .
+is the bridge long ? no , the bridge is short .
+the pencil is not sharp , it is dull , so the pencil is dull .
+the pencil is dull , not sharp .
+the pencil is not sharp but dull .
+is the pencil sharp ? no , the pencil is dull .
+the movie is not boring , it is funny , so the movie is funny .
+the movie is funny , not boring .
+the movie is not boring but funny .
+is the movie boring ? no , the movie is funny .
+the crate is not heavy , it is light , so the crate is light .
+the crate is light , not heavy .
+the crate is not heavy but light .
+is the crate heavy ? no , the crate is light .
+the crate is not square , it is round , so the crate is round .
+the crate is round , not square .
+the crate is not square but round .
+is the crate square ? no , the crate is round .
+the fence is not wooden , it is metal , so the fence is metal .
+the fence is metal , not wooden .
+the fence is not wooden but metal .
+is the fence wooden ? no , the fence is metal .
+the tea is not sweet , it is bitter , so the tea is bitter .
+the tea is bitter , not sweet .
+the tea is not sweet but bitter .
+is the tea sweet ? no , the tea is bitter .
+the bread is not fresh , it is stale , so the bread is stale .
+the bread is stale , not fresh .
+the bread is not fresh but stale .
+is the bread fresh ? no , the bread is stale .
+the lamp is not on , it is off , so the lamp is off .
+the lamp is off , not on .
+the lamp is not on but off .
+is the lamp on ? no , the lamp is off .
+the river is not shallow , it is deep , so the river is deep .
+the river is deep , not shallow .
+the river is not shallow but deep .
+is the river shallow ? no , the river is deep .
+the room is not dark , it is bright , so the room is bright .
+the room is bright , not dark .
+the room is not dark but bright .
+is the room dark ? no , the room is bright .
+the ticket is not cheap , it is expensive , so the ticket is expensive .
+the ticket is expensive , not cheap .
+the ticket is not cheap but expensive .
+is the ticket cheap ? no , the ticket is expensive .
+she did not buy rice , she bought beans , so she bought beans .
+she bought beans , not rice .
+she did not buy rice but beans .
+he did not buy a hat , he bought a scarf , so he bought a scarf .
+he bought a scarf , not a hat .
+he did not buy a hat but a scarf .
+they did not buy the sofa , they bought the chair , so they bought the chair .
+they bought the chair , not the sofa .
+they did not buy the sofa but the chair .
+we did not buy oranges , we bought grapes , so we bought grapes .
+we bought grapes , not oranges .
+we did not buy oranges but grapes .
+the boy did not buy a kite , he bought a ball , so he bought a ball .
+the boy bought a ball , not a kite .
+the boy did not buy a kite but a ball .
+my aunt did not buy flowers , she bought candles , so she bought candles .
+my aunt bought candles , not flowers .
+my aunt did not buy flowers but candles .
+the driver did not buy fuel , he bought water , so he bought water .
+the driver bought water , not fuel .
+the driver did not buy fuel but water .
+the nurse did not buy bread , she bought cheese , so she bought cheese .
+the nurse bought cheese , not bread .
+the nurse did not buy bread but cheese .
+the farmer did not buy a coat , he bought a shirt , so he bought a shirt .
+the farmer bought a shirt , not a coat .
+the farmer did not buy a coat but a shirt .
+the girl did not buy apples , she bought pears , so she bought pears .
+the girl bought pears , not apples .
+the girl did not buy apples but pears .
+she did not eat pasta , she ate soup , so she ate soup .
+she ate soup , not pasta .
+he did not drink coffee , he drank juice , so he drank juice .
+he drank juice , not coffee .
+they did not take the train , they took the ferry , so they took the ferry .
+they took the ferry , not the train .
+we did not watch the news , we watched a film , so we watched a film .
+we watched a film , not the news .
+the boy did not read the letter , he read the book , so he read the book .
+the boy read the book , not the letter .
+my aunt did not use butter , she used oil , so she used oil .
+my aunt used oil , not butter .
+the driver did not want cake , he wanted bread , so he wanted bread .
+the driver wanted bread , not cake .
+the nurse did not want juice , she wanted milk , so she wanted milk .
+the nurse wanted milk , not juice .
+the farmer did not order coffee , he ordered tea , so he ordered tea .
+the farmer ordered tea , not coffee .
+the girl did not choose the soup , she chose the salad , so she chose the salad .
+the girl chose the salad , not the soup .
+she did not plant corn , she planted wheat , so she planted wheat .
+she planted wheat , not corn .
+he did not paint the door , he painted the fence , so he painted the fence .
+he painted the fence , not the door .
+they did not clean the car , they cleaned the boat , so they cleaned the boat .
+they cleaned the boat , not the car .
+we did not visit the bank , we visited the museum , so we visited the museum .
+we visited the museum , not the bank .
+it is not monday , it is tuesday , so today is tuesday .
+it is not winter , it is spring , so the season is spring .
+the answer is not seven , it is nine , so the answer is nine .
+the meeting is not at noon , it is at three , so the meeting is at three .
+the cat is not outside , it is inside , so the cat is inside .
+the keys are not in the drawer , they are on the hook , so the keys are on the hook .
+the milk is not on the table , it is in the fridge , so the milk is in the fridge .
+the box is on the shelf .
+the box is heavy .
+we put the keys in the box .
+the box was empty .
+a small box is on the table .
+the box is brown .
+the key is missing .
+one page is missing from the book .
+two cups are missing .
+my hat is missing , not lost .
+the bread is on the table .
+we ate bread and cheese .
+the bread was warm .
+she cut the bread .
+the door is open .
+the gate is closed .
+the shop is open on sunday .

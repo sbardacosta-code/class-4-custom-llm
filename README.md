@@ -7,7 +7,7 @@ I trained Karpathy's nanoGPT from scratch on my laptop, twice. The first run use
 classroom corpus that the notebook generates. The second run adds three small text
 files I wrote to teach opposites, grammar and negation. Both runs were tested on the
 same 48 fixed language evals before and after training. After the two required
-experiments I ran eight more, one variable at a time, and logged each with a hypothesis
+experiments I ran nine more, one variable at a time, and logged each with a hypothesis
 written before the run, the metric, the result and a one-line conclusion in
 [EXPERIMENTS.md](EXPERIMENTS.md). The trained model answers
 prompts in a terminal chat. It is a tiny language model. It continues sentences. It
@@ -29,7 +29,7 @@ checksum-pinned by the notebook.
 | Results, Experiment 2 | [runs/experiment2_extended/](runs/experiment2_extended/), [ZIP](runs/experiment2_extended.zip) |
 | My added teaching text, Experiment 2 | [corpus_added/](corpus_added/) (copy the three .txt files into `corpus/` to rerun) |
 | Extra: Experiment 3 (4x more corpus) | [custom_llm_experiment3_more_corpus.ipynb](custom_llm_experiment3_more_corpus.ipynb), [runs/experiment3_more_corpus/](runs/experiment3_more_corpus/), [ZIP](runs/experiment3_more_corpus.zip), [corpus_added/experiment3/](corpus_added/experiment3/) |
-| Extra: Experiments 4 to 10, log with hypotheses | [EXPERIMENTS.md](EXPERIMENTS.md); notebooks [E4](custom_llm_experiment4_new_categories.ipynb), [E5](custom_llm_experiment5_all_seven.ipynb), [E6](custom_llm_experiment6_coverage.ipynb), [E7](custom_llm_experiment7_6000steps.ipynb), [E8a](custom_llm_experiment8_seed7.ipynb), [E8b](custom_llm_experiment8_seed2026.ipynb), [E9](custom_llm_experiment9_alice_raw.ipynb), [E10](custom_llm_experiment10_alice_slice.ipynb); runs under [runs/](runs/); generators in [corpus_added/experiment4/](corpus_added/experiment4/) and [corpus_added/experiment6/](corpus_added/experiment6/); book text in [corpus_added/experiment9/](corpus_added/experiment9/) and [corpus_added/experiment10/](corpus_added/experiment10/) |
+| Extra: Experiments 4 to 11, log with hypotheses | [EXPERIMENTS.md](EXPERIMENTS.md); notebooks [E4](custom_llm_experiment4_new_categories.ipynb), [E5](custom_llm_experiment5_all_seven.ipynb), [E6](custom_llm_experiment6_coverage.ipynb), [E7](custom_llm_experiment7_6000steps.ipynb), [E8a](custom_llm_experiment8_seed7.ipynb), [E8b](custom_llm_experiment8_seed2026.ipynb), [E9](custom_llm_experiment9_alice_raw.ipynb), [E10](custom_llm_experiment10_alice_slice.ipynb), [E11](custom_llm_experiment11_no_warnings.ipynb); runs under [runs/](runs/); generators in [corpus_added/experiment4/](corpus_added/experiment4/) and [corpus_added/experiment6/](corpus_added/experiment6/); book text in [corpus_added/experiment9/](corpus_added/experiment9/) and [corpus_added/experiment10/](corpus_added/experiment10/) |
 | Fixed eval suite and runner | [evals/language_evals.json](evals/language_evals.json), [run_evals.py](run_evals.py) |
 | Chat interface and evidence | [chat.py](chat.py), [evidence/](evidence/) |
 | Leakage guardrail | [check_corpus.py](check_corpus.py) |
@@ -572,7 +572,7 @@ opposites or the plural case, and it did not raise the total. The chat evidence 
 from the Experiment 2 model; the Experiment 3 model is in
 [runs/experiment3_more_corpus/model.pt](runs/experiment3_more_corpus/model.pt).
 
-### Extra: Experiments 4 to 10 in one table
+### Extra: Experiments 4 to 11 in one table
 
 Full log with hypothesis, test, result and conclusion per experiment:
 [EXPERIMENTS.md](EXPERIMENTS.md). Each hypothesis is also in the notebook's prediction
@@ -588,8 +588,9 @@ cell, written before that run. The guardrail ran before every run with 0 problem
 | E8b | E6 corpus, seed 2026 | 512 | 43 | 30 | 0.901 |
 | E9 | E6 corpus + a whole public-domain book (Alice in Wonderland, 2,534 word types) | 512 | 25 | 25 | 1.886 |
 | E10 | E6 corpus + 90 sentences of that book with mostly known words | 512 | 42 | 30 | 0.758 |
+| E11 | E6 corpus minus the 194 sentences the guardrail marks as warnings | 512 | 39 | 27 | 0.923 |
 
-Four things I learned from these that I could not see in E1 to E3:
+Five things I learned from these that I could not see in E1 to E3:
 
 - **Coverage is a frequency problem.** A word written twice can land entirely in the 10%
   validation split and never enter the vocabulary (E4, "desk"). With 647 word types the
@@ -616,6 +617,10 @@ Four things I learned from these that I could not see in E1 to E3:
   the 90 sentences of the book whose words were mostly known: nothing broke (42 scorable,
   30 correct, 1.4% unknown), and nothing improved. With this tokenizer, more corpus only
   helps as more sentences over the same words, and that helps coverage, not reasoning.
+- **The score does not depend on sentences that come close to the exam.** E11 removed
+  the 194 sentences my guardrail flags as warnings (an answer word near a word of its
+  own prompt). Correct went from 30 to 27, inside the 5-case seed noise, and 4 cases
+  became unscorable only because their words lived mostly in those sentences.
 
 ### Rerun the evals on my saved model
 
@@ -665,6 +670,25 @@ It continues sentences in the shapes it saw. It does not answer questions, and i
 cannot use a word it never saw.
 
 ## How eval material stayed out of training
+
+**What the guardrail did and did not do.** `check_corpus.py` is a check I run on
+corpus/ after writing and before training. It is stricter than the notebook's own
+exact-prefix check. In this project it did not limit training or the corpus in any way:
+
+| Fact | Number |
+|---|---|
+| Training runs | 11 (plus a 10-step smoke test) |
+| Runs blocked or shortened by the guardrail | 0 |
+| Sentences it asked me to reword before a first run | 14, across 3 drafts, each fixed by changing one noun or name |
+| Corpus size it reduced | 0 sentences; a whole book (E9) passed with 0 problems |
+| What actually limits the corpus | the notebook's 509-word vocabulary cap, measured in E5 and E9 |
+
+The 4 cases that stay unscorable in every experiment need the eval names (3 reference
+cases and one negation case). The eval guide itself asks for reference stories "with
+different names", so that limit comes from the assignment, not from my script. If the
+guardrail were switched off, nothing in these results would change except that the
+audit files below would not exist. I kept it on because it produces the evidence that
+the exam stayed out, at zero cost to the experiments.
 
 - The notebook removes every generated classroom sentence that contains one of the 16
   reserved eval prefixes before the split and before building the vocabulary. Both runs

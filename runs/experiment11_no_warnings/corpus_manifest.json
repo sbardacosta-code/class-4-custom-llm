@@ -1,0 +1,93 @@
+{
+  "files": [
+    {
+      "file": "categories.txt",
+      "bytes": 2769,
+      "sha256": "febd8d2c78553918c30401b952e350d3d319a822a299e4705b8b2749d1c6e5c8",
+      "warnings": [],
+      "characters": 2769,
+      "passages": 96,
+      "unique_passages": 96,
+      "preview": "a trout is a kind of fish .\nthe trout is a fish that swims .\na shark is a kind of fish .\nthe shark is a fish that swims .\na tuna is a kind of fish .\nthe tuna is a fish that swims .\na cod is a kind of fish .\nthe cod is a fish that swims .\na carp is a kind of fish .\nthe carp is a fish that swims .\na h"
+    },
+    {
+      "file": "coverage.txt",
+      "bytes": 6875,
+      "sha256": "14c9540f46faffa91a4c878407986beec0e400cf3a2a556864d34825ae9e2301",
+      "warnings": [],
+      "characters": 6875,
+      "passages": 238,
+      "unique_passages": 238,
+      "preview": "he walks to the office every morning .\nshe walks the dog at noon .\nthe girl walks to school .\nmy uncle walks by the river .\nthe nurse walks to the hospital .\nthe boy walks home after lunch .\nthe farmer walks to the barn .\nmy aunt walks to the market .\nthe road goes north to the city .\nthe birds fly "
+    },
+    {
+      "file": "grammar.txt",
+      "bytes": 8333,
+      "sha256": "24f1a847bd1dbd0cb1ad5cd470d86e973ab0f733037928ef5ec131be365c8b69",
+      "warnings": [],
+      "characters": 8333,
+      "passages": 217,
+      "unique_passages": 217,
+      "preview": "one cat is on the roof .\na cat is on the lake .\nthe cat is on the roof .\ntwo cats are on the lake .\nthe cats are on the roof .\nthree cats were on the lake .\none cat is on the roof and the cats are on the roof too .\none horse is in the field .\na horse is on the table .\nthe horse is in the field .\ntwo"
+    },
+    {
+      "file": "knowledge.txt",
+      "bytes": 1331,
+      "sha256": "f8ff2a11b4f736de08178edb46238dd66ca8a537e30b67d94d982ad2279520d2",
+      "warnings": [],
+      "characters": 1331,
+      "passages": 48,
+      "unique_passages": 48,
+      "preview": "the lake freezes in winter .\nthe pond freezes when it is cold .\nsnow melts into water .\nsteam rises from the hot soup .\nsteam comes from boiling water .\nthe ice melts in the sun .\nwe drink water every day .\nthe river water is cold .\nwood burns in the fire .\nthe table is made of wood .\nthe fence is m"
+    },
+    {
+      "file": "negation.txt",
+      "bytes": 8200,
+      "sha256": "3a4c89db9e0c10d4cbbca9c993c1a417fd5cfc6e163edd26552b3794dd60708d",
+      "warnings": [],
+      "characters": 8200,
+      "passages": 207,
+      "unique_passages": 207,
+      "preview": "the cup is not green , it is white , so the cup is white .\nthe cup is white , not green .\nthe cup is not green but white .\nis the cup green ? no , the cup is white .\nthe wall is not yellow , it is grey , so the wall is grey .\nthe wall is grey , not yellow .\nthe wall is not yellow but grey .\nis the w"
+    },
+    {
+      "file": "opposites.txt",
+      "bytes": 6543,
+      "sha256": "814fe1fac495aaf5c708509880de0b7e04708c483bfdca2410326fa47699603c",
+      "warnings": [],
+      "characters": 6543,
+      "passages": 216,
+      "unique_passages": 216,
+      "preview": "the opposite of big is small .\nthe opposite of small is big .\nsmall is the opposite of big .\nbig is the opposite of small .\nbig and small are opposites .\nwhen something is not big it is small .\nthe opposite of fast is slow .\nthe opposite of slow is fast .\nslow is the opposite of fast .\nfast is the o"
+    },
+    {
+      "file": "sequence.txt",
+      "bytes": 5472,
+      "sha256": "359295052aac3177cddd81355d01427d65ab8dfd97b61f8e0ca63cddf54e981f",
+      "warnings": [],
+      "characters": 5472,
+      "passages": 103,
+      "unique_passages": 103,
+      "preview": "first peel the fruit , then slice it , the last step is slice .\nfirst peel the fruit , then slice it , the final action is slice .\npeel the fruit first and slice it second , so the later action is slice .\nfirst peel the fruit and then slice it , in that order .\nfirst fill the pot , then boil the wat"
+    },
+    {
+      "file": "spatial.txt",
+      "bytes": 2469,
+      "sha256": "2fa6e1f041504f5905b9799c869511d89c06d36c7187662795a66b4bf0d7ebba",
+      "warnings": [],
+      "characters": 2469,
+      "passages": 67,
+      "unique_passages": 67,
+      "preview": "the coin is inside the jar , so the jar contains the coin .\nthe jar contains the coin , the coin is inside the jar .\nthe coin is in the jar .\nthe jar holds the coin .\nthe key is inside the drawer , so the drawer contains the key .\nthe drawer contains the key , the key is inside the drawer .\nthe key "
+    }
+  ],
+  "ignored": [],
+  "external_passages": 1192,
+  "mode": "classroom",
+  "base_passages": 6200,
+  "unique_passages": 5708,
+  "new_unique_passages": 1116,
+  "duplicates_removed": 1684,
+  "max_passage_tokens": 47,
+  "split_unit": "deduplicated passage, not source file"
+}

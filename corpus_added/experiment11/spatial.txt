@@ -1,0 +1,67 @@
+the coin is inside the jar , so the jar contains the coin .
+the jar contains the coin , the coin is inside the jar .
+the coin is in the jar .
+the jar holds the coin .
+the key is inside the drawer , so the drawer contains the key .
+the drawer contains the key , the key is inside the drawer .
+the key is in the drawer .
+the drawer holds the key .
+the shirt is inside the suitcase , so the suitcase contains the shirt .
+the suitcase contains the shirt , the shirt is inside the suitcase .
+the shirt is in the suitcase .
+the suitcase holds the shirt .
+the letter is inside the envelope , so the envelope contains the letter .
+the envelope contains the letter , the letter is inside the envelope .
+the letter is in the envelope .
+the envelope holds the letter .
+the apple is inside the basket , so the basket contains the apple .
+the basket contains the apple , the apple is inside the basket .
+the apple is in the basket .
+the basket holds the apple .
+the pencil is inside the case , so the case contains the pencil .
+the case contains the pencil , the pencil is inside the case .
+the pencil is in the case .
+the case holds the pencil .
+the ring is inside the pocket , so the pocket contains the ring .
+the pocket contains the ring , the ring is inside the pocket .
+the ring is in the pocket .
+the pocket holds the ring .
+the toy is inside the crate , so the crate contains the toy .
+the crate contains the toy , the toy is inside the crate .
+the toy is in the crate .
+the crate holds the toy .
+the picture is above the sofa .
+the sofa is below the picture .
+the clock is above the door .
+the door is below the clock .
+the shelf is above the sink .
+the sink is below the shelf .
+the roof is above the wall .
+the wall is below the roof .
+the cloud is above the hill .
+the hill is below the cloud .
+the sign is above the gate .
+the gate is below the sign .
+the light is above the table .
+the table is below the light .
+the plate is beside the cup .
+the table is beside the chair .
+the car is beside the truck .
+the bank is beside the shop .
+the girl is beside the boy .
+the sofa is beside the lamp .
+the fence is beside the gate .
+she read the book .
+the book is on the table .
+the bag is large .
+we put the bag on the floor .
+the lamp is on .
+the desk is wooden .
+the ball is round .
+the boy kicked the ball .
+the box is on the shelf .
+the box is heavy .
+the ball is under the table .
+the lamp is beside the desk .
+the cat is under the chair .
+the dog is behind the gate .
