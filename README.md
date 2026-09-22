@@ -6,7 +6,8 @@ Author: Sebastián Bardacosta.
 I trained Karpathy's nanoGPT from scratch on my laptop, twice. The first run uses the
 classroom corpus that the notebook generates. The second run adds three small text
 files I wrote to teach opposites, grammar and negation. Both runs were tested on the
-same 48 fixed language evals before and after training. The trained model answers
+same 48 fixed language evals before and after training. A third, optional run with
+four times more teaching text is reported at the end as an extra. The trained model answers
 prompts in a terminal chat. It is a tiny language model. It continues sentences. It
 does not answer questions.
 
@@ -24,7 +25,8 @@ checksum-pinned by the notebook.
 | Notebook source (settings, prediction) | [custom_llm.ipynb](custom_llm.ipynb), built from [custom_llm.py](custom_llm.py) |
 | Results, Experiment 1 | [runs/experiment1_starter/](runs/experiment1_starter/), [ZIP](runs/experiment1_starter.zip) |
 | Results, Experiment 2 | [runs/experiment2_extended/](runs/experiment2_extended/), [ZIP](runs/experiment2_extended.zip) |
-| My added teaching text | [corpus_added/](corpus_added/) (copy into `corpus/` to rerun) |
+| My added teaching text, Experiment 2 | [corpus_added/](corpus_added/) (copy the three .txt files into `corpus/` to rerun) |
+| Extra: Experiment 3 (4x more corpus) | [custom_llm_experiment3_more_corpus.ipynb](custom_llm_experiment3_more_corpus.ipynb), [runs/experiment3_more_corpus/](runs/experiment3_more_corpus/), [ZIP](runs/experiment3_more_corpus.zip), [corpus_added/experiment3/](corpus_added/experiment3/) |
 | Fixed eval suite and runner | [evals/language_evals.json](evals/language_evals.json), [run_evals.py](run_evals.py) |
 | Chat interface and evidence | [chat.py](chat.py), [evidence/](evidence/) |
 | Leakage guardrail | [check_corpus.py](check_corpus.py) |
@@ -475,6 +477,95 @@ negation eval cases could not even be scored. Negation was a failure on both mea
 These are public development tests that guided my corpus choices. They are not an
 unseen benchmark and they say nothing about general language ability.
 
+### Extra: Experiment 3, four times more corpus
+
+After the two required experiments I ran a third one with the same settings, seed and
+evals, to answer the question Experiment 2 left open: how much of the failure was
+missing vocabulary and how much was the model. The advice from the professor was to give
+the model more corpus. I generated 715 teaching sentences from short word lists with
+[make_corpus.py](corpus_added/experiment3/make_corpus.py). The files are in
+[corpus_added/experiment3/](corpus_added/experiment3/): 264 opposites, 248 grammar and
+203 negation sentences, about four times Experiment 2. They include the answer-choice
+words that were missing before (am, were, walk, walking, bread, missing, box) in
+ordinary sentences, and never the do-not-use names or prompt sequences.
+`check_corpus.py` reported 0 problems and 96 warnings of the same kind as before.
+My prediction, written in the notebook before the run: 5 more scorable cases, grammar
+passes, negation still fails, vocabulary about 480.
+
+| | Experiment 3 |
+|---|---|
+| Passages from my files / unique passages | 745 / 5,337 |
+| Train / validation | 4,803 / 534 |
+| Vocabulary | 478 (0 omitted types) |
+| Unknown-token rate, training / held-out | 0.0% / 0.14% |
+| Parameters, training time | 133,760, 8.75 s |
+| Loss, step 0 / 1500 / 3000, training panel | 6.2040 / 0.7384 / 0.7247 |
+| Loss, step 0 / 1500 / 3000, validation panel | 6.2025 / 0.7279 / 0.7327 |
+
+Sources: [config.json](runs/experiment3_more_corpus/config.json),
+[history.json](runs/experiment3_more_corpus/history.json),
+[corpus_manifest.json](runs/experiment3_more_corpus/corpus_manifest.json),
+[vocabulary_report.json](runs/experiment3_more_corpus/vocabulary_report.json),
+[training_curves.svg](runs/experiment3_more_corpus/training_curves.svg),
+[eval_separation.json](runs/experiment3_more_corpus/eval_separation.json) (160 excluded, same as before).
+
+| Experiment | Stage | Correct / 48 | Scorable | All-case success | Scorable accuracy | Coverage | Starter (16) | Transfer (8) | Extension (24) | Files |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 3 more corpus | untrained | 7 | 31 | 14.6% | 22.6% | 64.6% | 4 | 1 | 2 (7 scorable) | [folder](runs/experiment3_more_corpus/language_evals/untrained/) |
+| 3 more corpus | trained | 25 | 31 | 52.1% | 80.6% | 64.6% | 16 | 7 | 2 (7 scorable) | [folder](runs/experiment3_more_corpus/language_evals/final/) |
+
+The nine targeted cases after training, with the probability of each choice:
+
+| Case | Category | Status | Expected | Predicted | Probabilities |
+|---|---|---|---|---|---|
+| lang_25 | grammar | scored | is | is | is 0.9925, are 0.0004, were 0.0000, am 0.0000 |
+| lang_26 | grammar | scored | are | is | is 0.7251, are 0.2291, was 0.0131, am 0.0014 |
+| lang_27 | grammar | out_of_vocabulary | walked | | choice "walks" not in vocabulary |
+| lang_28 | opposites | scored | cold | warm | warm 0.0238, heavy 0.0199, fast 0.0065, cold 0.0007 |
+| lang_29 | opposites | scored | full | early | early 0.0073, soft 0.0067, quiet 0.0040, full 0.0011 |
+| lang_30 | opposites | scored | quiet | late | late 0.0139, round 0.0112, loud 0.0054, quiet 0.0019 |
+| lang_31 | negation | scored | blue | green | green 0.0553, red 0.0378, blue 0.0329, yellow 0.0077 |
+| lang_32 | negation | out_of_vocabulary | milk | | prompt word "ava" not in vocabulary |
+| lang_33 | negation | scored | closed | closed | closed 0.1158, open 0.0339, wide 0.0016, missing 0.0003 |
+
+What this run shows:
+
+- **Coverage.** Scorable cases went from 27 to 31, four more, not five. The past-tense
+  case has the distractor "walks", which I never wrote. I wrote "walk" and "walking".
+  The case with the eval name stays unscorable by my own rule.
+- **Grammar, learned pattern, incomplete.** Singular agreement passed with 0.99. Plural
+  agreement failed: 0.73 for "is" against 0.23 for "are". I never wrote the exact prefix
+  of that case because it is on the do-not-use list, but I wrote "two dogs are", "our
+  dogs are", "both dogs are" and 18 other plural nouns with "the ... are". The model did
+  not carry plural agreement to that one prefix. It learned the frequent frame, not the
+  rule.
+- **Negation, learned pattern for one case.** The gate/shop/window sentences taught
+  "not open ... closed" well enough: closed 0.116 against open 0.034. The color case
+  failed, and the way it failed is informative: the top choice was "green", which is
+  not in the prompt at all. Green is the first color in my generator's list, so it is
+  the most frequent word after "the OBJECT is" in the negation file. Frequency beat
+  context.
+- **Opposites went from 1/3 to 0/3.** With four times more data the model still picks a
+  frame adjective (warm, early, late) instead of the pair. The single correct answer in
+  Experiment 2 was luck, as I suspected there. My guardrail blocks any sentence that
+  contains "opposite" together with an eval pair, so the pair binding can only come from
+  contrast sentences, and this model does not extract it from co-occurrence.
+- **Transfer dropped to 7/8** with nothing changed for those words. This supports the
+  initialization-noise explanation given above for the 4/8 to 8/8 jump.
+- **Overall.** Correct stayed at 25/48 and all-case success at 52.1%. Scorable accuracy
+  fell from 92.6% to 80.6% because four harder cases entered the denominator. Validation
+  loss ended at 0.733, above 0.703, because the text is more varied. Samples at
+  temperature 0.8 are still all classroom templates
+  ([step 3000](runs/experiment3_more_corpus/samples/step_3000.txt)); at temperature 1.2
+  one sample reads "the tutor is on the roof .", a classroom noun inside my grammar
+  frame, the first visible trace of the added data in free generation
+  ([temperature_comparison.json](runs/experiment3_more_corpus/temperature_comparison.json)).
+
+Conclusion: more corpus fixed coverage and taught two clean patterns. It did not fix
+opposites or the plural case, and it did not raise the total. The chat evidence below is
+from the Experiment 2 model; the Experiment 3 model is in
+[runs/experiment3_more_corpus/model.pt](runs/experiment3_more_corpus/model.pt).
+
 ### Rerun the evals on my saved model
 
 ```bash
@@ -556,11 +647,11 @@ cannot use a word it never saw.
 The vocabulary change forces a different random initialization, so the 4/8 to 8/8
 change in the transfer group cannot be separated from initialization luck.
 
-**Next experiment.** Run Experiment 2 with three different seeds and report the spread
-of the transfer score. Then rewrite the opposites file so that hot/cold, empty/full and
-noisy/quiet also appear inside the "the opposite of A is B" frame, since the guardrail
-allows the frame with the answer word as long as the exact prompt sequence never
-appears, and check whether the opposites score moves from 1/3.
+**Next experiment.** Run Experiments 2 and 3 with three different seeds each and report
+the spread of the transfer and extension scores, so that a change of one or two cases
+can be told apart from noise. Experiment 3 already showed that four times more corpus
+does not fix opposites; the remaining lever within my leakage rules is many more
+contrast sentences, or accepting that pair binding is beyond this model size.
 
 ## Embedding viewer
 

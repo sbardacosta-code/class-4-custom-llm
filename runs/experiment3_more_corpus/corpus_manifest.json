@@ -1,0 +1,43 @@
+{
+  "files": [
+    {
+      "file": "grammar.txt",
+      "bytes": 9981,
+      "sha256": "34f9e020244dcc4881b5fd9a8fdcbe2f00624e5d4ee8862726802076b62e8a59",
+      "warnings": [],
+      "characters": 9981,
+      "passages": 248,
+      "unique_passages": 248,
+      "preview": "one cat is on the roof .\na cat is on the lake .\nthe cat is on the roof .\ntwo cats are on the lake .\nthe cats are on the roof .\nthree cats were on the lake .\none cat is on the roof and the cats are on the roof too .\none horse is in the field .\na horse is on the table .\nthe horse is in the field .\ntwo"
+    },
+    {
+      "file": "negation.txt",
+      "bytes": 9076,
+      "sha256": "5e7136ea252e3583162bb3c7b17bd1de7d9b5e71ca21ff9a327b0d30a82633d5",
+      "warnings": [],
+      "characters": 9076,
+      "passages": 233,
+      "unique_passages": 233,
+      "preview": "the cup is not green , it is white , so the cup is white .\nthe cup is white , not green .\nthe cup is not green but white .\nis the cup green ? no , the cup is white .\nthe car is not red , it is blue , so the car is blue .\nthe car is blue , not red .\nthe car is not red but blue .\nis the car red ? no ,"
+    },
+    {
+      "file": "opposites.txt",
+      "bytes": 8772,
+      "sha256": "3c0b28d171d57f461cb48b1f76ffd5e5336ec47df03d3f95f5cc8993c472fe95",
+      "warnings": [],
+      "characters": 8772,
+      "passages": 264,
+      "unique_passages": 264,
+      "preview": "the opposite of big is small .\nthe opposite of small is big .\nsmall is the opposite of big .\nbig is the opposite of small .\nbig and small are opposites .\nwhen something is not big it is small .\nthe opposite of fast is slow .\nthe opposite of slow is fast .\nslow is the opposite of fast .\nfast is the o"
+    }
+  ],
+  "ignored": [],
+  "external_passages": 745,
+  "mode": "classroom",
+  "base_passages": 6200,
+  "unique_passages": 5337,
+  "new_unique_passages": 745,
+  "duplicates_removed": 1608,
+  "max_passage_tokens": 47,
+  "split_unit": "deduplicated passage, not source file"
+}

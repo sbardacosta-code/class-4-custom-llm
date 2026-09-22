@@ -72,6 +72,15 @@ LEARNING_RATE = 0.001
 # starter cases should stay near 16/16. Validation loss should end slightly higher than
 # 0.71, because the new sentences are less repetitive than the templates.
 #
+# **Experiment 3 prediction (same settings; corpus/ now holds 715 generated teaching
+# sentences, about 4 times Experiment 2).** The answer-choice words that were missing
+# (am, were, walk, walking, bread, missing, box) are now in the text, so I expect 5 more
+# cases to become scorable: the 3 grammar cases and 2 of the 3 negation cases. The case
+# with the name on the do-not-use list stays unscorable. I expect the grammar cases to
+# pass, because subject-verb agreement appears hundreds of times. I expect negation to
+# still fail, because the model picked the negated word in the chat. Vocabulary should
+# reach about 480 words, close to the 509 limit.
+#
 # ## 2. Load the tools and network
 # Colab generally includes PyTorch. Locally, install requirements.txt first.
 # Setup installs the small pypdf package if absent and creates the corpus folder.
