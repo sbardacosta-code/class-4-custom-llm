@@ -1,0 +1,20 @@
+{
+  "0.3": [
+    "the team discussed the instructor and the learning at the school .",
+    "the different bond was mentioned in the risk report yesterday .",
+    "the local mango was mentioned in the taste report yesterday .",
+    "we learned about the different website during a discussion of update ."
+  ],
+  "0.8": [
+    "the team discussed the system and the code at the office .",
+    "the different dentist was mentioned in the patient report yesterday .",
+    "a review of patient helped us understand the different doctor .",
+    "we learned about the different website during a discussion of update ."
+  ],
+  "1.2": [
+    "cheap is the opposite of software .",
+    "our market has a question about the different item and design .",
+    "the ducks are <UNK> in the garden .",
+    "our bank has a question about the new deposit and payment ."
+  ]
+}

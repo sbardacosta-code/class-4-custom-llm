@@ -1,0 +1,17 @@
+[
+  {
+    "step": 0,
+    "training_loss": 6.24849796295166,
+    "validation_loss": 6.240221977233887
+  },
+  {
+    "step": 3000,
+    "training_loss": 0.8216719627380371,
+    "validation_loss": 0.8378256559371948
+  },
+  {
+    "step": 6000,
+    "training_loss": 0.7522306442260742,
+    "validation_loss": 0.8217366933822632
+  }
+]

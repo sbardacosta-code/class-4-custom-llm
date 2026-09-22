@@ -96,6 +96,25 @@ LEARNING_RATE = 0.001
 # separate gains (31 + 5 = 36); I expect about 33. Correct about 27. Validation loss
 # above 0.73 because the text is the most varied so far.
 #
+# **Experiment 6 prediction (same settings; corpus/ = the E3 and E4 files plus
+# coverage.txt, 240 ordinary sentences that use each missing eval word at least 8 times;
+# 711 word types, so the cap will cut about 200 rare words that I do not need).** No
+# needed word is cut. Scorable rises from 32 to at least 40 (only the 3 reference cases
+# and the "ava" negation case stay unscorable). Correct rises to at least 31 because the
+# newly scorable cases are mostly single-fact prompts. Validation loss stays above 1.0,
+# like E5, because rare tokens become UNK and the text is varied.
+#
+# **Experiment 7 prediction (E6 corpus, 6,000 steps instead of 3,000, everything else
+# equal).** Training panel loss falls below 0.80; validation panel loss does not improve
+# (stays at or above 0.88): overfitting on the varied text. Correct changes by at most 2
+# cases from E6's 30, which I will treat as noise until E8 measures it.
+#
+# **Experiment 8 prediction (E6 corpus, 3,000 steps, seeds 7 and 2026 instead of 42).**
+# The seed changes the split, the panels, the initialization and the batch order. I expect
+# correct to vary by at least 2 cases across the three seeds, the extension group by at
+# least 2, and the starter group to stay 16/16. Any single-run difference of 2 cases or
+# less between experiments is then noise.
+#
 # ## 2. Load the tools and network
 # Colab generally includes PyTorch. Locally, install requirements.txt first.
 # Setup installs the small pypdf package if absent and creates the corpus folder.

@@ -14,9 +14,15 @@ E1 and E2 are the required experiments; E3 onward are extras.
 | E3 | 715 sent., same 3 categories | 478 | 31 | 25 | 52.1% | 0.733 | [runs/experiment3_more_corpus](runs/experiment3_more_corpus/) |
 | E4 | 391 sent., sequence+spatial+knowledge+categories (E3 files removed) | 418 | 29 | 26 | 54.2% | 0.708 | [runs/experiment4_new_categories](runs/experiment4_new_categories/) |
 | E5 | E3 + E4 files together, 1,106 sent., 647 types → cap 509 | 512 | 32 | 29 | 60.4% | 1.258 | [runs/experiment5_all_seven](runs/experiment5_all_seven/) |
+| E6 | E5 + coverage.txt (each missing eval word ≥ 8 uses), 1,346 sent., 715 types → cap 509 | 512 | 43 | 30 | 62.5% | 0.888 | [runs/experiment6_coverage](runs/experiment6_coverage/) |
+| E7 | E6 corpus, **6,000 steps** | 512 | 43 | 34 | 70.8% | 0.822 | [runs/experiment7_6000steps](runs/experiment7_6000steps/) |
+| E8a | E6 corpus, **seed 7** | 512 | 43 | 35 | 72.9% | 1.233 | [runs/experiment8_seed7](runs/experiment8_seed7/) |
+| E8b | E6 corpus, **seed 2026** | 512 | 43 | 30 | 62.5% | 0.901 | [runs/experiment8_seed2026](runs/experiment8_seed2026/) |
 
-Untrained baselines: E1 9, E2 6, E3 7, E4 6, E5 7 correct (chance on 4 choices).
-Starter group = 16/16 in every trained run. Transfer group: E1 4, E2 8, E3 7, E4 8, E5 8 (of 8).
+Untrained baselines: E1 9, E2 6, E3 7, E4 6, E5 7, E6 12, E7 12, E8a 12, E8b 11 correct (chance on 4 choices; 43 scorable from E6 on).
+Starter group = 16/16 in every trained run. Transfer group: E1 4, E2 8, E3 7, E4 8, E5 8, E6 8, E7 8, E8a 8, E8b 7 (of 8).
+
+**Noise floor (E6, E8a, E8b: same corpus, same steps, seeds 42/7/2026):** correct 30/35/30, extension 6/11/7 of 19, val loss 0.89/1.23/0.90. A single-run difference of up to 5 cases is seed noise. Cases that pass under all three seeds: lang_25, lang_26, lang_27 (grammar) and lang_37 (sequence). Every other extension pass flips with the seed.
 
 ## E1 starter corpus
 H: val_loss(3000) ∈ [0.5, 1.5]; starter ≥ 12/16; transfer ≈ 4/8; extension = 0/24 with 0 scorable; nearest(customer) = {client, buyer, shopper, consumer, subscriber}.
@@ -47,3 +53,24 @@ H: the cap cuts ≈ 148 rarest types → training UNK > 0; ≥ 3 previously scor
 T: vocabulary_report.json omitted_types; eval_summary; history.
 R: 138 types cut; UNK train 0.37%, val 0.74%; scorable 32; correct 29 (best so far); grammar 2/2 (plural now .94 "are", failed in E3); opposites 2/3 (cold .0115 vs warm .0102, marginal; quiet .065); sequence 1/2 (dry .30); negation 0/1 ("missing" cut); train 0.809 vs val 1.258. PASS on cap, coverage and loss direction; correct above H; loss gap far above H.
 C: the cap silently removes the rarest words, which are exactly the one-off eval words; first real train/val gap (0.45) → the model starts memorizing the varied text; plural flipped fail → pass with no plural data change → initialization noise again, seed test needed.
+
+## E6 E5 files + coverage.txt: every missing eval word used ≥ 8 times in ordinary sentences
+H: no needed word is cut by the cap; scorable ≥ 40 (only 3 reference + 1 name case stay out); correct ≥ 31; val_loss > 1.0.
+T: vocabulary_report omitted_types ∩ needed words; eval_summary; history.
+R: 193 rare types cut, none needed; scorable 43 (44 possible; "salmon" left out of the coverage list, 2 uses fell in validation); correct 30; extension 6/19; grammar 3/3 (walked .31); opposites 1/3; negation 0/2 (closed case now fails: open .011 vs closed .003); sequence 1/3; spatial 1/3 (book .016); knowledge 0/3 with all four choices ≈ 0.000; categories 0/2; train 0.871, val 0.888. PASS coverage; FAIL correct (30 < 31) and loss (0.89 < 1.0, better than H).
+C: coverage is solved by frequency, not by trimming; but on the 19 scorable extension cases the trained model scores 6 while the untrained model scored 8 by chance → the frames teach frequent wrong words as often as right ones; untrained score now 12/48 because chance scales with coverage.
+
+## E7 E6 corpus, 6,000 steps (only change: steps ×2)
+H: train loss < 0.80; val loss does not improve (≥ 0.88), overfitting; correct within ±2 of E6's 30.
+T: history.json at 3000 vs 6000; eval_summary.
+R: train 0.752; val 0.822 (E6: 0.888; this run at step 3000: 0.838); correct 34, extension 10/19; opposites 3/3; spatial 2/3. FAIL on val direction (it improved); correct +4, outside my ±2 band.
+C: the varied corpus was under-trained at 3,000 steps, unlike the starter corpus; but +4 is inside the seed spread measured in E8, so it is not evidence by itself.
+
+## E8 E6 corpus, 3,000 steps, seeds 7 and 2026 (with E6 = seed 42, n = 3)
+H: correct varies by ≥ 2 across seeds; extension varies by ≥ 2; starter stays 16/16.
+T: same corpus, same evals; compare eval_summary across the three runs.
+R: correct 30 / 35 / 30 (spread 5); extension 6 / 11 / 7 of 19 (spread 5); starter 16/16 in all; transfer 8/8/7; val loss 0.89 / 1.23 / 0.90; passes common to all three seeds: lang_25, 26, 27, 37. PASS, all three claims.
+C: with one run per condition, differences ≤ 5 cases between experiments are not interpretable; grammar agreement and one sequence frame are the only robust learned patterns; the seed also changes the split and the panels, so val loss is not comparable across seeds either.
+
+## What I would do next
+Three seeds per condition before claiming any extension gain; a held-out set of new prompts that never guided corpus choices, to test generalization instead of this public development benchmark.

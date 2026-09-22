@@ -6,8 +6,10 @@ Author: Sebastián Bardacosta.
 I trained Karpathy's nanoGPT from scratch on my laptop, twice. The first run uses the
 classroom corpus that the notebook generates. The second run adds three small text
 files I wrote to teach opposites, grammar and negation. Both runs were tested on the
-same 48 fixed language evals before and after training. A third, optional run with
-four times more teaching text is reported at the end as an extra. The trained model answers
+same 48 fixed language evals before and after training. After the two required
+experiments I ran six more, one variable at a time, and logged each with a hypothesis
+written before the run, the metric, the result and a one-line conclusion in
+[EXPERIMENTS.md](EXPERIMENTS.md). The trained model answers
 prompts in a terminal chat. It is a tiny language model. It continues sentences. It
 does not answer questions.
 
@@ -27,6 +29,7 @@ checksum-pinned by the notebook.
 | Results, Experiment 2 | [runs/experiment2_extended/](runs/experiment2_extended/), [ZIP](runs/experiment2_extended.zip) |
 | My added teaching text, Experiment 2 | [corpus_added/](corpus_added/) (copy the three .txt files into `corpus/` to rerun) |
 | Extra: Experiment 3 (4x more corpus) | [custom_llm_experiment3_more_corpus.ipynb](custom_llm_experiment3_more_corpus.ipynb), [runs/experiment3_more_corpus/](runs/experiment3_more_corpus/), [ZIP](runs/experiment3_more_corpus.zip), [corpus_added/experiment3/](corpus_added/experiment3/) |
+| Extra: Experiments 4 to 8, log with hypotheses | [EXPERIMENTS.md](EXPERIMENTS.md); notebooks [E4](custom_llm_experiment4_new_categories.ipynb), [E5](custom_llm_experiment5_all_seven.ipynb), [E6](custom_llm_experiment6_coverage.ipynb), [E7](custom_llm_experiment7_6000steps.ipynb), [E8a](custom_llm_experiment8_seed7.ipynb), [E8b](custom_llm_experiment8_seed2026.ipynb); runs under [runs/](runs/); generators in [corpus_added/experiment4/](corpus_added/experiment4/) and [corpus_added/experiment6/](corpus_added/experiment6/) |
 | Fixed eval suite and runner | [evals/language_evals.json](evals/language_evals.json), [run_evals.py](run_evals.py) |
 | Chat interface and evidence | [chat.py](chat.py), [evidence/](evidence/) |
 | Leakage guardrail | [check_corpus.py](check_corpus.py) |
@@ -566,6 +569,41 @@ opposites or the plural case, and it did not raise the total. The chat evidence 
 from the Experiment 2 model; the Experiment 3 model is in
 [runs/experiment3_more_corpus/model.pt](runs/experiment3_more_corpus/model.pt).
 
+### Extra: Experiments 4 to 8 in one table
+
+Full log with hypothesis, test, result and conclusion per experiment:
+[EXPERIMENTS.md](EXPERIMENTS.md). Each hypothesis is also in the notebook's prediction
+cell, written before that run. The guardrail ran before every run with 0 problems.
+
+| Exp | Change | Vocab | Scorable | Correct | Val loss |
+|---|---|---:|---:|---:|---:|
+| E4 | 4 new categories only: sequence, spatial, knowledge, categories | 418 | 29 | 26 | 0.708 |
+| E5 | E3 + E4 files together, 647 types against the 509 cap | 512 | 32 | 29 | 1.258 |
+| E6 | E5 + coverage sentences, every missing eval word ≥ 8 times | 512 | 43 | 30 | 0.888 |
+| E7 | E6 corpus, 6,000 steps | 512 | 43 | 34 | 0.822 |
+| E8a | E6 corpus, seed 7 | 512 | 43 | 35 | 1.233 |
+| E8b | E6 corpus, seed 2026 | 512 | 43 | 30 | 0.901 |
+
+Three things I learned from these that I could not see in E1 to E3:
+
+- **Coverage is a frequency problem.** A word written twice can land entirely in the 10%
+  validation split and never enter the vocabulary (E4, "desk"). With 647 word types the
+  509 cap silently removes the rarest words, which are exactly the one-off eval words
+  (E5). Using each needed word at least 8 times in ordinary sentences fixed both (E6:
+  43 of 48 cases scorable; the 4 that remain need the eval names, which my rules forbid,
+  or one word I forgot, "salmon").
+- **The noise floor is about 5 cases.** Same corpus, same steps, three seeds: 30, 35 and
+  30 correct (E6, E8a, E8b). So the E7 gain from 6,000 steps (+4) and most differences
+  between experiments are inside the noise. Only four extension cases pass under all
+  three seeds: the three grammar cases and one sequence case. Those are the patterns
+  this model actually learned. Opposites, negation, spatial and knowledge cases flip
+  with the seed.
+- **Frames teach frequent wrong words too.** In E6 the trained model got 6 of the 19
+  scorable extension cases; the untrained model got 8 by chance. On the color-negation
+  case the top choice was "green", a word not in the prompt, because it was the most
+  frequent color in my file. On the knowledge cases all four choices sat at probability
+  0.000: the model had the words but no usable pattern.
+
 ### Rerun the evals on my saved model
 
 ```bash
@@ -655,18 +693,26 @@ cannot use a word it never saw.
 - The corpus_manifest.json of Experiment 2 lists exactly three files with their
   SHA-256 hashes, and the vocabulary_report.json shows 421 word types, all from the
   classroom sentences and those three files.
+- For Experiments 4 to 8 the teaching files are generated by the scripts in
+  corpus_added/experiment4 and corpus_added/experiment6 from short word lists. Words
+  from the eval answer lists (for example "am", "were", "desk", "north") appear in
+  ordinary sentences so that cases become scorable. The eval guide allows the underlying
+  words and facts to overlap and forbids the test items themselves; the guardrail
+  enforces the second part and reported 0 problems before every run. I say this plainly
+  because it is a choice a reader should be able to judge.
 
 ## One limitation and one next experiment
 
-**Limitation.** The comparison between the two experiments has one run per condition.
-The vocabulary change forces a different random initialization, so the 4/8 to 8/8
-change in the transfer group cannot be separated from initialization luck.
+**Limitation.** The comparison between the two required experiments has one run per
+condition. The vocabulary change forces a different random initialization, so the 4/8
+to 8/8 change in the transfer group cannot be separated from initialization luck. E8
+later measured that luck: same corpus, three seeds, a spread of 5 cases.
 
-**Next experiment.** Run Experiments 2 and 3 with three different seeds each and report
-the spread of the transfer and extension scores, so that a change of one or two cases
-can be told apart from noise. Experiment 3 already showed that four times more corpus
-does not fix opposites; the remaining lever within my leakage rules is many more
-contrast sentences, or accepting that pair binding is beyond this model size.
+**Next experiment.** Three seeds per condition before claiming any gain, and a small
+held-out set of new prompts that never guided my corpus choices, to test generalization
+instead of this public development benchmark. E7 also suggests the varied corpus was
+under-trained at 3,000 steps (validation loss kept falling to 6,000), which is the
+opposite of the starter corpus, where the loss was flat after 1,500.
 
 ## Embedding viewer
 
