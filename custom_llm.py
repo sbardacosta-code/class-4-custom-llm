@@ -115,6 +115,22 @@ LEARNING_RATE = 0.001
 # least 2, and the starter group to stay 16/16. Any single-run difference of 2 cases or
 # less between experiments is then noise.
 #
+# **Experiment 9 prediction (E6 corpus plus a whole public-domain book, Alice's
+# Adventures in Wonderland from Project Gutenberg, 34,000 tokens, 2,534 word types, only
+# 46% of its tokens already in the E6 vocabulary).** The 509-type cap will now be filled
+# mostly by the book's common words. Training unknown-token rate above 10%. At least 10
+# of the 43 scorable cases lose a needed word and become unscorable. Correct falls below
+# 28. Validation loss rises above 2.0 because the book's text is far less predictable
+# than templates. This is the "more corpus" advice tested on a 509-word model.
+#
+# **Experiment 10 prediction (E6 corpus plus only the 93 sentences of the same book in
+# which at least 60% of the words were already in the E6 vocabulary; 2,015 tokens, 378
+# new word types, most of them used once).** The cap cuts the new rare words, not the
+# needed eval words, because those have 8 or more uses. Training unknown-token rate
+# stays below 2%. Scorable stays at 43. Correct stays within the 5-case seed noise of
+# E6 (25 to 35). Validation loss between 0.9 and 1.1. If this holds, the damage in E9
+# came from the number of new word types, not from natural text as such.
+#
 # ## 2. Load the tools and network
 # Colab generally includes PyTorch. Locally, install requirements.txt first.
 # Setup installs the small pypdf package if absent and creates the corpus folder.

@@ -1,0 +1,1 @@
+Experiment 10 corpus = the eight Experiment 6 files plus alice_slice.txt: the sentences of Alice in Wonderland in which at least 60% of the words were already in the Experiment 6 vocabulary (93 sentences, 2,015 tokens, 378 new word types). Selected by corpus_added/experiment10/README.md's rule; see EXPERIMENTS.md E10.

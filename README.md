@@ -7,7 +7,7 @@ I trained Karpathy's nanoGPT from scratch on my laptop, twice. The first run use
 classroom corpus that the notebook generates. The second run adds three small text
 files I wrote to teach opposites, grammar and negation. Both runs were tested on the
 same 48 fixed language evals before and after training. After the two required
-experiments I ran six more, one variable at a time, and logged each with a hypothesis
+experiments I ran eight more, one variable at a time, and logged each with a hypothesis
 written before the run, the metric, the result and a one-line conclusion in
 [EXPERIMENTS.md](EXPERIMENTS.md). The trained model answers
 prompts in a terminal chat. It is a tiny language model. It continues sentences. It
@@ -29,7 +29,7 @@ checksum-pinned by the notebook.
 | Results, Experiment 2 | [runs/experiment2_extended/](runs/experiment2_extended/), [ZIP](runs/experiment2_extended.zip) |
 | My added teaching text, Experiment 2 | [corpus_added/](corpus_added/) (copy the three .txt files into `corpus/` to rerun) |
 | Extra: Experiment 3 (4x more corpus) | [custom_llm_experiment3_more_corpus.ipynb](custom_llm_experiment3_more_corpus.ipynb), [runs/experiment3_more_corpus/](runs/experiment3_more_corpus/), [ZIP](runs/experiment3_more_corpus.zip), [corpus_added/experiment3/](corpus_added/experiment3/) |
-| Extra: Experiments 4 to 8, log with hypotheses | [EXPERIMENTS.md](EXPERIMENTS.md); notebooks [E4](custom_llm_experiment4_new_categories.ipynb), [E5](custom_llm_experiment5_all_seven.ipynb), [E6](custom_llm_experiment6_coverage.ipynb), [E7](custom_llm_experiment7_6000steps.ipynb), [E8a](custom_llm_experiment8_seed7.ipynb), [E8b](custom_llm_experiment8_seed2026.ipynb); runs under [runs/](runs/); generators in [corpus_added/experiment4/](corpus_added/experiment4/) and [corpus_added/experiment6/](corpus_added/experiment6/) |
+| Extra: Experiments 4 to 10, log with hypotheses | [EXPERIMENTS.md](EXPERIMENTS.md); notebooks [E4](custom_llm_experiment4_new_categories.ipynb), [E5](custom_llm_experiment5_all_seven.ipynb), [E6](custom_llm_experiment6_coverage.ipynb), [E7](custom_llm_experiment7_6000steps.ipynb), [E8a](custom_llm_experiment8_seed7.ipynb), [E8b](custom_llm_experiment8_seed2026.ipynb), [E9](custom_llm_experiment9_alice_raw.ipynb), [E10](custom_llm_experiment10_alice_slice.ipynb); runs under [runs/](runs/); generators in [corpus_added/experiment4/](corpus_added/experiment4/) and [corpus_added/experiment6/](corpus_added/experiment6/); book text in [corpus_added/experiment9/](corpus_added/experiment9/) and [corpus_added/experiment10/](corpus_added/experiment10/) |
 | Fixed eval suite and runner | [evals/language_evals.json](evals/language_evals.json), [run_evals.py](run_evals.py) |
 | Chat interface and evidence | [chat.py](chat.py), [evidence/](evidence/) |
 | Leakage guardrail | [check_corpus.py](check_corpus.py) |
@@ -82,7 +82,10 @@ Experiment 2 [corpus_manifest.json](runs/experiment2_extended/corpus_manifest.js
 The classroom corpus is synthetic. Section 3 of the notebook generates sentences from
 8 templates and 8 domains. My three files are plain UTF-8 text that I wrote for this
 assignment, so there are no permission issues. There are no PDFs, so there were no
-extraction warnings. The manifest shows 0 warnings for each file.
+extraction warnings. The manifest shows 0 warnings for each file. The only external
+text, used in the extra experiments E9 and E10, is Alice's Adventures in Wonderland
+from Project Gutenberg (ebook 11, public domain in the United States); the raw file and
+the cleaned text are in [corpus_added/experiment9/](corpus_added/experiment9/).
 
 ## Prediction and what happened
 
@@ -569,7 +572,7 @@ opposites or the plural case, and it did not raise the total. The chat evidence 
 from the Experiment 2 model; the Experiment 3 model is in
 [runs/experiment3_more_corpus/model.pt](runs/experiment3_more_corpus/model.pt).
 
-### Extra: Experiments 4 to 8 in one table
+### Extra: Experiments 4 to 10 in one table
 
 Full log with hypothesis, test, result and conclusion per experiment:
 [EXPERIMENTS.md](EXPERIMENTS.md). Each hypothesis is also in the notebook's prediction
@@ -583,8 +586,10 @@ cell, written before that run. The guardrail ran before every run with 0 problem
 | E7 | E6 corpus, 6,000 steps | 512 | 43 | 34 | 0.822 |
 | E8a | E6 corpus, seed 7 | 512 | 43 | 35 | 1.233 |
 | E8b | E6 corpus, seed 2026 | 512 | 43 | 30 | 0.901 |
+| E9 | E6 corpus + a whole public-domain book (Alice in Wonderland, 2,534 word types) | 512 | 25 | 25 | 1.886 |
+| E10 | E6 corpus + 90 sentences of that book with mostly known words | 512 | 42 | 30 | 0.758 |
 
-Three things I learned from these that I could not see in E1 to E3:
+Four things I learned from these that I could not see in E1 to E3:
 
 - **Coverage is a frequency problem.** A word written twice can land entirely in the 10%
   validation split and never enter the vocabulary (E4, "desk"). With 647 word types the
@@ -603,6 +608,14 @@ Three things I learned from these that I could not see in E1 to E3:
   case the top choice was "green", a word not in the prompt, because it was the most
   frequent color in my file. On the knowledge cases all four choices sat at probability
   0.000: the model had the words but no usable pattern.
+- **"Give it more corpus" does not mean a book.** E9 added Alice's Adventures in
+  Wonderland (Project Gutenberg, public domain, header and footer removed). Only 46% of
+  its tokens were already in my vocabulary. The 509-word cap then kept the book's common
+  words and cut 2,471 types, including the eval words: scorable cases fell from 43 to 25,
+  the unknown-token rate went to 8.2%, and the samples filled with UNK. E10 added only
+  the 90 sentences of the book whose words were mostly known: nothing broke (42 scorable,
+  30 correct, 1.4% unknown), and nothing improved. With this tokenizer, more corpus only
+  helps as more sentences over the same words, and that helps coverage, not reasoning.
 
 ### Rerun the evals on my saved model
 

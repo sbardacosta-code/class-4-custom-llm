@@ -18,6 +18,8 @@ E1 and E2 are the required experiments; E3 onward are extras.
 | E7 | E6 corpus, **6,000 steps** | 512 | 43 | 34 | 70.8% | 0.822 | [runs/experiment7_6000steps](runs/experiment7_6000steps/) |
 | E8a | E6 corpus, **seed 7** | 512 | 43 | 35 | 72.9% | 1.233 | [runs/experiment8_seed7](runs/experiment8_seed7/) |
 | E8b | E6 corpus, **seed 2026** | 512 | 43 | 30 | 62.5% | 0.901 | [runs/experiment8_seed2026](runs/experiment8_seed2026/) |
+| E9 | E6 corpus + a whole book (Alice in Wonderland, 34k tokens, 2,534 types) | 512 | 25 | 25 | 52.1% | 1.886 | [runs/experiment9_alice_raw](runs/experiment9_alice_raw/) |
+| E10 | E6 corpus + 90 sentences of the same book with ≥ 60% known words (378 new types) | 512 | 42 | 30 | 62.5% | 0.758 | [runs/experiment10_alice_slice](runs/experiment10_alice_slice/) |
 
 Untrained baselines: E1 9, E2 6, E3 7, E4 6, E5 7, E6 12, E7 12, E8a 12, E8b 11 correct (chance on 4 choices; 43 scorable from E6 on).
 Starter group = 16/16 in every trained run. Transfer group: E1 4, E2 8, E3 7, E4 8, E5 8, E6 8, E7 8, E8a 8, E8b 7 (of 8).
@@ -72,5 +74,19 @@ T: same corpus, same evals; compare eval_summary across the three runs.
 R: correct 30 / 35 / 30 (spread 5); extension 6 / 11 / 7 of 19 (spread 5); starter 16/16 in all; transfer 8/8/7; val loss 0.89 / 1.23 / 0.90; passes common to all three seeds: lang_25, 26, 27, 37. PASS, all three claims.
 C: with one run per condition, differences ≤ 5 cases between experiments are not interpretable; grammar agreement and one sequence frame are the only robust learned patterns; the seed also changes the split and the panels, so val loss is not comparable across seeds either.
 
+## E9 E6 corpus + one whole public-domain book ("more corpus" tested literally)
+Source: Alice's Adventures in Wonderland, Project Gutenberg #11, header and footer removed, 942 sentences → 1,483 unique passages. Guardrail: 0 problems, 201 warnings. Only 46% of the book's tokens were already in the E6 vocabulary.
+H: training UNK > 10%; ≥ 10 of the 43 scorable cases lose a needed word; correct < 28; val_loss > 2.0.
+T: vocabulary_report (omitted_types, unknown rates); eval_summary; history; samples.
+R: 2,980 types → 2,471 cut; UNK train 8.2%, val 7.3%; scorable 43 → 25 (18 lost; every extension case but one needs a cut word: dogs, walking, warm, yellow, desk, ice, umbrella, kitten...); correct 25 = E2's score; starter 16/16, transfer 8/8; train 1.769, val 1.886; samples at step 3000 contain <UNK> in 2 of 4 lines. PASS on coverage loss and correct; UNK and loss slightly below the thresholds I wrote (8.2% vs 10%, 1.89 vs 2.0).
+C: with a 509-word cap, a real book replaces the eval vocabulary with the book's common words; "more corpus" only helps if its word types fit the cap, which no natural text does (best filter: 93 of 942 sentences still add 378 new types).
+
+## E10 E6 corpus + a 90-sentence slice of the same book (dose test)
+Slice rule: sentences in which ≥ 60% of the words were already in the E6 vocabulary (90 unique of 942; 2,015 tokens; 378 new types, most used once). Guardrail: 0 problems, 195 warnings.
+H: the cap cuts the new rare words, not the needed eval words (≥ 8 uses); UNK train < 2%; scorable stays 43; correct within E6's seed band (25 to 35); val_loss ∈ [0.9, 1.1].
+T: same as E9.
+R: 1,023 types → 514 cut; UNK train 1.4%, val 2.1%; scorable 42 ("uses" fell under the cut line at 8 uses; the cut line moved up); correct 30, extension 6/18; grammar 3/3; passes lang_25, 26, 27, 37, 45, 48; train 0.839, val 0.758. PASS on UNK, correct and the mechanism; scorable 42 not 43; val loss below the band (better).
+C: the E9 damage was proportional to the number of new word types, not to natural text as such; but the cut line rises with every added type, so "≥ 8 uses" is only safe at E6's size; a small slice of natural text neither helped nor hurt the evals.
+
 ## What I would do next
-Three seeds per condition before claiming any extension gain; a held-out set of new prompts that never guided corpus choices, to test generalization instead of this public development benchmark.
+Three seeds per condition before claiming any extension gain; a held-out set of new prompts that never guided corpus choices, to test generalization instead of this public development benchmark. "More corpus" in the sense of a book or scraped text (E9) is ruled out by the 509-type cap; more corpus in the sense of more sentences over the same words (E3, E6, E7) is the only version that helps, and it helps coverage more than reasoning.
