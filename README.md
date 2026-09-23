@@ -585,6 +585,9 @@ from the Experiment 2 model; the Experiment 3 model is in
 
 ### Extra: Experiments 4 to 21 in one table
 
+Counts and a ranking of all 21 experiments by quality of evidence are at the top of
+[EXPERIMENTS.md](EXPERIMENTS.md#summary).
+
 Full log with hypothesis, test, result and conclusion per experiment:
 [EXPERIMENTS.md](EXPERIMENTS.md). Each hypothesis is also in the notebook's prediction
 cell, written before that run. The guardrail ran before every run with 0 problems.

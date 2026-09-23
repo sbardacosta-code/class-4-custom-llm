@@ -7,6 +7,38 @@ corpus always included. n = 1 run per condition unless stated. "scorable" = case
 prompt and all 4 choices are in the vocabulary; "correct" = 4-choice score over 48.
 E1 and E2 are the required experiments; E3 onward are extras.
 
+## Summary
+
+| Count | |
+|---|---:|
+| Experiments (E1 to E21) | 21 |
+| Training runs (plus one 10-step smoke test) | 23 |
+| Runs with a hypothesis written in the notebook before training | 23 of 23 |
+| Guardrail checks before training, problems found on the run that trained | 23, 0 |
+| Runs blocked by the guardrail (E13, first attempt, exact prompts inside a book) | 1 |
+| Leakage audits of the actual training text, all clean | 23 |
+| Corpora tested with 3 seeds | 2 (E6, E14) |
+| Held-out prompts never seen in training, models scored on them | 14, 7 |
+| Best public-suite score / best held-out score | 37 of 48 (E16a) / 10 of 14 (E16b) |
+| Predictions that held fully / partly / failed, by my reading of each entry | 9 / 7 / 5 |
+
+## Ranking by quality of evidence
+
+Criteria: replicated across seeds or on held-out prompts; effect larger than the 5-case seed noise; prediction written before the run; what it changes in the conclusions.
+
+| Rank | Experiments | Finding | Why this rank |
+|---|---|---|---|
+| 1 | E14, E16, E21 | A generated in-vocabulary corpus raises the score from 31.7 to 35.7 on average, and its patterns transfer to new prompts at 62% (chance 25%) | 3 seeds, pre-registered criterion, independent held-out test |
+| 2 | E6, E8 | Coverage is a word-frequency problem (43 of 48 scorable once every needed word has 8 uses); the seed noise floor is 5 cases | 3 seeds; explains every later comparison |
+| 3 | E1, E2 | Starter corpus learns its templates fully; extension is impossible without vocabulary | Required experiments; all E1 predictions held; E2's failure diagnosed the coverage rule |
+| 4 | E9, E13, E12, E10 | "More corpus" as books or scraped text breaks the model in proportion to new word types (UNK 8% to 13%, coverage 43 → 25 to 33); a small slice is harmless | 4 runs, dose-response, one blocked attempt showing accidental prompts in real text |
+| 5 | E18a, E18b | Learning rate ×3 harmless, ÷3 under-trains (31, first starter loss) | Single runs, but the ÷3 effect is outside the noise band |
+| 6 | E11, E15 | Near-miss sentences carry coverage not score; the classroom corpus is what makes starter cases scorable and prevents overfitting | Single runs, clear mechanisms, answer specific doubts |
+| 7 | E3, E4, E5 | Diagnosed the three coverage traps: distractor words, words falling into the validation split, the 509 cap | Single runs; their value is the diagnosis that led to E6 |
+| 8 | E7, E17, E19, E20 | Steps, more generated sentences, batch size: no effect beyond noise | Single runs; E7's apparent +4 later shown to be noise; E20 ran on the wrong corpus |
+
+What would raise the ranking further: three seeds for E18 and E19, a second held-out set written by someone else, and a fix for the four cases that stay unscorable under the eval guide's own naming rule.
+
 | Exp | Added corpus | Vocab | Scorable | Correct | All-case | Val loss | Run |
 |---|---|---:|---:|---:|---:|---:|---|
 | E1 | none | 136 | 24 | 20 | 41.7% | 0.706 | [runs/experiment1_starter](runs/experiment1_starter/) |
