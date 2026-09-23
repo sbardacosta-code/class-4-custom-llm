@@ -1,0 +1,16 @@
+{
+  "model_sha256": "44a424a1632f2fbdbc9606a8d8f92946ab2456b7113bad74229b3ed46f8a34b1",
+  "completed_steps": 3000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "the customer",
+      "seed": 2026,
+      "response": "returned the brand after checking the price .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    }
+  ]
+}

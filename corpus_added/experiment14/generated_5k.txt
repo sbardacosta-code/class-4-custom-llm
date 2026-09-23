@@ -1,0 +1,3326 @@
+the cup is hot but the plate is cold .
+my sister did open the bag first and pack the shirt second , so the later action is pack .
+my sister eats supper after lunch , the earlier one is lunch .
+the cup is not blue , it is brown , so the cup is brown .
+the box is full but the letter is empty .
+the key is big but the coat is small .
+the spoon is not white , it is red , so the spoon is red .
+the opposite of heavy is light .
+the box is open but the pillow is closed .
+the child saw that wood is hard .
+the key is wet but the box is dry .
+the kite is full but the pillow is empty .
+the key is red , not green .
+the box is long but the key is short .
+the teacher did not buy rice , she bought beans , so she bought beans .
+two cats were at the school .
+one duck is at the market .
+the shirt is full but the key is empty .
+the driver did not buy soup , he bought cheese , so he bought cheese .
+the spoon is not brown , it is grey , so the spoon is grey .
+when it is not wet it is dry .
+one frog is at the market .
+the boy did not buy fish , he bought beans , so he bought beans .
+the coat is clean but the letter is dirty .
+my aunt did not buy juice , she bought beans , so she bought beans .
+the letter is full but the shirt is empty .
+my sister bought soup , not apples .
+the book is heavy but the scarf is light .
+the student bought juice , not coffee .
+the nurse saw that the lake freezes in winter .
+the lamp is red , not grey .
+the ball is wet but the key is dry .
+the hat is red , not yellow .
+the coat is not black , it is green , so the coat is green .
+two horses were at the office .
+the cook saw that the room is dark at night .
+the key is open but the chair is closed .
+one duck is at the station .
+the coat is not brown , it is green , so the coat is green .
+the boy bought cheese , not beans .
+the spoon is old but the key is new .
+the key is heavy but the shoe is light .
+the cup is wet but the spoon is dry .
+the key is noisy but the coat is quiet .
+the shirt is not grey , it is blue , so the shirt is blue .
+the pillow is wet but the spoon is dry .
+the boy saw a chick , a chick is a young hen .
+the driver saw a lamb , a lamb is a young sheep .
+the key is clean but the coat is dirty .
+yesterday the nurse cleaned the kitchen .
+the teacher did not buy fish , she bought grapes , so she bought grapes .
+the driver did open the bag first and pack the shirt second , so the later action is pack .
+the scarf is wet but the key is dry .
+the student did not buy grapes , he bought apples , so he bought apples .
+the child bought grapes , not soup .
+the cup is big but the shoe is small .
+the scarf is heavy but the box is light .
+the ball is full but the shirt is empty .
+the kite is not grey , it is red , so the kite is red .
+the farmer did read the letter first and sign it second , so the later action is sign .
+the nurse bought grapes , not apples .
+the opposite of near is far .
+one horse is by the river .
+two frogs were at the bank .
+the chair is clean but the cup is dirty .
+the driver saw a chick , a chick is a young hen .
+the cook saw that a cow eats grass .
+the bag is old but the coat is new .
+one duck is at the school .
+when it is not thick it is thin .
+today the farmer walks to the market and yesterday the farmer walked to the market too .
+the farmer bought soup , not beans .
+three dogs were in the kitchen .
+the scarf is red , not grey .
+the lamp is yellow , not blue .
+my sister bought apples , not rice .
+the cook bought apples , not cake .
+the book is full but the kite is empty .
+the scarf is clean but the lamp is dirty .
+the ball is hot but the plate is cold .
+the ball is grey , not brown .
+the child saw a chick , a chick is a young hen .
+when it is not loud it is silent .
+my aunt did clean the brush first and paint the wall second , so the later action is paint .
+the chair is noisy but the spoon is quiet .
+my sister did clean the brush first and paint the wall second , so the later action is paint .
+the goats are at the office .
+the lamp is white , not black .
+two cats were in the garden .
+the kite is long but the lamp is short .
+the book is wet but the pillow is dry .
+the student did not buy juice , he bought beans , so he bought beans .
+the spoon is clean but the chair is dirty .
+a bird is in the kitchen .
+the shoe is grey , not green .
+the box is full but the coat is empty .
+the child saw that the dog is hungry .
+the shirt is open but the scarf is closed .
+the driver bought coffee , not beans .
+the girl did read the letter first and sign it second , so the later action is sign .
+the bag is not white , it is red , so the bag is red .
+the teacher eats supper after lunch , the earlier one is lunch .
+the scarf is not grey , it is yellow , so the scarf is yellow .
+my sister saw that a cow eats grass .
+the ball is not black , it is white , so the ball is white .
+the horse is at the school .
+the bag is not grey , it is blue , so the bag is blue .
+the letter is not blue , it is green , so the letter is green .
+the hat is clean but the key is dirty .
+the scarf is not black , it is brown , so the scarf is brown .
+the girl saw a lamb , a lamb is a young sheep .
+the cup is to the left of the hat , so the hat is to the right of the cup .
+the nurse bought rice , not fish .
+the ducks are in the park .
+the student did not buy cheese , he bought bread , so he bought bread .
+yesterday the driver talked about rivers .
+the boy did not buy apples , he bought cheese , so he bought cheese .
+the girl saw a kitten , a kitten is a young cat .
+the book is not white , it is grey , so the book is grey .
+three dogs were at the office .
+the farmer did not buy juice , he bought beans , so he bought beans .
+the letter is not grey , it is black , so the letter is black .
+the bag is open but the pillow is closed .
+the key is heavy but the spoon is light .
+the shirt is blue , not grey .
+the chair is to the left of the cup , so the cup is to the right of the chair .
+the scarf is black , not blue .
+the cup is clean but the lamp is dirty .
+the frog is at the market .
+the pillow is not yellow , it is brown , so the pillow is brown .
+the lamp is not blue , it is yellow , so the lamp is yellow .
+the shirt is big but the shoe is small .
+the coat is inside the letter , so the letter contains the coat .
+the box is open but the letter is closed .
+the pillow is full but the key is empty .
+the cup is hot but the kite is cold .
+the teacher saw a calf , a calf is a young cow .
+the cook bought bread , not cake .
+the boy saw a lamb , a lamb is a young sheep .
+the plate is brown , not blue .
+the scarf is open but the pillow is closed .
+the lamp is green , not grey .
+three dogs were on the roof .
+the frogs are at the office .
+the shirt is heavy but the key is light .
+the hat is to the left of the shirt , so the shirt is to the right of the hat .
+two dogs are in the kitchen .
+the book is big but the plate is small .
+the girl bought apples , not grapes .
+the pillow is noisy but the plate is quiet .
+the chair is grey , not brown .
+one horse is in the kitchen .
+the chair is open but the ball is closed .
+my sister saw that the ice is cold .
+the frogs are on the roof .
+my sister did not buy coffee , she bought beans , so she bought beans .
+the pillow is heavy but the ball is light .
+the driver bought grapes , not fish .
+the lamp is green , not brown .
+the bag is grey , not blue .
+the teacher did not buy cake , she bought apples , so she bought apples .
+the shoe is grey , not brown .
+the lamp is full but the scarf is empty .
+the driver saw a kitten , a kitten is a young cat .
+the plate is full but the spoon is empty .
+the kite is long but the spoon is short .
+the letter is hot but the chair is cold .
+the kite is full but the lamp is empty .
+the book is noisy but the ball is quiet .
+the cup is yellow , not blue .
+the pillow is hot but the kite is cold .
+the scarf is white , not yellow .
+the letter is big but the key is small .
+the key is white , not yellow .
+the letter is full but the hat is empty .
+the letter is above the cup , so the cup is below the letter .
+the box is long but the letter is short .
+the scarf is grey , not red .
+the letter is old but the cup is new .
+the nurse did not buy fish , she bought juice , so she bought juice .
+two cows were in the kitchen .
+the coat is not black , it is grey , so the coat is grey .
+the shirt is big but the bag is small .
+the key is not brown , it is grey , so the key is grey .
+the key is noisy but the hat is quiet .
+one frog is at the office .
+the shirt is full but the letter is empty .
+the bag is yellow , not blue .
+yesterday the teacher played football .
+my aunt did not buy cake , she bought juice , so she bought juice .
+a bird is by the river .
+the shoe is above the kite , so the kite is below the shoe .
+the coat is open but the scarf is closed .
+the student did light the fire first and cook the rice second , so the later action is cook .
+my uncle did open the bag first and pack the shirt second , so the later action is pack .
+the teacher bought juice , not apples .
+the kite is to the left of the cup , so the cup is to the right of the kite .
+yesterday my sister walked to the market .
+the horses are at the school .
+the chair is old but the box is new .
+my sister did not buy beans , she bought cake , so she bought cake .
+the lamp is hot but the plate is cold .
+the shoe is not grey , it is yellow , so the shoe is yellow .
+the lamp is big but the book is small .
+the child did not buy cake , she bought rice , so she bought rice .
+the student bought beans , not cake .
+the shirt is noisy but the bag is quiet .
+the nurse did not buy bread , she bought fish , so she bought fish .
+the hat is not black , it is white , so the hat is white .
+the scarf is wet but the book is dry .
+the book is not grey , it is blue , so the book is blue .
+the opposite of night is day .
+the shirt is long but the lamp is short .
+the scarf is grey , not black .
+the lamp is open but the shirt is closed .
+the nurse bought beans , not coffee .
+yesterday my uncle talked about rivers .
+the spoon is open but the lamp is closed .
+the girl bought fish , not grapes .
+the teacher did not buy cheese , she bought cake , so she bought cake .
+the farmer did not buy cheese , he bought apples , so he bought apples .
+yesterday the girl cleaned the kitchen .
+the ball is long but the kite is short .
+one cat is at the beach .
+the farmer saw a puppy , a puppy is a young dog .
+the pillow is yellow , not blue .
+today my aunt walks to the market and yesterday my aunt walked to the market too .
+the cats are in the barn .
+the plate is noisy but the coat is quiet .
+the chair is not brown , it is grey , so the chair is grey .
+the scarf is not grey , it is white , so the scarf is white .
+the scarf is inside the pillow , so the pillow contains the scarf .
+the coat is wet but the kite is dry .
+the shoe is open but the pillow is closed .
+the box is clean but the kite is dirty .
+my aunt did not buy beans , she bought apples , so she bought apples .
+the cup is not red , it is yellow , so the cup is yellow .
+the letter is noisy but the shoe is quiet .
+the plate is black , not blue .
+the box is heavy but the pillow is light .
+the horses are by the river .
+the spoon is above the scarf , so the scarf is below the spoon .
+my aunt saw a lamb , a lamb is a young sheep .
+the opposite of dry is wet .
+the coat is open but the box is closed .
+the lamp is full but the kite is empty .
+the girl did not buy apples , she bought bread , so she bought bread .
+my sister bought rice , not bread .
+the child bought fish , not cake .
+the scarf is not green , it is brown , so the scarf is brown .
+the ball is open but the book is closed .
+the shirt is long but the hat is short .
+the student did not buy fish , he bought coffee , so he bought coffee .
+the cows are at the office .
+the kite is heavy but the plate is light .
+the lamp is open but the box is closed .
+the shirt is heavy but the pillow is light .
+the shoe is yellow , not grey .
+the plate is inside the scarf , so the scarf contains the plate .
+the teacher bought apples , not rice .
+the student bought cake , not cheese .
+the coat is not green , it is grey , so the coat is grey .
+the kite is old but the scarf is new .
+the coat is hot but the lamp is cold .
+the cat is at the office .
+the goat is at the market .
+the book is not brown , it is grey , so the book is grey .
+the chair is not brown , it is yellow , so the chair is yellow .
+two goats were at the beach .
+the student bought apples , not fish .
+the ball is heavy but the key is light .
+the kite is open but the bag is closed .
+the ball is green , not yellow .
+my sister bought beans , not coffee .
+the plate is white , not yellow .
+the opposite of thin is thick .
+the pillow is hot but the spoon is cold .
+the driver bought cheese , not coffee .
+the book is blue , not green .
+the coat is clean but the key is dirty .
+the nurse bought bread , not cheese .
+the child bought cake , not grapes .
+the driver saw that the lake freezes in winter .
+the ball is hot but the bag is cold .
+the bag is grey , not white .
+the scarf is hot but the spoon is cold .
+the ball is big but the cup is small .
+the plate is not brown , it is red , so the plate is red .
+the plate is clean but the shirt is dirty .
+the plate is not blue , it is green , so the plate is green .
+the boy bought beans , not soup .
+the driver did not buy grapes , he bought fish , so he bought fish .
+the book is open but the ball is closed .
+the hat is full but the coat is empty .
+the scarf is old but the kite is new .
+my aunt did not buy fish , she bought apples , so she bought apples .
+the kite is old but the plate is new .
+two dogs are in the park .
+the shoe is full but the box is empty .
+the lamp is blue , not grey .
+the shoe is above the key , so the key is below the shoe .
+the girl did clean the brush first and paint the wall second , so the later action is paint .
+two ducks were at the station .
+the key is not green , it is brown , so the key is brown .
+my uncle saw a kitten , a kitten is a young cat .
+the book is old but the pillow is new .
+the shoe is old but the plate is new .
+the chair is old but the pillow is new .
+the scarf is full but the box is empty .
+the scarf is inside the shoe , so the shoe contains the scarf .
+the student did not buy soup , he bought bread , so he bought bread .
+the letter is long but the pillow is short .
+the ball is hot but the scarf is cold .
+the ball is hot but the spoon is cold .
+the kite is yellow , not brown .
+two frogs were in the barn .
+the bag is blue , not red .
+the scarf is open but the ball is closed .
+the lamp is clean but the hat is dirty .
+the cook saw that the lake freezes in winter .
+the farmer did not buy coffee , he bought bread , so he bought bread .
+the box is open but the book is closed .
+the horse is at the beach .
+the child bought coffee , not cake .
+the cup is not grey , it is brown , so the cup is brown .
+one cow is at the station .
+the letter is to the left of the plate , so the plate is to the right of the letter .
+the shirt is full but the pillow is empty .
+the cup is not brown , it is white , so the cup is white .
+yesterday the cook talked about rivers .
+the bag is clean but the scarf is dirty .
+yesterday the child cooked dinner .
+the book is heavy but the box is light .
+the girl bought cheese , not beans .
+the box is big but the spoon is small .
+the frogs are at the market .
+yesterday my aunt played football .
+my uncle saw that the room is dark at night .
+the spoon is grey , not brown .
+the child saw that a cow eats grass .
+the nurse did not buy rice , she bought bread , so she bought bread .
+the coat is hot but the hat is cold .
+the kite is noisy but the coat is quiet .
+the driver did lock the gate first and feed the goat second , so the later action is feed .
+the nurse did not buy apples , she bought juice , so she bought juice .
+the teacher did open the bag first and pack the shirt second , so the later action is pack .
+the student eats dinner after lunch , the earlier one is lunch .
+the key is wet but the ball is dry .
+yesterday the teacher painted the fence .
+the plate is open but the bag is closed .
+the duck is at the beach .
+the hat is not yellow , it is red , so the hat is red .
+the driver did light the fire first and cook the rice second , so the later action is cook .
+the bag is not white , it is grey , so the bag is grey .
+the letter is wet but the box is dry .
+the book is long but the shirt is short .
+the opposite of silent is loud .
+the shoe is inside the cup , so the cup contains the shoe .
+the teacher bought cake , not beans .
+the box is wet but the lamp is dry .
+the bag is not black , it is blue , so the bag is blue .
+a bird is at the beach .
+the girl bought grapes , not coffee .
+my uncle bought soup , not beans .
+the spoon is clean but the kite is dirty .
+the letter is full but the lamp is empty .
+the shirt is red , not white .
+the key is wet but the kite is dry .
+the bag is clean but the ball is dirty .
+when it is not strong it is weak .
+today the student walks to the market and yesterday the student walked to the market too .
+the plate is not blue , it is black , so the plate is black .
+the book is green , not red .
+the shirt is full but the bag is empty .
+the plate is heavy but the lamp is light .
+the shoe is big but the spoon is small .
+the pillow is not yellow , it is red , so the pillow is red .
+the chair is not white , it is red , so the chair is red .
+the hat is yellow , not brown .
+the nurse bought grapes , not soup .
+the key is old but the lamp is new .
+the chair is above the shoe , so the shoe is below the chair .
+the hat is long but the box is short .
+the spoon is long but the chair is short .
+the scarf is not brown , it is red , so the scarf is red .
+the spoon is not green , it is black , so the spoon is black .
+the child did not buy coffee , she bought apples , so she bought apples .
+the coat is hot but the cup is cold .
+the shirt is white , not brown .
+the ball is long but the shoe is short .
+the cook saw a lamb , a lamb is a young sheep .
+the shirt is old but the plate is new .
+my sister bought bread , not cheese .
+the boy bought cheese , not apples .
+the frogs are at the bank .
+the chair is heavy but the kite is light .
+the key is long but the lamp is short .
+the duck is at the school .
+the boy did not buy beans , he bought cheese , so he bought cheese .
+one frog is at the bank .
+one horse is on the roof .
+the letter is clean but the box is dirty .
+the driver did not buy coffee , he bought cheese , so he bought cheese .
+the book is wet but the ball is dry .
+yesterday the teacher cleaned the kitchen .
+the ball is long but the book is short .
+yesterday my sister painted the fence .
+the opposite of dirty is clean .
+the letter is full but the bag is empty .
+the coat is yellow , not green .
+the driver bought beans , not apples .
+the shirt is old but the book is new .
+the hat is old but the box is new .
+the chair is to the left of the key , so the key is to the right of the chair .
+the ball is heavy but the lamp is light .
+the cook did open the bag first and pack the shirt second , so the later action is pack .
+my sister eats dinner after lunch , the earlier one is lunch .
+the spoon is full but the shoe is empty .
+the lamp is open but the plate is closed .
+the cat is by the river .
+yesterday the driver walked to the market .
+the frogs are in the garden .
+my aunt saw that the room is dark at night .
+two goats were at the school .
+the lamp is brown , not green .
+the hat is inside the pillow , so the pillow contains the hat .
+the girl bought fish , not cake .
+the kite is hot but the lamp is cold .
+the coat is not yellow , it is brown , so the coat is brown .
+the key is not grey , it is red , so the key is red .
+the plate is blue , not grey .
+the cats are at the station .
+the teacher did clean the brush first and paint the wall second , so the later action is paint .
+my uncle bought rice , not soup .
+the pillow is not white , it is blue , so the pillow is blue .
+the child eats dinner after lunch , the earlier one is lunch .
+the cup is old but the shoe is new .
+the chair is above the key , so the key is below the chair .
+the driver did not buy soup , he bought fish , so he bought fish .
+yesterday the farmer cleaned the kitchen .
+my sister did not buy rice , she bought beans , so she bought beans .
+the ball is full but the box is empty .
+the scarf is open but the shoe is closed .
+the farmer bought coffee , not cheese .
+the bag is wet but the hat is dry .
+the book is not blue , it is brown , so the book is brown .
+the bag is open but the shirt is closed .
+my sister bought cake , not beans .
+the child saw that the lake freezes in winter .
+the coat is full but the lamp is empty .
+the hat is heavy but the scarf is light .
+the book is hot but the bag is cold .
+the coat is heavy but the bag is light .
+the shoe is not yellow , it is red , so the shoe is red .
+the shoe is to the left of the letter , so the letter is to the right of the shoe .
+the book is blue , not red .
+the kite is not grey , it is green , so the kite is green .
+the shirt is wet but the pillow is dry .
+the boy eats dinner after lunch , the earlier one is lunch .
+the cup is yellow , not red .
+the shoe is inside the key , so the key contains the shoe .
+the key is clean but the hat is dirty .
+the key is black , not yellow .
+the lamp is hot but the spoon is cold .
+the book is old but the bag is new .
+the plate is not green , it is brown , so the plate is brown .
+the key is green , not grey .
+the letter is noisy but the key is quiet .
+one cow is by the river .
+the plate is old but the lamp is new .
+the ball is full but the spoon is empty .
+the ball is long but the spoon is short .
+the pillow is long but the scarf is short .
+the opposite of strong is weak .
+two cows were at the market .
+my aunt did not buy fish , she bought cake , so she bought cake .
+the key is to the left of the shoe , so the shoe is to the right of the key .
+one horse is at the bank .
+the lamp is wet but the chair is dry .
+the box is heavy but the shirt is light .
+the scarf is clean but the coat is dirty .
+the teacher did not buy coffee , she bought cheese , so she bought cheese .
+the goats are at the beach .
+a dog is at the bank .
+my aunt did lock the gate first and feed the goat second , so the later action is feed .
+the goats are on the roof .
+when it is not soft it is hard .
+the duck is on the roof .
+the cup is brown , not blue .
+the coat is clean but the shoe is dirty .
+my uncle bought cheese , not bread .
+two cats were on the roof .
+the chair is inside the hat , so the hat contains the chair .
+the driver bought grapes , not coffee .
+the student bought coffee , not fish .
+the teacher bought soup , not beans .
+the nurse did not buy beans , she bought soup , so she bought soup .
+the girl bought apples , not rice .
+my sister bought grapes , not coffee .
+the key is above the pillow , so the pillow is below the key .
+the letter is open but the kite is closed .
+the key is grey , not brown .
+the letter is old but the shoe is new .
+the shirt is old but the chair is new .
+the cup is heavy but the kite is light .
+the plate is long but the hat is short .
+the chair is clean but the spoon is dirty .
+the ball is wet but the plate is dry .
+the key is long but the ball is short .
+the girl saw a chick , a chick is a young hen .
+the shoe is grey , not white .
+the opposite of clean is dirty .
+the ball is clean but the kite is dirty .
+the driver did not buy apples , he bought cake , so he bought cake .
+the pillow is full but the book is empty .
+the horse is in the barn .
+the teacher bought beans , not rice .
+the cook bought beans , not cake .
+one goat is at the market .
+the scarf is blue , not brown .
+the cook did not buy fish , he bought grapes , so he bought grapes .
+the teacher bought juice , not beans .
+the plate is not red , it is yellow , so the plate is yellow .
+the scarf is long but the pillow is short .
+the chair is not white , it is grey , so the chair is grey .
+the book is old but the letter is new .
+the driver did not buy beans , he bought grapes , so he bought grapes .
+yesterday the cook cleaned the kitchen .
+the bag is not green , it is white , so the bag is white .
+the lamp is long but the scarf is short .
+the farmer did not buy apples , he bought bread , so he bought bread .
+two frogs were by the river .
+one cat is by the river .
+the teacher did not buy beans , she bought soup , so she bought soup .
+the chair is blue , not red .
+the nurse did not buy beans , she bought apples , so she bought apples .
+the key is full but the letter is empty .
+the plate is grey , not green .
+the ball is heavy but the letter is light .
+the cook saw a chick , a chick is a young hen .
+the nurse saw a chick , a chick is a young hen .
+the coat is big but the shoe is small .
+the nurse saw that the room is dark at night .
+the spoon is above the hat , so the hat is below the spoon .
+the farmer did not buy juice , he bought grapes , so he bought grapes .
+the scarf is above the spoon , so the spoon is below the scarf .
+my sister bought cake , not grapes .
+the key is clean but the shirt is dirty .
+two cats were at the market .
+the box is long but the chair is short .
+my sister bought beans , not soup .
+my uncle saw a cub , a cub is a young bear .
+the student bought bread , not beans .
+the pillow is hot but the book is cold .
+the scarf is to the left of the kite , so the kite is to the right of the scarf .
+the scarf is not white , it is black , so the scarf is black .
+my uncle did not buy bread , he bought cheese , so he bought cheese .
+the driver did not buy bread , he bought cheese , so he bought cheese .
+the letter is old but the bag is new .
+the letter is long but the bag is short .
+the scarf is old but the bag is new .
+yesterday the child walked to the market .
+the spoon is clean but the pillow is dirty .
+the child bought beans , not rice .
+the nurse saw that the dog is hungry .
+the nurse did not buy coffee , she bought beans , so she bought beans .
+the bag is red , not brown .
+the lamp is wet but the hat is dry .
+the coat is clean but the plate is dirty .
+the letter is inside the shoe , so the shoe contains the letter .
+the lamp is heavy but the kite is light .
+the ball is old but the box is new .
+the ball is yellow , not red .
+my aunt bought coffee , not soup .
+the kite is grey , not green .
+the box is clean but the plate is dirty .
+the pillow is not white , it is black , so the pillow is black .
+my aunt saw a cub , a cub is a young bear .
+the nurse saw a calf , a calf is a young cow .
+the pillow is full but the bag is empty .
+the child bought beans , not soup .
+the key is inside the chair , so the chair contains the key .
+the duck is in the park .
+the coat is big but the spoon is small .
+the hat is old but the shoe is new .
+the cup is not blue , it is yellow , so the cup is yellow .
+the cup is full but the lamp is empty .
+the pillow is full but the box is empty .
+my aunt did open the bag first and pack the shirt second , so the later action is pack .
+one cow is at the school .
+one cat is at the station .
+the book is wet but the hat is dry .
+the girl bought juice , not fish .
+the book is long but the scarf is short .
+the book is big but the chair is small .
+the plate is to the left of the pillow , so the pillow is to the right of the plate .
+the teacher saw that a cow eats grass .
+my aunt bought beans , not cake .
+the pillow is noisy but the kite is quiet .
+the ball is not red , it is yellow , so the ball is yellow .
+the kite is noisy but the ball is quiet .
+the plate is above the key , so the key is below the plate .
+the spoon is clean but the ball is dirty .
+the farmer saw that the lake freezes in winter .
+the girl bought soup , not cake .
+the plate is above the kite , so the kite is below the plate .
+the shoe is full but the key is empty .
+the cup is open but the scarf is closed .
+the nurse saw a puppy , a puppy is a young dog .
+the plate is red , not brown .
+yesterday the student cooked dinner .
+the chair is hot but the lamp is cold .
+the girl did light the fire first and cook the rice second , so the later action is cook .
+the book is long but the hat is short .
+the book is open but the shirt is closed .
+the teacher bought bread , not rice .
+my aunt bought juice , not cake .
+today the teacher walks to the market and yesterday the teacher walked to the market too .
+the teacher did read the letter first and sign it second , so the later action is sign .
+the key is heavy but the book is light .
+the coat is green , not black .
+the kite is green , not yellow .
+three dogs were by the river .
+the farmer saw a kitten , a kitten is a young cat .
+the child did lock the gate first and feed the goat second , so the later action is feed .
+the girl saw that the room is dark at night .
+the book is not yellow , it is green , so the book is green .
+the bag is big but the box is small .
+the chair is big but the coat is small .
+the nurse did lock the gate first and feed the goat second , so the later action is feed .
+the spoon is old but the box is new .
+the farmer did lock the gate first and feed the goat second , so the later action is feed .
+the cup is not blue , it is grey , so the cup is grey .
+the pillow is hot but the letter is cold .
+the nurse did not buy grapes , she bought bread , so she bought bread .
+two frogs were in the garden .
+two goats were in the park .
+the shirt is to the left of the hat , so the hat is to the right of the shirt .
+the chair is wet but the ball is dry .
+the ball is not brown , it is green , so the ball is green .
+my sister bought grapes , not fish .
+the nurse did clean the brush first and paint the wall second , so the later action is paint .
+the student saw a calf , a calf is a young cow .
+the key is open but the shirt is closed .
+the plate is wet but the shoe is dry .
+my uncle bought beans , not grapes .
+the pillow is noisy but the shoe is quiet .
+the ball is full but the pillow is empty .
+the scarf is old but the coat is new .
+the spoon is grey , not yellow .
+the shirt is noisy but the coat is quiet .
+the lamp is heavy but the shoe is light .
+wide and narrow are opposites .
+the shoe is long but the bag is short .
+the shirt is heavy but the shoe is light .
+one horse is at the station .
+the coat is above the plate , so the plate is below the coat .
+my sister bought grapes , not cake .
+the letter is inside the shirt , so the shirt contains the letter .
+the teacher did lock the gate first and feed the goat second , so the later action is feed .
+the horses are at the beach .
+my aunt did read the letter first and sign it second , so the later action is sign .
+the kite is inside the key , so the key contains the kite .
+the book is not white , it is blue , so the book is blue .
+the scarf is above the shirt , so the shirt is below the scarf .
+the hat is hot but the kite is cold .
+yesterday the cook painted the fence .
+yesterday the boy played football .
+the spoon is open but the shoe is closed .
+the opposite of fast is slow .
+the child did not buy soup , she bought beans , so she bought beans .
+the bag is not blue , it is brown , so the bag is brown .
+the key is inside the shoe , so the shoe contains the key .
+two ducks were in the kitchen .
+the key is full but the lamp is empty .
+the book is old but the key is new .
+two cows were at the school .
+the frogs are at the beach .
+the coat is big but the plate is small .
+the ball is open but the coat is closed .
+the key is full but the book is empty .
+the shoe is heavy but the hat is light .
+the spoon is white , not blue .
+three birds were by the river .
+the ducks are at the bank .
+the student did not buy grapes , he bought bread , so he bought bread .
+the pillow is not yellow , it is grey , so the pillow is grey .
+the cup is inside the hat , so the hat contains the cup .
+the child did not buy rice , she bought beans , so she bought beans .
+the letter is white , not black .
+my sister bought fish , not rice .
+my sister bought coffee , not beans .
+the farmer did not buy rice , he bought fish , so he bought fish .
+the chair is not green , it is white , so the chair is white .
+the letter is noisy but the scarf is quiet .
+the book is big but the bag is small .
+the bag is big but the letter is small .
+the book is heavy but the chair is light .
+my uncle bought bread , not fish .
+the cook did light the fire first and cook the rice second , so the later action is cook .
+the ball is heavy but the shirt is light .
+the kite is full but the shoe is empty .
+the ball is not yellow , it is blue , so the ball is blue .
+the nurse bought juice , not beans .
+the goat is at the bank .
+the letter is not blue , it is grey , so the letter is grey .
+the chair is inside the spoon , so the spoon contains the chair .
+the farmer did not buy cake , he bought juice , so he bought juice .
+the kite is big but the hat is small .
+the shirt is not brown , it is red , so the shirt is red .
+the scarf is to the left of the pillow , so the pillow is to the right of the scarf .
+the shoe is above the chair , so the chair is below the shoe .
+loud and silent are opposites .
+the lamp is noisy but the chair is quiet .
+the bag is long but the lamp is short .
+the letter is blue , not black .
+the scarf is not blue , it is black , so the scarf is black .
+the chair is green , not yellow .
+the shirt is inside the kite , so the kite contains the shirt .
+the spoon is hot but the lamp is cold .
+the spoon is not grey , it is red , so the spoon is red .
+my sister did not buy apples , she bought soup , so she bought soup .
+the teacher bought juice , not cake .
+the plate is noisy but the key is quiet .
+the lamp is old but the cup is new .
+the shoe is open but the scarf is closed .
+the lamp is clean but the shoe is dirty .
+two dogs are in the garden .
+the nurse eats supper after lunch , the earlier one is lunch .
+the chair is noisy but the shoe is quiet .
+the kite is wet but the hat is dry .
+the pillow is grey , not yellow .
+the boy bought coffee , not bread .
+yesterday the student talked about rivers .
+the plate is big but the lamp is small .
+the ball is white , not black .
+the student bought cheese , not grapes .
+the lamp is brown , not grey .
+the nurse did read the letter first and sign it second , so the later action is sign .
+the cup is full but the shoe is empty .
+the plate is heavy but the pillow is light .
+the ball is black , not white .
+the chair is red , not grey .
+the coat is big but the chair is small .
+my sister bought cheese , not coffee .
+the letter is hot but the box is cold .
+the plate is grey , not blue .
+the student did open the bag first and pack the shirt second , so the later action is pack .
+tall and short are opposites .
+the chair is clean but the letter is dirty .
+the farmer bought cheese , not juice .
+the plate is wet but the box is dry .
+the key is big but the pillow is small .
+the box is open but the chair is closed .
+the ball is clean but the letter is dirty .
+the plate is heavy but the shirt is light .
+the frogs are at the school .
+the lamp is long but the coat is short .
+the shirt is heavy but the hat is light .
+the box is clean but the spoon is dirty .
+the book is open but the scarf is closed .
+my uncle bought bread , not grapes .
+a dog is at the station .
+two cats were at the bank .
+my sister bought bread , not coffee .
+the spoon is to the left of the hat , so the hat is to the right of the spoon .
+the key is above the shoe , so the shoe is below the key .
+the nurse bought fish , not juice .
+the hat is full but the shoe is empty .
+the plate is open but the cup is closed .
+the kite is heavy but the book is light .
+the horses are in the park .
+my sister bought juice , not cheese .
+two birds are in the garden .
+the plate is heavy but the box is light .
+when it is not day it is night .
+the shirt is hot but the lamp is cold .
+the ball is noisy but the pillow is quiet .
+the opposite of big is small .
+the cook bought cheese , not bread .
+the ducks are at the beach .
+two birds are in the park .
+the plate is to the left of the key , so the key is to the right of the plate .
+the ball is wet but the book is dry .
+the scarf is hot but the key is cold .
+the student did lock the gate first and feed the goat second , so the later action is feed .
+the kite is noisy but the shirt is quiet .
+the cup is clean but the plate is dirty .
+my uncle did not buy beans , he bought apples , so he bought apples .
+the book is not yellow , it is black , so the book is black .
+my uncle did not buy cheese , he bought fish , so he bought fish .
+the scarf is not white , it is blue , so the scarf is blue .
+the bag is big but the plate is small .
+the letter is not green , it is yellow , so the letter is yellow .
+the lamp is blue , not green .
+the chair is heavy but the coat is light .
+the lamp is clean but the shirt is dirty .
+the pillow is not red , it is yellow , so the pillow is yellow .
+the spoon is not green , it is red , so the spoon is red .
+the ducks are at the office .
+the chair is yellow , not white .
+the plate is open but the book is closed .
+the student did not buy cheese , he bought cake , so he bought cake .
+one cat is at the school .
+the coat is long but the bag is short .
+the girl saw a puppy , a puppy is a young dog .
+the box is old but the pillow is new .
+the shoe is open but the box is closed .
+the child saw a lamb , a lamb is a young sheep .
+the pillow is not green , it is black , so the pillow is black .
+two frogs were at the station .
+the scarf is not white , it is green , so the scarf is green .
+the ball is big but the lamp is small .
+the shoe is heavy but the lamp is light .
+my aunt saw that wood is hard .
+the scarf is old but the cup is new .
+yesterday the boy painted the fence .
+the goats are in the barn .
+the teacher saw a cub , a cub is a young bear .
+the shirt is green , not brown .
+the cup is grey , not white .
+the cup is clean but the letter is dirty .
+the child did not buy cake , she bought coffee , so she bought coffee .
+the book is clean but the scarf is dirty .
+the bag is noisy but the key is quiet .
+the boy did not buy cheese , he bought beans , so he bought beans .
+the letter is to the left of the cup , so the cup is to the right of the letter .
+the plate is not yellow , it is grey , so the plate is grey .
+the plate is yellow , not red .
+the student did not buy bread , he bought rice , so he bought rice .
+the spoon is full but the plate is empty .
+the cook did not buy cake , he bought beans , so he bought beans .
+the book is open but the shoe is closed .
+the kite is brown , not green .
+when it is not tall it is short .
+the lamp is not brown , it is green , so the lamp is green .
+a bird is at the office .
+the hat is open but the bag is closed .
+the frogs are in the kitchen .
+the coat is full but the spoon is empty .
+the ball is hot but the hat is cold .
+the shoe is yellow , not red .
+one frog is by the river .
+the driver did not buy rice , he bought apples , so he bought apples .
+the student saw that the room is dark at night .
+my aunt did not buy soup , she bought cheese , so she bought cheese .
+the box is heavy but the letter is light .
+the plate is heavy but the scarf is light .
+the spoon is big but the chair is small .
+yesterday the farmer cooked dinner .
+the spoon is not red , it is black , so the spoon is black .
+the pillow is not green , it is white , so the pillow is white .
+the student did not buy fish , he bought apples , so he bought apples .
+warm and cool are opposites .
+the chair is old but the cup is new .
+the nurse saw a kitten , a kitten is a young cat .
+the student saw a puppy , a puppy is a young dog .
+the kite is white , not yellow .
+the farmer did not buy juice , he bought cheese , so he bought cheese .
+the boy did not buy soup , he bought beans , so he bought beans .
+the cook bought rice , not cheese .
+a bird is on the roof .
+the coat is wet but the plate is dry .
+the chair is full but the lamp is empty .
+the book is noisy but the pillow is quiet .
+the plate is noisy but the lamp is quiet .
+my sister did not buy fish , she bought grapes , so she bought grapes .
+yesterday the driver painted the fence .
+the bag is long but the coat is short .
+the coat is black , not green .
+three birds were at the office .
+the shoe is noisy but the book is quiet .
+the cup is heavy but the key is light .
+the book is not grey , it is brown , so the book is brown .
+the hat is brown , not green .
+the coat is open but the spoon is closed .
+the chair is noisy but the shirt is quiet .
+the shoe is white , not blue .
+the ball is noisy but the book is quiet .
+the nurse bought fish , not coffee .
+the scarf is hot but the book is cold .
+the student saw that a cow eats grass .
+two birds are at the bank .
+the spoon is inside the cup , so the cup contains the spoon .
+the cook saw that we turn on the lamp when it is dark .
+the boy did clean the brush first and paint the wall second , so the later action is paint .
+the farmer bought apples , not soup .
+yesterday the teacher visited the museum .
+the shirt is red , not yellow .
+yesterday the cook cooked dinner .
+the letter is white , not blue .
+the letter is wet but the shirt is dry .
+the shirt is big but the cup is small .
+yesterday the driver cleaned the kitchen .
+the bag is big but the cup is small .
+the bag is open but the kite is closed .
+the cup is full but the chair is empty .
+the book is grey , not brown .
+the opposite of wet is dry .
+the girl did not buy rice , she bought cake , so she bought cake .
+my aunt bought cake , not fish .
+two cows were at the bank .
+two ducks were at the market .
+my uncle saw that we turn on the lamp when it is dark .
+the bag is noisy but the cup is quiet .
+the scarf is hot but the kite is cold .
+three dogs were at the beach .
+the cow is at the station .
+yesterday the driver played football .
+the scarf is yellow , not green .
+the spoon is big but the book is small .
+the key is hot but the chair is cold .
+the pillow is open but the box is closed .
+the kite is noisy but the lamp is quiet .
+the cup is old but the pillow is new .
+the spoon is long but the kite is short .
+the hat is not blue , it is red , so the hat is red .
+the cup is big but the letter is small .
+the letter is inside the scarf , so the scarf contains the letter .
+the chair is not yellow , it is green , so the chair is green .
+the nurse bought apples , not coffee .
+the lamp is not red , it is blue , so the lamp is blue .
+the book is white , not black .
+the child did not buy cake , she bought fish , so she bought fish .
+the hat is white , not black .
+the key is to the left of the pillow , so the pillow is to the right of the key .
+the girl saw that wood is hard .
+the lamp is clean but the ball is dirty .
+the shoe is noisy but the cup is quiet .
+two goats were at the market .
+the spoon is to the left of the scarf , so the scarf is to the right of the spoon .
+two birds are at the school .
+two horses were at the school .
+the key is not yellow , it is black , so the key is black .
+my uncle did read the letter first and sign it second , so the later action is sign .
+the chair is wet but the shirt is dry .
+the book is open but the coat is closed .
+the chair is not yellow , it is white , so the chair is white .
+the cow is at the school .
+the key is red , not grey .
+the shirt is old but the kite is new .
+the ball is blue , not red .
+the coat is old but the spoon is new .
+the cup is big but the plate is small .
+the girl did not buy grapes , she bought coffee , so she bought coffee .
+the nurse bought grapes , not coffee .
+the shoe is to the left of the plate , so the plate is to the right of the shoe .
+the ball is not green , it is yellow , so the ball is yellow .
+my aunt bought beans , not juice .
+the farmer bought bread , not apples .
+the cup is open but the chair is closed .
+the box is wet but the coat is dry .
+the key is white , not brown .
+the hat is not white , it is green , so the hat is green .
+the cup is open but the spoon is closed .
+the driver bought grapes , not beans .
+the spoon is hot but the shirt is cold .
+the pillow is old but the box is new .
+the horse is by the river .
+my aunt bought coffee , not juice .
+the scarf is not brown , it is blue , so the scarf is blue .
+the hat is not grey , it is brown , so the hat is brown .
+the shoe is red , not yellow .
+the driver did not buy coffee , he bought grapes , so he bought grapes .
+yesterday the girl cooked dinner .
+the bag is white , not green .
+the boy bought beans , not cheese .
+the key is noisy but the plate is quiet .
+the book is wet but the coat is dry .
+the spoon is inside the hat , so the hat contains the spoon .
+two birds are at the market .
+the shoe is not white , it is grey , so the shoe is grey .
+yesterday the boy cooked dinner .
+the spoon is not blue , it is yellow , so the spoon is yellow .
+the cup is grey , not blue .
+the book is wet but the bag is dry .
+the scarf is clean but the chair is dirty .
+the shoe is big but the box is small .
+the letter is full but the box is empty .
+the cows are on the roof .
+the farmer saw that a cow eats grass .
+the frog is at the bank .
+the teacher did not buy coffee , she bought juice , so she bought juice .
+the spoon is hot but the kite is cold .
+the kite is big but the ball is small .
+the lamp is not grey , it is blue , so the lamp is blue .
+the hat is old but the book is new .
+my uncle bought fish , not cheese .
+the horse is at the office .
+the lamp is old but the ball is new .
+when it is not happy it is sad .
+the bag is hot but the plate is cold .
+the lamp is full but the spoon is empty .
+yesterday the student cleaned the kitchen .
+the key is yellow , not brown .
+my aunt saw a foal , a foal is a young horse .
+the shirt is not white , it is red , so the shirt is red .
+the shirt is hot but the ball is cold .
+the shirt is open but the plate is closed .
+the student bought coffee , not rice .
+the key is inside the hat , so the hat contains the key .
+the ball is not green , it is blue , so the ball is blue .
+the coat is brown , not red .
+yesterday the farmer walked to the market .
+the cup is noisy but the box is quiet .
+the kite is hot but the letter is cold .
+the kite is big but the pillow is small .
+the kite is clean but the key is dirty .
+the kite is open but the plate is closed .
+the coat is noisy but the bag is quiet .
+the book is brown , not grey .
+my sister did not buy grapes , she bought beans , so she bought beans .
+the book is old but the spoon is new .
+the cats are at the beach .
+today the boy walks to the market and yesterday the boy walked to the market too .
+the kite is old but the coat is new .
+the chair is long but the book is short .
+the teacher eats dinner after lunch , the earlier one is lunch .
+the kite is inside the cup , so the cup contains the kite .
+yesterday the nurse walked to the market .
+the coat is yellow , not brown .
+the ball is open but the kite is closed .
+the lamp is green , not black .
+the student saw that the lake freezes in winter .
+the cup is not green , it is yellow , so the cup is yellow .
+the student bought juice , not bread .
+the book is blue , not grey .
+the spoon is heavy but the plate is light .
+when it is not clean it is dirty .
+the plate is not grey , it is blue , so the plate is blue .
+the boy did not buy coffee , he bought rice , so he bought rice .
+the goats are in the garden .
+the coat is open but the bag is closed .
+the shoe is open but the hat is closed .
+the lamp is not white , it is green , so the lamp is green .
+the spoon is clean but the cup is dirty .
+the teacher saw a puppy , a puppy is a young dog .
+the kite is full but the shirt is empty .
+the spoon is hot but the ball is cold .
+the chair is brown , not blue .
+the driver saw that we turn on the lamp when it is dark .
+the shirt is long but the kite is short .
+the key is to the left of the chair , so the chair is to the right of the key .
+the ball is old but the key is new .
+the scarf is noisy but the hat is quiet .
+my uncle did not buy grapes , he bought beans , so he bought beans .
+two cats were at the office .
+the scarf is clean but the shoe is dirty .
+the bag is open but the chair is closed .
+the cup is wet but the hat is dry .
+the box is clean but the ball is dirty .
+the boy did read the letter first and sign it second , so the later action is sign .
+the coat is clean but the scarf is dirty .
+the key is big but the box is small .
+high and low are opposites .
+the hat is open but the book is closed .
+the nurse bought coffee , not bread .
+the student did not buy cake , he bought grapes , so he bought grapes .
+the letter is green , not black .
+the book is clean but the shoe is dirty .
+the cup is green , not grey .
+the box is long but the lamp is short .
+the driver did not buy soup , he bought juice , so he bought juice .
+the ball is hot but the chair is cold .
+the shoe is inside the spoon , so the spoon contains the shoe .
+the spoon is hot but the pillow is cold .
+the girl did not buy grapes , she bought bread , so she bought bread .
+the chair is hot but the kite is cold .
+the driver bought juice , not soup .
+the bag is not white , it is blue , so the bag is blue .
+the student did not buy bread , he bought juice , so he bought juice .
+the scarf is noisy but the lamp is quiet .
+the pillow is clean but the key is dirty .
+the letter is big but the scarf is small .
+the student saw a lamb , a lamb is a young sheep .
+the frog is at the school .
+the bag is not white , it is yellow , so the bag is yellow .
+yesterday my aunt cooked dinner .
+the pillow is red , not green .
+the book is full but the ball is empty .
+the bag is not brown , it is red , so the bag is red .
+the opposite of slow is fast .
+the scarf is heavy but the shoe is light .
+the plate is wet but the scarf is dry .
+the frogs are in the barn .
+yesterday the student played football .
+the student saw a cub , a cub is a young bear .
+the farmer did not buy beans , he bought juice , so he bought juice .
+the ball is wet but the chair is dry .
+two horses were on the roof .
+the shoe is full but the letter is empty .
+the kite is not red , it is brown , so the kite is brown .
+one cow is in the garden .
+the key is brown , not green .
+the shirt is not red , it is blue , so the shirt is blue .
+my sister saw a calf , a calf is a young cow .
+the spoon is wet but the plate is dry .
+the book is clean but the shirt is dirty .
+the plate is green , not blue .
+the shoe is long but the ball is short .
+the ball is full but the hat is empty .
+the pillow is not green , it is red , so the pillow is red .
+the shirt is not black , it is red , so the shirt is red .
+the book is long but the chair is short .
+the chair is long but the coat is short .
+the shoe is big but the chair is small .
+the student bought bread , not cheese .
+the kite is clean but the shoe is dirty .
+a bird is in the barn .
+the plate is not black , it is green , so the plate is green .
+the hat is clean but the shirt is dirty .
+the chair is not red , it is green , so the chair is green .
+the farmer did not buy cheese , he bought coffee , so he bought coffee .
+the nurse did not buy grapes , she bought rice , so she bought rice .
+the coat is above the letter , so the letter is below the coat .
+the shoe is above the spoon , so the spoon is below the shoe .
+the driver saw a cub , a cub is a young bear .
+the pillow is noisy but the key is quiet .
+the letter is inside the key , so the key contains the letter .
+the cup is full but the bag is empty .
+happy and sad are opposites .
+the spoon is long but the coat is short .
+my uncle saw a chick , a chick is a young hen .
+the box is clean but the letter is dirty .
+yesterday the teacher walked to the market .
+clean and dirty are opposites .
+the coat is open but the letter is closed .
+the letter is old but the scarf is new .
+the key is inside the kite , so the kite contains the key .
+the coat is old but the hat is new .
+the key is hot but the box is cold .
+two frogs were at the office .
+one horse is at the market .
+the scarf is full but the shoe is empty .
+the plate is not brown , it is yellow , so the plate is yellow .
+the plate is wet but the hat is dry .
+the opposite of happy is sad .
+the kite is long but the hat is short .
+the boy saw a kitten , a kitten is a young cat .
+the letter is big but the shirt is small .
+the student bought soup , not juice .
+two frogs were in the park .
+the bag is noisy but the chair is quiet .
+the book is wet but the plate is dry .
+the box is hot but the shirt is cold .
+the student did not buy coffee , he bought juice , so he bought juice .
+yesterday the farmer played football .
+the ball is clean but the cup is dirty .
+my aunt did not buy cheese , she bought grapes , so she bought grapes .
+the lamp is not green , it is blue , so the lamp is blue .
+the opposite of weak is strong .
+the cup is blue , not black .
+the lamp is not green , it is brown , so the lamp is brown .
+the scarf is full but the shirt is empty .
+the child bought rice , not cake .
+the spoon is long but the pillow is short .
+one cat is in the kitchen .
+the boy bought fish , not juice .
+the frog is by the river .
+the boy bought cheese , not grapes .
+the ball is old but the spoon is new .
+the bag is old but the hat is new .
+the letter is not green , it is blue , so the letter is blue .
+the cow is at the beach .
+the girl did not buy apples , she bought juice , so she bought juice .
+the cats are in the park .
+my uncle did not buy cheese , he bought apples , so he bought apples .
+the pillow is yellow , not red .
+the plate is clean but the hat is dirty .
+the duck is at the station .
+the kite is to the left of the key , so the key is to the right of the kite .
+the cup is clean but the kite is dirty .
+the key is wet but the bag is dry .
+a dog is at the market .
+the cook saw a cub , a cub is a young bear .
+the key is long but the coat is short .
+the horses are at the station .
+the bag is open but the book is closed .
+the kite is not yellow , it is green , so the kite is green .
+the shoe is long but the shirt is short .
+the nurse bought rice , not cheese .
+the cup is open but the hat is closed .
+the farmer eats dinner after lunch , the earlier one is lunch .
+the plate is full but the pillow is empty .
+the nurse did light the fire first and cook the rice second , so the later action is cook .
+the cat is in the garden .
+the cup is white , not blue .
+the kite is clean but the spoon is dirty .
+the coat is hot but the box is cold .
+yesterday the student walked to the market .
+the cup is not grey , it is green , so the cup is green .
+one duck is on the roof .
+the farmer bought apples , not cheese .
+the key is long but the letter is short .
+the scarf is white , not green .
+the spoon is wet but the lamp is dry .
+the lamp is noisy but the ball is quiet .
+the boy did not buy apples , he bought cake , so he bought cake .
+the kite is big but the shoe is small .
+the farmer did not buy coffee , he bought beans , so he bought beans .
+the girl bought beans , not coffee .
+the child did read the letter first and sign it second , so the later action is sign .
+the lamp is heavy but the scarf is light .
+the shirt is open but the chair is closed .
+the opposite of high is low .
+the pillow is long but the hat is short .
+the shoe is heavy but the coat is light .
+the bag is yellow , not red .
+the coat is big but the cup is small .
+the boy did not buy bread , he bought apples , so he bought apples .
+yesterday the farmer visited the museum .
+the spoon is noisy but the scarf is quiet .
+the girl did not buy fish , she bought coffee , so she bought coffee .
+the cook did not buy bread , he bought beans , so he bought beans .
+the plate is old but the chair is new .
+yesterday the cook played football .
+the student saw that we turn on the lamp when it is dark .
+the scarf is hot but the letter is cold .
+the scarf is to the left of the shirt , so the shirt is to the right of the scarf .
+the pillow is black , not green .
+one duck is in the garden .
+the letter is full but the cup is empty .
+the child did not buy juice , she bought grapes , so she bought grapes .
+the shoe is not green , it is red , so the shoe is red .
+the opposite of poor is rich .
+the spoon is big but the letter is small .
+the box is long but the ball is short .
+the lamp is full but the key is empty .
+my aunt saw that we turn on the lamp when it is dark .
+yesterday the girl visited the museum .
+the hat is noisy but the chair is quiet .
+the shirt is inside the hat , so the hat contains the shirt .
+the hat is big but the pillow is small .
+the driver did not buy fish , he bought cheese , so he bought cheese .
+the driver bought cheese , not fish .
+the driver saw that the room is dark at night .
+the shoe is to the left of the key , so the key is to the right of the shoe .
+the book is not white , it is green , so the book is green .
+the shirt is clean but the letter is dirty .
+the cup is big but the kite is small .
+one goat is at the office .
+the kite is noisy but the letter is quiet .
+the bag is not green , it is black , so the bag is black .
+the child saw a kitten , a kitten is a young cat .
+the chair is big but the plate is small .
+the spoon is black , not brown .
+yesterday the boy cleaned the kitchen .
+yesterday my uncle cleaned the kitchen .
+the box is long but the bag is short .
+the plate is grey , not yellow .
+the hat is above the plate , so the plate is below the hat .
+the lamp is not grey , it is red , so the lamp is red .
+the bag is long but the letter is short .
+yesterday my aunt painted the fence .
+the girl did not buy beans , she bought grapes , so she bought grapes .
+my sister did not buy beans , she bought bread , so she bought bread .
+the nurse bought soup , not beans .
+the chair is hot but the plate is cold .
+the bag is not white , it is green , so the bag is green .
+the shirt is grey , not white .
+the girl bought grapes , not beans .
+the shirt is long but the scarf is short .
+the frogs are by the river .
+the shirt is heavy but the ball is light .
+the lamp is green , not white .
+the plate is green , not black .
+the kite is noisy but the shoe is quiet .
+the coat is above the kite , so the kite is below the coat .
+the child did open the bag first and pack the shirt second , so the later action is pack .
+one goat is at the station .
+my aunt did not buy grapes , she bought rice , so she bought rice .
+the bag is clean but the shoe is dirty .
+the driver bought rice , not soup .
+the goats are at the bank .
+the spoon is black , not red .
+the pillow is wet but the ball is dry .
+the scarf is hot but the bag is cold .
+my uncle bought coffee , not juice .
+the kite is above the key , so the key is below the kite .
+the bag is not blue , it is grey , so the bag is grey .
+my sister did not buy bread , she bought beans , so she bought beans .
+the lamp is black , not yellow .
+the kite is green , not blue .
+the book is big but the scarf is small .
+the ball is yellow , not green .
+the key is grey , not white .
+the cup is full but the plate is empty .
+the coat is not white , it is black , so the coat is black .
+the lamp is hot but the shoe is cold .
+the shoe is long but the hat is short .
+the shoe is not blue , it is green , so the shoe is green .
+the child bought apples , not coffee .
+the box is long but the hat is short .
+the book is not green , it is blue , so the book is blue .
+the boy did not buy coffee , he bought fish , so he bought fish .
+the goat is by the river .
+my sister did not buy coffee , she bought cheese , so she bought cheese .
+the lamp is not yellow , it is black , so the lamp is black .
+the chair is wet but the lamp is dry .
+two horses were in the barn .
+the book is white , not green .
+my sister saw a chick , a chick is a young hen .
+the plate is hot but the chair is cold .
+the lamp is wet but the book is dry .
+the bag is red , not white .
+the goat is in the garden .
+the bag is big but the book is small .
+the teacher bought grapes , not rice .
+the coat is clean but the ball is dirty .
+the scarf is heavy but the key is light .
+the spoon is yellow , not blue .
+the kite is red , not white .
+the goats are in the kitchen .
+the cook did not buy cheese , he bought rice , so he bought rice .
+two ducks were at the office .
+the lamp is not black , it is green , so the lamp is green .
+the shirt is full but the hat is empty .
+the girl saw a cub , a cub is a young bear .
+my sister saw a foal , a foal is a young horse .
+the child saw a cub , a cub is a young bear .
+the box is open but the ball is closed .
+the book is noisy but the lamp is quiet .
+the girl did not buy bread , she bought cake , so she bought cake .
+two birds are on the roof .
+the cow is at the bank .
+the letter is open but the key is closed .
+the child saw a calf , a calf is a young cow .
+the hat is wet but the scarf is dry .
+the teacher did not buy soup , she bought cheese , so she bought cheese .
+the coat is black , not grey .
+the lamp is old but the hat is new .
+the farmer did not buy soup , he bought apples , so he bought apples .
+the plate is old but the kite is new .
+the boy saw a calf , a calf is a young cow .
+the child bought soup , not coffee .
+the scarf is heavy but the plate is light .
+a bird is in the garden .
+the coat is not grey , it is blue , so the coat is blue .
+two horses were at the bank .
+two ducks were on the roof .
+my sister did not buy bread , she bought apples , so she bought apples .
+the plate is old but the box is new .
+yesterday my uncle walked to the market .
+night comes after day , the earlier one is day .
+one horse is in the garden .
+the letter is not black , it is green , so the letter is green .
+the child did not buy soup , she bought grapes , so she bought grapes .
+the teacher saw that the lake freezes in winter .
+three birds were in the kitchen .
+the farmer bought grapes , not coffee .
+the shirt is wet but the key is dry .
+the lamp is noisy but the book is quiet .
+the teacher did not buy coffee , she bought cake , so she bought cake .
+the plate is open but the letter is closed .
+the plate is noisy but the spoon is quiet .
+the scarf is grey , not green .
+the teacher did not buy grapes , she bought cake , so she bought cake .
+my uncle did not buy juice , he bought soup , so he bought soup .
+the book is not red , it is green , so the book is green .
+the key is not blue , it is black , so the key is black .
+the scarf is noisy but the cup is quiet .
+the plate is long but the ball is short .
+the cup is heavy but the shirt is light .
+the shoe is noisy but the box is quiet .
+the hat is full but the spoon is empty .
+the letter is brown , not yellow .
+the key is not green , it is red , so the key is red .
+the kite is wet but the shoe is dry .
+the box is noisy but the bag is quiet .
+the teacher did not buy rice , she bought bread , so she bought bread .
+my uncle bought beans , not cake .
+the cook bought soup , not coffee .
+the pillow is red , not yellow .
+the shoe is big but the hat is small .
+my uncle did not buy juice , he bought coffee , so he bought coffee .
+the chair is clean but the scarf is dirty .
+my aunt did not buy cake , she bought beans , so she bought beans .
+the kite is open but the chair is closed .
+the driver bought beans , not grapes .
+the driver bought cake , not apples .
+the box is wet but the key is dry .
+the spoon is to the left of the chair , so the chair is to the right of the spoon .
+the pillow is wet but the lamp is dry .
+the ball is red , not blue .
+the cup is noisy but the ball is quiet .
+the lamp is brown , not black .
+the lamp is full but the ball is empty .
+the hat is wet but the coat is dry .
+the scarf is old but the shirt is new .
+the key is full but the pillow is empty .
+the pillow is open but the letter is closed .
+the plate is not brown , it is black , so the plate is black .
+the boy did not buy apples , he bought grapes , so he bought grapes .
+the coat is old but the shirt is new .
+one duck is at the office .
+the hat is wet but the box is dry .
+the plate is full but the book is empty .
+the book is full but the pillow is empty .
+the bag is wet but the coat is dry .
+the key is long but the shoe is short .
+the shirt is noisy but the lamp is quiet .
+the plate is full but the cup is empty .
+the boy bought grapes , not beans .
+my uncle saw a lamb , a lamb is a young sheep .
+the opposite of late is early .
+the hat is inside the key , so the key contains the hat .
+the box is old but the plate is new .
+the teacher bought cake , not grapes .
+the pillow is to the left of the kite , so the kite is to the right of the pillow .
+the driver did not buy apples , he bought beans , so he bought beans .
+the hat is to the left of the plate , so the plate is to the right of the hat .
+the key is not yellow , it is white , so the key is white .
+the teacher did not buy rice , she bought apples , so she bought apples .
+a dog is by the river .
+the shirt is above the kite , so the kite is below the shirt .
+the horse is on the roof .
+the boy did not buy juice , he bought fish , so he bought fish .
+the child did not buy coffee , she bought juice , so she bought juice .
+the lamp is big but the bag is small .
+the cup is big but the box is small .
+the teacher did not buy juice , she bought beans , so she bought beans .
+the key is big but the chair is small .
+the nurse did not buy juice , she bought apples , so she bought apples .
+the hat is red , not blue .
+yesterday the student painted the fence .
+the hat is open but the shoe is closed .
+the kite is heavy but the scarf is light .
+the driver did not buy coffee , he bought cake , so he bought cake .
+the teacher saw a chick , a chick is a young hen .
+the pillow is not blue , it is green , so the pillow is green .
+the girl did not buy coffee , she bought grapes , so she bought grapes .
+the hat is old but the shirt is new .
+the plate is to the left of the kite , so the kite is to the right of the plate .
+the hat is not grey , it is black , so the hat is black .
+the coat is long but the shoe is short .
+the spoon is wet but the box is dry .
+my sister did not buy cheese , she bought juice , so she bought juice .
+the hat is not green , it is yellow , so the hat is yellow .
+the chair is long but the letter is short .
+the student did clean the brush first and paint the wall second , so the later action is paint .
+yesterday the nurse visited the museum .
+the chair is to the left of the spoon , so the spoon is to the right of the chair .
+a dog is in the park .
+the coat is long but the box is short .
+one cow is at the office .
+the letter is not blue , it is white , so the letter is white .
+the shoe is heavy but the shirt is light .
+yesterday my uncle played football .
+my uncle saw that a cow eats grass .
+the cup is brown , not white .
+the scarf is yellow , not grey .
+the plate is to the left of the shoe , so the shoe is to the right of the plate .
+the shoe is big but the shirt is small .
+the key is big but the book is small .
+two frogs were in the kitchen .
+the hat is long but the coat is short .
+the shirt is wet but the cup is dry .
+when it is not big it is small .
+my uncle did not buy cake , he bought beans , so he bought beans .
+the boy did open the bag first and pack the shirt second , so the later action is pack .
+yesterday my uncle painted the fence .
+the key is clean but the lamp is dirty .
+the girl bought coffee , not grapes .
+the hat is not black , it is blue , so the hat is blue .
+the driver bought apples , not rice .
+the scarf is long but the plate is short .
+a dog is in the kitchen .
+the opposite of sad is happy .
+the ball is old but the plate is new .
+the chair is long but the spoon is short .
+my aunt did not buy juice , she bought coffee , so she bought coffee .
+the nurse did not buy beans , she bought juice , so she bought juice .
+the cook eats dinner after lunch , the earlier one is lunch .
+the box is full but the key is empty .
+the plate is hot but the bag is cold .
+the chair is hot but the scarf is cold .
+the chair is red , not white .
+the spoon is not blue , it is white , so the spoon is white .
+the shoe is hot but the shirt is cold .
+the chair is noisy but the plate is quiet .
+the ball is hot but the kite is cold .
+the ball is noisy but the shoe is quiet .
+the box is heavy but the ball is light .
+the farmer bought bread , not coffee .
+the nurse did not buy soup , she bought juice , so she bought juice .
+two goats were at the station .
+the nurse bought cake , not soup .
+the key is white , not black .
+the pillow is white , not brown .
+the letter is heavy but the chair is light .
+the coat is not blue , it is yellow , so the coat is yellow .
+the girl did not buy fish , she bought grapes , so she bought grapes .
+the letter is above the plate , so the plate is below the letter .
+the chair is full but the box is empty .
+the key is not blue , it is green , so the key is green .
+the coat is blue , not green .
+the book is full but the shirt is empty .
+the spoon is brown , not red .
+the spoon is not grey , it is white , so the spoon is white .
+the teacher saw that we turn on the lamp when it is dark .
+the boy did not buy bread , he bought cheese , so he bought cheese .
+two frogs were at the market .
+the frog is at the station .
+the cup is brown , not grey .
+the cup is brown , not black .
+the hat is not brown , it is yellow , so the hat is yellow .
+the boy did not buy grapes , he bought cheese , so he bought cheese .
+my aunt saw a puppy , a puppy is a young dog .
+the plate is not blue , it is brown , so the plate is brown .
+the letter is yellow , not black .
+the ball is big but the book is small .
+one goat is by the river .
+the lamp is white , not brown .
+the scarf is noisy but the letter is quiet .
+the plate is clean but the spoon is dirty .
+the ball is blue , not green .
+the teacher bought cake , not cheese .
+the teacher bought apples , not cheese .
+the shoe is hot but the pillow is cold .
+the shirt is clean but the bag is dirty .
+the lamp is clean but the bag is dirty .
+a bird is at the school .
+the shirt is not grey , it is white , so the shirt is white .
+two frogs were at the school .
+the coat is hot but the ball is cold .
+my sister saw that the room is dark at night .
+the girl eats supper after lunch , the earlier one is lunch .
+the child bought grapes , not juice .
+the hat is full but the lamp is empty .
+the ball is big but the plate is small .
+the key is not red , it is brown , so the key is brown .
+my sister bought apples , not bread .
+the plate is brown , not green .
+the hat is big but the bag is small .
+the spoon is red , not blue .
+the hat is hot but the box is cold .
+the teacher bought cake , not coffee .
+my sister bought beans , not rice .
+the shoe is red , not green .
+the cats are in the garden .
+the bag is clean but the chair is dirty .
+the shoe is not red , it is brown , so the shoe is brown .
+the shoe is inside the chair , so the chair contains the shoe .
+the scarf is not grey , it is red , so the scarf is red .
+the chair is big but the hat is small .
+the spoon is wet but the pillow is dry .
+the pillow is heavy but the book is light .
+the book is old but the chair is new .
+my sister did not buy rice , she bought fish , so she bought fish .
+the bag is heavy but the letter is light .
+one goat is at the bank .
+yesterday the boy walked to the market .
+the scarf is big but the key is small .
+the driver did not buy rice , he bought coffee , so he bought coffee .
+the frogs are in the park .
+the plate is inside the key , so the key contains the plate .
+the girl bought cake , not bread .
+the box is old but the bag is new .
+the lamp is not brown , it is yellow , so the lamp is yellow .
+yesterday my sister talked about rivers .
+the shirt is not green , it is yellow , so the shirt is yellow .
+the coat is blue , not yellow .
+yesterday the child painted the fence .
+the ball is heavy but the spoon is light .
+the coat is old but the chair is new .
+the shirt is not blue , it is white , so the shirt is white .
+the kite is big but the lamp is small .
+the hat is inside the plate , so the plate contains the hat .
+the spoon is clean but the shirt is dirty .
+the coat is noisy but the plate is quiet .
+a bird is in the park .
+the ball is big but the shirt is small .
+the pillow is old but the lamp is new .
+the ball is white , not red .
+the hat is full but the pillow is empty .
+the boy did not buy fish , he bought apples , so he bought apples .
+the nurse saw that we turn on the lamp when it is dark .
+the pillow is clean but the letter is dirty .
+my aunt saw a kitten , a kitten is a young cat .
+the ball is not white , it is yellow , so the ball is yellow .
+two birds are in the kitchen .
+the letter is open but the shirt is closed .
+the letter is heavy but the spoon is light .
+one cow is at the bank .
+the cup is heavy but the plate is light .
+the ball is blue , not yellow .
+the ball is not blue , it is red , so the ball is red .
+the teacher bought cheese , not coffee .
+the coat is open but the hat is closed .
+the pillow is above the kite , so the kite is below the pillow .
+the plate is old but the key is new .
+the letter is old but the key is new .
+the chair is not blue , it is brown , so the chair is brown .
+the key is to the left of the scarf , so the scarf is to the right of the key .
+the plate is wet but the book is dry .
+the cat is at the market .
+the cook saw a puppy , a puppy is a young dog .
+the hat is brown , not white .
+the plate is not yellow , it is black , so the plate is black .
+two cows were on the roof .
+one frog is in the kitchen .
+the driver did read the letter first and sign it second , so the later action is sign .
+the cup is noisy but the plate is quiet .
+the bag is not blue , it is red , so the bag is red .
+the lamp is not black , it is white , so the lamp is white .
+the ducks are by the river .
+my uncle did clean the brush first and paint the wall second , so the later action is paint .
+the lamp is not black , it is blue , so the lamp is blue .
+the student bought grapes , not cake .
+the cook did not buy soup , he bought juice , so he bought juice .
+the bag is wet but the book is dry .
+the shirt is wet but the letter is dry .
+one cat is in the barn .
+the cook bought cake , not rice .
+the key is open but the plate is closed .
+the farmer bought fish , not rice .
+the plate is above the pillow , so the pillow is below the plate .
+the cow is in the park .
+the cats are by the river .
+my aunt bought apples , not coffee .
+the bag is wet but the letter is dry .
+the boy saw a foal , a foal is a young horse .
+the horse is in the kitchen .
+the kite is brown , not red .
+the opposite of young is old .
+the bag is noisy but the ball is quiet .
+the nurse saw that the ice is cold .
+the bag is old but the ball is new .
+the boy bought apples , not fish .
+my aunt saw a chick , a chick is a young hen .
+the farmer saw that the ice is cold .
+the kite is above the cup , so the cup is below the kite .
+the farmer did open the bag first and pack the shirt second , so the later action is pack .
+the book is white , not red .
+the goat is at the office .
+the cows are in the garden .
+the ball is noisy but the kite is quiet .
+my aunt bought apples , not fish .
+the letter is heavy but the bag is light .
+the hat is long but the cup is short .
+the boy did not buy bread , he bought cake , so he bought cake .
+the student did not buy grapes , he bought cheese , so he bought cheese .
+the key is full but the shirt is empty .
+the bag is blue , not brown .
+the hat is not white , it is brown , so the hat is brown .
+the coat is big but the bag is small .
+the farmer saw a foal , a foal is a young horse .
+the cup is heavy but the lamp is light .
+the teacher did not buy apples , she bought juice , so she bought juice .
+the book is wet but the chair is dry .
+the spoon is inside the chair , so the chair contains the spoon .
+the ball is heavy but the coat is light .
+the box is long but the book is short .
+the scarf is long but the kite is short .
+the letter is full but the plate is empty .
+the bag is yellow , not brown .
+the box is full but the spoon is empty .
+two cats were at the station .
+the letter is clean but the scarf is dirty .
+three dogs were at the school .
+the spoon is hot but the shoe is cold .
+the plate is hot but the box is cold .
+yesterday the girl walked to the market .
+the shoe is open but the letter is closed .
+the cook saw a kitten , a kitten is a young cat .
+the ball is clean but the pillow is dirty .
+my sister bought cheese , not soup .
+the child saw that the room is dark at night .
+the girl saw that we turn on the lamp when it is dark .
+the coat is long but the pillow is short .
+the kite is grey , not red .
+the coat is not red , it is brown , so the coat is brown .
+the teacher saw that the dog is hungry .
+the key is above the hat , so the hat is below the key .
+three dogs were at the station .
+the scarf is hot but the shirt is cold .
+the hat is hot but the pillow is cold .
+the pillow is not brown , it is black , so the pillow is black .
+the bag is not brown , it is green , so the bag is green .
+when it is not young it is old .
+a bird is at the market .
+the ball is not yellow , it is green , so the ball is green .
+the boy did not buy juice , he bought coffee , so he bought coffee .
+the book is not red , it is blue , so the book is blue .
+the hat is noisy but the ball is quiet .
+the chair is heavy but the key is light .
+yesterday the girl talked about rivers .
+the cup is old but the hat is new .
+one frog is at the school .
+the bag is long but the hat is short .
+the cup is heavy but the chair is light .
+the driver did not buy soup , he bought rice , so he bought rice .
+my aunt saw that the ice is cold .
+the box is noisy but the scarf is quiet .
+my sister did read the letter first and sign it second , so the later action is sign .
+the scarf is not green , it is yellow , so the scarf is yellow .
+the student did read the letter first and sign it second , so the later action is sign .
+the chair is brown , not red .
+the coat is not grey , it is brown , so the coat is brown .
+the cow is in the kitchen .
+the ball is yellow , not white .
+two goats were at the office .
+the teacher bought apples , not fish .
+the ball is heavy but the chair is light .
+the pillow is green , not grey .
+the box is full but the plate is empty .
+the scarf is not green , it is blue , so the scarf is blue .
+the shoe is brown , not yellow .
+the driver saw that a cow eats grass .
+the kite is open but the scarf is closed .
+the shoe is hot but the key is cold .
+the pillow is to the left of the shoe , so the shoe is to the right of the pillow .
+when it is not early it is late .
+the pillow is open but the shirt is closed .
+two horses were at the market .
+the spoon is clean but the hat is dirty .
+my uncle bought bread , not soup .
+the plate is clean but the ball is dirty .
+one horse is in the park .
+the key is noisy but the pillow is quiet .
+the scarf is not green , it is grey , so the scarf is grey .
+the letter is old but the chair is new .
+the book is noisy but the key is quiet .
+the ball is noisy but the spoon is quiet .
+the kite is clean but the bag is dirty .
+the cats are on the roof .
+the cats are at the school .
+the scarf is red , not brown .
+the cup is inside the scarf , so the scarf contains the cup .
+the box is clean but the shirt is dirty .
+the shoe is old but the shirt is new .
+one horse is at the office .
+the kite is big but the shirt is small .
+early and late are opposites .
+two horses were in the kitchen .
+the lamp is not grey , it is brown , so the lamp is brown .
+young and old are opposites .
+the box is heavy but the hat is light .
+one frog is in the park .
+the ball is full but the coat is empty .
+the coat is black , not white .
+the student did not buy beans , he bought bread , so he bought bread .
+the scarf is long but the shirt is short .
+the lamp is hot but the kite is cold .
+the coat is wet but the letter is dry .
+the goats are at the station .
+the driver did not buy beans , he bought coffee , so he bought coffee .
+the pillow is big but the letter is small .
+the shirt is not grey , it is brown , so the shirt is brown .
+the driver bought cheese , not soup .
+the boy saw that the dog is hungry .
+one frog is at the station .
+the cup is white , not brown .
+the cat is in the park .
+the shirt is full but the spoon is empty .
+the nurse did not buy bread , she bought apples , so she bought apples .
+one cow is in the kitchen .
+the letter is hot but the plate is cold .
+one frog is in the barn .
+the driver eats dinner after lunch , the earlier one is lunch .
+the scarf is wet but the bag is dry .
+the book is full but the cup is empty .
+the letter is long but the ball is short .
+the nurse did not buy apples , she bought soup , so she bought soup .
+the shirt is open but the book is closed .
+the lamp is blue , not black .
+three dogs were in the garden .
+the key is hot but the plate is cold .
+the student bought beans , not juice .
+the scarf is hot but the plate is cold .
+the letter is not brown , it is green , so the letter is green .
+the opposite of old is young .
+the horses are in the kitchen .
+the hat is clean but the pillow is dirty .
+my uncle did lock the gate first and feed the goat second , so the later action is feed .
+the chair is green , not red .
+the cook did not buy bread , he bought rice , so he bought rice .
+the opposite of hard is soft .
+the chair is long but the key is short .
+the ball is long but the pillow is short .
+the goats are at the school .
+the opposite of thick is thin .
+yesterday my uncle visited the museum .
+the girl eats dinner after lunch , the earlier one is lunch .
+the letter is wet but the book is dry .
+the bag is old but the letter is new .
+the shoe is long but the book is short .
+the spoon is long but the ball is short .
+my sister bought coffee , not juice .
+the cup is hot but the shoe is cold .
+the hat is full but the ball is empty .
+one goat is in the barn .
+the ball is grey , not green .
+the girl did not buy rice , she bought beans , so she bought beans .
+the boy bought coffee , not juice .
+my uncle saw a calf , a calf is a young cow .
+the hat is noisy but the box is quiet .
+the kite is heavy but the spoon is light .
+the bag is white , not blue .
+the kite is not white , it is red , so the kite is red .
+the shoe is noisy but the lamp is quiet .
+the boy did light the fire first and cook the rice second , so the later action is cook .
+my uncle did not buy fish , he bought cheese , so he bought cheese .
+the shirt is not white , it is grey , so the shirt is grey .
+the cup is clean but the coat is dirty .
+the cup is full but the coat is empty .
+the chair is long but the ball is short .
+the coat is not blue , it is black , so the coat is black .
+two ducks were at the beach .
+my uncle saw that the dog is hungry .
+the key is white , not blue .
+the ducks are in the kitchen .
+the key is big but the plate is small .
+the letter is green , not brown .
+today the cook walks to the market and yesterday the cook walked to the market too .
+my sister did not buy grapes , she bought soup , so she bought soup .
+the plate is inside the pillow , so the pillow contains the plate .
+the pillow is wet but the cup is dry .
+the bag is wet but the shirt is dry .
+the cook saw that the ice is cold .
+the shirt is wet but the kite is dry .
+the pillow is clean but the box is dirty .
+the plate is white , not green .
+two ducks were by the river .
+the key is brown , not red .
+the nurse bought soup , not coffee .
+the scarf is big but the cup is small .
+the chair is to the left of the hat , so the hat is to the right of the chair .
+my sister bought soup , not grapes .
+the key is grey , not red .
+the opposite of low is high .
+my uncle did not buy juice , he bought cake , so he bought cake .
+the ball is old but the chair is new .
+the cook did not buy soup , he bought cake , so he bought cake .
+the girl did not buy apples , she bought beans , so she bought beans .
+the ball is heavy but the kite is light .
+the driver did not buy fish , he bought grapes , so he bought grapes .
+the horses are at the market .
+the key is inside the pillow , so the pillow contains the key .
+the scarf is big but the kite is small .
+two ducks were at the school .
+the cook bought coffee , not bread .
+the letter is to the left of the pillow , so the pillow is to the right of the letter .
+the shoe is not blue , it is white , so the shoe is white .
+the child saw that we turn on the lamp when it is dark .
+when it is not heavy it is light .
+the spoon is heavy but the box is light .
+the girl saw a foal , a foal is a young horse .
+the spoon is old but the ball is new .
+the spoon is clean but the key is dirty .
+the ball is long but the cup is short .
+the cup is hot but the key is cold .
+the shoe is full but the ball is empty .
+two cats were in the kitchen .
+the farmer saw that the room is dark at night .
+the hat is grey , not brown .
+the hat is big but the chair is small .
+the box is long but the kite is short .
+the hat is big but the plate is small .
+a dog is at the beach .
+the box is open but the spoon is closed .
+the pillow is wet but the plate is dry .
+my aunt saw that the dog is hungry .
+two ducks were in the barn .
+two dogs are at the market .
+the shirt is blue , not red .
+the nurse did not buy bread , she bought juice , so she bought juice .
+two dogs are on the roof .
+the spoon is not white , it is black , so the spoon is black .
+the bag is noisy but the box is quiet .
+the key is long but the cup is short .
+the shirt is grey , not black .
+the ball is full but the book is empty .
+today my uncle walks to the market and yesterday my uncle walked to the market too .
+the chair is not white , it is yellow , so the chair is yellow .
+the shoe is inside the plate , so the plate contains the shoe .
+the chair is blue , not grey .
+the coat is clean but the cup is dirty .
+the key is inside the scarf , so the scarf contains the key .
+one cat is in the park .
+the shoe is clean but the key is dirty .
+the cup is not white , it is grey , so the cup is grey .
+the box is wet but the kite is dry .
+the cook did not buy cake , he bought bread , so he bought bread .
+the horses are in the garden .
+the bag is heavy but the scarf is light .
+the girl saw a calf , a calf is a young cow .
+the lamp is big but the key is small .
+the scarf is inside the coat , so the coat contains the scarf .
+the letter is inside the plate , so the plate contains the letter .
+the cook did clean the brush first and paint the wall second , so the later action is paint .
+the kite is hot but the book is cold .
+the key is to the left of the kite , so the kite is to the right of the key .
+two goats were by the river .
+my sister did not buy soup , she bought cheese , so she bought cheese .
+my uncle saw that wood is hard .
+the kite is noisy but the chair is quiet .
+the boy did not buy bread , he bought coffee , so he bought coffee .
+the bag is wet but the shoe is dry .
+one duck is in the kitchen .
+the shirt is heavy but the coat is light .
+my sister bought beans , not bread .
+the shirt is old but the shoe is new .
+the lamp is clean but the pillow is dirty .
+the scarf is heavy but the cup is light .
+the kite is black , not red .
+the driver bought beans , not coffee .
+the ball is not white , it is black , so the ball is black .
+the child saw that the ice is cold .
+the shoe is heavy but the bag is light .
+my uncle bought apples , not beans .
+the letter is not yellow , it is brown , so the letter is brown .
+the kite is heavy but the coat is light .
+the pillow is brown , not yellow .
+the lamp is not black , it is brown , so the lamp is brown .
+the nurse did not buy cheese , she bought coffee , so she bought coffee .
+the book is open but the plate is closed .
+the key is above the scarf , so the scarf is below the key .
+two cows were at the beach .
+my aunt saw a calf , a calf is a young cow .
+my sister bought apples , not beans .
+one goat is on the roof .
+the book is wet but the spoon is dry .
+the cook bought grapes , not fish .
+the child bought cake , not cheese .
+three birds were at the school .
+the book is grey , not white .
+the nurse did not buy soup , she bought cake , so she bought cake .
+the goats are in the park .
+the driver saw that wood is hard .
+the key is big but the lamp is small .
+the student saw a kitten , a kitten is a young cat .
+the letter is hot but the coat is cold .
+the shoe is wet but the key is dry .
+the student did not buy soup , he bought cheese , so he bought cheese .
+the child did not buy cheese , she bought cake , so she bought cake .
+the shirt is wet but the spoon is dry .
+the plate is above the hat , so the hat is below the plate .
+the lamp is yellow , not brown .
+two cows were in the park .
+the spoon is heavy but the pillow is light .
+the shirt is red , not black .
+the key is not grey , it is green , so the key is green .
+the shirt is not black , it is grey , so the shirt is grey .
+the nurse did not buy coffee , she bought fish , so she bought fish .
+one cat is at the bank .
+yesterday the boy visited the museum .
+two goats were in the garden .
+the nurse bought bread , not rice .
+the plate is inside the kite , so the kite contains the plate .
+the shirt is full but the coat is empty .
+two dogs are at the beach .
+the shirt is long but the chair is short .
+the cup is hot but the pillow is cold .
+the shoe is wet but the lamp is dry .
+the boy bought beans , not fish .
+the letter is open but the box is closed .
+my aunt bought rice , not grapes .
+the girl bought juice , not apples .
+the hat is hot but the bag is cold .
+the cup is noisy but the chair is quiet .
+the scarf is above the coat , so the coat is below the scarf .
+the hat is hot but the shirt is cold .
+the box is noisy but the plate is quiet .
+the ball is wet but the lamp is dry .
+one cat is at the office .
+three birds were in the barn .
+the coat is not brown , it is yellow , so the coat is yellow .
+the cup is full but the ball is empty .
+the scarf is green , not white .
+the shoe is to the left of the spoon , so the spoon is to the right of the shoe .
+my uncle bought soup , not juice .
+the shirt is clean but the pillow is dirty .
+the letter is heavy but the coat is light .
+the girl did not buy grapes , she bought fish , so she bought fish .
+the scarf is heavy but the bag is light .
+two cats were in the park .
+the coat is not green , it is yellow , so the coat is yellow .
+the farmer saw a lamb , a lamb is a young sheep .
+the scarf is brown , not green .
+the cats are at the market .
+the spoon is hot but the coat is cold .
+the plate is heavy but the chair is light .
+the plate is heavy but the bag is light .
+the cow is at the market .
+the book is full but the key is empty .
+the frog is in the kitchen .
+my sister bought cheese , not grapes .
+the hat is clean but the book is dirty .
+the shoe is noisy but the hat is quiet .
+the ball is not grey , it is red , so the ball is red .
+the plate is wet but the kite is dry .
+the cup is hot but the scarf is cold .
+the kite is clean but the cup is dirty .
+the chair is not red , it is blue , so the chair is blue .
+the cook did not buy beans , he bought fish , so he bought fish .
+the pillow is clean but the coat is dirty .
+the plate is inside the hat , so the hat contains the plate .
+the pillow is heavy but the lamp is light .
+the ball is clean but the plate is dirty .
+the teacher did not buy rice , she bought grapes , so she bought grapes .
+the key is not black , it is white , so the key is white .
+the box is hot but the book is cold .
+the chair is red , not green .
+the box is big but the plate is small .
+the lamp is wet but the coat is dry .
+the plate is not blue , it is grey , so the plate is grey .
+the girl bought bread , not grapes .
+my aunt did not buy beans , she bought rice , so she bought rice .
+the student did not buy cake , he bought cheese , so he bought cheese .
+the letter is above the shoe , so the shoe is below the letter .
+yesterday my aunt visited the museum .
+the letter is hot but the shirt is cold .
+the pillow is big but the scarf is small .
+three dogs were at the market .
+the ball is heavy but the plate is light .
+the ball is green , not white .
+my aunt bought cheese , not soup .
+the shoe is blue , not white .
+the hat is hot but the spoon is cold .
+the shirt is noisy but the spoon is quiet .
+the coat is to the left of the letter , so the letter is to the right of the coat .
+the coat is open but the key is closed .
+the hat is old but the spoon is new .
+three dogs were in the park .
+the bag is green , not white .
+the boy bought beans , not grapes .
+the student saw a foal , a foal is a young horse .
+the pillow is big but the box is small .
+the shoe is clean but the chair is dirty .
+the bag is wet but the scarf is dry .
+the cook did not buy soup , he bought grapes , so he bought grapes .
+the girl did open the bag first and pack the shirt second , so the later action is pack .
+the letter is hot but the pillow is cold .
+the shirt is not white , it is green , so the shirt is green .
+the pillow is hot but the shoe is cold .
+yesterday my sister played football .
+the cook did not buy rice , he bought cake , so he bought cake .
+the girl bought juice , not cake .
+the opposite of sweet is sour .
+my sister did not buy rice , she bought bread , so she bought bread .
+the kite is not green , it is grey , so the kite is grey .
+the spoon is full but the book is empty .
+the driver bought coffee , not rice .
+the shirt is big but the hat is small .
+the girl did not buy soup , she bought juice , so she bought juice .
+the nurse bought bread , not fish .
+the boy did not buy grapes , he bought beans , so he bought beans .
+the kite is big but the box is small .
+the nurse bought apples , not juice .
+the key is black , not blue .
+two dogs are at the station .
+the shoe is not yellow , it is brown , so the shoe is brown .
+the shirt is clean but the cup is dirty .
+one cat is on the roof .
+the spoon is long but the bag is short .
+the plate is not yellow , it is white , so the plate is white .
+the girl bought bread , not cheese .
+the chair is grey , not white .
+the shoe is full but the shirt is empty .
+the kite is long but the key is short .
+one cow is at the market .
+the cook did not buy cake , he bought apples , so he bought apples .
+the letter is noisy but the box is quiet .
+yesterday the girl played football .
+the kite is not blue , it is green , so the kite is green .
+the student saw that the dog is hungry .
+two dogs are by the river .
+one cow is in the park .
+the girl did not buy cake , she bought soup , so she bought soup .
+the key is heavy but the pillow is light .
+the box is full but the shoe is empty .
+the scarf is black , not grey .
+the coat is wet but the pillow is dry .
+the nurse did not buy fish , she bought rice , so she bought rice .
+the goat is in the barn .
+one cat is in the garden .
+the teacher did not buy coffee , she bought apples , so she bought apples .
+the book is noisy but the box is quiet .
+my uncle bought apples , not cheese .
+the spoon is wet but the chair is dry .
+the book is not green , it is white , so the book is white .
+the farmer did not buy coffee , he bought cheese , so he bought cheese .
+two cows were at the station .
+the bag is full but the spoon is empty .
+the bag is heavy but the shoe is light .
+the driver bought grapes , not apples .
+the letter is open but the shoe is closed .
+the boy saw a puppy , a puppy is a young dog .
+the shirt is old but the letter is new .
+the shirt is clean but the coat is dirty .
+the scarf is long but the shoe is short .
+the plate is above the coat , so the coat is below the plate .
+the letter is clean but the pillow is dirty .
+the letter is to the left of the scarf , so the scarf is to the right of the letter .
+today my sister walks to the market and yesterday my sister walked to the market too .
+the coat is old but the kite is new .
+the pillow is hot but the scarf is cold .
+the spoon is heavy but the shoe is light .
+the shoe is heavy but the letter is light .
+the scarf is blue , not green .
+the ducks are at the market .
+the cat is at the beach .
+the shirt is hot but the spoon is cold .
+the hat is full but the letter is empty .
+the ball is long but the shirt is short .
+the spoon is not green , it is brown , so the spoon is brown .
+the key is not white , it is blue , so the key is blue .
+the pillow is blue , not white .
+the pillow is full but the shirt is empty .
+the driver bought coffee , not fish .
+the kite is full but the bag is empty .
+the lamp is wet but the scarf is dry .
+the bag is brown , not blue .
+my sister bought soup , not juice .
+today the girl walks to the market and yesterday the girl walked to the market too .
+the nurse did not buy soup , she bought beans , so she bought beans .
+the shirt is open but the bag is closed .
+the coat is open but the pillow is closed .
+the cup is hot but the chair is cold .
+the book is heavy but the shoe is light .
+the ball is wet but the shoe is dry .
+the scarf is not green , it is white , so the scarf is white .
+the shirt is heavy but the chair is light .
+the opposite of rich is poor .
+the ball is full but the shoe is empty .
+the plate is hot but the key is cold .
+the kite is hot but the coat is cold .
+the hat is not brown , it is grey , so the hat is grey .
+the cup is not black , it is grey , so the cup is grey .
+the teacher did not buy cake , she bought cheese , so she bought cheese .
+the letter is hot but the lamp is cold .
+the hat is wet but the lamp is dry .
+the goats are by the river .
+the kite is open but the shoe is closed .
+the cup is open but the book is closed .
+the cook bought rice , not bread .
+the shirt is yellow , not green .
+the plate is old but the letter is new .
+the plate is red , not white .
+the plate is old but the ball is new .
+the bag is wet but the key is dry .
+the shoe is not red , it is yellow , so the shoe is yellow .
+the driver bought soup , not fish .
+two cows were by the river .
+the boy bought cheese , not bread .
+the hat is to the left of the pillow , so the pillow is to the right of the hat .
+the box is open but the shoe is closed .
+the bag is hot but the hat is cold .
+the pillow is full but the lamp is empty .
+the bag is noisy but the plate is quiet .
+the frog is in the park .
+the shoe is clean but the cup is dirty .
+the kite is open but the cup is closed .
+the box is big but the shirt is small .
+the farmer did not buy juice , he bought fish , so he bought fish .
+the plate is above the scarf , so the scarf is below the plate .
+the cows are in the park .
+my sister saw that the lake freezes in winter .
+the letter is not black , it is blue , so the letter is blue .
+the kite is clean but the coat is dirty .
+the scarf is clean but the spoon is dirty .
+the student bought juice , not soup .
+the shoe is brown , not red .
+the book is long but the coat is short .
+the bag is full but the kite is empty .
+the girl did not buy grapes , she bought apples , so she bought apples .
+the boy did lock the gate first and feed the goat second , so the later action is feed .
+the driver saw a calf , a calf is a young cow .
+the coat is full but the shoe is empty .
+the bag is full but the lamp is empty .
+the ball is big but the pillow is small .
+the box is open but the shirt is closed .
+the scarf is wet but the plate is dry .
+the book is black , not white .
+the shirt is not white , it is black , so the shirt is black .
+the student bought bread , not grapes .
+the hat is wet but the spoon is dry .
+the pillow is green , not blue .
+the chair is blue , not yellow .
+the book is wet but the lamp is dry .
+the girl did not buy coffee , she bought beans , so she bought beans .
+the girl did not buy cake , she bought fish , so she bought fish .
+the plate is big but the shirt is small .
+the chair is noisy but the coat is quiet .
+the boy bought coffee , not cake .
+the box is clean but the key is dirty .
+the shirt is open but the cup is closed .
+the key is full but the scarf is empty .
+the cup is not white , it is brown , so the cup is brown .
+the girl saw that the lake freezes in winter .
+the goat is in the kitchen .
+thick and thin are opposites .
+the letter is grey , not blue .
+the shoe is big but the cup is small .
+the key is clean but the ball is dirty .
+the chair is not yellow , it is blue , so the chair is blue .
+the bag is full but the pillow is empty .
+the cow is on the roof .
+one duck is in the park .
+the plate is big but the ball is small .
+the shoe is not yellow , it is blue , so the shoe is blue .
+the shoe is to the left of the kite , so the kite is to the right of the shoe .
+the key is clean but the pillow is dirty .
+the cook bought grapes , not soup .
+the hat is open but the letter is closed .
+the opposite of early is late .
+the lamp is old but the letter is new .
+the cup is above the scarf , so the scarf is below the cup .
+two dogs are at the office .
+the scarf is heavy but the kite is light .
+the letter is clean but the plate is dirty .
+heavy and light are opposites .
+the lamp is heavy but the ball is light .
+my uncle bought cheese , not fish .
+my aunt did light the fire first and cook the rice second , so the later action is cook .
+the letter is inside the pillow , so the pillow contains the letter .
+the hat is full but the shirt is empty .
+the girl bought beans , not apples .
+the student saw that wood is hard .
+the coat is to the left of the kite , so the kite is to the right of the coat .
+the scarf is full but the lamp is empty .
+a bird is at the bank .
+the bag is wet but the spoon is dry .
+my uncle saw that the ice is cold .
+the girl bought apples , not fish .
+the boy saw that we turn on the lamp when it is dark .
+the scarf is blue , not white .
+the ball is wet but the hat is dry .
+the shoe is old but the kite is new .
+the boy did not buy grapes , he bought coffee , so he bought coffee .
+the plate is noisy but the chair is quiet .
+the kite is open but the key is closed .
+the spoon is not yellow , it is grey , so the spoon is grey .
+the cook saw a foal , a foal is a young horse .
+two birds are at the beach .
+two goats were on the roof .
+the nurse bought juice , not fish .
+the plate is big but the book is small .
+the bag is blue , not black .
+three birds were in the park .
+the scarf is brown , not black .
+the cup is yellow , not green .
+the coat is noisy but the shirt is quiet .
+the pillow is noisy but the cup is quiet .
+the nurse did not buy cheese , she bought bread , so she bought bread .
+sweet and sour are opposites .
+the shoe is blue , not yellow .
+when it is not high it is low .
+the bag is big but the scarf is small .
+yesterday the child played football .
+the plate is big but the box is small .
+the ball is not brown , it is white , so the ball is white .
+the student bought rice , not bread .
+the spoon is brown , not yellow .
+the scarf is inside the spoon , so the spoon contains the scarf .
+the nurse eats dinner after lunch , the earlier one is lunch .
+yesterday the nurse played football .
+the girl bought beans , not rice .
+the opposite of wide is narrow .
+the box is heavy but the plate is light .
+the pillow is not grey , it is white , so the pillow is white .
+the shoe is black , not red .
+the letter is clean but the shirt is dirty .
+the key is not blue , it is white , so the key is white .
+the pillow is old but the hat is new .
+day and night are opposites .
+the pillow is inside the kite , so the kite contains the pillow .
+the coat is clean but the shirt is dirty .
+yesterday my aunt talked about rivers .
+the pillow is big but the spoon is small .
+the bag is heavy but the book is light .
+the spoon is big but the scarf is small .
+the cup is wet but the ball is dry .
+the letter is yellow , not green .
+the spoon is old but the pillow is new .
+the shoe is old but the coat is new .
+the frog is in the garden .
+the pillow is long but the box is short .
+the chair is heavy but the letter is light .
+the cats are at the office .
+the scarf is yellow , not white .
+two birds are at the office .
+the pillow is old but the chair is new .
+the nurse bought juice , not bread .
+the bag is big but the shoe is small .
+the lamp is wet but the kite is dry .
+the coat is yellow , not blue .
+the boy saw that a cow eats grass .
+two cows were at the office .
+my aunt did not buy fish , she bought rice , so she bought rice .
+one goat is at the beach .
+the girl bought cake , not grapes .
+the box is wet but the plate is dry .
+the plate is wet but the chair is dry .
+the ball is noisy but the chair is quiet .
+the plate is black , not yellow .
+the nurse bought coffee , not grapes .
+my sister saw that the dog is hungry .
+the boy saw that wood is hard .
+my sister did not buy coffee , she bought grapes , so she bought grapes .
+the chair is long but the shoe is short .
+the chair is heavy but the plate is light .
+the duck is by the river .
+the child bought juice , not coffee .
+yesterday my aunt walked to the market .
+the shirt is hot but the book is cold .
+two birds are in the barn .
+the kite is not yellow , it is grey , so the kite is grey .
+the kite is grey , not yellow .
+the shoe is to the left of the chair , so the chair is to the right of the shoe .
+the student bought apples , not coffee .
+the book is heavy but the coat is light .
+the student bought apples , not grapes .
+the coat is not black , it is yellow , so the coat is yellow .
+the shirt is full but the lamp is empty .
+two cats were by the river .
+the ball is white , not brown .
+my sister did light the fire first and cook the rice second , so the later action is cook .
+the cup is wet but the chair is dry .
+the bag is noisy but the kite is quiet .
+two birds are at the station .
+the coat is not yellow , it is blue , so the coat is blue .
+the chair is wet but the shoe is dry .
+the shirt is above the hat , so the hat is below the shirt .
+the shoe is not black , it is green , so the shoe is green .
+the boy did not buy beans , he bought coffee , so he bought coffee .
+the bag is noisy but the spoon is quiet .
+the letter is above the shirt , so the shirt is below the letter .
+the farmer bought cake , not cheese .
+the coat is red , not brown .
+the kite is not black , it is white , so the kite is white .
+the shirt is open but the key is closed .
+the cup is big but the pillow is small .
+the coat is not green , it is black , so the coat is black .
+the farmer did clean the brush first and paint the wall second , so the later action is paint .
+the kite is noisy but the bag is quiet .
+the bag is noisy but the scarf is quiet .
+the shoe is heavy but the box is light .
+one goat is in the garden .
+the ball is clean but the shoe is dirty .
+the cook bought beans , not bread .
+the pillow is heavy but the shoe is light .
+the kite is wet but the box is dry .
+my aunt did not buy cheese , she bought beans , so she bought beans .
+the farmer bought cheese , not coffee .
+the box is hot but the kite is cold .
+the duck is at the office .
+the book is black , not red .
+the key is to the left of the hat , so the hat is to the right of the key .
+the pillow is to the left of the shirt , so the shirt is to the right of the pillow .
+a bird is at the station .
+the cup is old but the key is new .
+the key is not brown , it is white , so the key is white .
+the book is green , not yellow .
+two goats were at the bank .
+the ball is wet but the shirt is dry .
+my sister did not buy coffee , she bought bread , so she bought bread .
+the pillow is not blue , it is yellow , so the pillow is yellow .
+the spoon is brown , not white .
+the farmer saw that we turn on the lamp when it is dark .
+the farmer saw a cub , a cub is a young bear .
+the lamp is hot but the shirt is cold .
+the ball is hot but the coat is cold .
+the bag is full but the letter is empty .
+two frogs were on the roof .
+my sister saw a puppy , a puppy is a young dog .
+rich and poor are opposites .
+my aunt did not buy soup , she bought coffee , so she bought coffee .
+the driver bought cheese , not bread .
+the hat is heavy but the letter is light .
+the hat is above the key , so the key is below the hat .
+when it is not wide it is narrow .
+the shirt is not blue , it is green , so the shirt is green .
+two horses were in the garden .
+the student bought cheese , not soup .
+the shoe is not brown , it is grey , so the shoe is grey .
+the book is big but the key is small .
+the bag is wet but the pillow is dry .
+the plate is above the shoe , so the shoe is below the plate .
+the teacher saw a lamb , a lamb is a young sheep .
+the bag is full but the shirt is empty .
+the box is old but the ball is new .
+the coat is clean but the lamp is dirty .
+the cup is clean but the ball is dirty .
+the hat is brown , not black .
+the opposite of soft is hard .
+the chair is big but the spoon is small .
+the opposite of short is tall .
+the girl bought juice , not soup .
+the plate is full but the bag is empty .
+the pillow is inside the shoe , so the shoe contains the pillow .
+the key is not white , it is grey , so the key is grey .
+the chair is long but the bag is short .
+the teacher saw a kitten , a kitten is a young cat .
+the coat is black , not blue .
+yesterday my sister cooked dinner .
+the key is above the chair , so the chair is below the key .
+the child saw a puppy , a puppy is a young dog .
+the bag is not red , it is yellow , so the bag is yellow .
+the book is not grey , it is green , so the book is green .
+the key is full but the shoe is empty .
+the box is noisy but the spoon is quiet .
+the horse is at the station .
+the letter is inside the cup , so the cup contains the letter .
+the shoe is not green , it is yellow , so the shoe is yellow .
+the chair is above the hat , so the hat is below the chair .
+the hat is black , not green .
+the plate is yellow , not brown .
+the cup is open but the bag is closed .
+the spoon is inside the scarf , so the scarf contains the spoon .
+the chair is old but the plate is new .
+the horses are at the office .
+the plate is clean but the chair is dirty .
+the shoe is red , not grey .
+the shoe is not green , it is grey , so the shoe is grey .
+the bag is old but the spoon is new .
+the key is green , not blue .
+the plate is full but the coat is empty .
+the kite is brown , not yellow .
+my aunt bought rice , not beans .
+when it is not warm it is cool .
+the shirt is to the left of the kite , so the kite is to the right of the shirt .
+the lamp is blue , not red .
+the ball is wet but the box is dry .
+three birds were in the garden .
+the spoon is noisy but the cup is quiet .
+the pillow is above the shoe , so the shoe is below the pillow .
+the boy did not buy cake , he bought coffee , so he bought coffee .
+the ball is clean but the bag is dirty .
+the cows are at the bank .
+the shirt is heavy but the plate is light .
+the hat is big but the kite is small .
+my sister did not buy juice , she bought coffee , so she bought coffee .
+the horses are in the barn .
+the bag is green , not brown .
+one duck is in the barn .
+the spoon is red , not green .
+the letter is green , not blue .
+the nurse did open the bag first and pack the shirt second , so the later action is pack .
+the shoe is not grey , it is red , so the shoe is red .
+the pillow is big but the ball is small .
+the coat is not white , it is yellow , so the coat is yellow .
+three birds were at the market .
+the book is long but the box is short .
+the chair is full but the plate is empty .
+the nurse did not buy fish , she bought bread , so she bought bread .
+the pillow is not grey , it is green , so the pillow is green .
+yesterday my uncle cooked dinner .
+the nurse bought juice , not soup .
+the shoe is wet but the shirt is dry .
+the book is not red , it is white , so the book is white .
+the shirt is black , not white .
+the driver did not buy apples , he bought grapes , so he bought grapes .
+the spoon is above the chair , so the chair is below the spoon .
+my sister did not buy rice , she bought apples , so she bought apples .
+the letter is not black , it is red , so the letter is red .
+the box is full but the book is empty .
+the scarf is clean but the cup is dirty .
+the letter is wet but the shoe is dry .
+the teacher did not buy beans , she bought cake , so she bought cake .
+the kite is not red , it is white , so the kite is white .
+the letter is white , not grey .
+the lamp is open but the spoon is closed .
+the nurse bought rice , not grapes .
+the hat is heavy but the box is light .
+the box is hot but the hat is cold .
+the letter is big but the chair is small .
+the driver did not buy coffee , he bought beans , so he bought beans .
+the farmer bought fish , not juice .
+the shoe is open but the coat is closed .
+the child did not buy cheese , she bought juice , so she bought juice .
+the bag is open but the plate is closed .
+the boy bought coffee , not beans .
+the hat is long but the ball is short .
+the scarf is noisy but the ball is quiet .
+the shirt is big but the scarf is small .
+my aunt eats supper after lunch , the earlier one is lunch .
+the letter is not black , it is yellow , so the letter is yellow .
+the ducks are in the barn .
+the girl did not buy grapes , she bought cake , so she bought cake .
+the student did not buy juice , he bought soup , so he bought soup .
+the shoe is full but the pillow is empty .
+the coat is old but the cup is new .
+the spoon is to the left of the cup , so the cup is to the right of the spoon .
+the nurse did not buy coffee , she bought grapes , so she bought grapes .
+the cup is grey , not black .
+the teacher saw that wood is hard .
+the book is full but the hat is empty .
+my uncle saw a foal , a foal is a young horse .
+the cup is wet but the pillow is dry .
+the letter is old but the hat is new .
+the shoe is above the letter , so the letter is below the shoe .
+the key is grey , not black .
+the cup is full but the book is empty .
+the nurse did not buy cheese , she bought rice , so she bought rice .
+my aunt saw that a cow eats grass .
+the spoon is not white , it is brown , so the spoon is brown .
+the frog is in the barn .
+the girl saw that the dog is hungry .
+the kite is heavy but the bag is light .
+the girl bought coffee , not fish .
+the shoe is not red , it is black , so the shoe is black .
+the spoon is heavy but the scarf is light .
+the bag is noisy but the letter is quiet .
+the opposite of far is near .
+the chair is not grey , it is blue , so the chair is blue .
+the nurse did not buy juice , she bought fish , so she bought fish .
+the farmer did not buy coffee , he bought grapes , so he bought grapes .
+the letter is full but the key is empty .
+the child did not buy coffee , she bought soup , so she bought soup .
+the nurse did not buy beans , she bought cake , so she bought cake .
+the plate is heavy but the shoe is light .
+the opposite of cool is warm .
+the teacher bought cheese , not soup .
+two dogs are at the school .
+the boy bought apples , not bread .
+the lamp is wet but the bag is dry .
+the ball is wet but the cup is dry .
+strong and weak are opposites .
+the shoe is clean but the bag is dirty .
+the chair is old but the lamp is new .
+the cup is to the left of the scarf , so the scarf is to the right of the cup .
+my sister did not buy cheese , she bought bread , so she bought bread .
+the child saw a foal , a foal is a young horse .
+the farmer saw that the dog is hungry .
+the coat is heavy but the book is light .
+the coat is grey , not green .
+the plate is full but the lamp is empty .
+the shoe is white , not green .
+my aunt saw that the lake freezes in winter .
+the cup is big but the chair is small .
+the chair is not grey , it is red , so the chair is red .
+my uncle bought rice , not beans .
+the duck is at the bank .
+the teacher bought apples , not cake .
+the letter is long but the plate is short .
+the ball is old but the coat is new .
+the teacher bought beans , not juice .
+the spoon is big but the shoe is small .
+the pillow is blue , not red .
+two ducks were in the park .
+the shirt is long but the book is short .
+the shoe is not white , it is blue , so the shoe is blue .
+the cat is at the station .
+the key is long but the kite is short .
+the coat is old but the ball is new .
+the girl did lock the gate first and feed the goat second , so the later action is feed .
+the spoon is white , not grey .
+the shirt is heavy but the bag is light .
+the kite is not yellow , it is brown , so the kite is brown .
+when it is not sweet it is sour .
+the letter is black , not green .
+the horses are at the bank .
+the opposite of narrow is wide .
+the plate is inside the shoe , so the shoe contains the plate .
+the lamp is grey , not green .
+my uncle saw a puppy , a puppy is a young dog .
+two frogs were at the beach .
+the spoon is black , not white .
+the ball is not white , it is green , so the ball is green .
+yesterday the student visited the museum .
+my sister did not buy soup , she bought beans , so she bought beans .
+the scarf is wet but the letter is dry .
+the nurse did not buy coffee , she bought soup , so she bought soup .
+the chair is hot but the box is cold .
+the plate is long but the shoe is short .
+the hat is black , not grey .
+the coat is blue , not grey .
+the shirt is hot but the pillow is cold .
+the lamp is old but the bag is new .
+the ball is big but the kite is small .
+the student saw that the ice is cold .
+the pillow is hot but the chair is cold .
+the hat is hot but the letter is cold .
+the boy bought cake , not bread .
+the spoon is brown , not green .
+two ducks were in the garden .
+the book is wet but the cup is dry .
+the pillow is old but the scarf is new .
+the cook eats supper after lunch , the earlier one is lunch .
+the chair is big but the letter is small .
+three birds were at the station .
+the key is full but the chair is empty .
+the box is hot but the coat is cold .
+the teacher did not buy fish , she bought apples , so she bought apples .
+the pillow is long but the coat is short .
+the cup is long but the chair is short .
+a dog is on the roof .
+the book is blue , not white .
+the scarf is to the left of the shoe , so the shoe is to the right of the scarf .
+the shirt is heavy but the lamp is light .
+the chair is full but the scarf is empty .
+the plate is heavy but the kite is light .
+the plate is not green , it is black , so the plate is black .
+the letter is black , not brown .
+the student did not buy soup , he bought juice , so he bought juice .
+the pillow is noisy but the coat is quiet .
+the book is not grey , it is yellow , so the book is yellow .
+the nurse bought apples , not beans .
+my sister did lock the gate first and feed the goat second , so the later action is feed .
+the pillow is above the shirt , so the shirt is below the pillow .
+the coat is hot but the kite is cold .
+the coat is heavy but the scarf is light .
+the book is clean but the lamp is dirty .
+the coat is grey , not black .
+the pillow is black , not white .
+the opposite of warm is cool .
+the driver saw a foal , a foal is a young horse .
+the plate is wet but the bag is dry .
+the teacher bought grapes , not fish .
+the goat is at the beach .
+the plate is hot but the lamp is cold .
+the key is clean but the kite is dirty .
+my sister did not buy beans , she bought coffee , so she bought coffee .
+the bag is old but the book is new .
+the ducks are on the roof .
+the kite is old but the bag is new .
+my sister saw a cub , a cub is a young bear .
+the coat is not green , it is blue , so the coat is blue .
+the hat is to the left of the key , so the key is to the right of the hat .
+today the nurse walks to the market and yesterday the nurse walked to the market too .
+the scarf is black , not white .
+the key is old but the kite is new .
+the book is heavy but the pillow is light .
+the book is hot but the ball is cold .
+the letter is heavy but the key is light .
+the lamp is old but the key is new .
+the cows are in the kitchen .
+one horse is in the barn .
+my uncle did not buy soup , he bought bread , so he bought bread .
+the cup is old but the box is new .
+the student bought beans , not rice .
+the shoe is clean but the box is dirty .
+my aunt did not buy bread , she bought cheese , so she bought cheese .
+the shoe is green , not blue .
+the pillow is clean but the scarf is dirty .
+the kite is not blue , it is grey , so the kite is grey .
+the coat is heavy but the pillow is light .
+two birds are by the river .
+the scarf is old but the ball is new .
+my aunt bought cheese , not grapes .
+the chair is long but the scarf is short .
+one horse is at the school .
+the shirt is long but the spoon is short .
+the lamp is full but the letter is empty .
+my sister saw a lamb , a lamb is a young sheep .
+yesterday my sister cleaned the kitchen .
+the spoon is old but the coat is new .
+the lamp is hot but the chair is cold .
+the shoe is wet but the kite is dry .
+the horse is in the park .
+the boy bought fish , not coffee .
+the box is hot but the scarf is cold .
+yesterday the child talked about rivers .
+the plate is long but the lamp is short .
+the cup is long but the coat is short .
+the student did not buy rice , he bought coffee , so he bought coffee .
+the duck is in the kitchen .
+the scarf is not red , it is grey , so the scarf is grey .
+yesterday the child visited the museum .
+the book is not red , it is black , so the book is black .
+my sister did not buy cake , she bought grapes , so she bought grapes .
+the book is full but the box is empty .
+the box is big but the kite is small .
+the plate is wet but the coat is dry .
+the cup is not blue , it is white , so the cup is white .
+the coat is open but the shoe is closed .
+the coat is to the left of the plate , so the plate is to the right of the coat .
+one frog is in the garden .
+the kite is clean but the book is dirty .
+the horse is at the bank .
+evening comes after morning , the earlier one is morning .
+the shoe is wet but the letter is dry .
+my aunt did not buy coffee , she bought bread , so she bought bread .
+the box is hot but the ball is cold .
+the frog is at the beach .
+the bag is not brown , it is yellow , so the bag is yellow .
+the letter is to the left of the shoe , so the shoe is to the right of the letter .
+the ball is not red , it is white , so the ball is white .
+the kite is red , not grey .
+the cook did lock the gate first and feed the goat second , so the later action is feed .
+the scarf is not white , it is yellow , so the scarf is yellow .
+the boy did not buy grapes , he bought fish , so he bought fish .
+the farmer did not buy cheese , he bought cake , so he bought cake .
+the pillow is old but the ball is new .
+the girl bought cake , not rice .
+the ball is red , not grey .
+the ball is not green , it is grey , so the ball is grey .
+the shirt is brown , not grey .
+a dog is in the garden .
+yesterday the nurse painted the fence .
+the student did not buy coffee , he bought apples , so he bought apples .
+the plate is inside the coat , so the coat contains the plate .
+the shirt is white , not blue .
+the plate is noisy but the cup is quiet .
+the lamp is old but the kite is new .
+the bag is open but the hat is closed .
+the letter is open but the chair is closed .
+the key is clean but the bag is dirty .
+the kite is green , not grey .
+the chair is full but the letter is empty .
+the kite is not yellow , it is white , so the kite is white .
+the box is hot but the pillow is cold .
+my aunt bought apples , not beans .
+the child bought juice , not cheese .
+the cook did read the letter first and sign it second , so the later action is sign .
+my uncle bought cake , not juice .
+yesterday the nurse talked about rivers .
+the spoon is not blue , it is red , so the spoon is red .
+the girl did not buy cake , she bought juice , so she bought juice .
+the boy bought fish , not grapes .
+the hat is hot but the book is cold .
+the pillow is inside the cup , so the cup contains the pillow .
+the boy bought rice , not coffee .
+the child bought rice , not beans .
+the hat is clean but the bag is dirty .
+the shirt is clean but the scarf is dirty .
+the chair is yellow , not brown .
+the coat is inside the plate , so the plate contains the coat .
+the key is big but the ball is small .
+my sister saw that we turn on the lamp when it is dark .
+three birds were on the roof .
+when it is not rich it is poor .
+the chair is hot but the key is cold .
+my sister bought bread , not rice .
+one duck is by the river .
+the bag is not brown , it is blue , so the bag is blue .
+the book is noisy but the scarf is quiet .
+the plate is noisy but the shoe is quiet .
+yesterday the cook walked to the market .
+two horses were by the river .
+the girl bought grapes , not fish .
+the teacher bought apples , not coffee .
+the ball is noisy but the cup is quiet .
+the spoon is old but the hat is new .
+the lamp is hot but the coat is cold .
+my sister saw that wood is hard .
+the shoe is green , not black .
+the scarf is noisy but the box is quiet .
+two cows were in the garden .
+the child did clean the brush first and paint the wall second , so the later action is paint .
+the shirt is long but the bag is short .
+the teacher did not buy fish , she bought bread , so she bought bread .
+the key is noisy but the letter is quiet .
+the scarf is hot but the coat is cold .
+the cook saw that the dog is hungry .
+the hat is above the pillow , so the pillow is below the hat .
+the cow is in the barn .
+yesterday the girl painted the fence .
+the nurse bought bread , not grapes .
+the plate is hot but the cup is cold .
+the kite is heavy but the key is light .
+the kite is noisy but the pillow is quiet .
+my uncle did not buy soup , he bought rice , so he bought rice .
+the child bought bread , not fish .
+the shirt is wet but the book is dry .
+the bag is blue , not white .
+my uncle bought fish , not bread .
+the nurse saw a cub , a cub is a young bear .
+the chair is not green , it is red , so the chair is red .
+my uncle did light the fire first and cook the rice second , so the later action is cook .
+the cows are at the school .
+the shoe is long but the spoon is short .
+the opposite of small is big .
+the nurse did not buy apples , she bought grapes , so she bought grapes .
+my sister bought beans , not grapes .
+the book is not white , it is black , so the book is black .
+the spoon is above the cup , so the cup is below the spoon .
+the shirt is not brown , it is green , so the shirt is green .
+the shoe is open but the ball is closed .
+the pillow is long but the book is short .
+the shoe is above the plate , so the plate is below the shoe .
+wet and dry are opposites .
+yesterday the cook visited the museum .
+the shirt is open but the pillow is closed .
+the farmer saw a calf , a calf is a young cow .
+two ducks were at the bank .
+the pillow is old but the bag is new .
+the scarf is white , not grey .
+when it is not fast it is slow .
+the letter is old but the ball is new .
+the lamp is full but the box is empty .
+the pillow is black , not brown .
+a dog is at the office .
+my sister bought bread , not beans .
+the shirt is white , not grey .
+today the child walks to the market and yesterday the child walked to the market too .
+the ball is not brown , it is grey , so the ball is grey .
+the farmer eats supper after lunch , the earlier one is lunch .
+the pillow is noisy but the hat is quiet .
+two goats were in the kitchen .
+the shoe is hot but the kite is cold .
+the chair is noisy but the pillow is quiet .
+the ball is old but the scarf is new .
+my uncle did not buy grapes , he bought bread , so he bought bread .
+the cat is in the barn .
+the farmer bought juice , not beans .
+my aunt bought rice , not fish .
+the ball is hot but the pillow is cold .
+the lamp is not brown , it is white , so the lamp is white .
+the girl saw that a cow eats grass .
+the child bought coffee , not cheese .
+my sister did not buy juice , she bought soup , so she bought soup .
+the spoon is noisy but the letter is quiet .
+the bag is yellow , not green .
+the nurse saw a lamb , a lamb is a young sheep .
+the cows are by the river .
+the shoe is noisy but the key is quiet .
+the girl did not buy fish , she bought juice , so she bought juice .
+the shirt is hot but the cup is cold .
+the bag is old but the box is new .
+the box is old but the shoe is new .
+the hat is open but the shirt is closed .
+the plate is to the left of the scarf , so the scarf is to the right of the plate .
+the driver bought fish , not soup .
+the spoon is big but the cup is small .
+the boy did not buy beans , he bought grapes , so he bought grapes .
+the cook did not buy bread , he bought cheese , so he bought cheese .
+the chair is wet but the cup is dry .
+the cup is big but the bag is small .
+two dogs are in the barn .
+the shirt is old but the box is new .
+the coat is green , not brown .
+the pillow is not brown , it is white , so the pillow is white .
+the nurse did not buy coffee , she bought apples , so she bought apples .
+the chair is hot but the cup is cold .
+the spoon is noisy but the chair is quiet .
+the hat is clean but the spoon is dirty .
+the chair is white , not green .
+the boy saw that the ice is cold .
+the book is wet but the key is dry .
+the shirt is wet but the chair is dry .
+the spoon is old but the plate is new .
+the chair is noisy but the cup is quiet .
+the spoon is not yellow , it is brown , so the spoon is brown .
+the horses are on the roof .
+the nurse bought soup , not apples .
+the coat is noisy but the lamp is quiet .
+my uncle did not buy cheese , he bought bread , so he bought bread .
+the box is clean but the hat is dirty .
+when it is not near it is far .
+the bag is not blue , it is white , so the bag is white .
+the plate is old but the shirt is new .
+the cup is long but the shoe is short .
+the bag is heavy but the lamp is light .
+the teacher bought cheese , not cake .
+my uncle did not buy beans , he bought soup , so he bought soup .
+the driver bought cake , not coffee .
+the key is blue , not white .
+the coat is brown , not yellow .
+the driver saw that the dog is hungry .
+the plate is hot but the letter is cold .
+the nurse bought beans , not soup .
+my sister did not buy bread , she bought rice , so she bought rice .
+the coat is heavy but the hat is light .
+the opposite of tall is short .
+the key is open but the cup is closed .
+the book is big but the hat is small .
+the book is black , not yellow .
+the shirt is green , not blue .
+the cows are in the barn .
+three dogs were at the bank .
+the chair is above the spoon , so the spoon is below the chair .
+the scarf is wet but the chair is dry .
+my aunt did not buy grapes , she bought cheese , so she bought cheese .
+the shirt is hot but the scarf is cold .
+the teacher saw that the room is dark at night .
+the kite is not red , it is black , so the kite is black .
+the shirt is not brown , it is white , so the shirt is white .
+the lamp is wet but the box is dry .
+the ball is full but the key is empty .
+the letter is hot but the spoon is cold .
+the scarf is not black , it is grey , so the scarf is grey .
+the hat is wet but the chair is dry .
+the pillow is noisy but the ball is quiet .
+the box is wet but the pillow is dry .
+my sister did not buy beans , she bought apples , so she bought apples .
+the scarf is not grey , it is black , so the scarf is black .
+the pillow is not red , it is blue , so the pillow is blue .
+the cup is not black , it is blue , so the cup is blue .
+the hat is blue , not black .
+the letter is to the left of the shirt , so the shirt is to the right of the letter .
+the kite is open but the ball is closed .
+the scarf is big but the lamp is small .
+the pillow is big but the cup is small .
+the key is big but the kite is small .
+the shirt is wet but the plate is dry .
+the scarf is inside the shirt , so the shirt contains the scarf .
+the bag is old but the key is new .
+the chair is hot but the shirt is cold .
+the hat is full but the key is empty .
+the student did not buy rice , he bought beans , so he bought beans .
+yesterday my sister visited the museum .
+the ball is green , not brown .
+the coat is noisy but the book is quiet .
+my uncle bought bread , not cheese .
+the book is green , not white .
+the letter is not brown , it is black , so the letter is black .
+the shirt is old but the coat is new .
+the hat is wet but the shoe is dry .
+the scarf is inside the kite , so the kite contains the scarf .
+the driver did clean the brush first and paint the wall second , so the later action is paint .
+the pillow is white , not grey .
+the goat is at the school .
+the bag is big but the spoon is small .
+the nurse saw a foal , a foal is a young horse .
+the kite is hot but the scarf is cold .
+the teacher did not buy beans , she bought juice , so she bought juice .
+yesterday the driver cooked dinner .
+the hat is big but the letter is small .
+the opposite of light is heavy .
+the coat is inside the kite , so the kite contains the coat .
+the shoe is inside the letter , so the letter contains the shoe .
+the key is not black , it is grey , so the key is grey .
+the coat is old but the plate is new .
+the boy saw that the room is dark at night .
+the book is long but the ball is short .
+the chair is old but the shoe is new .
+the box is heavy but the lamp is light .
+the scarf is noisy but the bag is quiet .
+my uncle eats supper after lunch , the earlier one is lunch .
+the book is brown , not blue .
+the cows are at the market .
+the bag is full but the scarf is empty .
+my aunt did not buy coffee , she bought apples , so she bought apples .
+two cows were in the barn .
+the boy bought grapes , not apples .
+one goat is at the school .
+the chair is noisy but the hat is quiet .
+the shirt is hot but the letter is cold .
+the opposite of sour is sweet .
+the cats are in the kitchen .
+two goats were in the barn .
+the driver bought fish , not grapes .
+the cows are at the station .
+the coat is brown , not grey .
+the ball is long but the scarf is short .
+the coat is old but the bag is new .
+the cup is long but the spoon is short .
+the book is noisy but the spoon is quiet .
+my uncle saw that the lake freezes in winter .
+the chair is noisy but the book is quiet .
+the book is noisy but the bag is quiet .
+the shirt is noisy but the letter is quiet .
+the key is wet but the shoe is dry .
+the letter is not grey , it is red , so the letter is red .
+the book is noisy but the shirt is quiet .
+a dog is in the barn .
+the ball is old but the cup is new .
+the farmer saw that wood is hard .
+a dog is at the school .
+the plate is not green , it is white , so the plate is white .
+the kite is heavy but the lamp is light .
+the letter is wet but the lamp is dry .
+the key is big but the bag is small .
+yesterday the nurse cooked dinner .
+the shoe is not green , it is white , so the shoe is white .
+the key is not red , it is grey , so the key is grey .
+the chair is clean but the key is dirty .
+the letter is wet but the pillow is dry .
+the scarf is heavy but the letter is light .
+the scarf is big but the bag is small .
+the bag is big but the hat is small .
+the goat is in the park .
+the goat is on the roof .
+the pillow is to the left of the cup , so the cup is to the right of the pillow .
+the pillow is clean but the kite is dirty .
+the pillow is open but the lamp is closed .
+one goat is in the kitchen .
+the key is old but the book is new .
+the child did light the fire first and cook the rice second , so the later action is cook .
+the cup is clean but the book is dirty .
+the pillow is wet but the shirt is dry .
+the hat is not black , it is brown , so the hat is brown .
+the key is clean but the spoon is dirty .
+the chair is open but the hat is closed .
+the letter is red , not grey .
+the girl bought bread , not apples .
+yesterday the child cleaned the kitchen .
+the hat is noisy but the book is quiet .
+the farmer bought grapes , not juice .
+the coat is full but the scarf is empty .
+the key is not brown , it is yellow , so the key is yellow .
+one cat is at the market .
+the student bought bread , not soup .
+one cow is at the beach .
+the chair is to the left of the shoe , so the shoe is to the right of the chair .
+the hat is big but the box is small .
+the ball is not brown , it is yellow , so the ball is yellow .
+two cats were at the beach .
+the kite is long but the ball is short .
+the student bought cheese , not cake .
+my aunt bought cake , not coffee .
+my uncle did not buy beans , he bought rice , so he bought rice .
+the pillow is heavy but the coat is light .
+the chair is inside the key , so the key contains the chair .
+the shoe is to the left of the cup , so the cup is to the right of the shoe .
+three dogs were in the barn .
+the pillow is clean but the plate is dirty .
+the pillow is wet but the book is dry .
+the shoe is yellow , not green .
+the ducks are at the station .
+the letter is red , not black .
+the plate is not white , it is red , so the plate is red .
+the hat is yellow , not green .
+the plate is noisy but the hat is quiet .
+the letter is heavy but the book is light .
+the letter is to the left of the key , so the key is to the right of the letter .
+the scarf is noisy but the shoe is quiet .
+the driver saw that the ice is cold .
+the hat is hot but the coat is cold .
+yesterday the boy talked about rivers .
+the cat is on the roof .
+the key is noisy but the kite is quiet .
+my aunt did not buy grapes , she bought beans , so she bought beans .
+the scarf is full but the key is empty .
+the cup is heavy but the shoe is light .
+the boy saw a cub , a cub is a young bear .
+the box is big but the lamp is small .
+the student bought cheese , not juice .
+the ducks are at the school .
+the coat is big but the pillow is small .
+the key is heavy but the kite is light .
+the cat is at the school .
+the bag is big but the lamp is small .
+the spoon is heavy but the key is light .
+the book is clean but the key is dirty .
+the frogs are at the station .
+the lamp is noisy but the shirt is quiet .
+the nurse did not buy bread , she bought coffee , so she bought coffee .
+the spoon is not red , it is brown , so the spoon is brown .
+the letter is black , not grey .
+the hat is full but the plate is empty .
+my uncle did not buy bread , he bought fish , so he bought fish .
+the kite is wet but the key is dry .
+the bag is noisy but the coat is quiet .
+the nurse saw that a cow eats grass .
+the letter is long but the hat is short .
+the ball is yellow , not brown .
+the student did not buy juice , he bought cheese , so he bought cheese .
+the key is hot but the shirt is cold .
+the bag is hot but the chair is cold .
+the scarf is big but the spoon is small .
+the box is full but the pillow is empty .
+the nurse bought fish , not bread .
+the plate is hot but the shoe is cold .
+the horse is in the garden .
+three birds were at the bank .
+the letter is clean but the coat is dirty .
+my aunt did not buy coffee , she bought cake , so she bought cake .
+the book is green , not grey .
+the chair is wet but the hat is dry .
+the letter is above the key , so the key is below the letter .
+two horses were in the park .
+the letter is blue , not green .
+the girl saw that the ice is cold .
+the scarf is old but the lamp is new .
+my aunt bought beans , not cheese .
+the girl did not buy fish , she bought apples , so she bought apples .
+yesterday the teacher cooked dinner .
+the letter is heavy but the cup is light .
+the shoe is above the cup , so the cup is below the shoe .
+the scarf is noisy but the kite is quiet .
+my sister did not buy grapes , she bought cheese , so she bought cheese .
+the plate is full but the shirt is empty .
+the letter is clean but the bag is dirty .
+spring comes after winter , the earlier one is winter .
+the kite is white , not black .
+the cat is in the kitchen .
+the hat is clean but the scarf is dirty .
+the boy bought cake , not apples .
+the farmer bought beans , not coffee .
+the coat is not grey , it is black , so the coat is black .
+the bag is long but the scarf is short .
+the shirt is not yellow , it is red , so the shirt is red .
+the bag is big but the kite is small .
+the spoon is black , not green .
+the bag is black , not green .
+my aunt bought beans , not grapes .
+the girl bought fish , not coffee .
+the driver did not buy fish , he bought coffee , so he bought coffee .
+the hat is open but the scarf is closed .
+the driver eats supper after lunch , the earlier one is lunch .
+the hat is old but the pillow is new .
+the child eats supper after lunch , the earlier one is lunch .
+the bag is red , not blue .
+the plate is big but the letter is small .
+the coat is noisy but the kite is quiet .
+the boy bought beans , not cake .
+the letter is hot but the ball is cold .
+the hat is open but the ball is closed .
+the cook bought fish , not beans .
+the opposite of day is night .
+the book is yellow , not grey .
+the chair is long but the hat is short .
+the book is wet but the box is dry .
+big and small are opposites .
+the girl did not buy coffee , she bought fish , so she bought fish .
+the chair is not red , it is brown , so the chair is brown .
+the ball is noisy but the shirt is quiet .
+the letter is full but the chair is empty .
+the letter is not green , it is black , so the letter is black .
+my sister did not buy grapes , she bought cake , so she bought cake .
+the plate is noisy but the shirt is quiet .
+the hat is green , not white .
+the letter is above the scarf , so the scarf is below the letter .
+yesterday the teacher talked about rivers .
+the plate is not green , it is grey , so the plate is grey .
+the teacher saw a foal , a foal is a young horse .
+near and far are opposites .
+the chair is big but the pillow is small .
+the kite is big but the chair is small .
+the boy bought coffee , not grapes .
+the lamp is big but the shirt is small .
+the scarf is above the pillow , so the pillow is below the scarf .
+the shoe is brown , not white .
+the spoon is red , not grey .
+the frog is on the roof .
+my aunt bought grapes , not cheese .
+two dogs are at the bank .
+the opposite of loud is silent .
+the key is above the kite , so the kite is below the key .
+the bag is yellow , not white .
+one frog is on the roof .
+the hat is big but the lamp is small .
+the shoe is old but the spoon is new .
+the girl did not buy cheese , she bought bread , so she bought bread .
+the hat is above the shirt , so the shirt is below the hat .
+my aunt bought bread , not coffee .
+the scarf is above the kite , so the kite is below the scarf .
+my aunt eats dinner after lunch , the earlier one is lunch .
+the student did not buy cake , he bought beans , so he bought beans .
+one duck is at the beach .
+the chair is old but the key is new .
+the book is not black , it is white , so the book is white .
+the book is big but the lamp is small .
+the lamp is open but the key is closed .
+the cup is not black , it is brown , so the cup is brown .
+the cow is in the garden .
+the hat is open but the spoon is closed .
+the box is heavy but the spoon is light .
+the spoon is open but the hat is closed .
+the plate is old but the coat is new .
+the plate is noisy but the box is quiet .
+the chair is white , not yellow .
+the kite is long but the coat is short .
+the cup is heavy but the letter is light .
+the nurse bought cake , not beans .
+the goats are at the market .
+the shoe is inside the kite , so the kite contains the shoe .
+my aunt bought cheese , not bread .
+yesterday my aunt cleaned the kitchen .
+the bag is long but the spoon is short .
+the child did not buy fish , she bought bread , so she bought bread .
+the ball is not red , it is blue , so the ball is blue .
+one goat is in the park .
+the driver did not buy fish , he bought soup , so he bought soup .
+the spoon is clean but the letter is dirty .
+the girl did not buy rice , she bought apples , so she bought apples .
+the teacher saw that the ice is cold .
+the book is big but the shirt is small .
+the hat is clean but the shoe is dirty .
+the shirt is not white , it is yellow , so the shirt is yellow .
+the teacher did not buy cake , she bought juice , so she bought juice .
+the pillow is above the cup , so the cup is below the pillow .
+the horse is at the market .
+the farmer saw a chick , a chick is a young hen .
+the duck is in the garden .
+the key is wet but the book is dry .
+the cows are at the beach .
+the cup is big but the lamp is small .
+the bag is big but the ball is small .
+the coat is yellow , not black .
+the shoe is long but the lamp is short .
+the spoon is long but the letter is short .
+one cow is on the roof .
+two horses were at the beach .
+the cook bought juice , not soup .
+the plate is to the left of the coat , so the coat is to the right of the plate .
+the goat is at the station .
+the nurse did not buy grapes , she bought coffee , so she bought coffee .
+the cup is hot but the shirt is cold .
+the spoon is red , not white .
+the lamp is old but the chair is new .
+the letter is not grey , it is white , so the letter is white .
+the coat is yellow , not white .
+the child did not buy grapes , she bought cake , so she bought cake .
+the duck is at the market .
+the pillow is open but the book is closed .
+two horses were at the station .
+the teacher did not buy cheese , she bought apples , so she bought apples .
+the cook saw a calf , a calf is a young cow .
+the student eats supper after lunch , the earlier one is lunch .
+the hat is not green , it is black , so the hat is black .
+the kite is grey , not blue .
+the hat is full but the scarf is empty .
+the ball is noisy but the key is quiet .
+the scarf is yellow , not red .
+the plate is black , not green .
+my uncle eats dinner after lunch , the earlier one is lunch .
+the lamp is full but the chair is empty .
+the hat is open but the cup is closed .
+the teacher did light the fire first and cook the rice second , so the later action is cook .
+the hat is inside the shirt , so the shirt contains the hat .
+the bag is heavy but the kite is light .
+the shoe is hot but the cup is cold .
+the girl did not buy beans , she bought cheese , so she bought cheese .
+the chair is noisy but the letter is quiet .
+the shirt is green , not white .
+the cup is full but the pillow is empty .
+the letter is above the pillow , so the pillow is below the letter .
+the boy did not buy cake , he bought beans , so he bought beans .
+the coat is hot but the pillow is cold .
+the lamp is not green , it is grey , so the lamp is grey .
+one cow is in the barn .
+the cow is by the river .
+the shirt is heavy but the spoon is light .
+the coat is big but the letter is small .
+the book is hot but the lamp is cold .
+the child did not buy cheese , she bought coffee , so she bought coffee .
+the spoon is not brown , it is black , so the spoon is black .
+the spoon is heavy but the lamp is light .
+one horse is at the beach .
+the cook did not buy coffee , he bought soup , so he bought soup .
+the farmer did light the fire first and cook the rice second , so the later action is cook .
+the student saw a chick , a chick is a young hen .
+the spoon is long but the plate is short .
+the duck is in the barn .
+the spoon is big but the kite is small .
+the kite is not brown , it is yellow , so the kite is yellow .
+the pillow is white , not green .
+the kite is full but the plate is empty .
+the chair is above the cup , so the cup is below the chair .
+the kite is not green , it is brown , so the kite is brown .
+the plate is black , not brown .
+the driver did not buy grapes , he bought beans , so he bought beans .
+the nurse did not buy soup , she bought grapes , so she bought grapes .
+soft and hard are opposites .
+the nurse bought coffee , not cheese .
+the boy saw that the lake freezes in winter .
+my sister saw a kitten , a kitten is a young cat .
+the chair is inside the cup , so the cup contains the chair .
+the cup is hot but the letter is cold .
+yesterday the farmer talked about rivers .
+the letter is not black , it is white , so the letter is white .
+the bag is not blue , it is yellow , so the bag is yellow .
+the bag is blue , not grey .
+the lamp is old but the shoe is new .
+the cook saw that wood is hard .
+the hat is open but the plate is closed .
+the pillow is long but the ball is short .
+the bag is not green , it is yellow , so the bag is yellow .
+the nurse saw that wood is hard .
+the frog is at the office .
+my uncle did not buy fish , he bought bread , so he bought bread .
+the boy eats supper after lunch , the earlier one is lunch .
+the cook did not buy bread , he bought coffee , so he bought coffee .
+the farmer bought juice , not cake .
+the scarf is big but the letter is small .
+the bag is clean but the key is dirty .
+the cup is full but the hat is empty .
+the pillow is big but the hat is small .
+the ball is clean but the scarf is dirty .
+the cook bought cake , not soup .
+the plate is to the left of the hat , so the hat is to the right of the plate .
+the driver saw a puppy , a puppy is a young dog .
+the scarf is not yellow , it is white , so the scarf is white .
+the ball is clean but the coat is dirty .
+the shirt is wet but the shoe is dry .
+the coat is wet but the ball is dry .
+the hat is not green , it is brown , so the hat is brown .
+the scarf is to the left of the coat , so the coat is to the right of the scarf .
+the nurse bought juice , not apples .
+the bag is not red , it is blue , so the bag is blue .
+the coat is not brown , it is red , so the coat is red .
+the nurse bought apples , not bread .
+the ball is open but the pillow is closed .
+the kite is white , not red .
+yesterday the farmer painted the fence .
+one frog is at the beach .
+the cow is at the office .
+the scarf is open but the book is closed .
+the shirt is yellow , not white .
+the box is old but the key is new .
+the chair is heavy but the lamp is light .
+today the driver walks to the market and yesterday the driver walked to the market too .
+the shirt is red , not brown .
+the scarf is to the left of the spoon , so the spoon is to the right of the scarf .
+the shirt is heavy but the book is light .
+the kite is hot but the key is cold .
+the cup is above the hat , so the hat is below the cup .
+the plate is long but the spoon is short .
+the kite is noisy but the hat is quiet .
+yesterday the driver visited the museum .
+the cat is at the bank .
+three birds were at the beach .
+the farmer bought beans , not juice .
+the pillow is inside the shirt , so the shirt contains the pillow .
+the cup is open but the coat is closed .
+the kite is wet but the shirt is dry .
+the chair is open but the kite is closed .
+the farmer did not buy beans , he bought soup , so he bought soup .
+the book is full but the plate is empty .
+the teacher bought bread , not fish .
+the kite is old but the letter is new .
+fast and slow are opposites .
+the ducks are in the garden .
+the letter is heavy but the hat is light .
+the pillow is heavy but the kite is light .
+the shirt is hot but the plate is cold .
+the kite is not red , it is grey , so the kite is grey .
+the ball is noisy but the plate is quiet .
+the scarf is hot but the pillow is cold .
+the shoe is not white , it is brown , so the shoe is brown .
+the lamp is not grey , it is green , so the lamp is green .
+the teacher bought juice , not coffee .
+the scarf is above the shoe , so the shoe is below the scarf .
+the box is noisy but the kite is quiet .
+the chair is inside the shoe , so the shoe contains the chair .
+two cats were in the barn .
+the child did not buy beans , she bought rice , so she bought rice .
+the hat is brown , not grey .
+the scarf is not red , it is yellow , so the scarf is yellow .
+one duck is at the bank .
+the cats are at the bank .

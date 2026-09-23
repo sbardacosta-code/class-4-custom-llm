@@ -7,7 +7,7 @@ I trained Karpathy's nanoGPT from scratch on my laptop, twice. The first run use
 classroom corpus that the notebook generates. The second run adds three small text
 files I wrote to teach opposites, grammar and negation. Both runs were tested on the
 same 48 fixed language evals before and after training. After the two required
-experiments I ran nine more, one variable at a time, and logged each with a hypothesis
+experiments I ran thirteen more, one variable at a time, and logged each with a hypothesis
 written before the run, the metric, the result and a one-line conclusion in
 [EXPERIMENTS.md](EXPERIMENTS.md). The trained model answers
 prompts in a terminal chat. It is a tiny language model. It continues sentences. It
@@ -29,7 +29,7 @@ checksum-pinned by the notebook.
 | Results, Experiment 2 | [runs/experiment2_extended/](runs/experiment2_extended/), [ZIP](runs/experiment2_extended.zip) |
 | My added teaching text, Experiment 2 | [corpus_added/](corpus_added/) (copy the three .txt files into `corpus/` to rerun) |
 | Extra: Experiment 3 (4x more corpus) | [custom_llm_experiment3_more_corpus.ipynb](custom_llm_experiment3_more_corpus.ipynb), [runs/experiment3_more_corpus/](runs/experiment3_more_corpus/), [ZIP](runs/experiment3_more_corpus.zip), [corpus_added/experiment3/](corpus_added/experiment3/) |
-| Extra: Experiments 4 to 11, log with hypotheses | [EXPERIMENTS.md](EXPERIMENTS.md); notebooks [E4](custom_llm_experiment4_new_categories.ipynb), [E5](custom_llm_experiment5_all_seven.ipynb), [E6](custom_llm_experiment6_coverage.ipynb), [E7](custom_llm_experiment7_6000steps.ipynb), [E8a](custom_llm_experiment8_seed7.ipynb), [E8b](custom_llm_experiment8_seed2026.ipynb), [E9](custom_llm_experiment9_alice_raw.ipynb), [E10](custom_llm_experiment10_alice_slice.ipynb), [E11](custom_llm_experiment11_no_warnings.ipynb); runs under [runs/](runs/); generators in [corpus_added/experiment4/](corpus_added/experiment4/) and [corpus_added/experiment6/](corpus_added/experiment6/); book text in [corpus_added/experiment9/](corpus_added/experiment9/) and [corpus_added/experiment10/](corpus_added/experiment10/) |
+| Extra: Experiments 4 to 15, log with hypotheses | [EXPERIMENTS.md](EXPERIMENTS.md); notebooks [E4](custom_llm_experiment4_new_categories.ipynb), [E5](custom_llm_experiment5_all_seven.ipynb), [E6](custom_llm_experiment6_coverage.ipynb), [E7](custom_llm_experiment7_6000steps.ipynb), [E8a](custom_llm_experiment8_seed7.ipynb), [E8b](custom_llm_experiment8_seed2026.ipynb), [E9](custom_llm_experiment9_alice_raw.ipynb), [E10](custom_llm_experiment10_alice_slice.ipynb), [E11](custom_llm_experiment11_no_warnings.ipynb), [E12](custom_llm_experiment12_mcguffey_pdf.ipynb), [E13](custom_llm_experiment13_aesop.ipynb), [E14](custom_llm_experiment14_generated_5k.ipynb), [E15](custom_llm_experiment15_folder_only.ipynb); runs under [runs/](runs/); generators in [corpus_added/experiment4/](corpus_added/experiment4/) and [corpus_added/experiment6/](corpus_added/experiment6/); book text in [corpus_added/experiment9/](corpus_added/experiment9/) and [corpus_added/experiment10/](corpus_added/experiment10/) |
 | Fixed eval suite and runner | [evals/language_evals.json](evals/language_evals.json), [run_evals.py](run_evals.py) |
 | Chat interface and evidence | [chat.py](chat.py), [evidence/](evidence/) |
 | Leakage guardrail | [check_corpus.py](check_corpus.py) |
@@ -81,11 +81,19 @@ Experiment 2 [corpus_manifest.json](runs/experiment2_extended/corpus_manifest.js
 
 The classroom corpus is synthetic. Section 3 of the notebook generates sentences from
 8 templates and 8 domains. My three files are plain UTF-8 text that I wrote for this
-assignment, so there are no permission issues. There are no PDFs, so there were no
-extraction warnings. The manifest shows 0 warnings for each file. The only external
-text, used in the extra experiments E9 and E10, is Alice's Adventures in Wonderland
-from Project Gutenberg (ebook 11, public domain in the United States); the raw file and
-the cleaned text are in [corpus_added/experiment9/](corpus_added/experiment9/).
+assignment, so there are no permission issues. In the two required experiments there
+are no PDFs, so there were no extraction warnings; the manifest shows 0 warnings for
+each file. The external texts, used only in the extra experiments, are public-domain
+Project Gutenberg books: Alice's Adventures in Wonderland (ebook 11, E9 and E10),
+McGuffey's First Reader (ebook 14640, E12) and Aesop's Fables (ebook 21, E13). Raw and
+cleaned files are under [corpus_added/](corpus_added/).
+
+**PDF extraction check (E12).** I printed the cleaned primer to a 13-page PDF and
+compared pypdf's extraction with the text before training: 6,519 tokens, identical
+token stream, 0 empty pages. A first attempt had wrapped long lines in the middle of
+words ("contemporar y"), which the extraction faithfully reproduced; wrapping at word
+boundaries fixed it. The run's [corpus_manifest.json](runs/experiment12_mcguffey_pdf/corpus_manifest.json)
+records 13 pages, 740 unique passages and 0 warnings.
 
 ## Prediction and what happened
 
@@ -572,7 +580,7 @@ opposites or the plural case, and it did not raise the total. The chat evidence 
 from the Experiment 2 model; the Experiment 3 model is in
 [runs/experiment3_more_corpus/model.pt](runs/experiment3_more_corpus/model.pt).
 
-### Extra: Experiments 4 to 11 in one table
+### Extra: Experiments 4 to 15 in one table
 
 Full log with hypothesis, test, result and conclusion per experiment:
 [EXPERIMENTS.md](EXPERIMENTS.md). Each hypothesis is also in the notebook's prediction
@@ -589,8 +597,12 @@ cell, written before that run. The guardrail ran before every run with 0 problem
 | E9 | E6 corpus + a whole public-domain book (Alice in Wonderland, 2,534 word types) | 512 | 25 | 25 | 1.886 |
 | E10 | E6 corpus + 90 sentences of that book with mostly known words | 512 | 42 | 30 | 0.758 |
 | E11 | E6 corpus minus the 194 sentences the guardrail marks as warnings | 512 | 39 | 27 | 0.923 |
+| E12 | E6 corpus + an 1879 children's primer delivered as a PDF (1,115 word types) | 512 | 33 | 27 | 1.303 |
+| E13 | E6 corpus + Aesop's Fables, a second whole book (5,435 word types) | 512 | 27 | 27 | 1.960 |
+| E14 | E6 corpus + 3,326 generated sentences with no new word types | 512 | 42 | 36 | 1.025 |
+| E15 | my files only, folder mode, no classroom sentences | 512 | 20 | 8 | 2.006 |
 
-Five things I learned from these that I could not see in E1 to E3:
+Seven things I learned from these that I could not see in E1 to E3:
 
 - **Coverage is a frequency problem.** A word written twice can land entirely in the 10%
   validation split and never enter the vocabulary (E4, "desk"). With 647 word types the
@@ -621,6 +633,16 @@ Five things I learned from these that I could not see in E1 to E3:
   the 194 sentences my guardrail flags as warnings (an answer word near a word of its
   own prompt). Correct went from 30 to 27, inside the 5-case seed noise, and 4 cases
   became unscorable only because their words lived mostly in those sentences.
+- **The only "more corpus" that helped was more sentences over the same words.** E14
+  generated 3,326 sentences from frames and word lists, every word already in the
+  vocabulary, and reached 36 of 48, the best run, with 0.4% unknown tokens. A children's
+  primer as a PDF (E12) and a second whole book (E13) both cost coverage, like Alice.
+  The E14 gain of 6 over E6 is just outside the 5-case seed band, so I report it as
+  promising, not proven.
+- **Ordinary text contains exam prompts by accident.** Aesop's Fables has "The Dogs and
+  the Fox" and "one bird", which are exact two-word eval prompts. The guardrail blocked
+  that run; the notebook's own check would have rejected the file too. I removed the 7
+  sentences and reran. This is the case the leakage checks exist for.
 
 ### Rerun the evals on my saved model
 
@@ -677,12 +699,13 @@ exact-prefix check. In this project it did not limit training or the corpus in a
 
 | Fact | Number |
 |---|---|
-| Training runs | 11 (plus a 10-step smoke test) |
-| Runs blocked or shortened by the guardrail | 0 |
-| Sentences it asked me to reword before a first run | 14, across 3 drafts, each fixed by changing one noun or name |
-| Corpus size it reduced | 0 sentences; a whole book (E9) passed with 0 problems |
-| What actually limits the corpus | the notebook's 509-word vocabulary cap, measured in E5 and E9 |
+| Training runs | 16 (plus a 10-step smoke test) |
+| Runs blocked by the guardrail | 1: the first attempt of E13, because Aesop's Fables contains the exact eval prompts "the dogs" and "one bird"; the notebook's own check would have rejected that file as well |
+| Sentences it flagged in drafts before a first run | 14 reworded (E2, E4, E6), 7 removed from Aesop (E13), 66 generator frames fixed (E14) |
+| Corpus size it reduced | 7 sentences of 2,078 in one book; every other file passed whole, including Alice (E9) |
+| What actually limits the corpus | the notebook's 509-word vocabulary cap, measured in E5, E9, E12 and E13 |
 
+The audit of every run's actual training text (below) covers all 16 runs.
 The 4 cases that stay unscorable in every experiment need the eval names (3 reference
 cases and one negation case). The eval guide itself asks for reference stories "with
 different names", so that limit comes from the assignment, not from my script. If the
@@ -715,11 +738,13 @@ the exam stayed out, at zero cost to the experiments.
   saved in the run folder, with [audit_training_text.py](audit_training_text.py). It
   searches every eval prompt as a normalized token sequence and as a plain substring,
   the seven eval names, and any 4-token sequence shared with a prompt, separating the
-  classroom generator's own sentence frames from anything my files added. Results:
+  classroom generator's own sentence frames from anything my files added. Results for
+  all 16 runs are in [evidence/](evidence/), one file per run, for example
   [Experiment 1](evidence/leakage_audit_experiment1_starter.txt),
-  [Experiment 2](evidence/leakage_audit_experiment2_extended.txt),
-  [Experiment 3](evidence/leakage_audit_experiment3_more_corpus.txt). All three: 0 exact
-  prompt hits, 0 names, 0 four-token sequences from added files. The 24 starter and
+  [Experiment 2](evidence/leakage_audit_experiment2_extended.txt) and
+  [Experiment 14](evidence/leakage_audit_experiment14_generated_5k.txt). All 16: 0 exact
+  prompt hits, 0 names, 0 four-token sequences from added files, including the runs
+  with whole books. The 24 starter and
   transfer prompts do share 4-token frames such as "the report about the" with the
   classroom corpus, in every run including Experiment 1 with corpus/ empty, because the
   professor's tests are built from the same templates and the notebook reserves the

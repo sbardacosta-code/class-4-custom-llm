@@ -1,0 +1,18 @@
+{
+  "model_sha256": "025a0563d53674b0178c5fc724d94e80ddeec8a9bc9bc96c9dd4460924733e30",
+  "completed_steps": 3000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "the customer",
+      "seed": 2026,
+      "response": "<UNK> a meal .",
+      "unknown_prompt_words": [
+        "customer"
+      ],
+      "prompt_truncated": false
+    }
+  ]
+}

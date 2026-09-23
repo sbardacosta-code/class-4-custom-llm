@@ -1,0 +1,20 @@
+{
+  "0.3": [
+    "the different credit was mentioned in the risk report yesterday .",
+    "the shirt is heavy but the shirt is light .",
+    "the new taxi was mentioned in the traffic report yesterday .",
+    "the different website was mentioned in the security report yesterday ."
+  ],
+  "0.8": [
+    "the box is noisy but the shoe is quiet .",
+    "a review of price helped us understand the local offering .",
+    "the new taxi was mentioned in the traffic report yesterday .",
+    "the different website was mentioned in the security report yesterday ."
+  ],
+  "1.2": [
+    "cats comes am into the roof .",
+    "one cow is on the table and the light is on the market .",
+    "the <UNK> was made kind of end .",
+    "we learned about the different recommended ."
+  ]
+}

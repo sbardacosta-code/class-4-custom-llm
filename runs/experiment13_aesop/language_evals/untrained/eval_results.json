@@ -1,0 +1,1415 @@
+[
+  {
+    "id": "lang_01",
+    "group": "starter_patterns",
+    "category": "domain_context",
+    "prompt": "the report about the customer explains the",
+    "choices": [
+      "service",
+      "traffic",
+      "juice",
+      "code"
+    ],
+    "expected": "service",
+    "predicted_choice": "traffic",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "service": 0.0018499699654057622,
+      "traffic": 0.002069595968350768,
+      "juice": 0.0015282781096175313,
+      "code": 0.0019978114869445562
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "house help professor when some - ] come went item contains river harvest up returned that little owl enemy through master hot exclaimed fish",
+    "prompt_truncated": false,
+    "reason": "The starter repeatedly pairs customer with service and related domain words. The other choices belong to different domains.",
+    "stage": "untrained",
+    "sample_seed": 2026
+  },
+  {
+    "id": "lang_02",
+    "group": "starter_patterns",
+    "category": "domain_context",
+    "prompt": "the report about the merchandise explains the",
+    "choices": [
+      "patient",
+      "interest",
+      "lesson",
+      "quality"
+    ],
+    "expected": "quality",
+    "predicted_choice": "interest",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "patient": 0.0017789211124181747,
+      "interest": 0.0021313780453056097,
+      "lesson": 0.001686328207142651,
+      "quality": 0.0018971889512613416
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "loan put her pear even house both however comes taxi sweet lake having let contains merchandise treatment end bread passed report wish be been",
+    "prompt_truncated": false,
+    "reason": "The starter repeatedly pairs merchandise with quality and related domain words. The other choices belong to different domains.",
+    "stage": "untrained",
+    "sample_seed": 2027
+  },
+  {
+    "id": "lang_03",
+    "group": "starter_patterns",
+    "category": "domain_context",
+    "prompt": "the report about the mortgage explains the",
+    "choices": [
+      "route",
+      "security",
+      "payment",
+      "harvest"
+    ],
+    "expected": "payment",
+    "predicted_choice": "route",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "route": 0.0028920690529048443,
+      "security": 0.0022641755640506744,
+      "payment": 0.001650752848945558,
+      "harvest": 0.0017807356780394912
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "code brand with teacher son took driver by fables know hawk enemy under office him inquired will boat cold forest their lake road sweet",
+    "prompt_truncated": false,
+    "reason": "The starter repeatedly pairs mortgage with payment and related domain words. The other choices belong to different domains.",
+    "stage": "untrained",
+    "sample_seed": 2028
+  },
+  {
+    "id": "lang_04",
+    "group": "starter_patterns",
+    "category": "domain_context",
+    "prompt": "the report about the mango explains the",
+    "choices": [
+      "risk",
+      "juice",
+      "support",
+      "code"
+    ],
+    "expected": "juice",
+    "predicted_choice": "support",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "risk": 0.0022532937582582235,
+      "juice": 0.001507853390648961,
+      "support": 0.002257774816825986,
+      "code": 0.0020217052660882473
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "other having - been along should myself fish traffic kite review having some there peach began made met investment himself is light museum certain",
+    "prompt_truncated": false,
+    "reason": "The starter repeatedly pairs mango with juice and related domain words. The other choices belong to different domains.",
+    "stage": "untrained",
+    "sample_seed": 2029
+  },
+  {
+    "id": "lang_05",
+    "group": "starter_patterns",
+    "category": "domain_context",
+    "prompt": "the report about the bicycle explains the",
+    "choices": [
+      "journey",
+      "treatment",
+      "price",
+      "learning"
+    ],
+    "expected": "journey",
+    "predicted_choice": "learning",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "journey": 0.0017793092411011457,
+      "treatment": 0.001408726442605257,
+      "price": 0.0023710078094154596,
+      "learning": 0.002467263722792268
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "these time wish æsop far field coat shut caught these an birds distance said own doctor before jupiter that bought water lecturer bus lay",
+    "prompt_truncated": false,
+    "reason": "The starter repeatedly pairs bicycle with journey and related domain words. The other choices belong to different domains.",
+    "stage": "untrained",
+    "sample_seed": 2030
+  },
+  {
+    "id": "lang_06",
+    "group": "starter_patterns",
+    "category": "domain_context",
+    "prompt": "the report about the application explains the",
+    "choices": [
+      "taste",
+      "student",
+      "payment",
+      "security"
+    ],
+    "expected": "security",
+    "predicted_choice": "security",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "taste": 0.0017108777537941933,
+      "student": 0.0020711012184619904,
+      "payment": 0.001665141899138689,
+      "security": 0.0022091101855039597
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "red work roof service school exclaimed come dry course once would car returned - river must shirt peach earlier crate being bank where through",
+    "prompt_truncated": false,
+    "reason": "The starter repeatedly pairs application with security and related domain words. The other choices belong to different domains.",
+    "stage": "untrained",
+    "sample_seed": 2031
+  },
+  {
+    "id": "lang_07",
+    "group": "starter_patterns",
+    "category": "domain_context",
+    "prompt": "the report about the surgeon explains the",
+    "choices": [
+      "fruit",
+      "traffic",
+      "patient",
+      "delivery"
+    ],
+    "expected": "patient",
+    "predicted_choice": "delivery",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "fruit": 0.0018077195854857564,
+      "traffic": 0.002053693402558565,
+      "patient": 0.001792692462913692,
+      "delivery": 0.0021931647788733244
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "nothing care wet gate me on often wolf walked full small small eat local had lake traffic time : monkey crate go mercury a",
+    "prompt_truncated": false,
+    "reason": "The starter repeatedly pairs surgeon with patient and related domain words. The other choices belong to different domains.",
+    "stage": "untrained",
+    "sample_seed": 2032
+  },
+  {
+    "id": "lang_08",
+    "group": "starter_patterns",
+    "category": "domain_context",
+    "prompt": "the report about the tutor explains the",
+    "choices": [
+      "journey",
+      "lesson",
+      "interest",
+      "design"
+    ],
+    "expected": "lesson",
+    "predicted_choice": "interest",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "journey": 0.0017747808014973998,
+      "lesson": 0.001680869609117508,
+      "interest": 0.002182360040023923,
+      "design": 0.001831783214583993
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "in dinner was bird shut update warm coat home life deep both review team that ? shepherd foot opposite letter action home delivery customer",
+    "prompt_truncated": false,
+    "reason": "The starter repeatedly pairs tutor with lesson and related domain words. The other choices belong to different domains.",
+    "stage": "untrained",
+    "sample_seed": 2033
+  },
+  {
+    "id": "lang_09",
+    "group": "starter_patterns",
+    "category": "domain_place",
+    "prompt": "the team discussed the customer and the service at the",
+    "choices": [
+      "store",
+      "market",
+      "bank",
+      "kitchen"
+    ],
+    "expected": "store",
+    "predicted_choice": "bank",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "store": 0.0015907412162050605,
+      "market": 0.0017748771933838725,
+      "bank": 0.0018734459299594164,
+      "kitchen": 0.0018141266191378236
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "so when an his taxi letter warm support recommended home - gave different closed ] purchase kind seeing climbed before bank others was truck",
+    "prompt_truncated": false,
+    "reason": "The starter associates customer and service with the store. Sentences containing this exact prompt are reserved before training.",
+    "stage": "untrained",
+    "sample_seed": 2034
+  },
+  {
+    "id": "lang_10",
+    "group": "starter_patterns",
+    "category": "domain_place",
+    "prompt": "the team discussed the merchandise and the quality at the",
+    "choices": [
+      "bank",
+      "kitchen",
+      "station",
+      "market"
+    ],
+    "expected": "market",
+    "predicted_choice": "bank",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "bank": 0.0018705632537603378,
+      "kitchen": 0.0018087252974510193,
+      "station": 0.0016200279351323843,
+      "market": 0.0017470649909228086
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "bank journey wild ran banana how too who am wild nothing ] those heavy him then among herself today dinner day ox noisy offering",
+    "prompt_truncated": false,
+    "reason": "The starter associates merchandise and quality with the market. Sentences containing this exact prompt are reserved before training.",
+    "stage": "untrained",
+    "sample_seed": 2035
+  },
+  {
+    "id": "lang_11",
+    "group": "starter_patterns",
+    "category": "domain_place",
+    "prompt": "the team discussed the mortgage and the payment at the",
+    "choices": [
+      "station",
+      "office",
+      "bank",
+      "kitchen"
+    ],
+    "expected": "bank",
+    "predicted_choice": "office",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "station": 0.0015971921384334564,
+      "office": 0.0021037731785327196,
+      "bank": 0.001849556341767311,
+      "kitchen": 0.0018241381039842963
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "how lecturer price wolf payment fast fast the - account dogs death should owner instructor without early jupiter began she see professor off hot",
+    "prompt_truncated": false,
+    "reason": "The starter associates mortgage and payment with the bank. Sentences containing this exact prompt are reserved before training.",
+    "stage": "untrained",
+    "sample_seed": 2036
+  },
+  {
+    "id": "lang_12",
+    "group": "starter_patterns",
+    "category": "domain_place",
+    "prompt": "the team discussed the mango and the juice at the",
+    "choices": [
+      "hospital",
+      "kitchen",
+      "station",
+      "office"
+    ],
+    "expected": "kitchen",
+    "predicted_choice": "hospital",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "hospital": 0.0022004269994795322,
+      "kitchen": 0.0018154204590246081,
+      "station": 0.0016248556785285473,
+      "office": 0.002107512205839157
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "where price crane taste came so yet checking field me saying caught home mercury forest boat compared climbed her beasts river myself cup comes",
+    "prompt_truncated": false,
+    "reason": "The starter associates mango and juice with the kitchen. Sentences containing this exact prompt are reserved before training.",
+    "stage": "untrained",
+    "sample_seed": 2037
+  },
+  {
+    "id": "lang_13",
+    "group": "starter_patterns",
+    "category": "domain_place",
+    "prompt": "the team discussed the bicycle and the journey at the",
+    "choices": [
+      "station",
+      "office",
+      "hospital",
+      "school"
+    ],
+    "expected": "station",
+    "predicted_choice": "hospital",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "station": 0.0015978725859895349,
+      "office": 0.002084809821099043,
+      "hospital": 0.0022259633988142014,
+      "school": 0.0014034380437806249
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "fable the tutor right local before old another two drink ox of learning office a service ordered museum great yesterday investment the today lion",
+    "prompt_truncated": false,
+    "reason": "The starter associates bicycle and journey with the station. Sentences containing this exact prompt are reserved before training.",
+    "stage": "untrained",
+    "sample_seed": 2038
+  },
+  {
+    "id": "lang_14",
+    "group": "starter_patterns",
+    "category": "domain_place",
+    "prompt": "the team discussed the application and the security at the",
+    "choices": [
+      "store",
+      "market",
+      "bank",
+      "office"
+    ],
+    "expected": "office",
+    "predicted_choice": "office",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "store": 0.001559274853207171,
+      "market": 0.0017764217918738723,
+      "bank": 0.0018804788123816252,
+      "office": 0.00210306653752923
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "lost if shepherd quality checking subscriber they - car home others fox hand themselves go saying shopper review has review horse only find water",
+    "prompt_truncated": false,
+    "reason": "The starter associates application and security with the office. Sentences containing this exact prompt are reserved before training.",
+    "stage": "untrained",
+    "sample_seed": 2039
+  },
+  {
+    "id": "lang_15",
+    "group": "starter_patterns",
+    "category": "domain_place",
+    "prompt": "the team discussed the surgeon and the patient at the",
+    "choices": [
+      "bank",
+      "kitchen",
+      "hospital",
+      "market"
+    ],
+    "expected": "hospital",
+    "predicted_choice": "hospital",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "bank": 0.0018824652070179582,
+      "kitchen": 0.0018089863006025553,
+      "hospital": 0.002217566594481468,
+      "market": 0.0017690466484054923
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "æsop life garden door field might became because caught course water above home garden bear therapist purpose two next dog should life down bought",
+    "prompt_truncated": false,
+    "reason": "The starter associates surgeon and patient with the hospital. Sentences containing this exact prompt are reserved before training.",
+    "stage": "untrained",
+    "sample_seed": 2040
+  },
+  {
+    "id": "lang_16",
+    "group": "starter_patterns",
+    "category": "domain_place",
+    "prompt": "the team discussed the tutor and the lesson at the",
+    "choices": [
+      "station",
+      "school",
+      "bank",
+      "kitchen"
+    ],
+    "expected": "school",
+    "predicted_choice": "bank",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "station": 0.0016008224338293076,
+      "school": 0.0013978913193568587,
+      "bank": 0.0018840149277821183,
+      "kitchen": 0.001809372566640377
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "physician life i see lesson sweet into have our work may ) purchase ordered were inside - arrived before why strength course eagle second",
+    "prompt_truncated": false,
+    "reason": "The starter associates tutor and lesson with the school. Sentences containing this exact prompt are reserved before training.",
+    "stage": "untrained",
+    "sample_seed": 2041
+  },
+  {
+    "id": "lang_17",
+    "group": "starter_transfer",
+    "category": "new_wording",
+    "prompt": "our hospital discussed the nurse and the",
+    "choices": [
+      "health",
+      "traffic",
+      "price",
+      "juice"
+    ],
+    "expected": "health",
+    "predicted_choice": "price",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "health": 0.0018704731483012438,
+      "traffic": 0.002090300200507045,
+      "price": 0.002347390167415142,
+      "juice": 0.0015494385734200478
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "stag ; under found evil would true therapist purchase be quality take shopper home also as fable them <UNK> two loan instructor truck let",
+    "prompt_truncated": false,
+    "reason": "All words and the domain association exist in the starter, but this word order is new. Failure may reflect dependence on sentence templates.",
+    "stage": "untrained",
+    "sample_seed": 2042
+  },
+  {
+    "id": "lang_18",
+    "group": "starter_transfer",
+    "category": "new_wording",
+    "prompt": "yesterday the school discussed the educator and the",
+    "choices": [
+      "security",
+      "risk",
+      "harvest",
+      "student"
+    ],
+    "expected": "student",
+    "predicted_choice": "harvest",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "security": 0.00205762661062181,
+      "risk": 0.0018659837078303099,
+      "harvest": 0.0021316132042557,
+      "student": 0.0020429943688213825
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "short into fruit girl also next returned - gave pray way later price patient ass fables platform i compared review station walked exclaimed through",
+    "prompt_truncated": false,
+    "reason": "All words and the domain association exist in the starter, but this word order is new. Failure may reflect dependence on sentence templates.",
+    "stage": "untrained",
+    "sample_seed": 2043
+  },
+  {
+    "id": "lang_19",
+    "group": "starter_transfer",
+    "category": "new_wording",
+    "prompt": "the bank report discussed the bond and the",
+    "choices": [
+      "code",
+      "taste",
+      "return",
+      "care"
+    ],
+    "expected": "return",
+    "predicted_choice": "return",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "code": 0.002410199260339141,
+      "taste": 0.0016976743936538696,
+      "return": 0.002493971725925803,
+      "care": 0.002130119362846017
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "action we all said turn an client young below will on fruit closed not found master design taste this so lay get barn pray",
+    "prompt_truncated": false,
+    "reason": "All words and the domain association exist in the starter, but this word order is new. Failure may reflect dependence on sentence templates.",
+    "stage": "untrained",
+    "sample_seed": 2044
+  },
+  {
+    "id": "lang_20",
+    "group": "starter_transfer",
+    "category": "new_wording",
+    "prompt": "our kitchen report discussed the pear and the",
+    "choices": [
+      "data",
+      "fruit",
+      "order",
+      "payment"
+    ],
+    "expected": "fruit",
+    "predicted_choice": "fruit",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "data": 0.0014710065443068743,
+      "fruit": 0.0018694011960178614,
+      "order": 0.0016970591386780143,
+      "payment": 0.0016661251429468393
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "on light near so young interest distance take ! for against way hen master shall woman bread platform store forest be owl upon found",
+    "prompt_truncated": false,
+    "reason": "All words and the domain association exist in the starter, but this word order is new. Failure may reflect dependence on sentence templates.",
+    "stage": "untrained",
+    "sample_seed": 2045
+  },
+  {
+    "id": "lang_21",
+    "group": "starter_transfer",
+    "category": "new_wording",
+    "prompt": "the station report compared the bus and the",
+    "choices": [
+      "route",
+      "lesson",
+      "design",
+      "patient"
+    ],
+    "expected": "route",
+    "predicted_choice": "route",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "route": 0.0028731024358421564,
+      "lesson": 0.0019474765285849571,
+      "design": 0.001872552908025682,
+      "patient": 0.001717131119221449
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "early table her such monkey mortgage warm table one reviewed most we data far food purpose reviewed or price learned crane investment hand truck",
+    "prompt_truncated": false,
+    "reason": "All words and the domain association exist in the starter, but this word order is new. Failure may reflect dependence on sentence templates.",
+    "stage": "untrained",
+    "sample_seed": 2046
+  },
+  {
+    "id": "lang_22",
+    "group": "starter_transfer",
+    "category": "new_wording",
+    "prompt": "yesterday our office discussed the platform and the",
+    "choices": [
+      "harvest",
+      "journey",
+      "treatment",
+      "update"
+    ],
+    "expected": "update",
+    "predicted_choice": "update",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "harvest": 0.0021114894188940525,
+      "journey": 0.0015895740361884236,
+      "treatment": 0.0015004185261204839,
+      "update": 0.0022331790532916784
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "little stag driver such heavy place place put together brought fruit when every hen door set taxi feed pear place a distance consumer tree",
+    "prompt_truncated": false,
+    "reason": "All words and the domain association exist in the starter, but this word order is new. Failure may reflect dependence on sentence templates.",
+    "stage": "untrained",
+    "sample_seed": 2047
+  },
+  {
+    "id": "lang_23",
+    "group": "starter_transfer",
+    "category": "new_wording",
+    "prompt": "the store report discussed the subscriber and the",
+    "choices": [
+      "health",
+      "interest",
+      "support",
+      "traffic"
+    ],
+    "expected": "support",
+    "predicted_choice": "interest",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "health": 0.0017615266842767596,
+      "interest": 0.0023817589972168207,
+      "support": 0.0019225934520363808,
+      "traffic": 0.001965821022167802
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "should day came hospital cup treatment barn once then o this did dry make website where service <UNK> system well very young ? time",
+    "prompt_truncated": false,
+    "reason": "All words and the domain association exist in the starter, but this word order is new. Failure may reflect dependence on sentence templates.",
+    "stage": "untrained",
+    "sample_seed": 2048
+  },
+  {
+    "id": "lang_24",
+    "group": "starter_transfer",
+    "category": "new_wording",
+    "prompt": "our market report compared the package and the",
+    "choices": [
+      "code",
+      "delivery",
+      "student",
+      "juice"
+    ],
+    "expected": "delivery",
+    "predicted_choice": "code",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "code": 0.0024487855844199657,
+      "delivery": 0.0021233162842690945,
+      "student": 0.0020831276196986437,
+      "juice": 0.001623141230084002
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "friend water under others mango end green what who beach second route offering out climbed truck a place noisy",
+    "prompt_truncated": false,
+    "reason": "All words and the domain association exist in the starter, but this word order is new. Failure may reflect dependence on sentence templates.",
+    "stage": "untrained",
+    "sample_seed": 2049
+  },
+  {
+    "id": "lang_25",
+    "group": "extend_corpus",
+    "category": "grammar",
+    "prompt": "one bird",
+    "choices": [
+      "is",
+      "are",
+      "were",
+      "am"
+    ],
+    "expected": "is",
+    "predicted_choice": "am",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "is": 0.0018817916279658675,
+      "are": 0.0017418651841580868,
+      "were": 0.0018355539068579674,
+      "am": 0.0024688916746526957
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "taxi goats water ? mercury there on course never early along i brand as bear those returned saw barn shopper even about two girl",
+    "prompt_truncated": false,
+    "reason": "A singular third-person subject takes is in the present tense.",
+    "stage": "untrained",
+    "sample_seed": 2050
+  },
+  {
+    "id": "lang_26",
+    "group": "extend_corpus",
+    "category": "grammar",
+    "prompt": "the dogs",
+    "choices": [
+      "is",
+      "am",
+      "was",
+      "are"
+    ],
+    "expected": "are",
+    "predicted_choice": "am",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "is": 0.0020015789195895195,
+      "am": 0.0025933319702744484,
+      "was": 0.0023907609283924103,
+      "are": 0.0018287539714947343
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "heard inquired an kitchen greater fox even come that under team good wish customer support him frog two wild therapist could understand : this",
+    "prompt_truncated": false,
+    "reason": "A plural subject takes are among these present/past singular distractors.",
+    "stage": "untrained",
+    "sample_seed": 2051
+  },
+  {
+    "id": "lang_27",
+    "group": "extend_corpus",
+    "category": "grammar",
+    "prompt": "yesterday she",
+    "choices": [
+      "walking",
+      "walk",
+      "walked",
+      "walks"
+    ],
+    "expected": "walked",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [],
+    "unknown_choices": [
+      "walking",
+      "walks"
+    ],
+    "generated_text": "do could short cat below herself hen apple young today detail coat bought her station payment all truck journey fly most back software little",
+    "prompt_truncated": false,
+    "reason": "The explicit past-time cue calls for the past-tense form walked.",
+    "stage": "untrained",
+    "sample_seed": 2052
+  },
+  {
+    "id": "lang_28",
+    "group": "extend_corpus",
+    "category": "opposites",
+    "prompt": "the opposite of hot is",
+    "choices": [
+      "fast",
+      "cold",
+      "warm",
+      "heavy"
+    ],
+    "expected": "cold",
+    "predicted_choice": "heavy",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "fast": 0.0020366227254271507,
+      "cold": 0.0021708111744374037,
+      "warm": 0.0020865146070718765,
+      "heavy": 0.002204547869041562
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "night apple course bear shepherd explains even brand ate fable program interest . roof frog small said that apple focused what said such product",
+    "prompt_truncated": false,
+    "reason": "Hot and cold form the intended temperature contrast.",
+    "stage": "untrained",
+    "sample_seed": 2053
+  },
+  {
+    "id": "lang_29",
+    "group": "extend_corpus",
+    "category": "opposites",
+    "prompt": "the opposite of empty is",
+    "choices": [
+      "full",
+      "quiet",
+      "early",
+      "soft"
+    ],
+    "expected": "full",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [],
+    "unknown_choices": [
+      "soft"
+    ],
+    "generated_text": "traveler delivery had beasts goat opposite something something have hospital truck merchandise price during very during my lecturer before replied payment horse data through",
+    "prompt_truncated": false,
+    "reason": "Empty and full contrast how much a container holds.",
+    "stage": "untrained",
+    "sample_seed": 2054
+  },
+  {
+    "id": "lang_30",
+    "group": "extend_corpus",
+    "category": "opposites",
+    "prompt": "the opposite of noisy is",
+    "choices": [
+      "loud",
+      "round",
+      "late",
+      "quiet"
+    ],
+    "expected": "quiet",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [],
+    "unknown_choices": [
+      "loud",
+      "round"
+    ],
+    "generated_text": "night let said my any you ordered i friends beasts mouse tree account full different fable service food data earlier up therapist purpose give",
+    "prompt_truncated": false,
+    "reason": "Noisy and quiet contrast the amount of sound.",
+    "stage": "untrained",
+    "sample_seed": 2055
+  },
+  {
+    "id": "lang_31",
+    "group": "extend_corpus",
+    "category": "negation",
+    "prompt": "the box is not red . it is blue . the box is",
+    "choices": [
+      "green",
+      "yellow",
+      "blue",
+      "red"
+    ],
+    "expected": "blue",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "blue",
+      "box"
+    ],
+    "unknown_choices": [
+      "yellow",
+      "blue"
+    ],
+    "generated_text": "about gate hen customer something crate recommended delivery doctor traffic asked such who bear crane became dark sign full sun product above banana as",
+    "prompt_truncated": false,
+    "reason": "Use the positive color statement rather than the explicitly rejected color.",
+    "stage": "untrained",
+    "sample_seed": 2056
+  },
+  {
+    "id": "lang_32",
+    "group": "extend_corpus",
+    "category": "negation",
+    "prompt": "ava did not buy tea . she bought milk . ava bought",
+    "choices": [
+      "rice",
+      "milk",
+      "tea",
+      "bread"
+    ],
+    "expected": "milk",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "ava",
+      "milk",
+      "tea"
+    ],
+    "unknown_choices": [
+      "rice",
+      "milk",
+      "tea"
+    ],
+    "generated_text": "house teacher again patient inquired fast just yesterday am stag program foot garden service near lamp sun any own service request and great dentist",
+    "prompt_truncated": false,
+    "reason": "The purchase is milk; the tea purchase is explicitly negated.",
+    "stage": "untrained",
+    "sample_seed": 2057
+  },
+  {
+    "id": "lang_33",
+    "group": "extend_corpus",
+    "category": "negation",
+    "prompt": "the door is not open . it is closed . the door is",
+    "choices": [
+      "closed",
+      "open",
+      "wide",
+      "missing"
+    ],
+    "expected": "closed",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [],
+    "unknown_choices": [
+      "wide",
+      "missing"
+    ],
+    "generated_text": "my placed delivery question ! new just heavy go head only brought dark young together about harvest thief i where during eagle monkey shirt",
+    "prompt_truncated": false,
+    "reason": "Respect not open and the explicit statement closed.",
+    "stage": "untrained",
+    "sample_seed": 2058
+  },
+  {
+    "id": "lang_34",
+    "group": "extend_corpus",
+    "category": "reference",
+    "prompt": "maya lent a book to leo . leo thanked",
+    "choices": [
+      "leo",
+      "nora",
+      "omar",
+      "maya"
+    ],
+    "expected": "maya",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "book",
+      "lent",
+      "leo",
+      "maya",
+      "thanked"
+    ],
+    "unknown_choices": [
+      "leo",
+      "nora",
+      "omar",
+      "maya"
+    ],
+    "generated_text": "afterwards had however never way or fruit himself himself hen inside reviewed made came educator king wish contains we truck might also distance juice",
+    "prompt_truncated": false,
+    "reason": "Leo thanks the person who lent the book, Maya.",
+    "stage": "untrained",
+    "sample_seed": 2059
+  },
+  {
+    "id": "lang_35",
+    "group": "extend_corpus",
+    "category": "reference",
+    "prompt": "ella gave finn a pencil . the person who received the pencil was",
+    "choices": [
+      "sara",
+      "noah",
+      "finn",
+      "ella"
+    ],
+    "expected": "finn",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "ella",
+      "finn",
+      "pencil",
+      "person",
+      "received"
+    ],
+    "unknown_choices": [
+      "sara",
+      "noah",
+      "finn",
+      "ella"
+    ],
+    "generated_text": "payment cock only travel risk opposites wild given fruit treatment shut because went large æsop great you you second passed again climbed frog software",
+    "prompt_truncated": false,
+    "reason": "Finn is the recipient rather than the giver.",
+    "stage": "untrained",
+    "sample_seed": 2060
+  },
+  {
+    "id": "lang_36",
+    "group": "extend_corpus",
+    "category": "reference",
+    "prompt": "omar called nina . nina answered the call from",
+    "choices": [
+      "emma",
+      "omar",
+      "nina",
+      "luca"
+    ],
+    "expected": "omar",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "answered",
+      "call",
+      "nina",
+      "omar"
+    ],
+    "unknown_choices": [
+      "emma",
+      "omar",
+      "nina",
+      "luca"
+    ],
+    "generated_text": "second late local same mango thief support patient do tutor beach she interest such inside shall thus horse give food action bank field father",
+    "prompt_truncated": false,
+    "reason": "Omar is the caller; Nina is the person answering.",
+    "stage": "untrained",
+    "sample_seed": 2061
+  },
+  {
+    "id": "lang_37",
+    "group": "extend_corpus",
+    "category": "sequence",
+    "prompt": "first wash the cup . then dry it . the last action is",
+    "choices": [
+      "dry",
+      "wash",
+      "buy",
+      "fill"
+    ],
+    "expected": "dry",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "wash"
+    ],
+    "unknown_choices": [
+      "wash",
+      "fill"
+    ],
+    "generated_text": "about very these while give me “ consumer cock ate care noisy driver him the inside wild ass ” design others ? if travel",
+    "prompt_truncated": false,
+    "reason": "Drying follows washing in the stated sequence.",
+    "stage": "untrained",
+    "sample_seed": 2062
+  },
+  {
+    "id": "lang_38",
+    "group": "extend_corpus",
+    "category": "sequence",
+    "prompt": "lunch happens after breakfast . the earlier meal is",
+    "choices": [
+      "lunch",
+      "dinner",
+      "supper",
+      "breakfast"
+    ],
+    "expected": "breakfast",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "breakfast",
+      "lunch",
+      "meal"
+    ],
+    "unknown_choices": [
+      "lunch",
+      "supper",
+      "breakfast"
+    ],
+    "generated_text": ": all said let may traffic way walk office end friends hands who children it platform some goat ” afterwards ordered you quality birds",
+    "prompt_truncated": false,
+    "reason": "The relation after makes breakfast the earlier meal.",
+    "stage": "untrained",
+    "sample_seed": 2063
+  },
+  {
+    "id": "lang_39",
+    "group": "extend_corpus",
+    "category": "sequence",
+    "prompt": "the train arrived before the bus . the vehicle that arrived later was the",
+    "choices": [
+      "taxi",
+      "car",
+      "bus",
+      "train"
+    ],
+    "expected": "bus",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "vehicle"
+    ],
+    "unknown_choices": [],
+    "generated_text": "morning how water selected short dog sign under goat door next credit during life yourself report during fable ( work - today last mercury",
+    "prompt_truncated": false,
+    "reason": "Reverse the stated before relation to identify the later arrival.",
+    "stage": "untrained",
+    "sample_seed": 2064
+  },
+  {
+    "id": "lang_40",
+    "group": "extend_corpus",
+    "category": "spatial_relations",
+    "prompt": "the book is inside the bag . the bag contains the",
+    "choices": [
+      "lamp",
+      "book",
+      "shelf",
+      "desk"
+    ],
+    "expected": "book",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "book"
+    ],
+    "unknown_choices": [
+      "book",
+      "shelf",
+      "desk"
+    ],
+    "generated_text": "hands yourself soon but wet contains exclaimed short father buy fable never , among its began do selected reviewed discussed must kitchen every for",
+    "prompt_truncated": false,
+    "reason": "Restate inside as the inverse relation contains.",
+    "stage": "untrained",
+    "sample_seed": 2065
+  },
+  {
+    "id": "lang_41",
+    "group": "extend_corpus",
+    "category": "spatial_relations",
+    "prompt": "the lamp is above the desk . the desk is",
+    "choices": [
+      "below",
+      "above",
+      "inside",
+      "beside"
+    ],
+    "expected": "below",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "desk"
+    ],
+    "unknown_choices": [
+      "beside"
+    ],
+    "generated_text": "? yet your pool will wild buy your ] because are again which drink or thus traffic security life take woman",
+    "prompt_truncated": false,
+    "reason": "Above and below are inverse vertical relations.",
+    "stage": "untrained",
+    "sample_seed": 2066
+  },
+  {
+    "id": "lang_42",
+    "group": "extend_corpus",
+    "category": "spatial_relations",
+    "prompt": "the ball is left of the box . the box is to the",
+    "choices": [
+      "left",
+      "north",
+      "south",
+      "right"
+    ],
+    "expected": "right",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "ball",
+      "box"
+    ],
+    "unknown_choices": [
+      "north",
+      "south"
+    ],
+    "generated_text": "fast owner travel axe place sheep in both investment later way him teacher ) chair saw opposites short compared fable met earlier your evil",
+    "prompt_truncated": false,
+    "reason": "Reverse the stated horizontal relation; complete with right.",
+    "stage": "untrained",
+    "sample_seed": 2067
+  },
+  {
+    "id": "lang_43",
+    "group": "extend_corpus",
+    "category": "everyday_knowledge",
+    "prompt": "water freezes into",
+    "choices": [
+      "sand",
+      "wood",
+      "ice",
+      "steam"
+    ],
+    "expected": "ice",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "freezes"
+    ],
+    "unknown_choices": [
+      "sand",
+      "ice",
+      "steam"
+    ],
+    "generated_text": "seized beasts also mother design together hare some what without review bought instructor shirt very certain kind asked lesson opposite have make from credit",
+    "prompt_truncated": false,
+    "reason": "Freezing changes liquid water into ice.",
+    "stage": "untrained",
+    "sample_seed": 2068
+  },
+  {
+    "id": "lang_44",
+    "group": "extend_corpus",
+    "category": "everyday_knowledge",
+    "prompt": "a person uses an umbrella to stay",
+    "choices": [
+      "asleep",
+      "dry",
+      "wet",
+      "hungry"
+    ],
+    "expected": "dry",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "person",
+      "stay",
+      "umbrella",
+      "uses"
+    ],
+    "unknown_choices": [
+      "asleep",
+      "hungry"
+    ],
+    "generated_text": "climbed thus master the jupiter lecturer great arrived roof happens mouse again monkey but off frog bank service dinner data which hospital fell off",
+    "prompt_truncated": false,
+    "reason": "An umbrella typically keeps a person dry in rain.",
+    "stage": "untrained",
+    "sample_seed": 2069
+  },
+  {
+    "id": "lang_45",
+    "group": "extend_corpus",
+    "category": "everyday_knowledge",
+    "prompt": "to see in a dark room we turn on a",
+    "choices": [
+      "light",
+      "pillow",
+      "spoon",
+      "shoe"
+    ],
+    "expected": "light",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "room"
+    ],
+    "unknown_choices": [
+      "pillow",
+      "spoon",
+      "shoe"
+    ],
+    "generated_text": "shopper might took understand said eagle light could deposit very late to made would afterwards car all hard always fast off might was owner",
+    "prompt_truncated": false,
+    "reason": "A light illuminates a dark room.",
+    "stage": "untrained",
+    "sample_seed": 2070
+  },
+  {
+    "id": "lang_46",
+    "group": "extend_corpus",
+    "category": "categories_and_analogies",
+    "prompt": "a robin is a bird . a salmon is a",
+    "choices": [
+      "bird",
+      "tree",
+      "tool",
+      "fish"
+    ],
+    "expected": "fish",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "robin",
+      "salmon"
+    ],
+    "unknown_choices": [
+      "tool"
+    ],
+    "generated_text": "cock placed station before on museum place morning saw late us others travel friend subscriber thief mercury new pear nurse eagle noisy program full",
+    "prompt_truncated": false,
+    "reason": "Salmon belongs to the fish category.",
+    "stage": "untrained",
+    "sample_seed": 2071
+  },
+  {
+    "id": "lang_47",
+    "group": "extend_corpus",
+    "category": "categories_and_analogies",
+    "prompt": "a puppy grows into a dog . a kitten grows into a",
+    "choices": [
+      "duck",
+      "goat",
+      "cat",
+      "horse"
+    ],
+    "expected": "cat",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "grows",
+      "kitten",
+      "puppy"
+    ],
+    "unknown_choices": [
+      "duck"
+    ],
+    "generated_text": "bread traffic comes cold travel customer crate kitchen long i well master were gate young son birds surgeon product beach time and purpose hard",
+    "prompt_truncated": false,
+    "reason": "Match the young animal to its adult category.",
+    "stage": "untrained",
+    "sample_seed": 2072
+  },
+  {
+    "id": "lang_48",
+    "group": "extend_corpus",
+    "category": "categories_and_analogies",
+    "prompt": "a carrot is a vegetable . an apple is a",
+    "choices": [
+      "fabric",
+      "fruit",
+      "metal",
+      "vehicle"
+    ],
+    "expected": "fruit",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "carrot",
+      "vegetable"
+    ],
+    "unknown_choices": [
+      "fabric",
+      "metal",
+      "vehicle"
+    ],
+    "generated_text": "ordered code such customer frog ground the place one route kitchen code other selected update or application food mercury route might chair fell found",
+    "prompt_truncated": false,
+    "reason": "An apple belongs to the fruit category in this food classification.",
+    "stage": "untrained",
+    "sample_seed": 2073
+  }
+]

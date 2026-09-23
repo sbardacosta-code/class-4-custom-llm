@@ -1,0 +1,104 @@
+{
+  "files": [
+    {
+      "file": "categories.txt",
+      "bytes": 3484,
+      "sha256": "ede9d0da24abc02507e0cff52d6cfd737bd8defec56f152cee32a5569628ed60",
+      "warnings": [],
+      "characters": 3484,
+      "passages": 119,
+      "unique_passages": 119,
+      "preview": "an eagle is a kind of bird .\nthe eagle is a bird that flies .\na sparrow is a kind of bird .\nthe sparrow is a bird that flies .\nan owl is a kind of bird .\nthe owl is a bird that flies .\na parrot is a kind of bird .\nthe parrot is a bird that flies .\na crow is a kind of bird .\nthe crow is a bird that f"
+    },
+    {
+      "file": "coverage.txt",
+      "bytes": 7443,
+      "sha256": "520f808c3a5dc1dd2e21b16e6651f84862887194794e5f68d807d229ff9b6a76",
+      "warnings": [],
+      "characters": 7443,
+      "passages": 255,
+      "unique_passages": 255,
+      "preview": "he walks to the office every morning .\nshe walks the dog at noon .\nthe girl walks to school .\nmy uncle walks by the river .\nthe nurse walks to the hospital .\nthe boy walks home after lunch .\nthe farmer walks to the barn .\nmy aunt walks to the market .\nthe road goes north to the city .\nthe birds fly "
+    },
+    {
+      "file": "grammar.txt",
+      "bytes": 9981,
+      "sha256": "34f9e020244dcc4881b5fd9a8fdcbe2f00624e5d4ee8862726802076b62e8a59",
+      "warnings": [],
+      "characters": 9981,
+      "passages": 248,
+      "unique_passages": 248,
+      "preview": "one cat is on the roof .\na cat is on the lake .\nthe cat is on the roof .\ntwo cats are on the lake .\nthe cats are on the roof .\nthree cats were on the lake .\none cat is on the roof and the cats are on the roof too .\none horse is in the field .\na horse is on the table .\nthe horse is in the field .\ntwo"
+    },
+    {
+      "file": "knowledge.txt",
+      "bytes": 1602,
+      "sha256": "53c453a96e7fdc109b6e91a983e4ee9ff1fe6c1c008461e73ed56645e06f5d8d",
+      "warnings": [],
+      "characters": 1602,
+      "passages": 56,
+      "unique_passages": 56,
+      "preview": "ice is frozen water .\nthe lake freezes in winter .\nthe pond freezes when it is cold .\nsnow melts into water .\nsteam rises from the hot soup .\nsteam comes from boiling water .\nthe ice melts in the sun .\nwe drink water every day .\nthe river water is cold .\nwood burns in the fire .\nthe table is made of"
+    },
+    {
+      "file": "mcguffey.pdf",
+      "bytes": 48101,
+      "sha256": "5f8144c7296455b1d031db22dcf62de62bbef0308dc500f878ef708355fc5db3",
+      "warnings": [],
+      "pages": 13,
+      "characters": 65285,
+      "passages": 763,
+      "unique_passages": 740,
+      "preview": "Welcome to the schoolroom of 1900. The moral tone is plain. \"She is             \nkind to the old blind man.\"                                                     \n                                                                                \nThe exercises are still suitable, and perhaps more helpfu"
+    },
+    {
+      "file": "negation.txt",
+      "bytes": 9076,
+      "sha256": "5e7136ea252e3583162bb3c7b17bd1de7d9b5e71ca21ff9a327b0d30a82633d5",
+      "warnings": [],
+      "characters": 9076,
+      "passages": 233,
+      "unique_passages": 233,
+      "preview": "the cup is not green , it is white , so the cup is white .\nthe cup is white , not green .\nthe cup is not green but white .\nis the cup green ? no , the cup is white .\nthe car is not red , it is blue , so the car is blue .\nthe car is blue , not red .\nthe car is not red but blue .\nis the car red ? no ,"
+    },
+    {
+      "file": "opposites.txt",
+      "bytes": 8772,
+      "sha256": "3c0b28d171d57f461cb48b1f76ffd5e5336ec47df03d3f95f5cc8993c472fe95",
+      "warnings": [],
+      "characters": 8772,
+      "passages": 264,
+      "unique_passages": 264,
+      "preview": "the opposite of big is small .\nthe opposite of small is big .\nsmall is the opposite of big .\nbig is the opposite of small .\nbig and small are opposites .\nwhen something is not big it is small .\nthe opposite of fast is slow .\nthe opposite of slow is fast .\nslow is the opposite of fast .\nfast is the o"
+    },
+    {
+      "file": "sequence.txt",
+      "bytes": 5637,
+      "sha256": "34d1565930182119964274418aa399c23c13cc134acab5abd08b1ee34fc9d81d",
+      "warnings": [],
+      "characters": 5637,
+      "passages": 106,
+      "unique_passages": 106,
+      "preview": "first peel the fruit , then slice it , the last step is slice .\nfirst peel the fruit , then slice it , the final action is slice .\npeel the fruit first and slice it second , so the later action is slice .\nfirst peel the fruit and then slice it , in that order .\nfirst fill the pot , then boil the wat"
+    },
+    {
+      "file": "spatial.txt",
+      "bytes": 5138,
+      "sha256": "7991ec6347d76a865fc0d9445a85cfab03c694acfec020eed9fcec407e49f024",
+      "warnings": [],
+      "characters": 5138,
+      "passages": 110,
+      "unique_passages": 110,
+      "preview": "the coin is inside the jar , so the jar contains the coin .\nthe jar contains the coin , the coin is inside the jar .\nthe coin is in the jar .\nthe jar holds the coin .\nthe key is inside the drawer , so the drawer contains the key .\nthe drawer contains the key , the key is inside the drawer .\nthe key "
+    }
+  ],
+  "ignored": [],
+  "external_passages": 2154,
+  "mode": "classroom",
+  "base_passages": 6200,
+  "unique_passages": 6633,
+  "new_unique_passages": 2041,
+  "duplicates_removed": 1721,
+  "max_passage_tokens": 47,
+  "split_unit": "deduplicated passage, not source file"
+}

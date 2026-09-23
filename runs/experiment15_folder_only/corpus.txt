@@ -1,0 +1,1391 @@
+an eagle is a kind of bird .
+the eagle is a bird that flies .
+a sparrow is a kind of bird .
+the sparrow is a bird that flies .
+an owl is a kind of bird .
+the owl is a bird that flies .
+a parrot is a kind of bird .
+the parrot is a bird that flies .
+a crow is a kind of bird .
+the crow is a bird that flies .
+a pigeon is a kind of bird .
+the pigeon is a bird that flies .
+a trout is a kind of fish .
+the trout is a fish that swims .
+a shark is a kind of fish .
+the shark is a fish that swims .
+a tuna is a kind of fish .
+the tuna is a fish that swims .
+a cod is a kind of fish .
+the cod is a fish that swims .
+a carp is a kind of fish .
+the carp is a fish that swims .
+a hammer is a kind of tool .
+the hammer is a tool .
+a saw is a kind of tool .
+the saw is a tool .
+a drill is a kind of tool .
+the drill is a tool .
+a wrench is a kind of tool .
+the wrench is a tool .
+a beet is a kind of vegetable .
+the beet is a vegetable we cook .
+a onion is a kind of vegetable .
+the onion is a vegetable we cook .
+a potato is a kind of vegetable .
+the potato is a vegetable we cook .
+a pepper is a kind of vegetable .
+the pepper is a vegetable we cook .
+a bean is a kind of vegetable .
+the bean is a vegetable we cook .
+a pear is a kind of fruit .
+the pear is a sweet fruit .
+a peach is a kind of fruit .
+the peach is a sweet fruit .
+a mango is a kind of fruit .
+the mango is a sweet fruit .
+a banana is a kind of fruit .
+the banana is a sweet fruit .
+a grape is a kind of fruit .
+the grape is a sweet fruit .
+cotton is a kind of fabric .
+the shirt is made of cotton .
+wool is a kind of fabric .
+the shirt is made of wool .
+silk is a kind of fabric .
+the shirt is made of silk .
+linen is a kind of fabric .
+the shirt is made of linen .
+a truck is a kind of vehicle .
+the truck is a vehicle on the road .
+a taxi is a kind of vehicle .
+the taxi is a vehicle on the road .
+a bus is a kind of vehicle .
+the bus is a vehicle on the road .
+a boat is a kind of vehicle .
+the boat is a vehicle on the road .
+a lamb grows up to be a sheep .
+a lamb is a young sheep .
+the lamb becomes a sheep .
+a sheep was once a lamb .
+a calf grows up to be a cow .
+a calf is a young cow .
+the calf becomes a cow .
+a cow was once a calf .
+a foal grows up to be a horse .
+a foal is a young horse .
+the foal becomes a horse .
+a horse was once a foal .
+a chick grows up to be a hen .
+a chick is a young hen .
+the chick becomes a hen .
+a hen was once a chick .
+a cub grows up to be a bear .
+a cub is a young bear .
+the cub becomes a bear .
+a bear was once a cub .
+a duckling grows up to be a duck .
+a duckling is a young duck .
+the duckling becomes a duck .
+a duck was once a duckling .
+a piglet grows up to be a pig .
+a piglet is a young pig .
+the piglet becomes a pig .
+a pig was once a piglet .
+a kid grows up to be a goat .
+a kid is a young goat .
+the kid becomes a goat .
+a goat was once a kid .
+the robin is a small bird with a red chest .
+we saw a robin in the garden .
+the salmon is a big fish .
+we ate salmon for dinner .
+the puppy is a young dog .
+the puppy plays in the yard .
+the kitten is a young cat .
+the kitten sleeps all day .
+the carrot is an orange vegetable .
+we cooked a carrot with the soup .
+the apple is a red fruit .
+she ate an apple .
+a goat eats grass .
+the goat is in the barn .
+a robin sings in the morning .
+a salmon swims up the river .
+an owl is a bird of the night .
+an eagle is a large bird .
+an onion is a kind of vegetable .
+birds fly and fish swim .
+a bird has wings and a fish has fins .
+he walks to the office every morning .
+she walks the dog at noon .
+the girl walks to school .
+my uncle walks by the river .
+the nurse walks to the hospital .
+the boy walks home after lunch .
+the farmer walks to the barn .
+my aunt walks to the market .
+the road goes north to the city .
+the birds fly north in spring .
+the wind comes from the north .
+the farm is north of the village .
+the market is north of the station .
+we walked north along the river .
+the mountain is north of the lake .
+they live north of the river .
+the river flows south .
+the beach is south of the town .
+the ducks fly south in winter .
+the road goes south to the sea .
+our school is south of the park .
+we walked south along the beach .
+the desk is wooden .
+the lamp is beside the desk .
+she left the letter on the desk .
+the teacher sits at the desk .
+the desk is near the window .
+my book is on the desk .
+breakfast is the morning meal .
+we ate breakfast at seven .
+she cooked eggs for breakfast .
+breakfast comes before lunch .
+the hotel serves breakfast .
+he ate bread for breakfast .
+ice is frozen water .
+the ice melts in the sun .
+we put ice in the juice .
+the lake was covered with ice .
+the ice is cold and hard .
+the road was covered with ice at night .
+the lake freezes in winter .
+the pond freezes when it is cold .
+the river freezes in winter .
+water freezes when it is very cold .
+the milk freezes in the fridge .
+the garden pond freezes at night .
+steam rises from the hot soup .
+steam comes from boiling water .
+the kettle makes steam .
+steam filled the kitchen .
+hot tea gives off steam .
+we saw steam over the river .
+wood burns in the fire .
+the table is made of wood .
+the fence is made of wood .
+we cut wood for the winter .
+the boat is made of wood .
+the floor is made of wood .
+we stay inside when it rains .
+they stay at the hotel .
+the children stay at school until three .
+please stay on the road .
+we stay warm by the fire .
+the cats stay in the barn .
+our dogs stay in the yard .
+we stay at home on sunday .
+an umbrella keeps you dry in the rain .
+she opened an umbrella when it rained .
+he forgot his umbrella at the office .
+the umbrella is black .
+take an umbrella today .
+the umbrella is in the car .
+the baby is asleep .
+the cat is asleep on the sofa .
+the dog fell asleep by the fire .
+the children are asleep .
+he was asleep at noon .
+the town is asleep at night .
+the dog is hungry .
+we were hungry after the walk .
+the baby is hungry .
+a hungry goat eats everything .
+the students are hungry at noon .
+i am hungry .
+we turn on the lamp when it is dark .
+i turn on the light to read .
+turn left at the bank .
+they turn the boat toward the shore .
+we turn off the lamp at night .
+turn the page .
+the pillow is on the bed .
+she sleeps on a soft pillow .
+the pillow is white .
+he put the pillow on the sofa .
+the cat sleeps on the pillow .
+a pillow is soft .
+the spoon is in the cup .
+a person uses a spoon to eat soup .
+the spoon is made of metal .
+she washed the spoon .
+the spoon is on the plate .
+he stirred the tea with a spoon .
+the shoe is under the bed .
+he lost one shoe .
+the shoe is wet .
+her shoe is brown .
+the dog took my shoe .
+a shoe protects the foot .
+the robin is a small bird with a red chest .
+we saw a robin in the garden .
+a robin sings in the morning .
+the robin sat on the fence .
+a robin built a nest in the tree .
+the robin flew to the roof .
+the kitten is a young cat .
+the kitten sleeps all day .
+the kitten plays with the ball .
+a kitten drinks milk .
+the kitten is asleep on the pillow .
+our kitten is grey .
+the puppy is a young dog .
+the puppy plays in the yard .
+a puppy needs a walk .
+the puppy is hungry .
+our puppy is brown .
+the puppy sleeps by the fire .
+the carrot is an orange vegetable .
+we cooked a carrot with the soup .
+the goat ate the carrot .
+she cut the carrot .
+a carrot grows in the ground .
+the carrot is sweet .
+cotton is a kind of fabric .
+the shirt is made of soft fabric .
+wool is a warm fabric .
+she bought fabric for the dress .
+the fabric is blue .
+silk is a smooth fabric .
+the key is missing .
+one page is missing from the book .
+two cups are missing .
+my hat is missing .
+a wheel is missing from the cart .
+the last page is missing .
+the road is wet .
+the shoe is wet after the rain .
+the grass is wet in the morning .
+the towel is wet .
+the dog is wet from the lake .
+wet wood does not burn .
+the sand is hot in summer .
+the children play in the sand .
+the beach has white sand .
+sand gets into the shoe .
+the sand is soft .
+we built a castle of sand .
+the gate is metal .
+the roof is metal .
+metal is hard and cold .
+the fence is metal .
+the key is made of metal .
+we buy bread at the market .
+they buy fruit on saturday .
+i buy milk every morning .
+she wants to buy a hat .
+you can buy fuel at the station .
+we buy fish at the harbor .
+fill the cup with water .
+we fill the tank with fuel .
+fill the bucket at the river .
+they fill the boxes with apples .
+fill the pot and boil the water .
+the children fill the bag with sand .
+a fish lives in water .
+we ate fish for dinner .
+the cat wants the fish .
+a shark is a big fish .
+the fish is in the river .
+birds fly and fish swim .
+the ball is round .
+the boy kicked the ball .
+the ball is under the table .
+the dog wants the ball .
+the ball is red .
+she threw the ball to the girl .
+a beet is a kind of vegetable .
+an onion is a kind of vegetable .
+the potato is a vegetable we cook .
+a bean is a kind of vegetable .
+the pepper is a vegetable we cook .
+a cabbage is a kind of vegetable .
+a hammer is a kind of tool .
+a saw is a kind of tool .
+the drill is a tool .
+the farmer keeps every tool in the barn .
+a wrench is a kind of tool .
+the tool is made of metal .
+a lamb grows up to be a sheep .
+a calf grows up to be a cow .
+the tree grows by the river .
+a foal grows up to be a horse .
+the corn grows in summer .
+a chick grows up to be a hen .
+an action has a result .
+the first action was to open the door .
+the last action was to lock the gate .
+every action has a cost .
+the final action is to sign the letter .
+the next action is to feed the goat .
+wash the plate .
+we wash the car on sunday .
+wash the cup after dinner .
+they wash the dog in the yard .
+i wash the shirt at night .
+wash the apple before you eat it .
+we see the road by day .
+we cannot see in the dark .
+at night we need a light to see .
+i see a bird on the roof .
+they see the lake from the hill .
+you see the station from the bank .
+a person uses a map to find the road .
+a person uses a key to open the door .
+a person uses a pen to write .
+every person needs water .
+one person is at the door .
+a person walks faster than a goat .
+two dogs are barking in the yard .
+our dogs are sleeping by the fire .
+both dogs are waiting for dinner .
+three dogs were at the park .
+our dogs were tired after the walk .
+two dogs were at the gate .
+the birds are flying south .
+two birds are on the wire .
+three birds were at the lake .
+the birds sing in the morning .
+the birds are in the tree .
+two birds were on the roof .
+the bread is on the table .
+we ate bread and cheese .
+the bread was warm .
+she cut the bread .
+the meal was warm .
+we cooked a big meal .
+lunch is the midday meal .
+dinner is the evening meal .
+the family shared a meal .
+the hotel serves a meal at noon .
+she is walking to the park .
+the boy is walking the dog .
+we are walking to the station .
+they are walking along the beach .
+the farmer is walking to the barn .
+i am walking home .
+one cat is on the roof .
+a cat is on the lake .
+the cat is on the roof .
+two cats are on the lake .
+the cats are on the roof .
+three cats were on the lake .
+one cat is on the roof and the cats are on the roof too .
+one horse is in the field .
+a horse is on the table .
+the horse is in the field .
+two horses are on the table .
+the horses are in the field .
+three horses were on the table .
+one horse is in the field and the horses are in the field too .
+one cow is at the door .
+a cow is in the barn .
+the cow is at the door .
+two cows are in the barn .
+the cows are at the door .
+three cows were in the barn .
+one cow is at the door and the cows are at the door too .
+one goat is on the lake .
+a goat is at the station .
+the goat is on the lake .
+two goats are at the station .
+the goats are on the lake .
+three goats were at the station .
+one goat is on the lake and the goats are on the lake too .
+one duck is on the table .
+a duck is in the garden .
+the duck is on the table .
+two ducks are in the garden .
+the ducks are on the table .
+three ducks were in the garden .
+one duck is on the table and the ducks are on the table too .
+one frog is in the barn .
+a frog is by the river .
+the frog is in the barn .
+two frogs are by the river .
+the frogs are in the barn .
+three frogs were by the river .
+one frog is in the barn and the frogs are in the barn too .
+one boat is at the station .
+a boat is at the market .
+the boat is at the station .
+two boats are at the market .
+the boats are at the station .
+three boats were at the market .
+one boat is at the station and the boats are at the station too .
+one cup is in the garden .
+a cup is on the roof .
+the cup is in the garden .
+two cups are on the roof .
+the cups are in the garden .
+three cups were on the roof .
+one cup is in the garden and the cups are in the garden too .
+one lamp is by the river .
+a lamp is in the field .
+the lamp is by the river .
+two lamps are in the field .
+the lamps are by the river .
+three lamps were in the field .
+one lamp is by the river and the lamps are by the river too .
+one truck is at the market .
+a truck is at the door .
+the truck is at the market .
+two trucks are at the door .
+the trucks are at the market .
+three trucks were at the door .
+one truck is at the market and the trucks are at the market too .
+one student is on the roof .
+a student is on the lake .
+the student is on the roof .
+two students are on the lake .
+the students are on the roof .
+three students were on the lake .
+one student is on the roof and the students are on the roof too .
+one driver is in the field .
+a driver is on the table .
+the driver is in the field .
+two drivers are on the table .
+the drivers are in the field .
+three drivers were on the table .
+one driver is in the field and the drivers are in the field too .
+one nurse is at the door .
+a nurse is in the barn .
+the nurse is at the door .
+two nurses are in the barn .
+the nurses are at the door .
+three nurses were in the barn .
+one nurse is at the door and the nurses are at the door too .
+one farmer is on the lake .
+a farmer is at the station .
+the farmer is on the lake .
+two farmers are at the station .
+the farmers are on the lake .
+three farmers were at the station .
+one farmer is on the lake and the farmers are on the lake too .
+one boy is on the table .
+a boy is in the garden .
+the boy is on the table .
+two boys are in the garden .
+the boys are on the table .
+three boys were in the garden .
+one boy is on the table and the boys are on the table too .
+one girl is in the barn .
+a girl is by the river .
+the girl is in the barn .
+two girls are by the river .
+the girls are in the barn .
+three girls were by the river .
+one girl is in the barn and the girls are in the barn too .
+one child is at the station .
+a child is at the market .
+the child is at the station .
+two children are at the market .
+the children are at the station .
+three children were at the market .
+one child is at the station and the children are at the station too .
+one teacher is in the garden .
+a teacher is on the roof .
+the teacher is in the garden .
+two teachers are on the roof .
+the teachers are in the garden .
+three teachers were on the roof .
+one teacher is in the garden and the teachers are in the garden too .
+a bird is on the roof .
+the bird is singing in the tree .
+every bird is looking for seeds .
+this bird is small and brown .
+a bird was in the garden .
+the birds are flying south .
+two birds are on the wire .
+three birds were at the lake .
+two dogs are barking in the yard .
+our dogs are sleeping by the fire .
+both dogs are waiting for dinner .
+three dogs were at the park .
+our dogs were tired after the walk .
+the dog is on the sofa .
+one dog is in the yard .
+a dog is at the gate .
+i am at the station .
+i am a student .
+i am in the garden .
+i am at home today .
+i am happy .
+i am late .
+today i am at home and yesterday i was at the office .
+we were at the market .
+they were in the garden .
+you were at the door .
+yesterday we were at the beach .
+yesterday they were at the museum .
+last week we were at the lake .
+the boys were tired .
+the cups were on the shelf .
+they walk to school every day .
+we walk along the river on sunday .
+the children walk to the park .
+i walk to work .
+you walk very fast .
+she is walking to the park .
+the boy is walking the dog .
+we are walking to the station .
+they are walking along the beach .
+the farmer is walking to the barn .
+yesterday he walked to the market .
+today he walk to the market and yesterday he walked to the market too .
+yesterday he painted the fence .
+today he paint the fence and yesterday he painted the fence too .
+yesterday he jumped into the lake .
+today he jump into the lake and yesterday he jumped into the lake too .
+yesterday they cooked dinner .
+today they cook dinner and yesterday they cooked dinner too .
+yesterday they talked about rivers .
+today they talk about rivers and yesterday they talked about rivers too .
+yesterday they walked along the beach .
+today they walk along the beach and yesterday they walked along the beach too .
+yesterday we played football .
+today we play football and yesterday we played football too .
+yesterday we cleaned the kitchen .
+today we clean the kitchen and yesterday we cleaned the kitchen too .
+yesterday we walked home .
+today we walk home and yesterday we walked home too .
+yesterday the boy visited the museum .
+today the boy visit the museum and yesterday the boy visited the museum too .
+yesterday the boy climbed the hill .
+today the boy climb the hill and yesterday the boy climbed the hill too .
+yesterday the boy walked to the bank .
+today the boy walk to the bank and yesterday the boy walked to the bank too .
+yesterday my sister painted the fence .
+today my sister paint the fence and yesterday my sister painted the fence too .
+yesterday my sister jumped into the lake .
+today my sister jump into the lake and yesterday my sister jumped into the lake too .
+yesterday my sister walked to the market .
+today my sister walk to the market and yesterday my sister walked to the market too .
+yesterday my uncle talked about rivers .
+today my uncle talk about rivers and yesterday my uncle talked about rivers too .
+yesterday my uncle walked along the beach .
+today my uncle walk along the beach and yesterday my uncle walked along the beach too .
+yesterday my uncle cooked dinner .
+today my uncle cook dinner and yesterday my uncle cooked dinner too .
+yesterday the driver cleaned the kitchen .
+today the driver clean the kitchen and yesterday the driver cleaned the kitchen too .
+yesterday the driver walked home .
+today the driver walk home and yesterday the driver walked home too .
+yesterday the driver played football .
+today the driver play football and yesterday the driver played football too .
+yesterday the nurse climbed the hill .
+today the nurse climb the hill and yesterday the nurse climbed the hill too .
+yesterday the nurse walked to the bank .
+today the nurse walk to the bank and yesterday the nurse walked to the bank too .
+yesterday the nurse visited the museum .
+today the nurse visit the museum and yesterday the nurse visited the museum too .
+yesterday the farmer jumped into the lake .
+today the farmer jump into the lake and yesterday the farmer jumped into the lake too .
+yesterday the farmer walked to the market .
+today the farmer walk to the market and yesterday the farmer walked to the market too .
+yesterday the farmer painted the fence .
+today the farmer paint the fence and yesterday the farmer painted the fence too .
+yesterday the girl walked along the beach .
+today the girl walk along the beach and yesterday the girl walked along the beach too .
+yesterday the girl cooked dinner .
+today the girl cook dinner and yesterday the girl cooked dinner too .
+yesterday the girl talked about rivers .
+today the girl talk about rivers and yesterday the girl talked about rivers too .
+yesterday our teacher walked home .
+today our teacher walk home and yesterday our teacher walked home too .
+yesterday our teacher played football .
+today our teacher play football and yesterday our teacher played football too .
+yesterday our teacher cleaned the kitchen .
+today our teacher clean the kitchen and yesterday our teacher cleaned the kitchen too .
+yesterday the children walked to the bank .
+today the children walk to the bank and yesterday the children walked to the bank too .
+yesterday the children visited the museum .
+today the children visit the museum and yesterday the children visited the museum too .
+yesterday the children climbed the hill .
+today the children climb the hill and yesterday the children climbed the hill too .
+last week she walked to the office .
+last night she talked with her mother .
+last month she painted the kitchen .
+this morning she walked the dog around the block .
+she walked to the park with her friend .
+she cooked rice and beans on sunday .
+yesterday it rained all afternoon .
+yesterday the shop opened late .
+yesterday the baby slept for three hours .
+ice is frozen water .
+the lake freezes in winter .
+the pond freezes when it is cold .
+snow melts into water .
+steam rises from the hot soup .
+steam comes from boiling water .
+the ice melts in the sun .
+we drink water every day .
+the river water is cold .
+wood burns in the fire .
+the table is made of wood .
+the fence is made of wood .
+an umbrella keeps you dry in the rain .
+she opened an umbrella when it rained .
+the rain made the road wet .
+we stay inside when it rains .
+the coat keeps you warm .
+a hat keeps the sun off your face .
+a person uses a map to find the road .
+a person uses a key to open the door .
+a person uses a spoon to eat soup .
+a person uses a pen to write .
+every person needs water .
+the baby is asleep .
+the cat is asleep on the sofa .
+the dog is hungry .
+we were hungry after the walk .
+the room is dark at night .
+the room was dark so i turned on the lamp .
+we turn on the lamp when it is dark .
+i turn on the light to read .
+the light is on .
+the light is off .
+we see the road by day .
+we cannot see in the dark .
+at night we need a light to see .
+the pillow is on the bed .
+she sleeps on a soft pillow .
+the spoon is in the cup .
+the shoe is under the bed .
+he lost one shoe .
+the sun gives light .
+the moon gives a little light at night .
+fire gives heat and light .
+the kettle boils water .
+milk comes from cows .
+bread is made from flour .
+an egg comes from a hen .
+an apple grows on a tree .
+an orange is a fruit .
+a fish lives in water .
+a bird lives in a tree .
+a cow eats grass .
+a dog needs a walk every day .
+the sky is blue by day .
+the sky is dark at night .
+the cup is not green , it is white , so the cup is white .
+the cup is white , not green .
+the cup is not green but white .
+is the cup green ?
+no , the cup is white .
+the car is not red , it is blue , so the car is blue .
+the car is blue , not red .
+the car is not red but blue .
+is the car red ?
+no , the car is blue .
+the wall is not yellow , it is grey , so the wall is grey .
+the wall is grey , not yellow .
+the wall is not yellow but grey .
+is the wall yellow ?
+no , the wall is grey .
+the hat is not black , it is brown , so the hat is brown .
+the hat is brown , not black .
+the hat is not black but brown .
+is the hat black ?
+no , the hat is brown .
+the shirt is not blue , it is red , so the shirt is red .
+the shirt is red , not blue .
+the shirt is not blue but red .
+is the shirt blue ?
+no , the shirt is red .
+the coat is not white , it is black , so the coat is black .
+the coat is black , not white .
+the coat is not white but black .
+is the coat white ?
+no , the coat is black .
+the plate is not pink , it is orange , so the plate is orange .
+the plate is orange , not pink .
+the plate is not pink but orange .
+is the plate pink ?
+no , the plate is orange .
+the kite is not purple , it is yellow , so the kite is yellow .
+the kite is yellow , not purple .
+the kite is not purple but yellow .
+is the kite purple ?
+no , the kite is yellow .
+the chair is not brown , it is grey , so the chair is grey .
+the chair is grey , not brown .
+the chair is not brown but grey .
+is the chair brown ?
+no , the chair is grey .
+the boat is not green , it is red , so the boat is red .
+the boat is red , not green .
+the boat is not green but red .
+is the boat green ?
+no , the boat is red .
+the scarf is not red , it is pink , so the scarf is pink .
+the scarf is pink , not red .
+the scarf is not red but pink .
+is the scarf red ?
+no , the scarf is pink .
+the bike is not blue , it is green , so the bike is green .
+the bike is green , not blue .
+the bike is not blue but green .
+is the bike blue ?
+no , the bike is green .
+the bag is not small , it is large , so the bag is large .
+the bag is large , not small .
+the bag is not small but large .
+is the bag small ?
+no , the bag is large .
+the road is not wet , it is dry , so the road is dry .
+the road is dry , not wet .
+the road is not wet but dry .
+is the road wet ?
+no , the road is dry .
+the soup is not cold , it is warm , so the soup is warm .
+the soup is warm , not cold .
+the soup is not cold but warm .
+is the soup cold ?
+no , the soup is warm .
+the gate is not open , it is closed , so the gate is closed .
+the gate is closed , not open .
+the gate is not open but closed .
+is the gate open ?
+no , the gate is closed .
+the shop is not closed , it is open , so the shop is open .
+the shop is open , not closed .
+the shop is not closed but open .
+is the shop closed ?
+no , the shop is open .
+the window is not open , it is closed , so the window is closed .
+the window is closed , not open .
+the window is not open but closed .
+is the window open ?
+no , the window is closed .
+the bridge is not long , it is short , so the bridge is short .
+the bridge is short , not long .
+the bridge is not long but short .
+is the bridge long ?
+no , the bridge is short .
+the pencil is not sharp , it is dull , so the pencil is dull .
+the pencil is dull , not sharp .
+the pencil is not sharp but dull .
+is the pencil sharp ?
+no , the pencil is dull .
+the movie is not boring , it is funny , so the movie is funny .
+the movie is funny , not boring .
+the movie is not boring but funny .
+is the movie boring ?
+no , the movie is funny .
+the crate is not heavy , it is light , so the crate is light .
+the crate is light , not heavy .
+the crate is not heavy but light .
+is the crate heavy ?
+no , the crate is light .
+the crate is not square , it is round , so the crate is round .
+the crate is round , not square .
+the crate is not square but round .
+is the crate square ?
+no , the crate is round .
+the fence is not wooden , it is metal , so the fence is metal .
+the fence is metal , not wooden .
+the fence is not wooden but metal .
+is the fence wooden ?
+no , the fence is metal .
+the tea is not sweet , it is bitter , so the tea is bitter .
+the tea is bitter , not sweet .
+the tea is not sweet but bitter .
+is the tea sweet ?
+no , the tea is bitter .
+the bread is not fresh , it is stale , so the bread is stale .
+the bread is stale , not fresh .
+the bread is not fresh but stale .
+is the bread fresh ?
+no , the bread is stale .
+the lamp is not on , it is off , so the lamp is off .
+the lamp is off , not on .
+the lamp is not on but off .
+is the lamp on ?
+no , the lamp is off .
+the river is not shallow , it is deep , so the river is deep .
+the river is deep , not shallow .
+the river is not shallow but deep .
+is the river shallow ?
+no , the river is deep .
+the room is not dark , it is bright , so the room is bright .
+the room is bright , not dark .
+the room is not dark but bright .
+is the room dark ?
+no , the room is bright .
+the ticket is not cheap , it is expensive , so the ticket is expensive .
+the ticket is expensive , not cheap .
+the ticket is not cheap but expensive .
+is the ticket cheap ?
+no , the ticket is expensive .
+she did not buy rice , she bought beans , so she bought beans .
+she bought beans , not rice .
+she did not buy rice but beans .
+he did not buy a hat , he bought a scarf , so he bought a scarf .
+he bought a scarf , not a hat .
+he did not buy a hat but a scarf .
+they did not buy the sofa , they bought the chair , so they bought the chair .
+they bought the chair , not the sofa .
+they did not buy the sofa but the chair .
+we did not buy oranges , we bought grapes , so we bought grapes .
+we bought grapes , not oranges .
+we did not buy oranges but grapes .
+the boy did not buy a kite , he bought a ball , so he bought a ball .
+the boy bought a ball , not a kite .
+the boy did not buy a kite but a ball .
+my aunt did not buy flowers , she bought candles , so she bought candles .
+my aunt bought candles , not flowers .
+my aunt did not buy flowers but candles .
+the driver did not buy fuel , he bought water , so he bought water .
+the driver bought water , not fuel .
+the driver did not buy fuel but water .
+the nurse did not buy bread , she bought cheese , so she bought cheese .
+the nurse bought cheese , not bread .
+the nurse did not buy bread but cheese .
+the farmer did not buy a coat , he bought a shirt , so he bought a shirt .
+the farmer bought a shirt , not a coat .
+the farmer did not buy a coat but a shirt .
+the girl did not buy apples , she bought pears , so she bought pears .
+the girl bought pears , not apples .
+the girl did not buy apples but pears .
+she did not eat pasta , she ate soup , so she ate soup .
+she ate soup , not pasta .
+he did not drink coffee , he drank juice , so he drank juice .
+he drank juice , not coffee .
+they did not take the train , they took the ferry , so they took the ferry .
+they took the ferry , not the train .
+we did not watch the news , we watched a film , so we watched a film .
+we watched a film , not the news .
+the boy did not read the letter , he read the book , so he read the book .
+the boy read the book , not the letter .
+my aunt did not use butter , she used oil , so she used oil .
+my aunt used oil , not butter .
+the driver did not want cake , he wanted bread , so he wanted bread .
+the driver wanted bread , not cake .
+the nurse did not want juice , she wanted milk , so she wanted milk .
+the nurse wanted milk , not juice .
+the farmer did not order coffee , he ordered tea , so he ordered tea .
+the farmer ordered tea , not coffee .
+the girl did not choose the soup , she chose the salad , so she chose the salad .
+the girl chose the salad , not the soup .
+she did not plant corn , she planted wheat , so she planted wheat .
+she planted wheat , not corn .
+he did not paint the door , he painted the fence , so he painted the fence .
+he painted the fence , not the door .
+they did not clean the car , they cleaned the boat , so they cleaned the boat .
+they cleaned the boat , not the car .
+we did not visit the bank , we visited the museum , so we visited the museum .
+we visited the museum , not the bank .
+it is not monday , it is tuesday , so today is tuesday .
+it is not winter , it is spring , so the season is spring .
+the answer is not seven , it is nine , so the answer is nine .
+the meeting is not at noon , it is at three , so the meeting is at three .
+the cat is not outside , it is inside , so the cat is inside .
+the keys are not in the drawer , they are on the hook , so the keys are on the hook .
+the milk is not on the table , it is in the fridge , so the milk is in the fridge .
+the box is on the shelf .
+the box is heavy .
+we put the keys in the box .
+the box was empty .
+a small box is on the table .
+the box is brown .
+the key is missing .
+one page is missing from the book .
+two cups are missing .
+my hat is missing , not lost .
+the bread is on the table .
+we ate bread and cheese .
+the bread was warm .
+she cut the bread .
+the door is open .
+the door was closed all day .
+the gate is closed .
+the shop is open on sunday .
+the opposite of big is small .
+the opposite of small is big .
+small is the opposite of big .
+big is the opposite of small .
+big and small are opposites .
+when something is not big it is small .
+the opposite of fast is slow .
+the opposite of slow is fast .
+slow is the opposite of fast .
+fast is the opposite of slow .
+fast and slow are opposites .
+when something is not fast it is slow .
+the opposite of up is down .
+the opposite of down is up .
+down is the opposite of up .
+up is the opposite of down .
+up and down are opposites .
+when something is not up it is down .
+the opposite of tall is short .
+the opposite of short is tall .
+short is the opposite of tall .
+tall is the opposite of short .
+tall and short are opposites .
+when something is not tall it is short .
+the opposite of young is old .
+the opposite of old is young .
+old is the opposite of young .
+young is the opposite of old .
+young and old are opposites .
+when something is not young it is old .
+the opposite of heavy is light .
+the opposite of light is heavy .
+light is the opposite of heavy .
+heavy is the opposite of light .
+heavy and light are opposites .
+when something is not heavy it is light .
+the opposite of strong is weak .
+the opposite of weak is strong .
+weak is the opposite of strong .
+strong is the opposite of weak .
+strong and weak are opposites .
+when something is not strong it is weak .
+the opposite of soft is hard .
+the opposite of hard is soft .
+hard is the opposite of soft .
+soft is the opposite of hard .
+soft and hard are opposites .
+when something is not soft it is hard .
+the opposite of wide is narrow .
+the opposite of narrow is wide .
+narrow is the opposite of wide .
+wide is the opposite of narrow .
+wide and narrow are opposites .
+when something is not wide it is narrow .
+the opposite of clean is dirty .
+the opposite of dirty is clean .
+dirty is the opposite of clean .
+clean is the opposite of dirty .
+clean and dirty are opposites .
+when something is not clean it is dirty .
+the opposite of high is low .
+the opposite of low is high .
+low is the opposite of high .
+high is the opposite of low .
+high and low are opposites .
+when something is not high it is low .
+the opposite of thick is thin .
+the opposite of thin is thick .
+thin is the opposite of thick .
+thick is the opposite of thin .
+thick and thin are opposites .
+when something is not thick it is thin .
+the opposite of sweet is sour .
+the opposite of sour is sweet .
+sour is the opposite of sweet .
+sweet is the opposite of sour .
+sweet and sour are opposites .
+when something is not sweet it is sour .
+the opposite of happy is sad .
+the opposite of sad is happy .
+sad is the opposite of happy .
+happy is the opposite of sad .
+happy and sad are opposites .
+when something is not happy it is sad .
+the opposite of near is far .
+the opposite of far is near .
+far is the opposite of near .
+near is the opposite of far .
+near and far are opposites .
+when something is not near it is far .
+the opposite of early is late .
+the opposite of late is early .
+late is the opposite of early .
+early is the opposite of late .
+early and late are opposites .
+when something is not early it is late .
+the opposite of rich is poor .
+the opposite of poor is rich .
+poor is the opposite of rich .
+rich is the opposite of poor .
+rich and poor are opposites .
+when something is not rich it is poor .
+the opposite of wet is dry .
+the opposite of dry is wet .
+dry is the opposite of wet .
+wet is the opposite of dry .
+wet and dry are opposites .
+when something is not wet it is dry .
+the opposite of day is night .
+the opposite of night is day .
+night is the opposite of day .
+day is the opposite of night .
+day and night are opposites .
+when something is not day it is night .
+the opposite of loud is silent .
+the opposite of silent is loud .
+silent is the opposite of loud .
+loud is the opposite of silent .
+loud and silent are opposites .
+when something is not loud it is silent .
+the opposite of warm is cool .
+the opposite of cool is warm .
+cool is the opposite of warm .
+warm is the opposite of cool .
+warm and cool are opposites .
+when something is not warm it is cool .
+the opposite of deep is shallow .
+the opposite of shallow is deep .
+shallow is the opposite of deep .
+deep is the opposite of shallow .
+deep and shallow are opposites .
+when something is not deep it is shallow .
+the opposite of dark is bright .
+the opposite of bright is dark .
+bright is the opposite of dark .
+dark is the opposite of bright .
+dark and bright are opposites .
+when something is not dark it is bright .
+the opposite of cheap is expensive .
+the opposite of expensive is cheap .
+expensive is the opposite of cheap .
+cheap is the opposite of expensive .
+cheap and expensive are opposites .
+when something is not cheap it is expensive .
+the opposite of open is shut .
+the opposite of shut is open .
+shut is the opposite of open .
+open is the opposite of shut .
+open and shut are opposites .
+when something is not open it is shut .
+the opposite of push is pull .
+the opposite of pull is push .
+pull is the opposite of push .
+push is the opposite of pull .
+push and pull are opposites .
+when something is not push it is pull .
+the opposite of begin is end .
+the opposite of end is begin .
+end is the opposite of begin .
+begin is the opposite of end .
+begin and end are opposites .
+when something is not begin it is end .
+the opposite of win is lose .
+the opposite of lose is win .
+lose is the opposite of win .
+win is the opposite of lose .
+win and lose are opposites .
+when something is not win it is lose .
+the soup was hot but the salad was cold .
+the soup is hot and the salad is cold .
+the soup is hot .
+the salad is cold .
+the coffee was hot but the lemonade was cold .
+the coffee is hot and the lemonade is cold .
+the coffee is hot .
+the lemonade is cold .
+the sand was hot but the sea was cold .
+the sand is hot and the sea is cold .
+the sand is hot .
+the sea is cold .
+the shower was hot but the pool was cold .
+the shower is hot and the pool is cold .
+the shower is hot .
+the pool is cold .
+the oven was hot but the fridge was cold .
+the oven is hot and the fridge is cold .
+the oven is hot .
+the fridge is cold .
+the tea was hot but the juice was cold .
+the tea is hot and the juice is cold .
+the tea is hot .
+the juice is cold .
+the desert was hot but the mountain was cold .
+the desert is hot and the mountain is cold .
+the desert is hot .
+the mountain is cold .
+the engine was hot but the wind was cold .
+the engine is hot and the wind is cold .
+the engine is hot .
+the wind is cold .
+the bucket was full in the morning and empty at night .
+the bucket is full but the jug is empty .
+the bucket is full .
+the jug is empty .
+the bottle was full in the morning and empty at night .
+the bottle is full but the glass is empty .
+the bottle is full .
+the glass is empty .
+the stadium was full in the morning and empty at night .
+the stadium is full but the park is empty .
+the stadium is full .
+the park is empty .
+the fridge was full in the morning and empty at night .
+the fridge is full but the shelf is empty .
+the fridge is full .
+the shelf is empty .
+the bus was full in the morning and empty at night .
+the bus is full but the train is empty .
+the bus is full .
+the train is empty .
+the bag was full in the morning and empty at night .
+the bag is full but the basket is empty .
+the bag is full .
+the basket is empty .
+the tank was full in the morning and empty at night .
+the tank is full but the barrel is empty .
+the tank is full .
+the barrel is empty .
+the cinema was full in the morning and empty at night .
+the cinema is full but the theater is empty .
+the cinema is full .
+the theater is empty .
+the market is noisy and the library is quiet .
+the market was noisy but the library was quiet .
+the market is noisy .
+the library is quiet .
+the street is noisy and the garden is quiet .
+the street was noisy but the garden was quiet .
+the street is noisy .
+the garden is quiet .
+the classroom is noisy and the chapel is quiet .
+the classroom was noisy but the chapel was quiet .
+the classroom is noisy .
+the chapel is quiet .
+the city is noisy and the village is quiet .
+the city was noisy but the village was quiet .
+the city is noisy .
+the village is quiet .
+the workshop is noisy and the museum is quiet .
+the workshop was noisy but the museum was quiet .
+the workshop is noisy .
+the museum is quiet .
+the kitchen is noisy and the bedroom is quiet .
+the kitchen was noisy but the bedroom was quiet .
+the kitchen is noisy .
+the bedroom is quiet .
+the stadium is noisy and the forest is quiet .
+the stadium was noisy but the forest was quiet .
+the stadium is noisy .
+the forest is quiet .
+the station is noisy and the lake is quiet .
+the station was noisy but the lake was quiet .
+the station is noisy .
+the lake is quiet .
+first peel the fruit , then slice it , the last step is slice .
+first peel the fruit , then slice it , the final action is slice .
+peel the fruit first and slice it second , so the later action is slice .
+first peel the fruit and then slice it , in that order .
+first fill the pot , then boil the water , the last step is boil .
+first fill the pot , then boil the water , the final action is boil .
+fill the pot first and boil the water second , so the later action is boil .
+first fill the pot and then boil the water , in that order .
+first open the bag , then pack the shirt , the last step is pack .
+first open the bag , then pack the shirt , the final action is pack .
+open the bag first and pack the shirt second , so the later action is pack .
+first open the bag and then pack the shirt , in that order .
+first mix the flour , then bake the cake , the last step is bake .
+first mix the flour , then bake the cake , the final action is bake .
+mix the flour first and bake the cake second , so the later action is bake .
+first mix the flour and then bake the cake , in that order .
+first hang the shirt , then dry it , the last step is dry .
+first hang the shirt , then dry it , the final action is dry .
+hang the shirt first and dry it second , so the later action is dry .
+first hang the shirt and then dry it , in that order .
+first read the letter , then sign it , the last step is sign .
+first read the letter , then sign it , the final action is sign .
+read the letter first and sign it second , so the later action is sign .
+first read the letter and then sign it , in that order .
+first lock the gate , then feed the goat , the last step is feed .
+first lock the gate , then feed the goat , the final action is feed .
+lock the gate first and feed the goat second , so the later action is feed .
+first lock the gate and then feed the goat , in that order .
+first light the fire , then cook the rice , the last step is cook .
+first light the fire , then cook the rice , the final action is cook .
+light the fire first and cook the rice second , so the later action is cook .
+first light the fire and then cook the rice , in that order .
+first clean the brush , then paint the wall , the last step is paint .
+first clean the brush , then paint the wall , the final action is paint .
+clean the brush first and paint the wall second , so the later action is paint .
+first clean the brush and then paint the wall , in that order .
+first wash the car , then park it , the last step is park .
+first wash the car , then park it , the final action is park .
+wash the car first and park it second , so the later action is park .
+first wash the car and then park it , in that order .
+dinner comes after lunch , the earlier one is lunch .
+lunch comes before dinner , the later one is dinner .
+dinner happens after lunch .
+lunch happens before dinner .
+evening comes after morning , the earlier one is morning .
+morning comes before evening , the later one is evening .
+evening happens after morning .
+morning happens before evening .
+spring comes after winter , the earlier one is winter .
+winter comes before spring , the later one is spring .
+spring happens after winter .
+winter happens before spring .
+friday comes after monday , the earlier one is monday .
+monday comes before friday , the later one is friday .
+friday happens after monday .
+monday happens before friday .
+dessert comes after soup , the earlier one is soup .
+soup comes before dessert , the later one is dessert .
+dessert happens after soup .
+soup happens before dessert .
+sunset comes after sunrise , the earlier one is sunrise .
+sunrise comes before sunset , the later one is sunset .
+sunset happens after sunrise .
+sunrise happens before sunset .
+supper comes after lunch , the earlier one is lunch .
+lunch comes before supper , the later one is supper .
+supper happens after lunch .
+lunch happens before supper .
+night comes after day , the earlier one is day .
+day comes before night , the later one is night .
+night happens after day .
+day happens before night .
+the taxi arrived before the truck , the one that came later was the truck .
+the taxi arrived first and the truck arrived later .
+the truck arrived after the taxi , so the taxi was earlier .
+the boat arrived before the ferry , the one that came later was the ferry .
+the boat arrived first and the ferry arrived later .
+the ferry arrived after the boat , so the boat was earlier .
+the teacher arrived before the student , the one that came later was the student .
+the teacher arrived first and the student arrived later .
+the student arrived after the teacher , so the teacher was earlier .
+the nurse arrived before the doctor , the one that came later was the doctor .
+the nurse arrived first and the doctor arrived later .
+the doctor arrived after the nurse , so the nurse was earlier .
+the car arrived before the bicycle , the one that came later was the bicycle .
+the car arrived first and the bicycle arrived later .
+the bicycle arrived after the car , so the car was earlier .
+the letter arrived before the package , the one that came later was the package .
+the letter arrived first and the package arrived later .
+the package arrived after the letter , so the letter was earlier .
+a truck is a vehicle .
+a taxi is a vehicle .
+every vehicle needs fuel .
+breakfast is the morning meal .
+the meal was warm .
+we cooked a big meal .
+lunch is at noon .
+we ate lunch at the market .
+the cup is on the shelf .
+the train is at the station .
+the bus is at the station .
+wash the plate .
+we wash the car on sunday .
+the cup is clean .
+an action has a result .
+the first action was to open the door .
+the coin is inside the jar , so the jar contains the coin .
+the jar contains the coin , the coin is inside the jar .
+the coin is in the jar .
+the jar holds the coin .
+the key is inside the drawer , so the drawer contains the key .
+the drawer contains the key , the key is inside the drawer .
+the key is in the drawer .
+the drawer holds the key .
+the shirt is inside the suitcase , so the suitcase contains the shirt .
+the suitcase contains the shirt , the shirt is inside the suitcase .
+the shirt is in the suitcase .
+the suitcase holds the shirt .
+the letter is inside the envelope , so the envelope contains the letter .
+the envelope contains the letter , the letter is inside the envelope .
+the letter is in the envelope .
+the envelope holds the letter .
+the apple is inside the basket , so the basket contains the apple .
+the basket contains the apple , the apple is inside the basket .
+the apple is in the basket .
+the basket holds the apple .
+the pencil is inside the case , so the case contains the pencil .
+the case contains the pencil , the pencil is inside the case .
+the pencil is in the case .
+the case holds the pencil .
+the ring is inside the pocket , so the pocket contains the ring .
+the pocket contains the ring , the ring is inside the pocket .
+the ring is in the pocket .
+the pocket holds the ring .
+the toy is inside the crate , so the crate contains the toy .
+the crate contains the toy , the toy is inside the crate .
+the toy is in the crate .
+the crate holds the toy .
+the picture is above the sofa , so the sofa is below the picture .
+the sofa is below the picture , the picture is above the sofa .
+the picture is above the sofa .
+the sofa is below the picture .
+the clock is above the door , so the door is below the clock .
+the door is below the clock , the clock is above the door .
+the clock is above the door .
+the door is below the clock .
+the shelf is above the sink , so the sink is below the shelf .
+the sink is below the shelf , the shelf is above the sink .
+the shelf is above the sink .
+the sink is below the shelf .
+the roof is above the wall , so the wall is below the roof .
+the wall is below the roof , the roof is above the wall .
+the roof is above the wall .
+the wall is below the roof .
+the bird is above the tree , so the tree is below the bird .
+the tree is below the bird , the bird is above the tree .
+the bird is above the tree .
+the tree is below the bird .
+the cloud is above the hill , so the hill is below the cloud .
+the hill is below the cloud , the cloud is above the hill .
+the cloud is above the hill .
+the hill is below the cloud .
+the sign is above the gate , so the gate is below the sign .
+the gate is below the sign , the sign is above the gate .
+the sign is above the gate .
+the gate is below the sign .
+the light is above the table , so the table is below the light .
+the table is below the light , the light is above the table .
+the light is above the table .
+the table is below the light .
+the cup is to the left of the plate , so the plate is to the right of the cup .
+the plate is to the right of the cup , the cup is to the left .
+the cup is on the left and the plate is on the right .
+the plate is beside the cup .
+the chair is to the left of the table , so the table is to the right of the chair .
+the table is to the right of the chair , the chair is to the left .
+the chair is on the left and the table is on the right .
+the table is beside the chair .
+the truck is to the left of the car , so the car is to the right of the truck .
+the car is to the right of the truck , the truck is to the left .
+the truck is on the left and the car is on the right .
+the car is beside the truck .
+the shop is to the left of the bank , so the bank is to the right of the shop .
+the bank is to the right of the shop , the shop is to the left .
+the shop is on the left and the bank is on the right .
+the bank is beside the shop .
+the boy is to the left of the girl , so the girl is to the right of the boy .
+the girl is to the right of the boy , the boy is to the left .
+the boy is on the left and the girl is on the right .
+the girl is beside the boy .
+the cat is to the left of the dog , so the dog is to the right of the cat .
+the dog is to the right of the cat , the cat is to the left .
+the cat is on the left and the dog is on the right .
+the dog is beside the cat .
+the lamp is to the left of the sofa , so the sofa is to the right of the lamp .
+the sofa is to the right of the lamp , the lamp is to the left .
+the lamp is on the left and the sofa is on the right .
+the sofa is beside the lamp .
+the gate is to the left of the fence , so the fence is to the right of the gate .
+the fence is to the right of the gate , the gate is to the left .
+the gate is on the left and the fence is on the right .
+the fence is beside the gate .
+she read the book .
+the book is on the table .
+the bag is large .
+we put the bag on the floor .
+the lamp is on .
+the desk is wooden .
+the ball is round .
+the boy kicked the ball .
+the box is on the shelf .
+the box is heavy .
+the ball is under the table .
+the lamp is beside the desk .
+the cat is under the chair .
+the dog is behind the gate .

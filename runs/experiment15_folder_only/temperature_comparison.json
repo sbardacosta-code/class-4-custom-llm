@@ -1,0 +1,20 @@
+{
+  "0.3": [
+    "the opposite of old is young .",
+    "the opposite of shut is open .",
+    "the opposite of thick is thin .",
+    "the opposite of day is night ."
+  ],
+  "0.8": [
+    "the opposite of heavy is light .",
+    "the cup is white , not green .",
+    "the opposite of high is low .",
+    "last night she talked with her <UNK> ."
+  ],
+  "1.2": [
+    "home happens before lunch .",
+    "a chick grows up to be a hen .",
+    "she steam <UNK> the <UNK> .",
+    "fast is last night ."
+  ]
+}

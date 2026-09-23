@@ -21,6 +21,10 @@ E1 and E2 are the required experiments; E3 onward are extras.
 | E9 | E6 corpus + a whole book (Alice in Wonderland, 34k tokens, 2,534 types) | 512 | 25 | 25 | 52.1% | 1.886 | [runs/experiment9_alice_raw](runs/experiment9_alice_raw/) |
 | E10 | E6 corpus + 90 sentences of the same book with ≥ 60% known words (378 new types) | 512 | 42 | 30 | 62.5% | 0.758 | [runs/experiment10_alice_slice](runs/experiment10_alice_slice/) |
 | E11 | E6 corpus minus the 194 sentences the guardrail marks as warnings | 512 | 39 | 27 | 56.3% | 0.923 | [runs/experiment11_no_warnings](runs/experiment11_no_warnings/) |
+| E12 | E6 + McGuffey's First Reader (1879 primer) as a **PDF**, 6.5k tokens, 1,115 types | 512 | 33 | 27 | 56.3% | 1.303 | [runs/experiment12_mcguffey_pdf](runs/experiment12_mcguffey_pdf/) |
+| E13 | E6 + Aesop's Fables, 52k tokens, 5,435 types (7 sentences with exact prompts removed) | 512 | 27 | 27 | 56.3% | 1.960 | [runs/experiment13_aesop](runs/experiment13_aesop/) |
+| E14 | E6 + 3,326 **generated** sentences, every word already in the E6 vocabulary | 512 | 42 | **36** | 75.0% | 1.025 | [runs/experiment14_generated_5k](runs/experiment14_generated_5k/) |
+| E15 | E6 files only, **CORPUS = "folder"**, no classroom sentences | 512 | 20 | 8 | 16.7% | 2.006 | [runs/experiment15_folder_only](runs/experiment15_folder_only/) |
 
 Untrained baselines: E1 9, E2 6, E3 7, E4 6, E5 7, E6 12, E7 12, E8a 12, E8b 11 correct (chance on 4 choices; 43 scorable from E6 on).
 Starter group = 16/16 in every trained run. Transfer group: E1 4, E2 8, E3 7, E4 8, E5 8, E6 8, E7 8, E8a 8, E8b 7 (of 8).
@@ -95,6 +99,33 @@ H: scorable ≈ 40 (a few eval words lived mostly in warned sentences); correct 
 T: eval_summary; per-case status; compare with E6 (30 correct, 43 scorable).
 R: 194 sentences removed (14% of the added corpus); scorable 39 (bird, closed, left, uses fell below the cut line); correct 27, extension 4/15; lang_26 pass, lang_25 unscorable ("bird" lost), lang_27 fails ("walk" over "walked"); opposites 0/3; val 0.923. PASS on 4 of 5 claims; lang_25 was lost to coverage, not to the pattern.
 C: the near-miss sentences carried coverage, not score: without them correct drops 3, inside the 5-case seed band; the warnings are a leakage audit trail, not a training constraint.
+
+## E12 E6 corpus + McGuffey's First Reader delivered as a PDF (natural text with a small vocabulary; PDF pipeline)
+Source: Project Gutenberg 14640 (1879 children's primer, public domain), front matter and "[Illustration]" lines removed, 300 lines, then printed to a 13-page PDF with macOS cupsfilter. Extraction check before training: pypdf returns 6,519 tokens, identical to the text file, 0 empty pages (a first attempt wrapped lines mid-word, "contemporar y"; fixed by wrapping at word boundaries before printing). Guardrail: 0 problems, 196 warnings.
+H: manifest shows 0 extraction warnings and the same tokens; UNK 2% to 4%; scorable 38 to 43; correct 25 to 35; val_loss 0.9 to 1.2.
+T: corpus_manifest.json (pages, warnings, passages); vocabulary_report; eval_summary.
+R: manifest: 13 pages, 740 unique passages, 0 warnings; 1,304 types → 795 cut; UNK train 2.8%, val 3.3%; scorable 33 (10 lost vs E6: the primer's common words pushed 10 eval words under the cut line); correct 27; val 1.303. PASS on the PDF pipeline and UNK; FAIL on scorable (33 < 38) and loss (1.30 > 1.2).
+C: a primer with a 1,115-word vocabulary is 5× gentler than Alice (E9) but still costs 10 scorable cases; the PDF path adds nothing and loses nothing when the text is clean.
+
+## E13 E6 corpus + Aesop's Fables (a second whole book; the guardrail's first block)
+Source: Project Gutenberg 21, public domain, 2,078 sentences. First attempt: check_corpus.py exit 1, 7 PROBLEMS: fable titles and sentences contain the exact two-token eval prompts "the dogs" and "one bird" by accident ("The Dogs and the Fox"). The notebook's own reject_eval_leakage would have refused the file for the same reason. The 7 sentences were removed ([list](corpus_added/experiment13/removed_sentences.txt)); second attempt 0 problems, 205 warnings.
+H (unchanged): UNK > 9%; scorable < 25; val_loss > 1.9.
+T: same as E9.
+R: 5,544 types → 5,035 cut; UNK train 13.1%; scorable 27; correct 27; val 1.960. PASS on UNK and loss; scorable 27, not < 25.
+C: same failure mode as E9 at larger scale; and the first real evidence that ordinary text contains exact eval prompts by chance, which is what the guardrail (and the notebook's check) exist for.
+
+## E14 E6 corpus + 3,326 generated sentences with no new word types ("more corpus" that fits the cap)
+Generator: [corpus_added/experiment14/make_corpus.py](corpus_added/experiment14/make_corpus.py); frames × word lists for all 8 categories; any sentence with a word outside the E6 vocabulary is dropped. First draft: 60 PROBLEMS (frames that reproduced eval word triples such as ball/left/right, bag/inside/contains, milk with buy/bought) and then 6 ("yesterday she" from a pronoun frame); both fixed in the generator before the first run. Final: 0 problems, 914 warnings (the contrast and negation frames put answer words near prompt words by design).
+H: scorable stays 43; correct ≥ 33; grammar and sequence stay; val_loss < 0.85.
+T: eval_summary; vocabulary_report; history.
+R: 703 types → 194 cut, same as E6; UNK 0.4%; scorable 42 ("uses" under the cut line again); correct 36 (best of all runs), extension 12/18: grammar 3/3, opposites 3/3, negation 2/2, spatial 2/3, sequence 1/3, knowledge 1/2; val 1.025 (train 0.911). PASS on correct and coverage; FAIL on loss (higher, not lower).
+C: the only "more corpus" that helped was more sentences over the same words; +6 over E6 is just outside the 5-case seed band, so it needs the 3-seed test before I call it real; the 914 warnings mean this corpus leans on near-miss sentences more than any other.
+
+## E15 my files only, CORPUS = "folder" (what the classroom corpus contributes)
+H: starter and transfer cases become unscorable; correct < 12; vocab ≈ 400; val_loss > 1.5.
+T: eval_summary by group; config; history.
+R: 1,170 train / 131 validation docs; 618 types → 109 cut, vocab 512; starter 0/16 and transfer 0/8 scorable; extension 8/20 scorable (40%, the highest extension accuracy of any run); correct 8; train 0.755, val 2.006. PASS on all four claims except vocab (512, not 400).
+C: without the classroom templates the extension frames get a larger share of the batches and are learned better, but the model loses 24 cases and overfits badly (train/val gap 1.25 on 1,170 docs).
 
 ## What I would do next
 Three seeds per condition before claiming any extension gain; a held-out set of new prompts that never guided corpus choices, to test generalization instead of this public development benchmark. "More corpus" in the sense of a book or scraped text (E9) is ruled out by the 509-type cap; more corpus in the sense of more sentences over the same words (E3, E6, E7) is the only version that helps, and it helps coverage more than reasoning.

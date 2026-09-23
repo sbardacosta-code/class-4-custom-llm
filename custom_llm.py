@@ -140,6 +140,34 @@ LEARNING_RATE = 0.001
 # the past-tense grammar case fails because every "yesterday ... walked" sentence is a
 # warning; opposites go to 0/3; the singular and plural grammar cases still pass.
 #
+# **Experiment 12 prediction (E6 corpus plus McGuffey's First Reader, an 1879 primer for
+# children, Project Gutenberg 14640, delivered as a PDF that I built from the cleaned
+# text; 6,519 tokens, about 1,100 word types, 50% already known).** The PDF extracts
+# with 0 warnings and the same tokens as the text. Its vocabulary is 5 times smaller than
+# Alice's, so the cap cuts fewer needed words: training UNK between 2% and 4%, scorable
+# between 38 and 43, correct within E6's band (25 to 35), val loss between 0.9 and 1.2.
+#
+# **Experiment 13 prediction (E6 corpus plus Aesop's Fables, Project Gutenberg 21,
+# 52,000 tokens, 5,435 word types, 51% known).** Bigger than Alice, so worse than E9:
+# UNK above 9%, scorable below 25, val loss above 1.9.
+# Note added before the rerun: the first attempt was blocked by check_corpus.py, and
+# would also have been rejected by the notebook, because 7 sentences of the book contain
+# an exact eval prompt by accident ("the dogs", "one bird"). Those 7 sentences were
+# removed; the prediction above is unchanged.
+#
+# **Experiment 15 prediction (CORPUS = "folder": only my 8 Experiment 6 files, no
+# classroom sentences, 1,361 sentences).** The 16 starter and 8 transfer cases lose
+# their words (customer, surgeon, mortgage...) and become unscorable, so correct falls
+# below 12 even if the extension cases hold. Vocabulary about 400. Val loss above 1.5
+# because my sentences repeat far less than the templates.
+#
+# **Experiment 14 prediction (E6 corpus plus a generated file of several thousand
+# sentences built from frames and word lists, every word already in the E6 vocabulary,
+# so no new word types).** The cap cuts the same rare words as in E6 and no needed
+# word. Scorable stays 43. The extension patterns get many more examples each, so
+# correct rises above E6's 30, to 33 or more, and the robust set (grammar, sequence)
+# stays. Validation loss falls below 0.85 because the generated text is repetitive.
+#
 # ## 2. Load the tools and network
 # Colab generally includes PyTorch. Locally, install requirements.txt first.
 # Setup installs the small pypdf package if absent and creates the corpus folder.
