@@ -1,0 +1,20 @@
+{
+  "0.3": [
+    "the nurse did not buy soup , she bought beans , so she bought beans .",
+    "the pillow is heavy but the coat is light .",
+    "the pillow is not green , it is white , so the kite is white .",
+    "the new buyer was mentioned in the purchase report yesterday ."
+  ],
+  "0.8": [
+    "they compared the local shopper with another consumer at the store .",
+    "the lamp is not red , it is grey , so the team is yellow .",
+    "today the station focused on journey and the new truck .",
+    "the scarf is not brown , it is grey , so the scarf is brown ."
+  ],
+  "1.2": [
+    "high the dull the flour .",
+    "my aunt did lock the gate first and feed the after below the last report .",
+    "<UNK> compared the kite at the market .",
+    "the shirt is not buy juice , he bought subscriber ."
+  ]
+}

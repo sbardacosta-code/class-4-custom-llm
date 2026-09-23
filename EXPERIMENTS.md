@@ -25,11 +25,15 @@ E1 and E2 are the required experiments; E3 onward are extras.
 | E13 | E6 + Aesop's Fables, 52k tokens, 5,435 types (7 sentences with exact prompts removed) | 512 | 27 | 27 | 56.3% | 1.960 | [runs/experiment13_aesop](runs/experiment13_aesop/) |
 | E14 | E6 + 3,326 **generated** sentences, every word already in the E6 vocabulary | 512 | 42 | **36** | 75.0% | 1.025 | [runs/experiment14_generated_5k](runs/experiment14_generated_5k/) |
 | E15 | E6 files only, **CORPUS = "folder"**, no classroom sentences | 512 | 20 | 8 | 16.7% | 2.006 | [runs/experiment15_folder_only](runs/experiment15_folder_only/) |
+| E16a | E14 corpus, **seed 7** | 512 | 43 | 37 | 77.1% | 0.905 | [runs/experiment16_e14_seed7](runs/experiment16_e14_seed7/) |
+| E16b | E14 corpus, **seed 2026** | 512 | 43 | 34 | 70.8% | 1.019 | [runs/experiment16_e14_seed2026](runs/experiment16_e14_seed2026/) |
 
 Untrained baselines: E1 9, E2 6, E3 7, E4 6, E5 7, E6 12, E7 12, E8a 12, E8b 11 correct (chance on 4 choices; 43 scorable from E6 on).
 Starter group = 16/16 in every trained run. Transfer group: E1 4, E2 8, E3 7, E4 8, E5 8, E6 8, E7 8, E8a 8, E8b 7 (of 8).
 
 **Noise floor (E6, E8a, E8b: same corpus, same steps, seeds 42/7/2026):** correct 30/35/30, extension 6/11/7 of 19, val loss 0.89/1.23/0.90. A single-run difference of up to 5 cases is seed noise. Cases that pass under all three seeds: lang_25, lang_26, lang_27 (grammar) and lang_37 (sequence). Every other extension pass flips with the seed.
+
+**Three-seed comparison of the two best corpora:** E6 corpus 30/35/30 (mean 31.7) vs E14 corpus 36/37/34 (mean 35.7). Every E14 seed is above 33; the E6 range and the E14 range overlap in one case only (35 vs 34). Cases that pass under all three E14 seeds: lang_25, 26, 27 (grammar), lang_28, lang_30 (opposites), lang_33 (negation), lang_37 (sequence), lang_40 (spatial).
 
 ## E1 starter corpus
 H: val_loss(3000) ∈ [0.5, 1.5]; starter ≥ 12/16; transfer ≈ 4/8; extension = 0/24 with 0 scorable; nearest(customer) = {client, buyer, shopper, consumer, subscriber}.
@@ -101,7 +105,7 @@ R: 194 sentences removed (14% of the added corpus); scorable 39 (bird, closed, l
 C: the near-miss sentences carried coverage, not score: without them correct drops 3, inside the 5-case seed band; the warnings are a leakage audit trail, not a training constraint.
 
 ## E12 E6 corpus + McGuffey's First Reader delivered as a PDF (natural text with a small vocabulary; PDF pipeline)
-Source: Project Gutenberg 14640 (1879 children's primer, public domain), front matter and "[Illustration]" lines removed, 300 lines, then printed to a 13-page PDF with macOS cupsfilter. Extraction check before training: pypdf returns 6,519 tokens, identical to the text file, 0 empty pages (a first attempt wrapped lines mid-word, "contemporar y"; fixed by wrapping at word boundaries before printing). Guardrail: 0 problems, 196 warnings.
+Source: Project Gutenberg 14640 (1879 children's primer, public domain; its English is dated, "See Rab! See Ann!", which is part of what this run measures), front matter and "[Illustration]" lines removed, 300 lines, then printed to a 13-page PDF with macOS cupsfilter. Extraction check before training: pypdf returns 6,519 tokens, identical to the text file, 0 empty pages (a first attempt wrapped lines mid-word, "contemporar y"; fixed by wrapping at word boundaries before printing). Guardrail: 0 problems, 196 warnings.
 H: manifest shows 0 extraction warnings and the same tokens; UNK 2% to 4%; scorable 38 to 43; correct 25 to 35; val_loss 0.9 to 1.2.
 T: corpus_manifest.json (pages, warnings, passages); vocabulary_report; eval_summary.
 R: manifest: 13 pages, 740 unique passages, 0 warnings; 1,304 types → 795 cut; UNK train 2.8%, val 3.3%; scorable 33 (10 lost vs E6: the primer's common words pushed 10 eval words under the cut line); correct 27; val 1.303. PASS on the PDF pipeline and UNK; FAIL on scorable (33 < 38) and loss (1.30 > 1.2).
@@ -127,5 +131,11 @@ T: eval_summary by group; config; history.
 R: 1,170 train / 131 validation docs; 618 types → 109 cut, vocab 512; starter 0/16 and transfer 0/8 scorable; extension 8/20 scorable (40%, the highest extension accuracy of any run); correct 8; train 0.755, val 2.006. PASS on all four claims except vocab (512, not 400).
 C: without the classroom templates the extension frames get a larger share of the batches and are learned better, but the model loses 24 cases and overfits badly (train/val gap 1.25 on 1,170 docs).
 
+## E16 E14 corpus with seeds 7 and 2026 (is E14's 36 real?)
+H (written before the runs): real if all three seeds ≥ 33 and mean > 33; noise if any seed ≤ 31; grammar 3/3 and opposites 3/3 hold in both.
+T: eval_summary of E14 (seed 42), E16a, E16b; compare with E6/E8a/E8b.
+R: 37 and 34; with E14's 36: min 34, mean 35.7; grammar 3/3 in both; opposites 3/3 and 2/3; extension 13/19 and 10/19; scorable 43 in both ("uses" back above the cut line with a different split); val 0.905 / 1.019. PASS on the main claim; opposites 2/3 in one seed.
+C: the generated in-vocabulary corpus is the first change whose effect survives the seed test: +4 cases on average over E6, with 8 extension cases robust across seeds instead of 4.
+
 ## What I would do next
-Three seeds per condition before claiming any extension gain; a held-out set of new prompts that never guided corpus choices, to test generalization instead of this public development benchmark. "More corpus" in the sense of a book or scraped text (E9) is ruled out by the 509-type cap; more corpus in the sense of more sentences over the same words (E3, E6, E7) is the only version that helps, and it helps coverage more than reasoning.
+Done for the two best corpora (E8, E16). Still open: a held-out set of new prompts that never guided corpus choices, to test generalization instead of this public development benchmark. "More corpus" in the sense of a book or scraped text (E9) is ruled out by the 509-type cap; more corpus in the sense of more sentences over the same words (E3, E6, E7) is the only version that helps, and it helps coverage more than reasoning.

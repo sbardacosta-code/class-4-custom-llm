@@ -168,6 +168,11 @@ LEARNING_RATE = 0.001
 # correct rises above E6's 30, to 33 or more, and the robust set (grammar, sequence)
 # stays. Validation loss falls below 0.85 because the generated text is repetitive.
 #
+# **Experiment 16 prediction (E14 corpus, seeds 7 and 2026, to test E14's 36/48).** If
+# the gain is real, all three seeds (42, 7, 2026) score at least 33 and their mean is
+# above 33, which is above the top of E6's range (30 to 35). If it is noise, at least one
+# seed falls to 31 or lower. Grammar 3/3 and opposites 3/3 should hold in both.
+#
 # ## 2. Load the tools and network
 # Colab generally includes PyTorch. Locally, install requirements.txt first.
 # Setup installs the small pypdf package if absent and creates the corpus folder.
