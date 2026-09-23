@@ -1,0 +1,20 @@
+{
+  "0.3": [
+    "the shirt is clean but the spoon is dirty .",
+    "the shoe is not blue , it is brown , so the shoe is brown .",
+    "the letter is not grey , it is white , so the letter is white .",
+    "the cup is full but the book is empty ."
+  ],
+  "0.8": [
+    "the shirt is hot but the spoon is cold .",
+    "the shoe is wet but the pillow is dry .",
+    "a review of route helped us understand the local bus .",
+    "a review of design helped us understand the different merchandise ."
+  ],
+  "1.2": [
+    "cats bought <UNK> in the barn .",
+    "a review of purchase helped us understand the new client .",
+    "the subscriber returned the item after checking the price .",
+    "the sunset contains the missing with push is hot in the stay ."
+  ]
+}

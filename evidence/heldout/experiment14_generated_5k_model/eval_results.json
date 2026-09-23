@@ -1,0 +1,408 @@
+[
+  {
+    "id": "ho_01",
+    "group": "heldout",
+    "category": "grammar",
+    "prompt": "our cats",
+    "choices": [
+      "is",
+      "are",
+      "am",
+      "were"
+    ],
+    "expected": "are",
+    "predicted_choice": "were",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "is": 6.532102361234138e-06,
+      "are": 0.006814784836024046,
+      "am": 0.003300594864413142,
+      "were": 0.9145047664642334
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "were at the school .",
+    "prompt_truncated": false,
+    "reason": "plural subject takes are",
+    "stage": "heldout",
+    "sample_seed": 2026
+  },
+  {
+    "id": "ho_02",
+    "group": "heldout",
+    "category": "grammar",
+    "prompt": "one kite",
+    "choices": [
+      "is",
+      "are",
+      "were",
+      "am"
+    ],
+    "expected": "is",
+    "predicted_choice": "is",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "is": 0.9986950755119324,
+      "are": 3.174262019456364e-05,
+      "were": 8.817881962386309e-07,
+      "am": 8.727093927518581e-07
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "is at the station and the station too .",
+    "prompt_truncated": false,
+    "reason": "singular subject takes is",
+    "stage": "heldout",
+    "sample_seed": 2027
+  },
+  {
+    "id": "ho_03",
+    "group": "heldout",
+    "category": "grammar",
+    "prompt": "yesterday the goat",
+    "choices": [
+      "walk",
+      "walks",
+      "walking",
+      "walked"
+    ],
+    "expected": "walked",
+    "predicted_choice": "walked",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "walk": 0.001388132805004716,
+      "walks": 0.000838291656691581,
+      "walking": 0.00011158423876622692,
+      "walked": 0.22127029299736023
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "walked to the market .",
+    "prompt_truncated": false,
+    "reason": "yesterday takes the past form",
+    "stage": "heldout",
+    "sample_seed": 2028
+  },
+  {
+    "id": "ho_04",
+    "group": "heldout",
+    "category": "opposites",
+    "prompt": "the opposite of black is",
+    "choices": [
+      "white",
+      "brown",
+      "grey",
+      "blue"
+    ],
+    "expected": "white",
+    "predicted_choice": "blue",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "white": 0.029208840802311897,
+      "brown": 0.030430389568209648,
+      "grey": 0.0213452335447073,
+      "blue": 0.04474059119820595
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "dark .",
+    "prompt_truncated": false,
+    "reason": "color pair not in the teaching lists",
+    "stage": "heldout",
+    "sample_seed": 2029
+  },
+  {
+    "id": "ho_05",
+    "group": "heldout",
+    "category": "opposites",
+    "prompt": "the opposite of morning is",
+    "choices": [
+      "evening",
+      "noon",
+      "spring",
+      "winter"
+    ],
+    "expected": "evening",
+    "predicted_choice": "evening",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "evening": 0.0024412062484771013,
+      "noon": 0.001368410885334015,
+      "spring": 0.0017172936350107193,
+      "winter": 0.0014636451378464699
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "system .",
+    "prompt_truncated": false,
+    "reason": "time pair not in the teaching lists",
+    "stage": "heldout",
+    "sample_seed": 2030
+  },
+  {
+    "id": "ho_06",
+    "group": "heldout",
+    "category": "negation",
+    "prompt": "the scarf is not grey , it is green , so the scarf is",
+    "choices": [
+      "grey",
+      "green",
+      "white",
+      "brown"
+    ],
+    "expected": "green",
+    "predicted_choice": "green",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "grey": 0.13144344091415405,
+      "green": 0.16233962774276733,
+      "white": 0.1072019562125206,
+      "brown": 0.1550796777009964
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "green .",
+    "prompt_truncated": false,
+    "reason": "correction keeps the second color",
+    "stage": "heldout",
+    "sample_seed": 2031
+  },
+  {
+    "id": "ho_07",
+    "group": "heldout",
+    "category": "negation",
+    "prompt": "the farmer did not buy cheese , he bought grapes , so he bought",
+    "choices": [
+      "cheese",
+      "grapes",
+      "bread",
+      "rice"
+    ],
+    "expected": "grapes",
+    "predicted_choice": "grapes",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "cheese": 0.05365270376205444,
+      "grapes": 0.2951202988624573,
+      "bread": 0.04569406807422638,
+      "rice": 0.03608400374650955
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "bank .",
+    "prompt_truncated": false,
+    "reason": "correction keeps the second object",
+    "stage": "heldout",
+    "sample_seed": 2032
+  },
+  {
+    "id": "ho_08",
+    "group": "heldout",
+    "category": "sequence",
+    "prompt": "first fill the cup , then wash the plate , the last step is",
+    "choices": [
+      "fill",
+      "wash",
+      "cook",
+      "paint"
+    ],
+    "expected": "wash",
+    "predicted_choice": "paint",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "fill": 0.0006216057809069753,
+      "wash": 0.0002454254718031734,
+      "cook": 0.0032522138208150864,
+      "paint": 0.02960379794239998
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "interest .",
+    "prompt_truncated": false,
+    "reason": "the later action",
+    "stage": "heldout",
+    "sample_seed": 2033
+  },
+  {
+    "id": "ho_09",
+    "group": "heldout",
+    "category": "sequence",
+    "prompt": "the nurse arrived before the driver , the one that came later was the",
+    "choices": [
+      "nurse",
+      "driver",
+      "teacher",
+      "farmer"
+    ],
+    "expected": "driver",
+    "predicted_choice": "nurse",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "nurse": 0.024553002789616585,
+      "driver": 0.006866591051220894,
+      "teacher": 0.01717238500714302,
+      "farmer": 0.005702632945030928
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "one action .",
+    "prompt_truncated": false,
+    "reason": "later arrival",
+    "stage": "heldout",
+    "sample_seed": 2034
+  },
+  {
+    "id": "ho_10",
+    "group": "heldout",
+    "category": "spatial_relations",
+    "prompt": "the hat is inside the box , so the box contains the",
+    "choices": [
+      "hat",
+      "box",
+      "shoe",
+      "cup"
+    ],
+    "expected": "hat",
+    "predicted_choice": "shoe",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "hat": 0.08056123554706573,
+      "box": 0.00443627592176199,
+      "shoe": 0.08421483635902405,
+      "cup": 0.05335968732833862
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "shoe .",
+    "prompt_truncated": false,
+    "reason": "inverse of inside",
+    "stage": "heldout",
+    "sample_seed": 2035
+  },
+  {
+    "id": "ho_11",
+    "group": "heldout",
+    "category": "spatial_relations",
+    "prompt": "the coat is above the shoe , so the shoe is",
+    "choices": [
+      "above",
+      "below",
+      "inside",
+      "beside"
+    ],
+    "expected": "below",
+    "predicted_choice": "below",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "above": 0.0009933665860444307,
+      "below": 0.9908971190452576,
+      "inside": 0.00029028969584032893,
+      "beside": 1.2894500287075061e-05
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "below the chair .",
+    "prompt_truncated": false,
+    "reason": "inverse of above",
+    "stage": "heldout",
+    "sample_seed": 2036
+  },
+  {
+    "id": "ho_12",
+    "group": "heldout",
+    "category": "everyday_knowledge",
+    "prompt": "at night the room is",
+    "choices": [
+      "dark",
+      "wet",
+      "hot",
+      "full"
+    ],
+    "expected": "dark",
+    "predicted_choice": "dark",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "dark": 0.2135837823152542,
+      "wet": 0.020679673179984093,
+      "hot": 0.006800066214054823,
+      "full": 0.007690130732953548
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "dry .",
+    "prompt_truncated": false,
+    "reason": "night and darkness",
+    "stage": "heldout",
+    "sample_seed": 2037
+  },
+  {
+    "id": "ho_13",
+    "group": "heldout",
+    "category": "categories_and_analogies",
+    "prompt": "a duck is a kind of",
+    "choices": [
+      "bird",
+      "fish",
+      "tool",
+      "vegetable"
+    ],
+    "expected": "bird",
+    "predicted_choice": "bird",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "bird": 0.0486251562833786,
+      "fish": 0.017978187650442123,
+      "tool": 0.018164630979299545,
+      "vegetable": 0.04450465366244316
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "duck .",
+    "prompt_truncated": false,
+    "reason": "category membership",
+    "stage": "heldout",
+    "sample_seed": 2038
+  },
+  {
+    "id": "ho_14",
+    "group": "heldout",
+    "category": "categories_and_analogies",
+    "prompt": "the kitten grows up to be a",
+    "choices": [
+      "dog",
+      "cat",
+      "horse",
+      "goat"
+    ],
+    "expected": "cat",
+    "predicted_choice": "horse",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "dog": 0.009659175761044025,
+      "cat": 0.02770494669675827,
+      "horse": 0.07357069849967957,
+      "goat": 0.0458795428276062
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "cow .",
+    "prompt_truncated": false,
+    "reason": "young to adult",
+    "stage": "heldout",
+    "sample_seed": 2039
+  }
+]

@@ -7,7 +7,7 @@ I trained Karpathy's nanoGPT from scratch on my laptop, twice. The first run use
 classroom corpus that the notebook generates. The second run adds three small text
 files I wrote to teach opposites, grammar and negation. Both runs were tested on the
 same 48 fixed language evals before and after training. After the two required
-experiments I ran seventeen more, one variable at a time, and logged each with a hypothesis
+experiments I ran nineteen more, one variable at a time, and logged each with a hypothesis
 written before the run, the metric, the result and a one-line conclusion in
 [EXPERIMENTS.md](EXPERIMENTS.md). The trained model answers
 prompts in a terminal chat. It is a tiny language model. It continues sentences. It
@@ -29,10 +29,11 @@ checksum-pinned by the notebook.
 | Results, Experiment 2 | [runs/experiment2_extended/](runs/experiment2_extended/), [ZIP](runs/experiment2_extended.zip) |
 | My added teaching text, Experiment 2 | [corpus_added/](corpus_added/) (copy the three .txt files into `corpus/` to rerun) |
 | Extra: Experiment 3 (4x more corpus) | [custom_llm_experiment3_more_corpus.ipynb](custom_llm_experiment3_more_corpus.ipynb), [runs/experiment3_more_corpus/](runs/experiment3_more_corpus/), [ZIP](runs/experiment3_more_corpus.zip), [corpus_added/experiment3/](corpus_added/experiment3/) |
-| Extra: Experiments 4 to 15, log with hypotheses | [EXPERIMENTS.md](EXPERIMENTS.md); notebooks [E4](custom_llm_experiment4_new_categories.ipynb), [E5](custom_llm_experiment5_all_seven.ipynb), [E6](custom_llm_experiment6_coverage.ipynb), [E7](custom_llm_experiment7_6000steps.ipynb), [E8a](custom_llm_experiment8_seed7.ipynb), [E8b](custom_llm_experiment8_seed2026.ipynb), [E9](custom_llm_experiment9_alice_raw.ipynb), [E10](custom_llm_experiment10_alice_slice.ipynb), [E11](custom_llm_experiment11_no_warnings.ipynb), [E12](custom_llm_experiment12_mcguffey_pdf.ipynb), [E13](custom_llm_experiment13_aesop.ipynb), [E14](custom_llm_experiment14_generated_5k.ipynb), [E15](custom_llm_experiment15_folder_only.ipynb), [E16a](custom_llm_experiment16_e14_seed7.ipynb), [E16b](custom_llm_experiment16_e14_seed2026.ipynb), [E17](custom_llm_experiment17_e14_6000steps.ipynb), [E18a](custom_llm_experiment18_lr_0003.ipynb), [E18b](custom_llm_experiment18_lr_00003.ipynb), [E19](custom_llm_experiment19_generated_10k.ipynb); runs under [runs/](runs/); generators in [corpus_added/experiment4/](corpus_added/experiment4/) and [corpus_added/experiment6/](corpus_added/experiment6/); book text in [corpus_added/experiment9/](corpus_added/experiment9/) and [corpus_added/experiment10/](corpus_added/experiment10/) |
+| Extra: Experiments 4 to 15, log with hypotheses | [EXPERIMENTS.md](EXPERIMENTS.md); notebooks [E4](custom_llm_experiment4_new_categories.ipynb), [E5](custom_llm_experiment5_all_seven.ipynb), [E6](custom_llm_experiment6_coverage.ipynb), [E7](custom_llm_experiment7_6000steps.ipynb), [E8a](custom_llm_experiment8_seed7.ipynb), [E8b](custom_llm_experiment8_seed2026.ipynb), [E9](custom_llm_experiment9_alice_raw.ipynb), [E10](custom_llm_experiment10_alice_slice.ipynb), [E11](custom_llm_experiment11_no_warnings.ipynb), [E12](custom_llm_experiment12_mcguffey_pdf.ipynb), [E13](custom_llm_experiment13_aesop.ipynb), [E14](custom_llm_experiment14_generated_5k.ipynb), [E15](custom_llm_experiment15_folder_only.ipynb), [E16a](custom_llm_experiment16_e14_seed7.ipynb), [E16b](custom_llm_experiment16_e14_seed2026.ipynb), [E17](custom_llm_experiment17_e14_6000steps.ipynb), [E18a](custom_llm_experiment18_lr_0003.ipynb), [E18b](custom_llm_experiment18_lr_00003.ipynb), [E19](custom_llm_experiment19_generated_10k.ipynb), [E20](custom_llm_experiment20_batch64.ipynb); runs under [runs/](runs/); generators in [corpus_added/experiment4/](corpus_added/experiment4/) and [corpus_added/experiment6/](corpus_added/experiment6/); book text in [corpus_added/experiment9/](corpus_added/experiment9/) and [corpus_added/experiment10/](corpus_added/experiment10/) |
 | Fixed eval suite and runner | [evals/language_evals.json](evals/language_evals.json), [run_evals.py](run_evals.py) |
 | Chat interface and evidence | [chat.py](chat.py), [evidence/](evidence/) |
 | Leakage guardrail | [check_corpus.py](check_corpus.py) |
+| Held-out test (E21): 14 new prompts, scored on saved models | [heldout_evals/heldout_evals.json](heldout_evals/heldout_evals.json), results in [evidence/heldout/](evidence/heldout/) |
 
 ## How to run
 
@@ -489,7 +490,9 @@ that a color follows "the car is", not that the color after "not" is excluded. T
 negation eval cases could not even be scored. Negation was a failure on both measures.
 
 These are public development tests that guided my corpus choices. They are not an
-unseen benchmark and they say nothing about general language ability.
+unseen benchmark and they say nothing about general language ability. The only
+held-out evidence in this repository is the 14-prompt test of E21, described in the
+extras above.
 
 ### Extra: Experiment 3, four times more corpus
 
@@ -580,7 +583,7 @@ opposites or the plural case, and it did not raise the total. The chat evidence 
 from the Experiment 2 model; the Experiment 3 model is in
 [runs/experiment3_more_corpus/model.pt](runs/experiment3_more_corpus/model.pt).
 
-### Extra: Experiments 4 to 19 in one table
+### Extra: Experiments 4 to 21 in one table
 
 Full log with hypothesis, test, result and conclusion per experiment:
 [EXPERIMENTS.md](EXPERIMENTS.md). Each hypothesis is also in the notebook's prediction
@@ -607,8 +610,10 @@ cell, written before that run. The guardrail ran before every run with 0 problem
 | E18a | E14 corpus, learning rate 0.003 | 512 | 42 | 35 | 1.010 |
 | E18b | E14 corpus, learning rate 0.0003 | 512 | 42 | 31 | 1.141 |
 | E19 | E6 corpus + 5,934 generated sentences, twice E14 | 512 | 42 | 33 | 1.096 |
+| E20 | E19 corpus, batch size 64 (meant for E14's corpus, see the log) | 512 | 42 | 32 | 1.081 |
+| E21 | held-out test, no training: 14 new prompts on saved models | | 14 | 8, 8, 10 for the three E14 seeds | |
 
-Eight things I learned from these that I could not see in E1 to E3:
+Nine things I learned from these that I could not see in E1 to E3:
 
 - **Coverage is a frequency problem.** A word written twice can land entirely in the 10%
   validation split and never enter the vocabulary (E4, "desk"). With 647 word types the
@@ -658,6 +663,13 @@ Eight things I learned from these that I could not see in E1 to E3:
   correct, and lost a starter case for the first time: too small a step means the
   budget runs out before the floor. Doubling the generated sentences (E19) gave 33: the
   gain in E14 came from covering the frames, not from their count.
+- **The patterns transfer to sentences the model never saw.** The 48 public cases guided
+  my corpus choices, so they cannot support a generalization claim. E21 is a separate
+  set of 14 prompts I wrote after all corpus decisions, checked to be absent from every
+  training text, scored with the unchanged runner and no training. The three E14-corpus
+  models get 8, 8 and 10 of 14 (chance is 3.5); E6 gets 6; the E1 model cannot score any
+  because it lacks the words; the untrained model gets 2. The same frames that fail in
+  the public suite fail here too: opposite pairs, sequence, and one plural prefix.
 
 ### Rerun the evals on my saved model
 
@@ -714,13 +726,13 @@ exact-prefix check. In this project it did not limit training or the corpus in a
 
 | Fact | Number |
 |---|---|
-| Training runs | 22 (plus a 10-step smoke test) |
+| Training runs | 23 (plus a 10-step smoke test) |
 | Runs blocked by the guardrail | 1: the first attempt of E13, because Aesop's Fables contains the exact eval prompts "the dogs" and "one bird"; the notebook's own check would have rejected that file as well |
 | Sentences it flagged in drafts before a first run | 14 reworded (E2, E4, E6), 7 removed from Aesop (E13), 66 generator frames fixed (E14) |
 | Corpus size it reduced | 7 sentences of 2,078 in one book; every other file passed whole, including Alice (E9) |
 | What actually limits the corpus | the notebook's 509-word vocabulary cap, measured in E5, E9, E12 and E13 |
 
-The audit of every run's actual training text (below) covers all 22 runs.
+The audit of every run's actual training text (below) covers all 23 runs.
 The 4 cases that stay unscorable in every experiment need the eval names (3 reference
 cases and one negation case). The eval guide itself asks for reference stories "with
 different names", so that limit comes from the assignment, not from my script. If the
@@ -754,10 +766,10 @@ the exam stayed out, at zero cost to the experiments.
   searches every eval prompt as a normalized token sequence and as a plain substring,
   the seven eval names, and any 4-token sequence shared with a prompt, separating the
   classroom generator's own sentence frames from anything my files added. Results for
-  all 22 runs are in [evidence/](evidence/), one file per run, for example
+  all 23 runs are in [evidence/](evidence/), one file per run, for example
   [Experiment 1](evidence/leakage_audit_experiment1_starter.txt),
   [Experiment 2](evidence/leakage_audit_experiment2_extended.txt) and
-  [Experiment 14](evidence/leakage_audit_experiment14_generated_5k.txt). All 22: 0 exact
+  [Experiment 14](evidence/leakage_audit_experiment14_generated_5k.txt). All 23: 0 exact
   prompt hits, 0 names, 0 four-token sequences from added files, including the runs
   with whole books. The 24 starter and
   transfer prompts do share 4-token frames such as "the report about the" with the

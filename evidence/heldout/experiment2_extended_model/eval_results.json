@@ -1,0 +1,417 @@
+[
+  {
+    "id": "ho_01",
+    "group": "heldout",
+    "category": "grammar",
+    "prompt": "our cats",
+    "choices": [
+      "is",
+      "are",
+      "am",
+      "were"
+    ],
+    "expected": "are",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [],
+    "unknown_choices": [
+      "am",
+      "were"
+    ],
+    "generated_text": "are on the roof .",
+    "prompt_truncated": false,
+    "reason": "plural subject takes are",
+    "stage": "heldout",
+    "sample_seed": 2026
+  },
+  {
+    "id": "ho_02",
+    "group": "heldout",
+    "category": "grammar",
+    "prompt": "one kite",
+    "choices": [
+      "is",
+      "are",
+      "were",
+      "am"
+    ],
+    "expected": "is",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "kite"
+    ],
+    "unknown_choices": [
+      "were",
+      "am"
+    ],
+    "generated_text": "play was empty at the compared the was in the learned about about the office .",
+    "prompt_truncated": false,
+    "reason": "singular subject takes is",
+    "stage": "heldout",
+    "sample_seed": 2027
+  },
+  {
+    "id": "ho_03",
+    "group": "heldout",
+    "category": "grammar",
+    "prompt": "yesterday the goat",
+    "choices": [
+      "walk",
+      "walks",
+      "walking",
+      "walked"
+    ],
+    "expected": "walked",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "goat"
+    ],
+    "unknown_choices": [
+      "walk",
+      "walking"
+    ],
+    "generated_text": "detail has a discussion of taste helped us understand the store .",
+    "prompt_truncated": false,
+    "reason": "yesterday takes the past form",
+    "stage": "heldout",
+    "sample_seed": 2028
+  },
+  {
+    "id": "ho_04",
+    "group": "heldout",
+    "category": "opposites",
+    "prompt": "the opposite of black is",
+    "choices": [
+      "white",
+      "brown",
+      "grey",
+      "blue"
+    ],
+    "expected": "white",
+    "predicted_choice": "white",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "white": 0.004586023278534412,
+      "brown": 0.0021971154492348433,
+      "grey": 0.0007927116239443421,
+      "blue": 0.0014459253288805485
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "thin .",
+    "prompt_truncated": false,
+    "reason": "color pair not in the teaching lists",
+    "stage": "heldout",
+    "sample_seed": 2029
+  },
+  {
+    "id": "ho_05",
+    "group": "heldout",
+    "category": "opposites",
+    "prompt": "the opposite of morning is",
+    "choices": [
+      "evening",
+      "noon",
+      "spring",
+      "winter"
+    ],
+    "expected": "evening",
+    "predicted_choice": "spring",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "evening": 0.0024643754586577415,
+      "noon": 0.001434979378245771,
+      "spring": 0.003616031724959612,
+      "winter": 0.000686668383423239
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "care .",
+    "prompt_truncated": false,
+    "reason": "time pair not in the teaching lists",
+    "stage": "heldout",
+    "sample_seed": 2030
+  },
+  {
+    "id": "ho_06",
+    "group": "heldout",
+    "category": "negation",
+    "prompt": "the scarf is not grey , it is green , so the scarf is",
+    "choices": [
+      "grey",
+      "green",
+      "white",
+      "brown"
+    ],
+    "expected": "green",
+    "predicted_choice": "brown",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "grey": 0.007890169508755207,
+      "green": 0.011042904108762741,
+      "white": 0.01196011621505022,
+      "brown": 0.015862276777625084
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "thick .",
+    "prompt_truncated": false,
+    "reason": "correction keeps the second color",
+    "stage": "heldout",
+    "sample_seed": 2031
+  },
+  {
+    "id": "ho_07",
+    "group": "heldout",
+    "category": "negation",
+    "prompt": "the farmer did not buy cheese , he bought grapes , so he bought",
+    "choices": [
+      "cheese",
+      "grapes",
+      "bread",
+      "rice"
+    ],
+    "expected": "grapes",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "cheese"
+    ],
+    "unknown_choices": [
+      "cheese",
+      "bread"
+    ],
+    "generated_text": "visitor .",
+    "prompt_truncated": false,
+    "reason": "correction keeps the second object",
+    "stage": "heldout",
+    "sample_seed": 2032
+  },
+  {
+    "id": "ho_08",
+    "group": "heldout",
+    "category": "sequence",
+    "prompt": "first fill the cup , then wash the plate , the last step is",
+    "choices": [
+      "fill",
+      "wash",
+      "cook",
+      "paint"
+    ],
+    "expected": "wash",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "fill",
+      "first",
+      "plate",
+      "step",
+      "then",
+      "wash"
+    ],
+    "unknown_choices": [
+      "fill",
+      "wash",
+      "paint"
+    ],
+    "generated_text": "game .",
+    "prompt_truncated": false,
+    "reason": "the later action",
+    "stage": "heldout",
+    "sample_seed": 2033
+  },
+  {
+    "id": "ho_09",
+    "group": "heldout",
+    "category": "sequence",
+    "prompt": "the nurse arrived before the driver , the one that came later was the",
+    "choices": [
+      "nurse",
+      "driver",
+      "teacher",
+      "farmer"
+    ],
+    "expected": "driver",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "arrived",
+      "came",
+      "later",
+      "that"
+    ],
+    "unknown_choices": [],
+    "generated_text": "at the gate .",
+    "prompt_truncated": false,
+    "reason": "later arrival",
+    "stage": "heldout",
+    "sample_seed": 2034
+  },
+  {
+    "id": "ho_10",
+    "group": "heldout",
+    "category": "spatial_relations",
+    "prompt": "the hat is inside the box , so the box contains the",
+    "choices": [
+      "hat",
+      "box",
+      "shoe",
+      "cup"
+    ],
+    "expected": "hat",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "box",
+      "contains"
+    ],
+    "unknown_choices": [
+      "box",
+      "shoe"
+    ],
+    "generated_text": "brown is used .",
+    "prompt_truncated": false,
+    "reason": "inverse of inside",
+    "stage": "heldout",
+    "sample_seed": 2035
+  },
+  {
+    "id": "ho_11",
+    "group": "heldout",
+    "category": "spatial_relations",
+    "prompt": "the coat is above the shoe , so the shoe is",
+    "choices": [
+      "above",
+      "below",
+      "inside",
+      "beside"
+    ],
+    "expected": "below",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "above",
+      "coat",
+      "shoe"
+    ],
+    "unknown_choices": [
+      "above",
+      "below",
+      "beside"
+    ],
+    "generated_text": "my .",
+    "prompt_truncated": false,
+    "reason": "inverse of above",
+    "stage": "heldout",
+    "sample_seed": 2036
+  },
+  {
+    "id": "ho_12",
+    "group": "heldout",
+    "category": "everyday_knowledge",
+    "prompt": "at night the room is",
+    "choices": [
+      "dark",
+      "wet",
+      "hot",
+      "full"
+    ],
+    "expected": "dark",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "room"
+    ],
+    "unknown_choices": [
+      "dark"
+    ],
+    "generated_text": "at chapel .",
+    "prompt_truncated": false,
+    "reason": "night and darkness",
+    "stage": "heldout",
+    "sample_seed": 2037
+  },
+  {
+    "id": "ho_13",
+    "group": "heldout",
+    "category": "categories_and_analogies",
+    "prompt": "a duck is a kind of",
+    "choices": [
+      "bird",
+      "fish",
+      "tool",
+      "vegetable"
+    ],
+    "expected": "bird",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "kind"
+    ],
+    "unknown_choices": [
+      "fish",
+      "tool",
+      "vegetable"
+    ],
+    "generated_text": "data taste at the office .",
+    "prompt_truncated": false,
+    "reason": "category membership",
+    "stage": "heldout",
+    "sample_seed": 2038
+  },
+  {
+    "id": "ho_14",
+    "group": "heldout",
+    "category": "categories_and_analogies",
+    "prompt": "the kitten grows up to be a",
+    "choices": [
+      "dog",
+      "cat",
+      "horse",
+      "goat"
+    ],
+    "expected": "cat",
+    "predicted_choice": null,
+    "score": 0,
+    "status": "out_of_vocabulary",
+    "choice_probabilities": {},
+    "unknown_prompt_words": [
+      "be",
+      "grows",
+      "kitten"
+    ],
+    "unknown_choices": [
+      "goat"
+    ],
+    "generated_text": "pool different therapist .",
+    "prompt_truncated": false,
+    "reason": "young to adult",
+    "stage": "heldout",
+    "sample_seed": 2039
+  }
+]

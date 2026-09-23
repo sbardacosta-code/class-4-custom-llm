@@ -31,6 +31,8 @@ E1 and E2 are the required experiments; E3 onward are extras.
 | E18a | E14 corpus, **lr 0.003** | 512 | 42 | 35 | 72.9% | 1.010 | [runs/experiment18_lr_0003](runs/experiment18_lr_0003/) |
 | E18b | E14 corpus, **lr 0.0003** | 512 | 42 | 31 | 64.6% | 1.141 | [runs/experiment18_lr_00003](runs/experiment18_lr_00003/) |
 | E19 | E6 + 5,934 generated sentences (about 2× E14) | 512 | 42 | 33 | 68.8% | 1.096 | [runs/experiment19_generated_10k](runs/experiment19_generated_10k/) |
+| E20 | E19 corpus, **batch size 64** (intended for E14's corpus; see entry) | 512 | 42 | 32 | 66.7% | 1.081 | [runs/experiment20_batch64](runs/experiment20_batch64/) |
+| E21 | **Held-out test**, no training: 14 new prompts scored on saved models | — | 14 | 8 / 8 / 10 (E14 corpus, 3 seeds) | — | — | [evidence/heldout/](evidence/heldout/) |
 
 Untrained baselines: E1 9, E2 6, E3 7, E4 6, E5 7, E6 12, E7 12, E8a 12, E8b 11 correct (chance on 4 choices; 43 scorable from E6 on).
 Starter group = 16/16 in every trained run. Transfer group: E1 4, E2 8, E3 7, E4 8, E5 8, E6 8, E7 8, E8a 8, E8b 7 (of 8).
@@ -159,5 +161,19 @@ T: eval_summary; history; guardrail warning count.
 R: correct 33 (below the band); extension 9/18; sequence 0/3 (was 1/3); val 1.096; UNK 0.28%; 1,559 warnings. FAIL on the band, in the direction of "worse".
 C: the second dose of the same frames adds nothing and dilutes the sequence frames; the benefit of E14 came from covering the frames, not from their count. n = 1, so "worse" is within noise; "not better" is the safe reading.
 
+## E20 batch size 64 (one variable; ran on the E19 corpus by mistake)
+The prediction was written for the E14 corpus, but corpus/ still held E19's doubled file when the run started, so this is E19 + batch 64. Reported as run.
+H (for E14 corpus): val_loss < 1.02; correct 34 to 37.
+T: history; eval_summary; compare with E19 (batch 32, same corpus): 33 correct, val 1.096.
+R: val 1.081 (E19: 1.096); train 0.814 (E19: 0.883); correct 32; extension 10/18; transfer 6/8, the lowest transfer of any run. Against E19: loss slightly lower, score 1 lower, both inside noise.
+C: twice the sentences per step lowers the training loss and changes nothing measurable in the evals; the corpus mix-up means the E14 version is still untested.
+
+## E21 held-out test: 14 new prompts that never guided any corpus choice (no training)
+Suite: [heldout_evals/heldout_evals.json](heldout_evals/heldout_evals.json), written after all corpus decisions, 2 per category except reference; every prompt checked to be absent (normalized) from the training text of every run used here, and every word inside the E14 vocabulary so all 14 are scorable. Scored with the unchanged runner: `python run_evals.py --model runs/<run>/model.pt --suite heldout_evals/heldout_evals.json --output evidence/heldout/<run>`.
+H: the E14-corpus models score above chance (3.5/14) on all three seeds; E6 scores lower than E14; E1 scores nothing (its vocabulary lacks the words); the untrained model is at chance.
+T: eval_summary per model in [evidence/heldout/](evidence/heldout/).
+R: E14 seeds 42/7/2026: 8 / 8 / 10 of 14 (mean 8.7, 62%); E6: 6; E2: 1 of 3 scorable; E1: 0 scorable; untrained E14: 2. Cases every E14 seed gets right: singular "is", past "walked", "opposite of morning" → evening (2 of 3 seeds), color correction, buy correction, "above → below", "night → dark", "duck → bird". Cases every seed gets wrong: "our cats" → are (all say "were"), "opposite of black" → white, "first fill, then wash" → wash, "arrived before … later was the" → driver. PASS on all four claims.
+C: the patterns transfer to new sentences at about 60%, well above chance, so the E14 gains are not memorized prompts; the failures are the same frames that fail in the public suite (opposites pairs, sequence), plus one plural frame the model has never seen with "our".
+
 ## What I would do next
-Done for the two best corpora (E8, E16). Still open: a held-out set of new prompts that never guided corpus choices, to test generalization instead of this public development benchmark. "More corpus" in the sense of a book or scraped text (E9) is ruled out by the 509-type cap; more corpus in the sense of more sentences over the same words (E3, E6, E7) is the only version that helps, and it helps coverage more than reasoning.
+Seeds: done for the two best corpora (E8, E16). Held-out test: done (E21). Still open: a held-out set of new prompts that never guided corpus choices, to test generalization instead of this public development benchmark. "More corpus" in the sense of a book or scraped text (E9) is ruled out by the 509-type cap; more corpus in the sense of more sentences over the same words (E3, E6, E7) is the only version that helps, and it helps coverage more than reasoning.

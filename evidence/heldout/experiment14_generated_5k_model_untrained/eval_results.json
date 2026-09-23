@@ -1,0 +1,408 @@
+[
+  {
+    "id": "ho_01",
+    "group": "heldout",
+    "category": "grammar",
+    "prompt": "our cats",
+    "choices": [
+      "is",
+      "are",
+      "am",
+      "were"
+    ],
+    "expected": "are",
+    "predicted_choice": "were",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "is": 0.001785052940249443,
+      "are": 0.0016705275047570467,
+      "am": 0.0018423909787088633,
+      "were": 0.0021261265501379967
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "cats grey question walks small about an clock visited instructor code route funny travel rivers sunday light pink fire taxi market helped drivers envelope",
+    "prompt_truncated": false,
+    "reason": "plural subject takes are",
+    "stage": "heldout",
+    "sample_seed": 2026
+  },
+  {
+    "id": "ho_02",
+    "group": "heldout",
+    "category": "grammar",
+    "prompt": "one kite",
+    "choices": [
+      "is",
+      "are",
+      "were",
+      "am"
+    ],
+    "expected": "is",
+    "predicted_choice": "were",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "is": 0.0014210417866706848,
+      "are": 0.001570435124449432,
+      "were": 0.002235099207609892,
+      "am": 0.001979784108698368
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "loan report happy product drank hen tree hill closed student stay keeps girl learned code milk three door buyer pocket ring weak boats bought",
+    "prompt_truncated": false,
+    "reason": "singular subject takes is",
+    "stage": "heldout",
+    "sample_seed": 2027
+  },
+  {
+    "id": "ho_03",
+    "group": "heldout",
+    "category": "grammar",
+    "prompt": "yesterday the goat",
+    "choices": [
+      "walk",
+      "walks",
+      "walking",
+      "walked"
+    ],
+    "expected": "walked",
+    "predicted_choice": "walking",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "walk": 0.002020282670855522,
+      "walks": 0.0026734760031104088,
+      "walking": 0.0027155866846442223,
+      "walked": 0.0017960945842787623
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "climb buy website students sofa then second care ducks jumped girls down traffic orange harvest hospital we brown shop far sunset keeps sad stay",
+    "prompt_truncated": false,
+    "reason": "yesterday takes the past form",
+    "stage": "heldout",
+    "sample_seed": 2028
+  },
+  {
+    "id": "ho_04",
+    "group": "heldout",
+    "category": "opposites",
+    "prompt": "the opposite of black is",
+    "choices": [
+      "white",
+      "brown",
+      "grey",
+      "blue"
+    ],
+    "expected": "white",
+    "predicted_choice": "grey",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "white": 0.0021965918131172657,
+      "brown": 0.0014315578155219555,
+      "grey": 0.002623226959258318,
+      "blue": 0.0015653971349820495
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "pencil girl about bought baby dogs noon envelope therapist juice road girl small swims price boy lose mix important later in left north chick",
+    "prompt_truncated": false,
+    "reason": "color pair not in the teaching lists",
+    "stage": "heldout",
+    "sample_seed": 2029
+  },
+  {
+    "id": "ho_05",
+    "group": "heldout",
+    "category": "opposites",
+    "prompt": "the opposite of morning is",
+    "choices": [
+      "evening",
+      "noon",
+      "spring",
+      "winter"
+    ],
+    "expected": "evening",
+    "predicted_choice": "winter",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "evening": 0.0019250662298873067,
+      "noon": 0.0016459118342027068,
+      "spring": 0.0015989186940714717,
+      "winter": 0.0021544662304222584
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "system teacher weak yesterday dull empty cleaned sink cheese ball bank bright deep saw plate dentist box is sunday bus update last calf lamb",
+    "prompt_truncated": false,
+    "reason": "time pair not in the teaching lists",
+    "stage": "heldout",
+    "sample_seed": 2030
+  },
+  {
+    "id": "ho_06",
+    "group": "heldout",
+    "category": "negation",
+    "prompt": "the scarf is not grey , it is green , so the scarf is",
+    "choices": [
+      "grey",
+      "green",
+      "white",
+      "brown"
+    ],
+    "expected": "green",
+    "predicted_choice": "grey",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "grey": 0.0022118743509054184,
+      "green": 0.0018331529572606087,
+      "white": 0.0017788788536563516,
+      "brown": 0.0011894801864400506
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "rich day salad sheep second drivers clock did coin pack window cats rivers about route no short price discussed opposites boys blue wall taxi",
+    "prompt_truncated": false,
+    "reason": "correction keeps the second color",
+    "stage": "heldout",
+    "sample_seed": 2031
+  },
+  {
+    "id": "ho_07",
+    "group": "heldout",
+    "category": "negation",
+    "prompt": "the farmer did not buy cheese , he bought grapes , so he bought",
+    "choices": [
+      "cheese",
+      "grapes",
+      "bread",
+      "rice"
+    ],
+    "expected": "grapes",
+    "predicted_choice": "grapes",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "cheese": 0.0017314922297373414,
+      "grapes": 0.002633663360029459,
+      "bread": 0.0015593164134770632,
+      "rice": 0.002216132590547204
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "order chair discussed fire mentioned our noon wet gate film sleeps sleeps doctor local frog keeps therapist teacher item mortgage apples foal missing and",
+    "prompt_truncated": false,
+    "reason": "correction keeps the second object",
+    "stage": "heldout",
+    "sample_seed": 2032
+  },
+  {
+    "id": "ho_08",
+    "group": "heldout",
+    "category": "sequence",
+    "prompt": "first fill the cup , then wash the plate , the last step is",
+    "choices": [
+      "fill",
+      "wash",
+      "cook",
+      "paint"
+    ],
+    "expected": "wash",
+    "predicted_choice": "paint",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "fill": 0.0017268259543925524,
+      "wash": 0.0017924573039636016,
+      "cook": 0.0018564430065453053,
+      "paint": 0.00198887730948627
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "drawer dark up bridge sink treatment understand cleaned he lecturer cups bucket road subscriber sunday along shopper explains park learning are painted crate cook",
+    "prompt_truncated": false,
+    "reason": "the later action",
+    "stage": "heldout",
+    "sample_seed": 2033
+  },
+  {
+    "id": "ho_09",
+    "group": "heldout",
+    "category": "sequence",
+    "prompt": "the nurse arrived before the driver , the one that came later was the",
+    "choices": [
+      "nurse",
+      "driver",
+      "teacher",
+      "farmer"
+    ],
+    "expected": "driver",
+    "predicted_choice": "farmer",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "nurse": 0.0018130269600078464,
+      "driver": 0.0019279444823041558,
+      "teacher": 0.0017596379620954394,
+      "farmer": 0.0022045259829610586
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "ordered walks bank hat student learning understand wash rice be about first steam clean an recommended item shallow flowers box blue light up to",
+    "prompt_truncated": false,
+    "reason": "later arrival",
+    "stage": "heldout",
+    "sample_seed": 2034
+  },
+  {
+    "id": "ho_10",
+    "group": "heldout",
+    "category": "spatial_relations",
+    "prompt": "the hat is inside the box , so the box contains the",
+    "choices": [
+      "hat",
+      "box",
+      "shoe",
+      "cup"
+    ],
+    "expected": "hat",
+    "predicted_choice": "cup",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "hat": 0.0014695256249979138,
+      "box": 0.002194832544773817,
+      "shoe": 0.001543367630802095,
+      "cup": 0.0025608104187995195
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "blue into water reviewed black high the was ball water old old tank green harvest surgeon banana hard team dark course play offering opposites",
+    "prompt_truncated": false,
+    "reason": "inverse of inside",
+    "stage": "heldout",
+    "sample_seed": 2035
+  },
+  {
+    "id": "ho_11",
+    "group": "heldout",
+    "category": "spatial_relations",
+    "prompt": "the coat is above the shoe , so the shoe is",
+    "choices": [
+      "above",
+      "below",
+      "inside",
+      "beside"
+    ],
+    "expected": "below",
+    "predicted_choice": "below",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "above": 0.001969186356291175,
+      "below": 0.002029747236520052,
+      "inside": 0.0018669676501303911,
+      "beside": 0.0018441451247781515
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "eats last push wet kite earlier earlier sunrise about application desert cow silent platform hungry were discussion is boy shoe service monday opposite helped",
+    "prompt_truncated": false,
+    "reason": "inverse of above",
+    "stage": "heldout",
+    "sample_seed": 2036
+  },
+  {
+    "id": "ho_12",
+    "group": "heldout",
+    "category": "everyday_knowledge",
+    "prompt": "at night the room is",
+    "choices": [
+      "dark",
+      "wet",
+      "hot",
+      "full"
+    ],
+    "expected": "dark",
+    "predicted_choice": "full",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "dark": 0.0020432036835700274,
+      "wet": 0.0016995931509882212,
+      "hot": 0.0015919818542897701,
+      "full": 0.0026383623480796814
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "wall push cold another case stadium with driver empty mentioned sea cheese he missing far brown cloud city happy book route noon contains birds",
+    "prompt_truncated": false,
+    "reason": "night and darkness",
+    "stage": "heldout",
+    "sample_seed": 2037
+  },
+  {
+    "id": "ho_13",
+    "group": "heldout",
+    "category": "categories_and_analogies",
+    "prompt": "a duck is a kind of",
+    "choices": [
+      "bird",
+      "fish",
+      "tool",
+      "vegetable"
+    ],
+    "expected": "bird",
+    "predicted_choice": "vegetable",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "bird": 0.002105973195284605,
+      "fish": 0.0020853907335549593,
+      "tool": 0.002259735483676195,
+      "vegetable": 0.002512893173843622
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "duck sunrise tool room local play ordered basket toy high coffee system turn orange something sheep peel night freezes winter important sunrise team website",
+    "prompt_truncated": false,
+    "reason": "category membership",
+    "stage": "heldout",
+    "sample_seed": 2038
+  },
+  {
+    "id": "ho_14",
+    "group": "heldout",
+    "category": "categories_and_analogies",
+    "prompt": "the kitten grows up to be a",
+    "choices": [
+      "dog",
+      "cat",
+      "horse",
+      "goat"
+    ],
+    "expected": "cat",
+    "predicted_choice": "horse",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "dog": 0.0012668909039348364,
+      "cat": 0.0014279256574809551,
+      "horse": 0.0016896590823307633,
+      "goat": 0.0015930054942145944
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "supper home shopper return children spring table about cats he person farmers frogs loan foal sea shut road garden road health paint end update",
+    "prompt_truncated": false,
+    "reason": "young to adult",
+    "stage": "heldout",
+    "sample_seed": 2039
+  }
+]

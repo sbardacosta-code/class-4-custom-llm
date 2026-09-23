@@ -1,0 +1,90 @@
+{
+  "suite_id": "heldout_v1_written_after_all_corpus_choices",
+  "suite_sha256": "3673f638f1139723e032b1d9756bcea20a7f21f2f98d397c62c5a0134bfb6c7a",
+  "model_sha256": "31278dc193b0a38dd8a3d11dbdf94981bc3d2b924b2e69a64cb828154ab978cd",
+  "stage": "heldout",
+  "settings": {
+    "seed": 2026,
+    "temperature": 0.8,
+    "max_tokens": 24
+  },
+  "metric": "highest-probability answer among four single-word choices; ties get zero",
+  "generation_note": "Generated text is saved for inspection and is not the multiple-choice score.",
+  "missing_note": "Unknown-word and overlong cases get zero in all-case success, not guessed UNK credit.",
+  "overall": {
+    "correct": 2,
+    "total": 14,
+    "scorable": 14,
+    "success_rate_all_cases": 0.14285714285714285,
+    "accuracy_scorable_cases": 0.14285714285714285,
+    "coverage": 1.0
+  },
+  "by_group": {
+    "heldout": {
+      "correct": 2,
+      "total": 14,
+      "scorable": 14,
+      "success_rate_all_cases": 0.14285714285714285,
+      "accuracy_scorable_cases": 0.14285714285714285,
+      "coverage": 1.0
+    }
+  },
+  "by_category": {
+    "categories_and_analogies": {
+      "correct": 0,
+      "total": 2,
+      "scorable": 2,
+      "success_rate_all_cases": 0.0,
+      "accuracy_scorable_cases": 0.0,
+      "coverage": 1.0
+    },
+    "everyday_knowledge": {
+      "correct": 0,
+      "total": 1,
+      "scorable": 1,
+      "success_rate_all_cases": 0.0,
+      "accuracy_scorable_cases": 0.0,
+      "coverage": 1.0
+    },
+    "grammar": {
+      "correct": 0,
+      "total": 3,
+      "scorable": 3,
+      "success_rate_all_cases": 0.0,
+      "accuracy_scorable_cases": 0.0,
+      "coverage": 1.0
+    },
+    "negation": {
+      "correct": 1,
+      "total": 2,
+      "scorable": 2,
+      "success_rate_all_cases": 0.5,
+      "accuracy_scorable_cases": 0.5,
+      "coverage": 1.0
+    },
+    "opposites": {
+      "correct": 0,
+      "total": 2,
+      "scorable": 2,
+      "success_rate_all_cases": 0.0,
+      "accuracy_scorable_cases": 0.0,
+      "coverage": 1.0
+    },
+    "sequence": {
+      "correct": 0,
+      "total": 2,
+      "scorable": 2,
+      "success_rate_all_cases": 0.0,
+      "accuracy_scorable_cases": 0.0,
+      "coverage": 1.0
+    },
+    "spatial_relations": {
+      "correct": 1,
+      "total": 2,
+      "scorable": 2,
+      "success_rate_all_cases": 0.5,
+      "accuracy_scorable_cases": 0.5,
+      "coverage": 1.0
+    }
+  }
+}

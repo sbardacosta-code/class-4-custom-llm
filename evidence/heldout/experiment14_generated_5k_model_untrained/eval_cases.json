@@ -1,0 +1,201 @@
+{
+  "suite_id": "heldout_v1_written_after_all_corpus_choices",
+  "cases": [
+    {
+      "id": "ho_01",
+      "group": "heldout",
+      "category": "grammar",
+      "prompt": "our cats",
+      "choices": [
+        "is",
+        "are",
+        "am",
+        "were"
+      ],
+      "answer": "are",
+      "reason": "plural subject takes are"
+    },
+    {
+      "id": "ho_02",
+      "group": "heldout",
+      "category": "grammar",
+      "prompt": "one kite",
+      "choices": [
+        "is",
+        "are",
+        "were",
+        "am"
+      ],
+      "answer": "is",
+      "reason": "singular subject takes is"
+    },
+    {
+      "id": "ho_03",
+      "group": "heldout",
+      "category": "grammar",
+      "prompt": "yesterday the goat",
+      "choices": [
+        "walk",
+        "walks",
+        "walking",
+        "walked"
+      ],
+      "answer": "walked",
+      "reason": "yesterday takes the past form"
+    },
+    {
+      "id": "ho_04",
+      "group": "heldout",
+      "category": "opposites",
+      "prompt": "the opposite of black is",
+      "choices": [
+        "white",
+        "brown",
+        "grey",
+        "blue"
+      ],
+      "answer": "white",
+      "reason": "color pair not in the teaching lists"
+    },
+    {
+      "id": "ho_05",
+      "group": "heldout",
+      "category": "opposites",
+      "prompt": "the opposite of morning is",
+      "choices": [
+        "evening",
+        "noon",
+        "spring",
+        "winter"
+      ],
+      "answer": "evening",
+      "reason": "time pair not in the teaching lists"
+    },
+    {
+      "id": "ho_06",
+      "group": "heldout",
+      "category": "negation",
+      "prompt": "the scarf is not grey , it is green , so the scarf is",
+      "choices": [
+        "grey",
+        "green",
+        "white",
+        "brown"
+      ],
+      "answer": "green",
+      "reason": "correction keeps the second color"
+    },
+    {
+      "id": "ho_07",
+      "group": "heldout",
+      "category": "negation",
+      "prompt": "the farmer did not buy cheese , he bought grapes , so he bought",
+      "choices": [
+        "cheese",
+        "grapes",
+        "bread",
+        "rice"
+      ],
+      "answer": "grapes",
+      "reason": "correction keeps the second object"
+    },
+    {
+      "id": "ho_08",
+      "group": "heldout",
+      "category": "sequence",
+      "prompt": "first fill the cup , then wash the plate , the last step is",
+      "choices": [
+        "fill",
+        "wash",
+        "cook",
+        "paint"
+      ],
+      "answer": "wash",
+      "reason": "the later action"
+    },
+    {
+      "id": "ho_09",
+      "group": "heldout",
+      "category": "sequence",
+      "prompt": "the nurse arrived before the driver , the one that came later was the",
+      "choices": [
+        "nurse",
+        "driver",
+        "teacher",
+        "farmer"
+      ],
+      "answer": "driver",
+      "reason": "later arrival"
+    },
+    {
+      "id": "ho_10",
+      "group": "heldout",
+      "category": "spatial_relations",
+      "prompt": "the hat is inside the box , so the box contains the",
+      "choices": [
+        "hat",
+        "box",
+        "shoe",
+        "cup"
+      ],
+      "answer": "hat",
+      "reason": "inverse of inside"
+    },
+    {
+      "id": "ho_11",
+      "group": "heldout",
+      "category": "spatial_relations",
+      "prompt": "the coat is above the shoe , so the shoe is",
+      "choices": [
+        "above",
+        "below",
+        "inside",
+        "beside"
+      ],
+      "answer": "below",
+      "reason": "inverse of above"
+    },
+    {
+      "id": "ho_12",
+      "group": "heldout",
+      "category": "everyday_knowledge",
+      "prompt": "at night the room is",
+      "choices": [
+        "dark",
+        "wet",
+        "hot",
+        "full"
+      ],
+      "answer": "dark",
+      "reason": "night and darkness"
+    },
+    {
+      "id": "ho_13",
+      "group": "heldout",
+      "category": "categories_and_analogies",
+      "prompt": "a duck is a kind of",
+      "choices": [
+        "bird",
+        "fish",
+        "tool",
+        "vegetable"
+      ],
+      "answer": "bird",
+      "reason": "category membership"
+    },
+    {
+      "id": "ho_14",
+      "group": "heldout",
+      "category": "categories_and_analogies",
+      "prompt": "the kitten grows up to be a",
+      "choices": [
+        "dog",
+        "cat",
+        "horse",
+        "goat"
+      ],
+      "answer": "cat",
+      "reason": "young to adult"
+    }
+  ]
+}

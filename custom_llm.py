@@ -188,6 +188,11 @@ LEARNING_RATE = 0.001
 # same frames and word lists, seed 42).** More of the change that worked. I expect it
 # to saturate: correct between 35 and 39, no new robust cases, validation loss similar.
 #
+# **Experiment 20 prediction (E14 corpus, batch size 64 instead of 32, 3,000 steps).**
+# Each step averages twice as many sentences, so the gradient is less noisy and the
+# model sees every passage about twice as often. Validation loss ends below E14's 1.02;
+# correct stays inside the seed range (34 to 37); no new robust case.
+#
 # ## 2. Load the tools and network
 # Colab generally includes PyTorch. Locally, install requirements.txt first.
 # Setup installs the small pypdf package if absent and creates the corpus folder.
