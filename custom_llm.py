@@ -173,6 +173,21 @@ LEARNING_RATE = 0.001
 # above 33, which is above the top of E6's range (30 to 35). If it is noise, at least one
 # seed falls to 31 or lower. Grammar 3/3 and opposites 3/3 should hold in both.
 #
+# **Experiment 17 prediction (E14 corpus, 6,000 steps, seed 42).** As in E7, the varied
+# corpus is under-trained at 3,000: validation loss falls below 0.95 and correct lands
+# at 38 or more, above the E14 three-seed range of 34 to 37. Extension 13 or more of 19.
+#
+# **Experiment 18 prediction (E14 corpus, 3,000 steps, learning rate 0.003 and 0.0003).**
+# At 0.003 the first steps are 3 times larger; with gradient clipping the loss should
+# not become non-finite, but the curve is noisier and the final validation loss is no
+# better than at 0.001; correct stays within 34 to 37. At 0.0003 the optimizer moves a
+# third as far per step, so 3,000 steps are not enough: validation loss ends above 1.2
+# and correct falls below 34, with the extension group losing most.
+#
+# **Experiment 19 prediction (E14 corpus with about twice as many generated sentences,
+# same frames and word lists, seed 42).** More of the change that worked. I expect it
+# to saturate: correct between 35 and 39, no new robust cases, validation loss similar.
+#
 # ## 2. Load the tools and network
 # Colab generally includes PyTorch. Locally, install requirements.txt first.
 # Setup installs the small pypdf package if absent and creates the corpus folder.

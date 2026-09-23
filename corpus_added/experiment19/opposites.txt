@@ -1,0 +1,264 @@
+the opposite of big is small .
+the opposite of small is big .
+small is the opposite of big .
+big is the opposite of small .
+big and small are opposites .
+when something is not big it is small .
+the opposite of fast is slow .
+the opposite of slow is fast .
+slow is the opposite of fast .
+fast is the opposite of slow .
+fast and slow are opposites .
+when something is not fast it is slow .
+the opposite of up is down .
+the opposite of down is up .
+down is the opposite of up .
+up is the opposite of down .
+up and down are opposites .
+when something is not up it is down .
+the opposite of tall is short .
+the opposite of short is tall .
+short is the opposite of tall .
+tall is the opposite of short .
+tall and short are opposites .
+when something is not tall it is short .
+the opposite of young is old .
+the opposite of old is young .
+old is the opposite of young .
+young is the opposite of old .
+young and old are opposites .
+when something is not young it is old .
+the opposite of heavy is light .
+the opposite of light is heavy .
+light is the opposite of heavy .
+heavy is the opposite of light .
+heavy and light are opposites .
+when something is not heavy it is light .
+the opposite of strong is weak .
+the opposite of weak is strong .
+weak is the opposite of strong .
+strong is the opposite of weak .
+strong and weak are opposites .
+when something is not strong it is weak .
+the opposite of soft is hard .
+the opposite of hard is soft .
+hard is the opposite of soft .
+soft is the opposite of hard .
+soft and hard are opposites .
+when something is not soft it is hard .
+the opposite of wide is narrow .
+the opposite of narrow is wide .
+narrow is the opposite of wide .
+wide is the opposite of narrow .
+wide and narrow are opposites .
+when something is not wide it is narrow .
+the opposite of clean is dirty .
+the opposite of dirty is clean .
+dirty is the opposite of clean .
+clean is the opposite of dirty .
+clean and dirty are opposites .
+when something is not clean it is dirty .
+the opposite of high is low .
+the opposite of low is high .
+low is the opposite of high .
+high is the opposite of low .
+high and low are opposites .
+when something is not high it is low .
+the opposite of thick is thin .
+the opposite of thin is thick .
+thin is the opposite of thick .
+thick is the opposite of thin .
+thick and thin are opposites .
+when something is not thick it is thin .
+the opposite of sweet is sour .
+the opposite of sour is sweet .
+sour is the opposite of sweet .
+sweet is the opposite of sour .
+sweet and sour are opposites .
+when something is not sweet it is sour .
+the opposite of happy is sad .
+the opposite of sad is happy .
+sad is the opposite of happy .
+happy is the opposite of sad .
+happy and sad are opposites .
+when something is not happy it is sad .
+the opposite of near is far .
+the opposite of far is near .
+far is the opposite of near .
+near is the opposite of far .
+near and far are opposites .
+when something is not near it is far .
+the opposite of early is late .
+the opposite of late is early .
+late is the opposite of early .
+early is the opposite of late .
+early and late are opposites .
+when something is not early it is late .
+the opposite of rich is poor .
+the opposite of poor is rich .
+poor is the opposite of rich .
+rich is the opposite of poor .
+rich and poor are opposites .
+when something is not rich it is poor .
+the opposite of wet is dry .
+the opposite of dry is wet .
+dry is the opposite of wet .
+wet is the opposite of dry .
+wet and dry are opposites .
+when something is not wet it is dry .
+the opposite of day is night .
+the opposite of night is day .
+night is the opposite of day .
+day is the opposite of night .
+day and night are opposites .
+when something is not day it is night .
+the opposite of loud is silent .
+the opposite of silent is loud .
+silent is the opposite of loud .
+loud is the opposite of silent .
+loud and silent are opposites .
+when something is not loud it is silent .
+the opposite of warm is cool .
+the opposite of cool is warm .
+cool is the opposite of warm .
+warm is the opposite of cool .
+warm and cool are opposites .
+when something is not warm it is cool .
+the opposite of deep is shallow .
+the opposite of shallow is deep .
+shallow is the opposite of deep .
+deep is the opposite of shallow .
+deep and shallow are opposites .
+when something is not deep it is shallow .
+the opposite of dark is bright .
+the opposite of bright is dark .
+bright is the opposite of dark .
+dark is the opposite of bright .
+dark and bright are opposites .
+when something is not dark it is bright .
+the opposite of cheap is expensive .
+the opposite of expensive is cheap .
+expensive is the opposite of cheap .
+cheap is the opposite of expensive .
+cheap and expensive are opposites .
+when something is not cheap it is expensive .
+the opposite of open is shut .
+the opposite of shut is open .
+shut is the opposite of open .
+open is the opposite of shut .
+open and shut are opposites .
+when something is not open it is shut .
+the opposite of push is pull .
+the opposite of pull is push .
+pull is the opposite of push .
+push is the opposite of pull .
+push and pull are opposites .
+when something is not push it is pull .
+the opposite of begin is end .
+the opposite of end is begin .
+end is the opposite of begin .
+begin is the opposite of end .
+begin and end are opposites .
+when something is not begin it is end .
+the opposite of win is lose .
+the opposite of lose is win .
+lose is the opposite of win .
+win is the opposite of lose .
+win and lose are opposites .
+when something is not win it is lose .
+the soup was hot but the salad was cold .
+the soup is hot and the salad is cold .
+the soup is hot .
+the salad is cold .
+the coffee was hot but the lemonade was cold .
+the coffee is hot and the lemonade is cold .
+the coffee is hot .
+the lemonade is cold .
+the sand was hot but the sea was cold .
+the sand is hot and the sea is cold .
+the sand is hot .
+the sea is cold .
+the shower was hot but the pool was cold .
+the shower is hot and the pool is cold .
+the shower is hot .
+the pool is cold .
+the oven was hot but the fridge was cold .
+the oven is hot and the fridge is cold .
+the oven is hot .
+the fridge is cold .
+the tea was hot but the juice was cold .
+the tea is hot and the juice is cold .
+the tea is hot .
+the juice is cold .
+the desert was hot but the mountain was cold .
+the desert is hot and the mountain is cold .
+the desert is hot .
+the mountain is cold .
+the engine was hot but the wind was cold .
+the engine is hot and the wind is cold .
+the engine is hot .
+the wind is cold .
+the bucket was full in the morning and empty at night .
+the bucket is full but the jug is empty .
+the bucket is full .
+the jug is empty .
+the bottle was full in the morning and empty at night .
+the bottle is full but the glass is empty .
+the bottle is full .
+the glass is empty .
+the stadium was full in the morning and empty at night .
+the stadium is full but the park is empty .
+the stadium is full .
+the park is empty .
+the fridge was full in the morning and empty at night .
+the fridge is full but the shelf is empty .
+the fridge is full .
+the shelf is empty .
+the bus was full in the morning and empty at night .
+the bus is full but the train is empty .
+the bus is full .
+the train is empty .
+the bag was full in the morning and empty at night .
+the bag is full but the basket is empty .
+the bag is full .
+the basket is empty .
+the tank was full in the morning and empty at night .
+the tank is full but the barrel is empty .
+the tank is full .
+the barrel is empty .
+the cinema was full in the morning and empty at night .
+the cinema is full but the theater is empty .
+the cinema is full .
+the theater is empty .
+the market is noisy and the library is quiet .
+the market was noisy but the library was quiet .
+the market is noisy .
+the library is quiet .
+the street is noisy and the garden is quiet .
+the street was noisy but the garden was quiet .
+the street is noisy .
+the garden is quiet .
+the classroom is noisy and the chapel is quiet .
+the classroom was noisy but the chapel was quiet .
+the classroom is noisy .
+the chapel is quiet .
+the city is noisy and the village is quiet .
+the city was noisy but the village was quiet .
+the city is noisy .
+the village is quiet .
+the workshop is noisy and the museum is quiet .
+the workshop was noisy but the museum was quiet .
+the workshop is noisy .
+the museum is quiet .
+the kitchen is noisy and the bedroom is quiet .
+the kitchen was noisy but the bedroom was quiet .
+the kitchen is noisy .
+the bedroom is quiet .
+the stadium is noisy and the forest is quiet .
+the stadium was noisy but the forest was quiet .
+the stadium is noisy .
+the forest is quiet .
+the station is noisy and the lake is quiet .
+the station was noisy but the lake was quiet .
+the station is noisy .
+the lake is quiet .

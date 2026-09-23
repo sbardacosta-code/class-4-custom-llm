@@ -1,0 +1,20 @@
+{
+  "0.3": [
+    "the shirt is clean but the lamp is dirty .",
+    "the shoe is wet but the pillow is dry .",
+    "the hat is hot but the box is cold .",
+    "the lamp is open but the shirt is closed ."
+  ],
+  "0.8": [
+    "the shirt is clean but the spoon is dirty .",
+    "the shoe is wet but the pillow is dry .",
+    "a review of route helped us understand the local bus .",
+    "a review of design helped us understand the different merchandise ."
+  ],
+  "1.2": [
+    "cats are at the bank .",
+    "two visited we full the door .",
+    "the dog <UNK> dogs after lunch .",
+    "our school has a question about the local lecturer and learning ."
+  ]
+}

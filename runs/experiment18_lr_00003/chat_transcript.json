@@ -1,0 +1,16 @@
+{
+  "model_sha256": "0b8e4ed727b7582483c0f62433ad15b7c6acb80f26bd1b9042b45e5d3db74310",
+  "completed_steps": 3000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "the customer",
+      "seed": 2026,
+      "response": "hen at the market .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    }
+  ]
+}

@@ -27,6 +27,10 @@ E1 and E2 are the required experiments; E3 onward are extras.
 | E15 | E6 files only, **CORPUS = "folder"**, no classroom sentences | 512 | 20 | 8 | 16.7% | 2.006 | [runs/experiment15_folder_only](runs/experiment15_folder_only/) |
 | E16a | E14 corpus, **seed 7** | 512 | 43 | 37 | 77.1% | 0.905 | [runs/experiment16_e14_seed7](runs/experiment16_e14_seed7/) |
 | E16b | E14 corpus, **seed 2026** | 512 | 43 | 34 | 70.8% | 1.019 | [runs/experiment16_e14_seed2026](runs/experiment16_e14_seed2026/) |
+| E17 | E14 corpus, **6,000 steps** | 512 | 42 | 35 | 72.9% | 0.950 | [runs/experiment17_e14_6000steps](runs/experiment17_e14_6000steps/) |
+| E18a | E14 corpus, **lr 0.003** | 512 | 42 | 35 | 72.9% | 1.010 | [runs/experiment18_lr_0003](runs/experiment18_lr_0003/) |
+| E18b | E14 corpus, **lr 0.0003** | 512 | 42 | 31 | 64.6% | 1.141 | [runs/experiment18_lr_00003](runs/experiment18_lr_00003/) |
+| E19 | E6 + 5,934 generated sentences (about 2× E14) | 512 | 42 | 33 | 68.8% | 1.096 | [runs/experiment19_generated_10k](runs/experiment19_generated_10k/) |
 
 Untrained baselines: E1 9, E2 6, E3 7, E4 6, E5 7, E6 12, E7 12, E8a 12, E8b 11 correct (chance on 4 choices; 43 scorable from E6 on).
 Starter group = 16/16 in every trained run. Transfer group: E1 4, E2 8, E3 7, E4 8, E5 8, E6 8, E7 8, E8a 8, E8b 7 (of 8).
@@ -136,6 +140,24 @@ H (written before the runs): real if all three seeds ≥ 33 and mean > 33; noise
 T: eval_summary of E14 (seed 42), E16a, E16b; compare with E6/E8a/E8b.
 R: 37 and 34; with E14's 36: min 34, mean 35.7; grammar 3/3 in both; opposites 3/3 and 2/3; extension 13/19 and 10/19; scorable 43 in both ("uses" back above the cut line with a different split); val 0.905 / 1.019. PASS on the main claim; opposites 2/3 in one seed.
 C: the generated in-vocabulary corpus is the first change whose effect survives the seed test: +4 cases on average over E6, with 8 extension cases robust across seeds instead of 4.
+
+## E17 E14 corpus, 6,000 steps (does the best corpus want more steps, as E7 suggested?)
+H: val_loss < 0.95; correct ≥ 38 (above the E14 seed range 34 to 37); extension ≥ 13/19.
+T: history at 3000 vs 6000; eval_summary.
+R: val 0.950 (0.9503; at step 3000 in this run 1.015); correct 35; extension 11/18; spatial 3/3; opposites 3/3. FAIL: inside the seed range, not above it; loss on the line.
+C: doubling steps buys a lower loss but no eval cases the seed test would accept; E7's +4 was noise, as E8 said.
+
+## E18 learning rate ×3 and ÷3 on the E14 corpus (the assignment's "why too large or too small is a problem", measured)
+H: 0.003 → no non-finite loss (gradient clipping), noisier, final val no better, correct 34 to 37. 0.0003 → under-trained: val > 1.2, correct < 34, extension loses most.
+T: history; eval_summary; the notebook's non-finite check.
+R: 0.003: finite, val 1.010 (E14: 1.025), correct 35, extension 12/18, transfer 7/8. 0.0003: val 1.141, correct 31, extension 9/18, starter 15/16 for the first time in any run, train loss 1.056 still falling. PASS on 0.003; PASS on 0.0003 except val loss (1.14, not > 1.2).
+C: with warmup, cosine decay and clipping, 3× the learning rate is harmless here; ÷3 is not: the same 3,000 steps end before the loss floor and even a starter case is lost; 0.001 is the right order for this budget.
+
+## E19 twice the generated sentences (5,934 instead of 3,326; same frames, higher sampling rates)
+H: saturation: correct 35 to 39; no new robust case; val loss similar.
+T: eval_summary; history; guardrail warning count.
+R: correct 33 (below the band); extension 9/18; sequence 0/3 (was 1/3); val 1.096; UNK 0.28%; 1,559 warnings. FAIL on the band, in the direction of "worse".
+C: the second dose of the same frames adds nothing and dilutes the sequence frames; the benefit of E14 came from covering the frames, not from their count. n = 1, so "worse" is within noise; "not better" is the safe reading.
 
 ## What I would do next
 Done for the two best corpora (E8, E16). Still open: a held-out set of new prompts that never guided corpus choices, to test generalization instead of this public development benchmark. "More corpus" in the sense of a book or scraped text (E9) is ruled out by the 509-type cap; more corpus in the sense of more sentences over the same words (E3, E6, E7) is the only version that helps, and it helps coverage more than reasoning.

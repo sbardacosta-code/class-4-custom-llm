@@ -1,0 +1,255 @@
+he walks to the office every morning .
+she walks the dog at noon .
+the girl walks to school .
+my uncle walks by the river .
+the nurse walks to the hospital .
+the boy walks home after lunch .
+the farmer walks to the barn .
+my aunt walks to the market .
+the road goes north to the city .
+the birds fly north in spring .
+the wind comes from the north .
+the farm is north of the village .
+the market is north of the station .
+we walked north along the river .
+the mountain is north of the lake .
+they live north of the river .
+the river flows south .
+the beach is south of the town .
+the ducks fly south in winter .
+the road goes south to the sea .
+our school is south of the park .
+we walked south along the beach .
+the desk is wooden .
+the lamp is beside the desk .
+she left the letter on the desk .
+the teacher sits at the desk .
+the desk is near the window .
+my book is on the desk .
+breakfast is the morning meal .
+we ate breakfast at seven .
+she cooked eggs for breakfast .
+breakfast comes before lunch .
+the hotel serves breakfast .
+he ate bread for breakfast .
+ice is frozen water .
+the ice melts in the sun .
+we put ice in the juice .
+the lake was covered with ice .
+the ice is cold and hard .
+the road was covered with ice at night .
+the lake freezes in winter .
+the pond freezes when it is cold .
+the river freezes in winter .
+water freezes when it is very cold .
+the milk freezes in the fridge .
+the garden pond freezes at night .
+steam rises from the hot soup .
+steam comes from boiling water .
+the kettle makes steam .
+steam filled the kitchen .
+hot tea gives off steam .
+we saw steam over the river .
+wood burns in the fire .
+the table is made of wood .
+the fence is made of wood .
+we cut wood for the winter .
+the boat is made of wood .
+the floor is made of wood .
+we stay inside when it rains .
+they stay at the hotel .
+the children stay at school until three .
+please stay on the road .
+we stay warm by the fire .
+the cats stay in the barn .
+our dogs stay in the yard .
+we stay at home on sunday .
+an umbrella keeps you dry in the rain .
+she opened an umbrella when it rained .
+he forgot his umbrella at the office .
+the umbrella is black .
+take an umbrella today .
+the umbrella is in the car .
+the baby is asleep .
+the cat is asleep on the sofa .
+the dog fell asleep by the fire .
+the children are asleep .
+he was asleep at noon .
+the town is asleep at night .
+the dog is hungry .
+we were hungry after the walk .
+the baby is hungry .
+a hungry goat eats everything .
+the students are hungry at noon .
+i am hungry .
+we turn on the lamp when it is dark .
+i turn on the light to read .
+turn left at the bank .
+they turn the boat toward the shore .
+we turn off the lamp at night .
+turn the page .
+the pillow is on the bed .
+she sleeps on a soft pillow .
+the pillow is white .
+he put the pillow on the sofa .
+the cat sleeps on the pillow .
+a pillow is soft .
+the spoon is in the cup .
+a person uses a spoon to eat soup .
+the spoon is made of metal .
+she washed the spoon .
+the spoon is on the plate .
+he stirred the tea with a spoon .
+the shoe is under the bed .
+he lost one shoe .
+the shoe is wet .
+her shoe is brown .
+the dog took my shoe .
+a shoe protects the foot .
+the robin is a small bird with a red chest .
+we saw a robin in the garden .
+a robin sings in the morning .
+the robin sat on the fence .
+a robin built a nest in the tree .
+the robin flew to the roof .
+the kitten is a young cat .
+the kitten sleeps all day .
+the kitten plays with the ball .
+a kitten drinks milk .
+the kitten is asleep on the pillow .
+our kitten is grey .
+the puppy is a young dog .
+the puppy plays in the yard .
+a puppy needs a walk .
+the puppy is hungry .
+our puppy is brown .
+the puppy sleeps by the fire .
+the carrot is an orange vegetable .
+we cooked a carrot with the soup .
+the goat ate the carrot .
+she cut the carrot .
+a carrot grows in the ground .
+the carrot is sweet .
+cotton is a kind of fabric .
+the shirt is made of soft fabric .
+wool is a warm fabric .
+she bought fabric for the dress .
+the fabric is blue .
+silk is a smooth fabric .
+the key is missing .
+one page is missing from the book .
+two cups are missing .
+my hat is missing .
+a wheel is missing from the cart .
+the last page is missing .
+the road is wet .
+the shoe is wet after the rain .
+the grass is wet in the morning .
+the towel is wet .
+the dog is wet from the lake .
+wet wood does not burn .
+the sand is hot in summer .
+the children play in the sand .
+the beach has white sand .
+sand gets into the shoe .
+the sand is soft .
+we built a castle of sand .
+the gate is metal .
+the roof is metal .
+metal is hard and cold .
+the fence is metal .
+the key is made of metal .
+we buy bread at the market .
+they buy fruit on saturday .
+i buy milk every morning .
+she wants to buy a hat .
+you can buy fuel at the station .
+we buy fish at the harbor .
+fill the cup with water .
+we fill the tank with fuel .
+fill the bucket at the river .
+they fill the boxes with apples .
+fill the pot and boil the water .
+the children fill the bag with sand .
+a fish lives in water .
+we ate fish for dinner .
+the cat wants the fish .
+a shark is a big fish .
+the fish is in the river .
+birds fly and fish swim .
+the ball is round .
+the boy kicked the ball .
+the ball is under the table .
+the dog wants the ball .
+the ball is red .
+she threw the ball to the girl .
+a beet is a kind of vegetable .
+an onion is a kind of vegetable .
+the potato is a vegetable we cook .
+a bean is a kind of vegetable .
+the pepper is a vegetable we cook .
+a cabbage is a kind of vegetable .
+a hammer is a kind of tool .
+a saw is a kind of tool .
+the drill is a tool .
+the farmer keeps every tool in the barn .
+a wrench is a kind of tool .
+the tool is made of metal .
+a lamb grows up to be a sheep .
+a calf grows up to be a cow .
+the tree grows by the river .
+a foal grows up to be a horse .
+the corn grows in summer .
+a chick grows up to be a hen .
+an action has a result .
+the first action was to open the door .
+the last action was to lock the gate .
+every action has a cost .
+the final action is to sign the letter .
+the next action is to feed the goat .
+wash the plate .
+we wash the car on sunday .
+wash the cup after dinner .
+they wash the dog in the yard .
+i wash the shirt at night .
+wash the apple before you eat it .
+we see the road by day .
+we cannot see in the dark .
+at night we need a light to see .
+i see a bird on the roof .
+they see the lake from the hill .
+you see the station from the bank .
+a person uses a map to find the road .
+a person uses a key to open the door .
+a person uses a pen to write .
+every person needs water .
+one person is at the door .
+a person walks faster than a goat .
+two dogs are barking in the yard .
+our dogs are sleeping by the fire .
+both dogs are waiting for dinner .
+three dogs were at the park .
+our dogs were tired after the walk .
+two dogs were at the gate .
+the birds are flying south .
+two birds are on the wire .
+three birds were at the lake .
+the birds sing in the morning .
+the birds are in the tree .
+two birds were on the roof .
+the bread is on the table .
+we ate bread and cheese .
+the bread was warm .
+she cut the bread .
+the meal was warm .
+we cooked a big meal .
+lunch is the midday meal .
+dinner is the evening meal .
+the family shared a meal .
+the hotel serves a meal at noon .
+she is walking to the park .
+the boy is walking the dog .
+we are walking to the station .
+they are walking along the beach .
+the farmer is walking to the barn .
+i am walking home .
